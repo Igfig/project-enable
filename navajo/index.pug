@@ -14,7 +14,7 @@ html(lang="en")
 			a.icon.switch-direction(href="/english")
 				img(src="/img/exchange-alt.svg" alt="Switch to English-Diné")
 		+alphabet(sortedWords)
-		dl.dictionary
+		div.dictionary
 			each entry, index in sortedWords
 				+tile(index, entry)
 		include ../templates/footer

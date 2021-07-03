@@ -1,14 +1,13 @@
 mixin definition(lang)
 	include defheader
-	dd
-		if lang.word
-			+defheader(lang)
-		if lang.entries
-			each entry in lang.entries
-				if entry.word
-					+defheader(entry)
-		p
-			b Definition:&nbsp;
-			span=lang.definition
-		if lang.sentence
-			p.sentence "#{lang.sentence}"
+	if lang.word
+		+defheader(lang)
+	if lang.entries
+		each entry in lang.entries
+			if entry.word
+				+defheader(entry)
+	p
+		b Definition:&nbsp;
+		span=lang.definition
+	if lang.sentence
+		p.sentence "#{lang.sentence}"

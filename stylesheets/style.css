@@ -124,6 +124,10 @@ body > footer > * {
   }
 }
 
+p {
+  margin-block: 0;
+}
+
 h1 {
   margin: 0 auto 0;
   font-size: 3.1rem;
@@ -378,7 +382,7 @@ img.icon:hover, img.icon:active, a:hover img.icon, a:active img.icon, .icon img:
   opacity: 0.5;
 }
 
-label.icon {
+summary .icon {
   position: absolute;
   top: 7px;
   right: 7px;
@@ -388,79 +392,102 @@ label.icon {
   text-align: center;
 }
 
-dl.dictionary dd, dl.dictionary .dd-container, dl.dictionary dt {
+.dictionary dt, .dictionary dd, .dictionary .dd-container, .dictionary summary {
   box-sizing: border-box;
   margin: 0;
 }
 
-dl.dictionary {
+.dictionary {
+  margin-top: 1em;
   margin-bottom: 0;
 }
-dl.dictionary > div {
-  display: flex;
-  flex-flow: row wrap;
+.dictionary > details {
   position: relative;
   border: 1px solid black;
 }
-dl.dictionary > div ~ div {
+.dictionary > details[open] .icon .closed {
+  display: none;
+}
+.dictionary > details:not([open]) .icon .open {
+  display: none;
+}
+.dictionary > details ~ details {
   margin-top: -1px;
 }
-dl.dictionary > div:focus, dl.dictionary > div:focus-within {
+.dictionary > details:focus, .dictionary > details:focus-within {
   outline: 1px auto black;
 }
-dl.dictionary > div > div {
-  display: flex;
-  flex-flow: column wrap;
-}
-dl.dictionary dt {
+.dictionary summary {
   position: static;
   width: 100%;
   font-weight: bold;
+  list-style: none;
 }
-dl.dictionary dt:focus {
+.dictionary summary::-webkit-details-marker, .dictionary summary::marker {
+  display: none;
+}
+.dictionary summary:focus {
   outline: none;
 }
-dl.dictionary dt label.text {
+.dictionary summary .text {
   display: block;
   position: static;
   padding: 7px 38px 7px 10px;
   cursor: pointer;
 }
-dl.dictionary dt label.text:hover {
+.dictionary summary .text:hover {
   background-color: #eee;
 }
-dl.dictionary dd, dl.dictionary .dd-container {
+.dictionary dt, .dictionary dd, .dictionary .dd-container {
   overflow: hidden;
   flex-basis: 50%;
-  height: 0;
+  /*height: 0;
   padding: 0;
-  border-top: 0;
+  border-top: 0;*/
 }
-dl.dictionary .dd-container dd {
+.dictionary .dd-container {
+  margin-left: 20px;
+}
+.dictionary .dd-container dd {
   flex-basis: 100%;
 }
-dl.dictionary .dd-container dd + dd {
+.dictionary .dd-container dd + dd {
   margin-top: 1em;
 }
-dl.dictionary input.shower {
+.dictionary input.shower {
   display: none;
 }
-dl.dictionary input.shower ~ .icon .closed {
+.dictionary input.shower ~ .icon .closed {
   display: block;
 }
-dl.dictionary input.shower ~ .icon .open {
+.dictionary input.shower ~ .icon .open {
   display: none;
 }
-dl.dictionary input.shower:checked ~ .icon .closed {
+.dictionary input.shower:checked ~ .icon .closed {
   display: none;
 }
-dl.dictionary input.shower:checked ~ .icon .open {
+.dictionary input.shower:checked ~ .icon .open {
   display: block;
 }
-dl.dictionary input.shower:checked ~ dd, dl.dictionary input.shower:checked ~ .dd-container {
+.dictionary input.shower:checked ~ dd, .dictionary input.shower:checked ~ .dd-container {
   height: auto;
+  padding: 0.75em 20px;
+  border-top: 1px solid #d3d3d3;
+}
+
+dl {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
   padding: 0.75em 0.75em 0.75em 20px;
   border-top: 1px solid #d3d3d3;
+}
+dl > .dd-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+dl header {
+  margin-top: 0;
 }
 
 #about-popup {

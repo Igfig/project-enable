@@ -2,7 +2,7 @@
 
 // icons
 
-@mixin foo {
+@mixin focused {
   &:hover, &:active, a:hover &, a:active & {
     @content;
   }
@@ -15,18 +15,18 @@ img.icon, .icon img {
   + span {
     margin-left: 0.5ch;
   }
-  @include foo {
+  @include focused {
     opacity: 0.5;
   };
 }
 .icon {
-  @include foo {
+  @include focused {
     img {
       opacity: 0.5;
     }
   }
 }
-label.icon {
+summary .icon {
   position: absolute;
   top: $opener-offset;
   right: $opener-offset;
@@ -36,23 +36,29 @@ label.icon {
   text-align: center;
 }
 
-// dictionary dl
+// dictionary list
 
 %dl-box {
   box-sizing: border-box;
   margin: 0;
 }
 
-dl.dictionary {
+.dictionary {
+  margin-top: 1em;
   margin-bottom: 0;
 
-  > div {
-    display: flex;
-    flex-flow: row wrap;
+  > details {
     position: relative; // so that the label:after can be positioned safely
     border: 1px solid black;
 
-    & ~ div {
+    &[open] .icon .closed {
+      display: none;
+    }
+    &:not([open]) .icon .open {
+      display: none;
+    }
+
+    & ~ details {
       margin-top: -1px;
       // to prevent double-thick lines between items. We could have done border-top:0 instead, but that led to some weird interactions with focusing.
     }
@@ -60,24 +66,25 @@ dl.dictionary {
     &:focus, &:focus-within {
       outline: 1px auto black;
     }
-
-    > div {
-      display: flex;
-      flex-flow: column wrap;
-    }
   }
 
-  dt {
+  summary {
     @extend %dl-box;
     position: static; // to prevent inner bits from rendering in front of its outline
     width: 100%;
     font-weight: bold;
 
+    //hide the summary arrow
+    list-style: none;
+    &::-webkit-details-marker, &::marker {
+      display: none;
+    }
+
     &:focus {
       outline: none; // we outline the whole div instead
     }
 
-    label.text {
+    .text {
       display: block;
       position: static; //otherwise it renders in front of the div's outline
       padding: $spacing-v $label-height $spacing-v $spacing-h;
@@ -89,16 +96,18 @@ dl.dictionary {
     }
   }
 
-  dd, .dd-container {
+  dt, dd, .dd-container {
     @extend %dl-box;
     overflow: hidden;
     flex-basis: 50%;
-    height: 0;
+    /*height: 0;
     padding: 0;
-    border-top: 0;
+    border-top: 0;*/
   }
 
   .dd-container {
+    margin-left: $dd-indent;
+
     dd {
       flex-basis: 100%;
 
@@ -130,10 +139,30 @@ dl.dictionary {
 
     &:checked ~ dd, &:checked ~ .dd-container {
       height: auto;
-      padding: $dd-padding $dd-padding $dd-padding $dd-indent;
+      padding: $dd-padding $dd-indent;
       border-top: 1px solid $inner-border-color; // XXX optional theming
     }
   }
+}
+
+dl {
+  display: flex;
+  flex-flow: row nowrap;
+  //position: relative; // so that the label:after can be positioned safely
+  margin: 0;
+  padding: $dd-padding $dd-padding $dd-padding $dd-indent;
+  border-top: 1px solid $inner-border-color; // XXX optional theming
+
+  > .dd-container {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  header {
+    margin-top: 0;
+  }
+
+
 }
 
 // "About" popup
