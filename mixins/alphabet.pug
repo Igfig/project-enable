@@ -1,0 +1,14 @@
+mixin alphabet(sortedWords)
+	nav.alphabet
+		ul
+			- letters = new Set(sortedWords.map(([word])=>word[0].toUpperCase()))
+			- const aCode = "A".charCodeAt()
+			- const zCode = "Z".charCodeAt()
+			- let code = aCode
+			while code <= zCode
+				- letter = String.fromCharCode(code++)
+				li
+					if letters.has(letter)
+						a(href=`?search=${letter}`)=letter
+					else
+						a=letter

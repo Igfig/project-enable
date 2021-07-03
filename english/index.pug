@@ -1,0 +1,21 @@
+doctype html
+include ../mixins/tile
+include ../mixins/alphabet
+html(lang="en")
+	head
+		title Project ENaBLE | The English-Navajo Scientific Dictionaryy
+		- const language = "english";
+		include ../templates/head
+		include ../templates/scripts
+	body
+		include ../templates/header
+		header.subheader
+			h2 English to Diné Dictionary
+			a.icon.switch-direction(href="/navajo")
+				img(src="/img/exchange-alt.svg" alt="Switch to Diné-English")
+		+alphabet(sortedWords)
+		dl.dictionary
+			each entry, index in sortedWords
+				+tile(index, entry)
+
+		include ../templates/footer

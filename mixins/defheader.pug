@@ -1,0 +1,22 @@
+mixin defheader(word)
+	header
+		div.word-heading
+			h3=word.word
+			if word.audio
+				- const prnId = `p${index}`
+				label.button.pronunciation(for=prnId)
+					if word.phonetic
+						span [#{word.phonetic}]
+					img(src="../img/audio.svg" alt="Listen to pronunciation")
+				input(type="checkbox", id=prnId)
+				audio(controls, preload=none, src=word.audio)
+					a(href=word.audio)
+			else if word.phonetic
+				p.phonetic [#{word.phonetic}]
+
+		if word.comment
+			p.comment=word.comment
+		if word.literal
+			p.literal
+				b Literal translation:
+				span=word.literal

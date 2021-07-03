@@ -1,0 +1,21 @@
+mixin tile(index, item)
+	- const [key, entry] = item
+	- const dtId = `d${index}`
+	- const showerId = `s${index}`
+	div(id=dtId tabindex=index)
+		//- the div needs a tabindex to be focusable
+		dt
+			label.text(for=showerId)
+				dfn(id=key)=entry.word
+				| &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
+				span.shortdef=entry.short_translations.join("; ")
+				//- actually, should the shortdef be a dd as well? It's a definition after all
+		input.shower(type="checkbox" id=showerId)
+		label.icon(for=showerId)
+			img.closed(src="/img/plus-circle.svg" role="presentation")
+			img.open(src="/img/minus-circle.svg" role="presentation")
+		include definition
+		+definition(entry)
+		div.dd-container
+			each translation in entry.translations
+				+definition(translation)

@@ -1,0 +1,66 @@
+@import "base";
+
+.shortdef {
+  font-style: italic;
+}
+.phonetic {
+  font-weight: bold;
+  font-size: 0.6rem; // XXX not sure if this is still right for the new font
+  align-self: baseline;
+
+  /*&:before {
+    content: " ("
+  }
+  &:after {
+    content: ")"
+  }*/
+}
+
+.literal, .comment {
+  font-size: 0.6rem;
+  b {
+    margin-right: 0.5ch;
+  }
+}
+
+.sentence {
+  font-style: italic;
+}
+
+.about-link {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0;
+  top: 0;
+  height: 100%;
+  color: inherit;
+
+  @include footer-link;
+}
+
+.contact-link {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+  top: 0;
+  height: 100%;
+  color: inherit;
+
+  @include footer-link;
+}
+
+.switch-direction {
+  height: 20px;
+  padding: 7px;
+  border: 1px solid $text-color;
+  border-radius: 5px;
+
+  &:hover {
+    border-color: $link-hover-color;
+  }
+  &:active {
+    background: $link-active-color;
+  }
+}

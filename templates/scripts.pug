@@ -1,0 +1,8 @@
+- function sortFunc ([a], [b]) { return (a < b) ? -1 : Number(a > b) }
+- const sortedWords = Object.entries(entries[language]).sort(sortFunc);
+- const trans = JSON.stringify(sortedWords.map(([key]) => key));
+script.
+	const language = "!{language}"
+	const searchTerms = !{trans}; // used in search script
+script(src="../js/search.js")
+script(src="../js/session.js")

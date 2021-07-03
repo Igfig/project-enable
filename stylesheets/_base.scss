@@ -1,0 +1,99 @@
+$body-width: 800px;
+$body-padding: 1.333rem;
+$breakpoint: 1200px;
+
+$spacing-v: 7px;
+$spacing-h: 10px;
+$dd-padding: 0.75em;
+$dd-indent: 20px;
+
+$font-family-serif: Cardo, "Times New Roman", serif;
+$font-family-sans: Verdana, sans-serif;
+$font-size: 20px;
+$opener-size: 24px;
+$line-height: 1.2;
+$line-height-p: 1.5;
+
+$inline-element-height: $font-size * $line-height;
+$label-height: $inline-element-height + 2 * $spacing-v;
+$opener-offset: ($label-height - $opener-size) / 2;
+
+$search-font-size: 16px;
+$search-padding-v: 5px;
+$search-padding-h: 10px;
+$search-border-radius: 5px;
+$search-height: $search-font-size + 2 * $search-padding-v + 4; // +4 is border and outline
+$search-bar-padding-v: $font-size / 2;
+
+$footer-height: $search-height + 2 * $search-bar-padding-v;
+
+$popup-margin: 20px;
+$popup-padding: 20px;
+$popup-arrow-offset: 8px;
+
+$inner-border-color: #d3d3d3;
+$disabled-color: #888;
+
+$text-color: black;
+$link-hover-color: #666;
+$link-active-color: #d3d3d3;
+$button-hover-color: #eee;
+
+$popup-color: black;
+$popup-hover-color: #333;
+
+
+@mixin body-box {
+  box-sizing: border-box;
+  max-width: $body-width; // TODO make width more responsive maybe
+  margin: 0 auto;
+  padding: $body-padding;
+}
+
+@mixin footer-link {
+  @media (max-width: $breakpoint) {
+    position: relative;
+    height: $footer-height;
+
+    span {
+      display: none;
+    }
+  }
+}
+
+
+@font-face {
+  font-family: Cardo;
+  src: url(/fonts/Cardo-Regular.ttf);
+}
+@font-face {
+  font-family: Cardo;
+  font-weight: bold;
+  src: url(/fonts/Cardo-Bold.ttf);
+}
+@font-face {
+  font-family: Cardo;
+  font-style: italic;
+  src: url(/fonts/Cardo-Italic.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(/fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato;
+  font-weight: bold;
+  src: url(/fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Lato;
+  font-style: italic;
+  src: url(/fonts/Lato-Italic.ttf);
+}
+@font-face {
+  font-family: Lato;
+  font-weight: bold;
+  font-style: italic;
+  src: url(/fonts/Lato-BoldItalic.ttf);
+}

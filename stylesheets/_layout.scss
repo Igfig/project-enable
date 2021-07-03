@@ -1,0 +1,178 @@
+@import "base";
+
+%logo-bg {
+  background-image: url(/img/logo.png);
+  background-size: calc(50% - #{$body-width} / 2) auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html {
+  min-height: 100vh;
+  overflow-y: scroll;
+
+  // XXX optional theming
+  margin: 0 1%;
+  background-color: chocolate;
+  @extend %logo-bg;
+  background-position: center left;
+  //font: $font-size Garamond, serif; // Garamond is lovely, but is missing a symbol
+  font: $font-size $font-family-serif;
+
+
+  color: $text-color;
+
+  &::before {
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    @extend %logo-bg;
+    background-position: center right;
+  }
+}
+
+body {
+  @include body-box;
+  position: relative;
+  min-height: calc(100vh - #{$footer-height});
+  margin-bottom: $footer-height; // XXX can we make this happen automatically somehow? Flex sizing?
+  line-height: $line-height;
+  background-color: white;
+
+  > footer {
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid grey;
+
+    > * {
+      padding: 0 $body-padding;
+    }
+
+    @media (max-width: $breakpoint) {
+      display: flex;
+      padding: 0 $body-padding / 2;
+
+      > * {
+        padding: 0 $body-padding / 2;
+      }
+    }
+  }
+}
+
+
+h1 {
+  margin: 0 auto 0;
+  font-size: 3.1rem;
+  text-align: center;
+  //font-size: 3.5rem; // uncomment to make it fill the width
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0 5px 0 0;
+}
+
+header {
+  margin: 0.83em 0;
+
+  p {
+    margin: 0;
+  }
+
+  &.site-header {
+    margin: 0 0 1.333rem;
+    p {
+      text-align: center;
+      //font-size: 1.13rem; // uncomment to make it fill the width
+    }
+  }
+
+  &.subheader {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+
+    h2 {
+      margin: 0 1ch 0 0;
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+button, .button {
+  // XXX optional theming
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 0 $search-border-radius $search-border-radius 0;
+  outline: none;
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
+  &:focus, &:active {
+    background-color: $link-active-color;
+  }
+}
+
+dfn {
+  font-style: normal;
+}
+
+dd {
+  &:first-of-type {
+    height:100%;
+  }
+
+  > * {
+    margin: 0;
+
+    & + * {
+      margin-top: 1em;
+    }
+  }
+
+  header {
+    margin: 0 0 0.75em;
+
+    .word-heading {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: baseline;
+    }
+
+    p {
+      margin-top: 0.3em;
+
+      + p {
+        margin-top: 0.5em;
+      }
+    }
+  }
+
+  p {
+    line-height: $line-height-p;
+    font-family: $font-family-sans;
+    font-size: 0.75rem;
+  }
+}
+
+audio:focus {
+  outline: none;
+}
