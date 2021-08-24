@@ -11,8 +11,6 @@ from unidecode import unidecode
 
 ENGLISH = "english"
 DINE = "dine"
-NAVAJO = "navajo"  # TODO only use dine or navajo, not both
-AUDIO_PATH = "/audio"
 
 WORD = "word"
 NORMALIZED = "normalized"
@@ -27,6 +25,7 @@ AUDIO = "audio"
 
 CSV_DIVIDER = "\t"
 
+AUDIO_PATH = "/audio"
 AUDIO_FILES_ENG = os.listdir(os.curdir + AUDIO_PATH + "/" + ENGLISH)
 AUDIO_FILES_DINE = os.listdir(os.curdir + AUDIO_PATH + "/" + DINE)
 
@@ -34,47 +33,50 @@ ref_pattern = re.compile(r"@(\d)$")
 normalization_table = str.maketrans(" ", "-", "'(),.")
 
 
+raw_rows = {ENGLISH: {}, DINE: {}}
+# this is a global variable. Which isn't ideal, but it makes the Settable interface easier to use.
+
+
 def normalize(accented_string):
 	return unidecode(accented_string).translate(normalization_table).lower()
 
 
-class Row:
+class Row(dict):
 	def __init__(self, row):
-		self.english = {}
-		self.navajo = {}
+		super().__init__({ENGLISH: {}, DINE: {}})
 		
-		(self.english[WORD],
-		 self.english[VARIANT],
-		 self.navajo[VARIANT],
-		 self.navajo[WORD],
-		 self.english[DEFINITION],
-		 self.navajo[DEFINITION],
-		 self.navajo[LITERAL],
-		 self.navajo[COMMENT],
-		 self.english[SEE_ALSO],
-		 self.navajo[SEE_ALSO],
-		 self.english[SENTENCE],
-		 self.navajo[SENTENCE],
-		 self.english[PHONETIC],
-		 self.navajo[PHONETIC],
+		(self[ENGLISH][WORD],
+		 self[ENGLISH][VARIANT],
+		 self[DINE][VARIANT],
+		 self[DINE][WORD],
+		 self[ENGLISH][DEFINITION],
+		 self[DINE][DEFINITION],
+		 self[DINE][LITERAL],
+		 self[DINE][COMMENT],
+		 self[ENGLISH][SEE_ALSO],
+		 self[DINE][SEE_ALSO],
+		 self[ENGLISH][SENTENCE],
+		 self[DINE][SENTENCE],
+		 self[ENGLISH][PHONETIC],
+		 self[DINE][PHONETIC],
 		 audio_eng,
 		 audio_dine
 		 ) = [x.strip() for x in row]
 		
-		self.english[NORMALIZED] = normalize(self.english[WORD])
-		self.navajo[NORMALIZED] = normalize(self.navajo[WORD])
+		self[ENGLISH][NORMALIZED] = normalize(self[ENGLISH][WORD])
+		self[DINE][NORMALIZED] = normalize(self[DINE][WORD])
 		
-		self.english[AUDIO] = get_audio(ENGLISH, self.english[WORD], audio_eng, AUDIO_FILES_ENG)
-		self.navajo[AUDIO] = get_audio(DINE, self.english[WORD], audio_dine, AUDIO_FILES_DINE)
-		# note that the dine audio files are named using the english word + "dine"
+		self[ENGLISH][AUDIO] = get_audio(ENGLISH, self[ENGLISH][WORD], audio_eng, AUDIO_FILES_ENG)
+		self[DINE][AUDIO] = get_audio(DINE, self[ENGLISH][WORD], audio_dine, AUDIO_FILES_DINE)
+		# note that the dine audio files are named using the english word + "-dine"
 
 
 def keyfunc_eng(r: Row):
-	return r.english[NORMALIZED]
+	return r[ENGLISH][NORMALIZED]
 
 
 def keyfunc_dine(r: Row):
-	return r.navajo[NORMALIZED]
+	return r[DINE][NORMALIZED]
 
 
 def get_audio(lang, word, filename, directory):
@@ -86,20 +88,44 @@ def get_audio(lang, word, filename, directory):
 	return ""
 	
 def get_english_audio_path(row: Row):
-	return get_audio(ENGLISH, row.english[WORD], row.english[AUDIO], AUDIO_FILES_ENG)
+	return get_audio(ENGLISH, row[ENGLISH][WORD], row[ENGLISH][AUDIO], AUDIO_FILES_ENG)
 
 def get_dine_audio_path(row: Row):
-	return get_audio(DINE, row.english[WORD], row.navajo[AUDIO], AUDIO_FILES_DINE)
+	return get_audio(DINE, row[ENGLISH][WORD], row[DINE][AUDIO], AUDIO_FILES_DINE)
 	# note that the dine audio files are named using the english word + "dine"
 
 
-class RawRows:
-	def __init__(self):
-		self.english = {}
-		self.navajo = {}
-
-
-raw_rows = RawRows()
+class Settable(ABC):
+	def __init__(self, lang):
+		self.lang = lang
+		self.data = {}
+	
+	def set(self, row, key):
+		value = row[self.lang][key]
+		
+		if not value:
+			return
+		
+		try:
+			ref_match = ref_pattern.match(value)
+			if ref_match:
+				# it's an @ reference
+				word = row[ENGLISH][WORD]
+				index = (word, ref_match.group(1))
+				original_row = raw_rows[ENGLISH][index]
+				# at the moment the references are always defined from the english side :/
+				
+				value = original_row[self.lang][key]
+		except TypeError:
+			# it's not a string, actually
+			pass
+		
+		if value:
+			self.data[key] = value
+			
+	def dump(self):
+		return {k: v for (k, v) in self.data.items() if v}
+		
 
 
 class SeeAlso:
@@ -107,12 +133,13 @@ class SeeAlso:
 		self.entries = {}
 	
 	def add_row(self, row, lang):
-		lang_row = getattr(row, lang)
+		lang_row = row[lang]
 		see_also = lang_row[SEE_ALSO]
 		ref_match = ref_pattern.match(see_also)
 		if ref_match:
 			# it's an @ reference
-			see_also = getattr(raw_rows.english[(lang_row[WORD], ref_match.group(1))], lang)[SEE_ALSO]
+			index = (lang_row[WORD], ref_match.group(1))
+			see_also = raw_rows[ENGLISH][index][lang][SEE_ALSO]
 			
 		
 		for word in see_also.split(", "):
@@ -132,82 +159,52 @@ class SeeAlso:
 class Dictionary:
 	def __init__(self, lines):
 		self.english = {}
-		self.navajo = {}
+		self.dine = {}
 		
 		unsorted_rows = [Row(line.strip("\n").split(CSV_DIVIDER)) for line in lines]
 		# sort to ensure that we don't reference variants we haven't seen yet
-		rows = sorted(unsorted_rows, key=lambda r: normalize(r.english[WORD]) + r.english[VARIANT])
+		rows = sorted(unsorted_rows, key=lambda r: normalize(r[ENGLISH][WORD]) + r[ENGLISH][VARIANT])
 		
 		# I think doing something like this and establishing a lookup would make things
 		# much easier when trying to get variants
-		raw_rows.english = {(row.english[WORD], row.english[VARIANT]): row
-		                    for row in sorted(rows, key=keyfunc_eng)}
-		raw_rows.navajo = {(row.navajo[WORD], row.navajo[VARIANT]): row
-		                   for row in sorted(rows, key=keyfunc_dine)}
+		raw_rows[ENGLISH] = {(row[ENGLISH][WORD], row[ENGLISH][VARIANT]): row
+		                     for row in sorted(rows, key=keyfunc_eng)}
+		raw_rows[DINE] = {(row[DINE][WORD], row[DINE][VARIANT]): row
+		                    for row in sorted(rows, key=keyfunc_dine)}
 		
 		# TODO so we don't need to have these
 		eng_rows = itertools.groupby(sorted(rows, key=keyfunc_eng), keyfunc_eng)
-		navajo_rows = itertools.groupby(sorted(rows, key=keyfunc_dine), keyfunc_dine)
+		dine_rows = itertools.groupby(sorted(rows, key=keyfunc_dine), keyfunc_dine)
 		
 		for (eng_key, word_rows) in eng_rows:
 			if not eng_key:
 				continue
 				
-			entry = Translation(eng_key, ENGLISH, NAVAJO)
+			entry = DictionaryEntry(eng_key, ENGLISH, DINE)
 			
 			for row in word_rows:
-				entry.add(row, NAVAJO)
+				entry.add(row, DINE)
 			self.english[eng_key] = entry
 		
-		for (navajo_key, word_rows) in navajo_rows:
-			if not navajo_key:
+		for (dine_key, word_rows) in dine_rows:
+			if not dine_key:
 				continue
 			
-			entry = Translation(navajo_key, NAVAJO, ENGLISH)
+			entry = DictionaryEntry(dine_key, DINE, ENGLISH)
 			
 			for row in word_rows:
 				entry.add(row, ENGLISH)
-			self.navajo[navajo_key] = entry
+			self.dine[dine_key] = entry
 	
 	def dump(self, out):
 		english = {k: e.dump() for (k, e) in self.english.items()}
-		navajo = {k: e.dump() for (k, e) in self.navajo.items()}
-		json.dump({"entries": {"english": english, "navajo": navajo}},
+		dine = {k: e.dump() for (k, e) in self.dine.items()}
+		json.dump({"entries": {ENGLISH: english, DINE: dine}},
 		          out, indent=2, ensure_ascii=False)
 
 
-class Settable(ABC):
-	def __init__(self, lang):
-		self.lang = lang
-		self.data = {}
-			
-	def set(self, row, key):
-		value = getattr(row, self.lang)[key]
-		
-		if not value:
-			return
-		
-		try:
-			ref_match = ref_pattern.match(value)
-			if ref_match:
-				# it's an @ reference
-				word = row.english[WORD]
-				original_row = raw_rows.english[(word, ref_match.group(1))]
-				# at the moment the references are always defined from the english side :/
-				
-				value = getattr(original_row, self.lang)[key]
-		except TypeError:
-			# it's not a string, actually
-			pass
-		
-		if value:
-			self.data[key] = value
-
-
-class Translation(Settable):
-	keys = {}
-	t_keys = {}
-	sub_keys = {}
+class DictionaryEntry(Settable):
+	keys_to_skip = [DEFINITION, SENTENCE]
 	
 	def __init__(self, word, from_lang, to_lang):
 		super().__init__(from_lang)
@@ -216,69 +213,75 @@ class Translation(Settable):
 		self.see_also = SeeAlso()
 		self.short_translations = []
 		self.translations = {}
-		
-	def from_row(self, row):
-		return getattr(row, self.lang)
-	
-	def to_row(self, row):
-		return getattr(row, self.to_lang)
+		self.definitions = []
 	
 	def add(self, row, to_lang):
-		for key in getattr(row, self.lang):
-			self.set(row, key)
+		for key in row[self.lang]:
+			if key not in self.keys_to_skip:
+				self.set(row, key)
 		
-		self.short_translations.append(getattr(row, to_lang)[WORD])
+		self.short_translations.append(row[to_lang][WORD])
 		self.add_translation(row, to_lang)
 		self.see_also.add_row(row, self.lang)
+		self.definitions.append(WordEntry(row, self.lang))
 	
 	def add_translation(self, row, to_lang):
-		# definition = getattr(row, self.t_def_key)
-		definition = getattr(row, self.lang)[DEFINITION]
+		definition = row[self.lang][DEFINITION]
 		translation = self.translations.setdefault(definition,
-		                                           Definition(row, to_lang))
+		                                           Translation(row, to_lang))
 		translation.add(row)
 		translation.see_also.add_row(row, to_lang)
 	
 	def dump(self):
-		out = {k: v for (k, v) in self.data.items() if v}
+		out = super().dump()
 		if VARIANT in out:
 			del out[VARIANT]  # we don't need to see this
 		out["short_translations"] = self.short_translations
 		if self.see_also.has_entries():
-			out["see_also"] = self.see_also.dump()
+			out[SEE_ALSO] = self.see_also.dump()
+		out["defintions"] = [e.dump() for e in self.definitions]
 		out["translations"] = [t.dump() for t in self.translations.values()]
 		return out
 
 
-class Definition(Settable):
+class Translation(Settable):
 	def __init__(self, row, lang):
 		super().__init__(lang)
 		self.see_also = SeeAlso()
 		self.entries = []
 		self.set(row, DEFINITION)  # yeah only the one key
 		
-	
 	def add(self, row):
-		self.entries.append(DefinitionEntry(row, self.lang))
+		self.entries.append(TranslationEntry(row, self.lang))
 	
 	def dump(self):
-		out = {k: v for (k, v) in self.data.items() if v}
+		out = super().dump()
 		if self.see_also.has_entries():
-			out["see_also"] = self.see_also.dump()
+			out[SEE_ALSO] = self.see_also.dump()
 		out["entries"] = [e.dump() for e in self.entries]
 		return out
 	
 	
-class DefinitionEntry(Settable):
+class WordEntry(Settable):
+	keys_to_skip = [WORD, NORMALIZED, SEE_ALSO]
+	
 	def __init__(self, row, lang):
 		super().__init__(lang)
-		self.data = {}
-		for key in getattr(row, lang):
-			if not key == DEFINITION:
+		
+		for key in row[lang]:
+			if key not in self.keys_to_skip:
 				self.set(row, key)
+				
 	
-	def dump(self):
-		return {k: v for (k, v) in self.data.items() if v}
+class TranslationEntry(Settable):
+	keys_to_skip = [DEFINITION]
+	
+	def __init__(self, row, lang):
+		super().__init__(lang)
+		
+		for key in row[lang]:
+			if key not in self.keys_to_skip:
+				self.set(row, key)
 
 
 def main():
