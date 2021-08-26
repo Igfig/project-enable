@@ -124,7 +124,10 @@ class Settable(ABC):
 			self.data[key] = value
 			
 	def dump(self):
-		return {k: v for (k, v) in self.data.items() if v}
+		return {k: v for (k, v) in self.data.items() if v and k != VARIANT}
+	
+	def __str__(self):
+		return str(self.dump())
 		
 
 
@@ -145,9 +148,14 @@ class SeeAlso:
 		for word in see_also.split(", "):
 			if word:
 				self.entries[normalize(word)] = word
-		
+	
 	def add(self, attr):
 		return partial(self.add_row, attr)
+	
+	def update(self, *others: 'SeeAlso'):
+		for other in others:
+			self.entries.update(other.entries)
+	
 	
 	def has_entries(self):
 		return len(self.entries) > 0
@@ -165,6 +173,8 @@ class Dictionary:
 		# sort to ensure that we don't reference variants we haven't seen yet
 		rows = sorted(unsorted_rows, key=lambda r: normalize(r[ENGLISH][WORD]) + r[ENGLISH][VARIANT])
 		
+		# rows = [row for row in rows if row[ENGLISH][WORD] == "cell"]  # XXX TEMP
+		
 		# I think doing something like this and establishing a lookup would make things
 		# much easier when trying to get variants
 		raw_rows[ENGLISH] = {(row[ENGLISH][WORD], row[ENGLISH][VARIANT]): row
@@ -180,7 +190,7 @@ class Dictionary:
 			if not eng_key:
 				continue
 				
-			entry = DictionaryEntry(eng_key, ENGLISH, DINE)
+			entry = DictionaryEntry(eng_key, ENGLISH)
 			
 			for row in word_rows:
 				entry.add(row, DINE)
@@ -190,7 +200,7 @@ class Dictionary:
 			if not dine_key:
 				continue
 			
-			entry = DictionaryEntry(dine_key, DINE, ENGLISH)
+			entry = DictionaryEntry(dine_key, DINE)
 			
 			for row in word_rows:
 				entry.add(row, ENGLISH)
@@ -206,14 +216,13 @@ class Dictionary:
 class DictionaryEntry(Settable):
 	keys_to_skip = [DEFINITION, SENTENCE]
 	
-	def __init__(self, word, from_lang, to_lang):
-		super().__init__(from_lang)
+	def __init__(self, word, lang):
+		super().__init__(lang)
 		self.word = word
-		self.to_lang = to_lang
 		self.see_also = SeeAlso()
 		self.short_translations = []
-		self.translations = {}
-		self.definitions = []
+		self.translations = []
+		self.definitions = {}
 	
 	def add(self, row, to_lang):
 		for key in row[self.lang]:
@@ -221,16 +230,63 @@ class DictionaryEntry(Settable):
 				self.set(row, key)
 		
 		self.short_translations.append(row[to_lang][WORD])
+		self.add_definition(row)
 		self.add_translation(row, to_lang)
 		self.see_also.add_row(row, self.lang)
-		self.definitions.append(WordEntry(row, self.lang))
+	
+	def add_definition(self, row):
+		definition = row[self.lang][DEFINITION]
+		word = row[ENGLISH][WORD]
+		ref_match = ref_pattern.match(definition)
+		
+		if ref_match:
+			ref = ref_match.group(1)
+			row = raw_rows[ENGLISH][(word, ref)]
+			definition = row[self.lang][DEFINITION]
+		
+		if definition and definition not in self.definitions:
+			self.definitions[definition] = WordEntry(row, self.lang)
 	
 	def add_translation(self, row, to_lang):
-		definition = row[self.lang][DEFINITION]
-		translation = self.translations.setdefault(definition,
-		                                           Translation(row, to_lang))
-		translation.add(row)
+		translation = Translation(row, to_lang)
 		translation.see_also.add_row(row, to_lang)
+		self.translations.append(translation)
+	
+	@staticmethod
+	def translation_keyfunc(translation):
+		print(translation)
+		try:
+			return translation.data[DEFINITION]
+		except KeyError:
+			# for some reason there's no definition
+			return ""
+	
+	def dump_translations(self):
+		# FIXME this functionality should probably be extracted into its own class. Possibly TranslationEntry, which is currently unused
+		grouped = itertools.groupby(self.translations, key=self.translation_keyfunc)
+		out = []
+		for (definition, group) in grouped:
+			see_also = SeeAlso()
+			entries = []
+			translation = {DEFINITION: definition}
+			
+			for entry in list(group):
+				see_also.update(entry.see_also)
+				entries.append(entry.dump())
+				
+				try:
+					translation[SENTENCE] = entry.data[SENTENCE]
+				except KeyError:
+					# nbd, we just don't have a sentence for this entry
+					pass
+			
+			if see_also.has_entries():
+				translation[SEE_ALSO] = see_also.dump()
+			if entries:
+				translation["entries"] = entries
+			
+			out.append(translation)
+		return out
 	
 	def dump(self):
 		out = super().dump()
@@ -239,31 +295,32 @@ class DictionaryEntry(Settable):
 		out["short_translations"] = self.short_translations
 		if self.see_also.has_entries():
 			out[SEE_ALSO] = self.see_also.dump()
-		out["defintions"] = [e.dump() for e in self.definitions]
-		out["translations"] = [t.dump() for t in self.translations.values()]
+		out["definitions"] = [e.dump() for e in self.definitions.values()]
+		out["translations"] = self.dump_translations()
 		return out
-
+	
 
 class Translation(Settable):
+	keys_to_skip = []
+	
 	def __init__(self, row, lang):
 		super().__init__(lang)
 		self.see_also = SeeAlso()
-		self.entries = []
-		self.set(row, DEFINITION)  # yeah only the one key
-		
-	def add(self, row):
-		self.entries.append(TranslationEntry(row, self.lang))
+		for key in row[lang]:
+			if key not in self.keys_to_skip:
+				self.set(row, key)
 	
 	def dump(self):
 		out = super().dump()
-		if self.see_also.has_entries():
-			out[SEE_ALSO] = self.see_also.dump()
-		out["entries"] = [e.dump() for e in self.entries]
+		
+		for key in [DEFINITION, SENTENCE, SEE_ALSO]:
+			if key in out:
+				del out[key]
 		return out
 	
 	
 class WordEntry(Settable):
-	keys_to_skip = [WORD, NORMALIZED, SEE_ALSO]
+	keys_to_skip = [WORD, NORMALIZED, SEE_ALSO, AUDIO, PHONETIC, COMMENT, LITERAL]
 	
 	def __init__(self, row, lang):
 		super().__init__(lang)
@@ -274,7 +331,7 @@ class WordEntry(Settable):
 				
 	
 class TranslationEntry(Settable):
-	keys_to_skip = [DEFINITION]
+	keys_to_skip = [DEFINITION, SENTENCE, SEE_ALSO]
 	
 	def __init__(self, row, lang):
 		super().__init__(lang)
