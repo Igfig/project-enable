@@ -365,7 +365,8 @@
               {
                 "word": "naaldeehii",
                 "literal": "living things that move about",
-                "normalized": "naaldeehii"
+                "normalized": "naaldeehii",
+                "audio": "/audio/dine/animal-that-move-dine.m4a"
               },
               {
                 "word": "naaldlooshii",
@@ -1125,25 +1126,29 @@
                 "word": "ats’íís bik’ǫ́ǫ́’",
                 "literal": "ats’íís= body, bi=it, tł’óól= strand.",
                 "comment": "look at it through microscope",
-                "normalized": "atsiis-bikoo"
+                "normalized": "atsiis-bikoo",
+                "audio": "/audio/dine/cell-microscope-dine.m4a"
               },
               {
                 "word": "ats'íís bitł'óól",
                 "literal": "ats’íís= body, bi=it, tł’óól= strand.",
                 "comment": "refers to DNA in cell. Often used when talking about cancer",
-                "normalized": "atsiis-bitlool"
+                "normalized": "atsiis-bitlool",
+                "audio": "/audio/dine/cell-dna-dine.m4a"
               },
               {
                 "word": "hinááhts'ózí",
                 "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
                 "comment": "Shorthand of the formal word",
-                "normalized": "hinaahtsozi"
+                "normalized": "hinaahtsozi",
+                "audio": "/audio/dine/cell-short-form-dine.m4a"
               },
               {
                 "word": "hinááhts'óóz",
                 "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
                 "comment": "Formal word",
-                "normalized": "hinaahtsooz"
+                "normalized": "hinaahtsooz",
+                "audio": "/audio/dine/cell-formal-dine.m4a"
               }
             ]
           }
@@ -2122,7 +2127,8 @@
               {
                 "word": "ayęęzhii",
                 "literal": "animal egg",
-                "normalized": "ayeezhii"
+                "normalized": "ayeezhii",
+                "audio": "/audio/dine/animal-egg-dine.m4a"
               },
               {
                 "word": "k'eelyéí",
@@ -7196,6 +7202,7 @@
         "literal": "ats’íís= body, bi=it, tł’óól= strand.",
         "comment": "look at it through microscope",
         "normalized": "atsiis-bikoo",
+        "audio": "/audio/dine/cell-microscope-dine.m4a",
         "short_translations": [
           "cell"
         ],
@@ -7230,6 +7237,7 @@
         "literal": "ats’íís= body, bi=it, tł’óól= strand.",
         "comment": "refers to DNA in cell. Often used when talking about cancer",
         "normalized": "atsiis-bitlool",
+        "audio": "/audio/dine/cell-dna-dine.m4a",
         "short_translations": [
           "cell"
         ],
@@ -7644,6 +7652,7 @@
         "word": "ayęęzhii",
         "literal": "animal egg",
         "normalized": "ayeezhii",
+        "audio": "/audio/dine/animal-egg-dine.m4a",
         "short_translations": [
           "egg"
         ],
@@ -9392,6 +9401,7 @@
         "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
         "comment": "Formal word",
         "normalized": "hinaahtsooz",
+        "audio": "/audio/dine/cell-formal-dine.m4a",
         "short_translations": [
           "cell"
         ],
@@ -9515,6 +9525,7 @@
         "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
         "comment": "Shorthand of the formal word",
         "normalized": "hinaahtsozi",
+        "audio": "/audio/dine/cell-short-form-dine.m4a",
         "short_translations": [
           "cell"
         ],
@@ -11236,6 +11247,7 @@
         "word": "naaldeehii",
         "literal": "living things that move about",
         "normalized": "naaldeehii",
+        "audio": "/audio/dine/animal-that-move-dine.m4a",
         "short_translations": [
           "animal"
         ],
