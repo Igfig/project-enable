@@ -45,23 +45,26 @@ class Row(dict):
 	def __init__(self, row):
 		super().__init__({ENGLISH: {}, DINE: {}})
 		
-		(self[ENGLISH][WORD],
-		 self[ENGLISH][VARIANT],
-		 self[DINE][VARIANT],
-		 self[DINE][WORD],
-		 self[ENGLISH][DEFINITION],
-		 self[DINE][DEFINITION],
-		 self[DINE][LITERAL],
-		 self[DINE][COMMENT],
-		 self[ENGLISH][SEE_ALSO],
-		 self[DINE][SEE_ALSO],
-		 self[ENGLISH][SENTENCE],
-		 self[DINE][SENTENCE],
-		 self[ENGLISH][PHONETIC],
-		 self[DINE][PHONETIC],
-		 audio_eng,
-		 audio_dine
-		 ) = [x.strip() for x in row]
+		try:
+			(self[ENGLISH][WORD],
+			 self[ENGLISH][VARIANT],
+			 self[DINE][VARIANT],
+			 self[DINE][WORD],
+			 self[ENGLISH][DEFINITION],
+			 self[DINE][DEFINITION],
+			 self[DINE][LITERAL],
+			 self[DINE][COMMENT],
+			 self[ENGLISH][SEE_ALSO],
+			 self[DINE][SEE_ALSO],
+			 self[ENGLISH][SENTENCE],
+			 self[DINE][SENTENCE],
+			 self[ENGLISH][PHONETIC],
+			 self[DINE][PHONETIC],
+			 audio_eng,
+			 audio_dine
+			 ) = [x.strip() for x in row]
+		except ValueError:
+			print("failed to parse row:", row)
 		
 		self[ENGLISH][NORMALIZED] = normalize(self[ENGLISH][WORD])
 		self[DINE][NORMALIZED] = normalize(self[DINE][WORD])
@@ -254,7 +257,6 @@ class DictionaryEntry(Settable):
 	
 	@staticmethod
 	def translation_keyfunc(translation):
-		print(translation)
 		try:
 			return translation.data[DEFINITION]
 		except KeyError:
@@ -262,9 +264,11 @@ class DictionaryEntry(Settable):
 			return ""
 	
 	def dump_translations(self):
-		# FIXME this functionality should probably be extracted into its own class. Possibly TranslationEntry, which is currently unused
+		# FIXME this functionality should probably be extracted into its own class.
+		# Possibly TranslationEntry, which is currently unused
 		grouped = itertools.groupby(self.translations, key=self.translation_keyfunc)
 		out = []
+		
 		for (definition, group) in grouped:
 			see_also = SeeAlso()
 			entries = []
@@ -328,18 +332,6 @@ class WordEntry(Settable):
 		for key in row[lang]:
 			if key not in self.keys_to_skip:
 				self.set(row, key)
-				
-	
-class TranslationEntry(Settable):
-	keys_to_skip = [DEFINITION, SENTENCE, SEE_ALSO]
-	
-	def __init__(self, row, lang):
-		super().__init__(lang)
-		
-		for key in row[lang]:
-			if key not in self.keys_to_skip:
-				self.set(row, key)
-
 
 def main():
 	with open("translation.tsv", encoding='utf-8') as csv:
