@@ -96,13 +96,10 @@ summary .icon {
     }
   }
 
-  dt, dd, .dd-container {
+  dt, .dd-container {
     @extend %dl-box;
     overflow: hidden;
     flex-basis: 50%;
-    /*height: 0;
-    padding: 0;
-    border-top: 0;*/
   }
 
   .dd-container {

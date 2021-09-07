@@ -138,7 +138,7 @@ dfn {
   font-style: normal;
 }
 
-dd {
+dd, dt {
   margin: 0;
 
   > * {
@@ -166,9 +166,7 @@ dd {
       }
     }
   }
-}
 
-dd, dt {
   p {
     line-height: $line-height-p;
     font-family: $font-family-sans;
