@@ -2,8 +2,8 @@ mixin alphabet(sortedWords)
 	nav.alphabet
 		ul
 			- letters = new Set(sortedWords.map(([word])=>word[0].toUpperCase()))
-			- const aCode = "A".charCodeAt()
-			- const zCode = "Z".charCodeAt()
+			- const aCode = "A".charCodeAt(0)
+			- const zCode = "Z".charCodeAt(0)
 			- let code = aCode
 			while code <= zCode
 				- letter = String.fromCharCode(code++)

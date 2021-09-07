@@ -1,22 +1,22 @@
-mixin defheader(word)
+mixin defheader(dictEntry, index)
 	header
 		div.word-heading
-			h3=word.word
-			if word.audio
+			h3=dictEntry.word
+			if dictEntry.audio
 				- const prnId = `p${index}`
 				label.button.pronunciation(for=prnId)
-					if word.phonetic
-						span [#{word.phonetic}]
+					if dictEntry.phonetic
+						span [#{dictEntry.phonetic}]
 					img(src="../img/audio.svg" alt="Listen to pronunciation")
 				input(type="checkbox", id=prnId)
-				audio(controls, preload=none, src=word.audio)
-					a(href=word.audio)
-			else if word.phonetic
-				p.phonetic [#{word.phonetic}]
+				audio(controls, preload=none, src=dictEntry.audio, type="audio/mp4")
+					//a(href=dictEntry.audio)
+			else if dictEntry.phonetic
+				p.phonetic [#{dictEntry.phonetic}]
 
-		if word.comment
-			p.comment=word.comment
-		if word.literal
+		if dictEntry.comment
+			p.comment=dictEntry.comment
+		if dictEntry.literal
 			p.literal
 				b Literal translation:
-				span=word.literal
+				span=dictEntry.literal

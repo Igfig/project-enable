@@ -1,0 +1,6 @@
+mixin subdefinition(def, title)
+	p
+		b #{title}&nbsp;
+		span=def.definition
+	if def.sentence
+		p.sentence "#{def.sentence}"

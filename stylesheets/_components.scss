@@ -2,7 +2,7 @@
 
 // icons
 
-@mixin foo {
+@mixin on-interact {
   &:hover, &:active, a:hover &, a:active & {
     @content;
   }
@@ -15,12 +15,12 @@ img.icon, .icon img {
   + span {
     margin-left: 0.5ch;
   }
-  @include foo {
+  @include on-interact {
     opacity: 0.5;
   };
 }
 .icon {
-  @include foo {
+  @include on-interact {
     img {
       opacity: 0.5;
     }
@@ -61,9 +61,13 @@ dl.dictionary {
       outline: 1px auto black;
     }
 
-    > div {
-      display: flex;
-      flex-flow: column wrap;
+    > dd, .dd-container {
+      @extend %dl-box;
+      overflow: hidden;
+      flex-basis: 50%;
+      height: 0;
+      padding: 0;
+      border-top: 0;
     }
   }
 
@@ -89,22 +93,9 @@ dl.dictionary {
     }
   }
 
-  dd, .dd-container {
-    @extend %dl-box;
-    overflow: hidden;
-    flex-basis: 50%;
-    height: 0;
-    padding: 0;
-    border-top: 0;
-  }
-
   .dd-container {
-    dd {
-      flex-basis: 100%;
-
-      + dd {
-        margin-top: 1em;
-      }
+    dd + dd {
+      margin-top: 1em;
     }
   }
 
@@ -130,7 +121,7 @@ dl.dictionary {
 
     &:checked ~ dd, &:checked ~ .dd-container {
       height: auto;
-      padding: $dd-padding $dd-padding $dd-padding $dd-indent;
+      padding: $dd-padding;
       border-top: 1px solid $inner-border-color; // XXX optional theming
     }
   }

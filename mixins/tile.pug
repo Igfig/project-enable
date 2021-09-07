@@ -15,7 +15,7 @@ mixin tile(index, item)
 			img.closed(src="/img/plus-circle.svg" role="presentation")
 			img.open(src="/img/minus-circle.svg" role="presentation")
 		include definition
-		+definition(entry)
+		+definition(entry, index)
 		div.dd-container
-			each translation in entry.translations
-				+definition(translation)
+			each translation, t_index in entry.translations
+				+definition(translation, index + "." + t_index)
