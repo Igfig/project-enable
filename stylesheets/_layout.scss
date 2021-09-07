@@ -65,6 +65,9 @@ body {
   }
 }
 
+p {
+  margin-block: 0;
+}
 
 h1 {
   margin: 0 auto 0;
@@ -163,7 +166,9 @@ dd {
       }
     }
   }
+}
 
+dd, dt {
   p {
     line-height: $line-height-p;
     font-family: $font-family-sans;

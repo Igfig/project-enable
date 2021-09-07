@@ -1,22 +1,21 @@
 mixin definition(dictEntry, index)
 	include defheader
 	include subdefinition
-	dd
-		if dictEntry.word
-			+defheader(dictEntry, index)
-		else if dictEntry.entries
-			each entry in dictEntry.entries
-				if entry.word
-					+defheader(entry, index)
+	if dictEntry.word
+		+defheader(dictEntry, index)
+	else if dictEntry.entries
+		each entry in dictEntry.entries
+			if entry.word
+				+defheader(entry, index)
 
-		if dictEntry.definition
-			+subdefinition(dictEntry, "Definition:")
-		else if !dictEntry.definitions || dictEntry.definitions.length === 0
-			- console.warn(dictEntry.word, "has no definition specified.")
-			// but render nothing. XXX or maybe render "no definition provided" too?
-		else if dictEntry.definitions.length === 1
-			+subdefinition(dictEntry.definitions[0], "Definition:")
-		else if dictEntry.definitions.length > 1
-			each def, sub_index in dictEntry.definitions
-				+subdefinition(def, sub_index + 1 + ".")
-				// indices are zero-based, so add 1
+	if dictEntry.definition
+		+subdefinition(dictEntry, "Definition:")
+	else if !dictEntry.definitions || dictEntry.definitions.length === 0
+		- console.warn(dictEntry.word, "has no definition specified.")
+		// but render nothing. XXX or maybe render "no definition provided" too?
+	else if dictEntry.definitions.length === 1
+		+subdefinition(dictEntry.definitions[0], "Definition:")
+	else if dictEntry.definitions.length > 1
+		each def, sub_index in dictEntry.definitions
+			+subdefinition(def, sub_index + 1 + ".")
+			// indices are zero-based, so add 1
