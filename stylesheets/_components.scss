@@ -103,7 +103,13 @@ summary .icon {
   }
 
   .dd-container {
-    margin-left: $dd-indent;
+
+    @media (max-width: $mobile-width - 1) {
+      margin-top: $dd-indent;
+    }
+    @media (min-width: $mobile-width) {
+      margin-left: $dd-indent;
+    }
 
     dd {
       flex-basis: 100%;
@@ -144,12 +150,16 @@ summary .icon {
 
 dl {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   //position: relative; // so that the label:after can be positioned safely
   margin: 0;
   padding: $dd-padding $dd-padding $dd-padding $dd-indent;
   border-top: 1px solid $inner-border-color; // XXX optional theming
 
+  @media (min-width: $mobile-width) {
+    flex-flow: row nowrap;
+  }
+  
   > .dd-container {
     display: flex;
     flex-flow: column nowrap;
@@ -332,6 +342,14 @@ form.search {
   p {
     margin: 1em 0;
     line-height: 1.5;
+  }
+}
+
+.contact {
+  @extend .about;
+
+  p {
+    margin: 1.1em 0 1.5em;
   }
 }
 
