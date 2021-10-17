@@ -1,3 +1,4 @@
+$mobile-width: 500px;
 $body-width: 800px;
 $body-padding: 1.333rem;
 $breakpoint: 1200px;
@@ -51,6 +52,12 @@ $popup-hover-color: #333;
 }
 
 @mixin footer-link {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: inherit;
+
   @media (max-width: $breakpoint) {
     position: relative;
     height: $footer-height;

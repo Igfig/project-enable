@@ -1,14 +1,25 @@
 doctype html
 html(lang="en")
     head
-        title Contact | The Navajo-English Scientific Dictionary
+        title Contact | Project ENABLE | The Diné-English Biology Dictionary
         include ../templates/head
         script(src="../js/session.js")
     body
         include ../templates/header
-        header
+
+        div.contact
             h2 Contact Us
             p If you have any questions, comments, or suggestions, please reach out to us!
-            Our email is
-                a(class="email" href="mailto:EnableBiology@gmail.com") EnableBiology@gmail.com
+
+        div.contact.contact-tiles
+            a.contact-tile(href="mailto:EnableBiology@gmail.com")
+                img.icon(src="/img/envelope.svg" alt="Email")
+                span EnableBiology@gmail.com
+            a.contact-tile(href="https://twitter.com/ENABLE_Biology")
+                img.icon(src="/img/twitter.svg" alt="Twitter")
+                span @ENABLE_Biology
+            a.contact-tile(href="https://navajobiology.square.site/")
+                img.icon(src="/img/dollar-sign.svg" role="presentation")
+                span Donate
+
         include ../templates/footer.pug
