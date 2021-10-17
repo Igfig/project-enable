@@ -57,7 +57,7 @@
         ],
         "definitions": [
           {
-            "definition": "A substance that becomes more positively or negatively charged during a chemical reaction and releases hydrogen ions when dissolved in water.",
+            "definition": "A substance that becomes more positively or negatively charged during a chemical reaction and releases hydrogen ions (protons) when dissolved in water.",
             "sentence": "An acid - like lemon juice or  vinegar - is useful in a marinade because it breaks down the tissue and allows flavor and oil to enter."
           }
         ],
@@ -67,7 +67,6 @@
             "entries": [
               {
                 "word": "atsiniltł'ish bilááh éí doodago bi'oh ábóodziil",
-                "literal": "sour",
                 "normalized": "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil"
               }
             ]
@@ -146,7 +145,7 @@
             "entries": [
               {
                 "word": "kʼééʼdílyééh",
-                "literal": "kʼééʼdílyééh= planting/agriculture",
+                "literal": "kʼééʼdílyééh = planting/agriculture",
                 "comment": "this applies to all types of vegetation. Word will change If start talking about specific planting of something ie \"plant corn, kil dilyeeh\"",
                 "normalized": "keedilyeeh"
               }
@@ -172,7 +171,7 @@
             "entries": [
               {
                 "word": "tátłʼid",
-                "literal": "łʼid= smoke , tá= under. =under water smoke type of thing/describing the hazyness of how it looks.",
+                "literal": "łʼid = smoke , tá = under = under water smoke type of thing/describing the hazyness of how it looks.",
                 "normalized": "tatlid"
               }
             ]
@@ -259,7 +258,6 @@
             "entries": [
               {
                 "word": "biyáázh tsʼǫʼasánígíí",
-                "literal": "someone's baby",
                 "normalized": "biyaazh-tsoasanigii"
               }
             ]
@@ -395,6 +393,7 @@
             "entries": [
               {
                 "word": "ch'osh doo yit'íinii bee naatseedí",
+                "literal": "ch'osh doo yit'íinii = bacteria. bee naatseedí = killler. Meaning \"bug spray\"",
                 "normalized": "chosh-doo-yitiinii-bee-naatseedi",
                 "audio": "/audio/dine/antibiotic-dine.m4a"
               }
@@ -410,7 +409,7 @@
         ],
         "definitions": [
           {
-            "definition": "A protein produced by the body's immune system when it detects harmful substances",
+            "definition": "A protein produced by the body's immune system when it detects harmful substances. The plural of antibody is antibodies.",
             "sentence": "Antibodies are used by your body to defend itself against things like viruses, bacteria, or even cancer cells that may cause you harm."
           }
         ],
@@ -492,6 +491,7 @@
             "entries": [
               {
                 "word": "ats'íís bitł'óól biziil",
+                "literal": "ats'íís bitł'óól = cell, biziil = energy. The cell's energy.",
                 "normalized": "atsiis-bitlool-biziil"
               }
             ]
@@ -564,7 +564,7 @@
             "entries": [
               {
                 "word": "chʼosh doo yitʼínii",
-                "literal": "chʼosh=bug, doo yitʼínii= you can't see.",
+                "literal": "chʼosh = bug, doo yitʼínii = you can't see.",
                 "comment": "Also includes viruses",
                 "normalized": "chosh-doo-yitinii",
                 "audio": "/audio/dine/bacteria-dine.m4a"
@@ -747,7 +747,7 @@
             "entries": [
               {
                 "word": "iiná naalkaah",
-                "literal": "iiná=life, naalkaah= study. means to study life.",
+                "literal": "iiná = life, naalkaah = study. means to study life.",
                 "normalized": "iina-naalkaah"
               }
             ]
@@ -880,7 +880,7 @@
             "entries": [
               {
                 "word": "dił",
-                "literal": "dił=blood",
+                "literal": "dił = blood",
                 "normalized": "dil",
                 "audio": "/audio/dine/blood-dine.m4a"
               }
@@ -930,7 +930,7 @@
             "entries": [
               {
                 "word": "atsiighąąʼ",
-                "literal": "ghąąʼ= matter. atsii= heads. So the \"matter in your head\"",
+                "literal": "ghąąʼ = matter. atsii = heads. So the \"matter in your head\"",
                 "normalized": "atsiighaa",
                 "audio": "/audio/dine/brain-dine.m4a"
               }
@@ -1034,7 +1034,7 @@
             "entries": [
               {
                 "word": "naaldeehii daʼalghałígíí",
-                "literal": "naaldeehii=animals; daʼalghałígíí=eaters or butchers.",
+                "literal": "naaldeehii = animals; daʼalghałígíí = eaters or butchers.",
                 "normalized": "naaldeehii-daalghaligii"
               }
             ]
@@ -1124,55 +1124,31 @@
             "entries": [
               {
                 "word": "ats’íís bik’ǫ́ǫ́’",
-                "literal": "ats’íís= body, bi=it, tł’óól= strand.",
-                "comment": "look at it through microscope",
+                "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
+                "comment": "need a microscope to look at it",
                 "normalized": "atsiis-bikoo",
                 "audio": "/audio/dine/cell-microscope-dine.m4a"
               },
               {
                 "word": "ats'íís bitł'óól",
-                "literal": "ats’íís= body, bi=it, tł’óól= strand.",
+                "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
                 "comment": "refers to DNA in cell. Often used when talking about cancer",
                 "normalized": "atsiis-bitlool",
                 "audio": "/audio/dine/cell-dna-dine.m4a"
               },
               {
                 "word": "hinááhts'ózí",
-                "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
+                "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
                 "comment": "Shorthand of the formal word",
                 "normalized": "hinaahtsozi",
                 "audio": "/audio/dine/cell-short-form-dine.m4a"
               },
               {
                 "word": "hinááhts'óóz",
-                "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
+                "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
                 "comment": "Formal word",
                 "normalized": "hinaahtsooz",
                 "audio": "/audio/dine/cell-formal-dine.m4a"
-              }
-            ]
-          }
-        ]
-      },
-      "cell-body": {
-        "word": "cell body",
-        "normalized": "cell-body",
-        "short_translations": [
-          "ats'óóz bijéí"
-        ],
-        "definitions": [
-          {
-            "definition": "A part of a neuron that contains the nucleus where incoming signals are received.",
-            "sentence": "The cell body of a neuron is like a train station.  It coordinates incoming and outgoing signals for the neuron."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {
-                "word": "ats'óóz bijéí",
-                "normalized": "atsooz-bijei"
               }
             ]
           }
@@ -1196,6 +1172,7 @@
             "entries": [
               {
                 "word": "ats'íís bitł'óól ałts'á dahinisé",
+                "literal": "ats'íís bitł'óól = cell. ałts'á = seperate. dahinisé = pulling. Meaning, a cell pulling to seperate.",
                 "normalized": "atsiis-bitlool-altsa-dahinise"
               }
             ]
@@ -1210,7 +1187,7 @@
         ],
         "definitions": [
           {
-            "definition": "Network of lipids and proteins that forms the boundary between the inside of a cell and the environment that surrounds it.  Also called a plasma membrane.",
+            "definition": "Network of lipids and proteins that forms the boundary between the inside of a cell and the environment that surrounds it.",
             "sentence": "The cell membrane is like the \"skin\" of the cell.  It separates the inside of the cell from the surrounding environment."
           }
         ],
@@ -1220,6 +1197,7 @@
             "entries": [
               {
                 "word": "ats'íí bitł'óól bik'ésti'í",
+                "literal": "ats'íí bitł'óól  = cell. bik'ésti'í = cover. Meaning, the cover of the cell.",
                 "normalized": "atsii-bitlool-bikestii",
                 "audio": "/audio/dine/cell-membrane-dine.m4a"
               }
@@ -1283,7 +1261,7 @@
         ],
         "definitions": [
           {
-            "definition": "The amount of electricity an object has, determined by the number of protons and electrons it has",
+            "definition": "An object or molecule has a charge if it has an unequal number of protons and electrons.",
             "sentence": "An element has a neutral charge if it has an equal number of protons and electrons. It has a +1 positive charge if it has one more proton than electron.  It has a -1 negative charge if it has one more electron than proton."
           }
         ],
@@ -1293,6 +1271,7 @@
             "entries": [
               {
                 "word": "atsiniltł'ish",
+                "literal": "Literal translation: lightning/electricity.",
                 "normalized": "atsiniltlish"
               }
             ]
@@ -1413,6 +1392,7 @@
             "entries": [
               {
                 "word": "nanise' bitoo' dootł'izhí",
+                "literal": "nanise' = refers to vegatative growth, bitoo' = juice, dootł'izhí = green. \"The green juice of the plant\"",
                 "normalized": "nanise-bitoo-dootlizhi"
               }
             ]
@@ -1427,7 +1407,7 @@
         ],
         "definitions": [
           {
-            "definition": "A cell organelle that produces energy through photosynthesis",
+            "definition": "A cell organelle that contains chlorophyll, which produces energy through photosynthesis",
             "sentence": "If we think of chlorophyll as the solar panels of the plant cell, then chloroplasts are like a field that contains many solar panels."
           }
         ],
@@ -1437,6 +1417,7 @@
             "entries": [
               {
                 "word": "nanise' biziil ííł'íní",
+                "literal": "nanise' = refers to vegatative growth, biziil = strength, ííł'íní = making it. meaning \"The growing things streangth is made\"",
                 "normalized": "nanise-biziil-iilini"
               }
             ]
@@ -1461,6 +1442,7 @@
             "entries": [
               {
                 "word": "iiná bitł'óól bit'oh",
+                "literal": "iiná bitł'óól = DNA. bit'oh = nest. Meaning, Nests of DNA",
                 "normalized": "iina-bitlool-bitoh"
               }
             ]
@@ -1539,30 +1521,6 @@
           }
         ]
       },
-      "codominance": {
-        "word": "codominance",
-        "normalized": "codominance",
-        "short_translations": [
-          "bił ho'dizhchíinii bee hojizlį́į́'ígíí"
-        ],
-        "definitions": [
-          {
-            "definition": "A form of inheritance in which both alleles are expressed equally in the phenotype of the heterozygote",
-            "sentence": "When a chicken with white feathers breeds with a chicken with black feathers, the next generation has both black and white feathers because both alleles for feather color are codominant."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {
-                "word": "bił ho'dizhchíinii bee hojizlį́į́'ígíí",
-                "normalized": "bil-hodizhchiinii-bee-hojizliiigii"
-              }
-            ]
-          }
-        ]
-      },
       "community": {
         "word": "community",
         "normalized": "community",
@@ -1607,27 +1565,6 @@
                 "word": "bee iináanii ałghaadzį́į́s",
                 "normalized": "bee-iinaanii-alghaadziis"
               }
-            ]
-          }
-        ]
-      },
-      "consumer": {
-        "word": "consumer",
-        "normalized": "consumer",
-        "short_translations": [
-          ""
-        ],
-        "definitions": [
-          {
-            "definition": "An organism that obtains food by feeding on other organisms.",
-            "sentence": "A hawk is a consumer that eats mice and other small mammals.  Mice are also consumers and eat plants and bugs."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {}
             ]
           }
         ]
@@ -1680,6 +1617,7 @@
             "entries": [
               {
                 "word": "hinááhts'ózí biyi' di bijéí binaagóó hólónígíí",
+                "literal": "hinááhts'ózí biyi' di bijéí = nuclues (heart of the cell). binaagóó = surrounding. hólónígíí = exists. Meaning, \"it exists around the nuclues\".",
                 "normalized": "hinaahtsozi-biyi-di-bijei-binaagoo-holonigii"
               }
             ]
@@ -1719,7 +1657,7 @@
         "definitions": [
           {
             "definition": "The number of total deaths in comparison to the total population size in a specified community or area over a specified period of time",
-            "sentence": "If 20 cows die on a farm with 100 total cows, then we could say that 0.2 cows die for every cow on the farm (20 calves / 100 cows = 0.2 calves per cow)."
+            "sentence": "If 20 cows die on a farm with 100 total cows, then we could say that 0.2 cows die for every cow on the farm (20 cows / 100 cows = 0.2 cows)."
           }
         ],
         "translations": [
@@ -1890,6 +1828,7 @@
             "entries": [
               {
                 "word": "hinááhts'ozí iiná bitł'óól naaki bee hólǫ́",
+                "literal": "hinááhts'ozí = cell. iiná bitł'óól = DNA. naaki = two. bee hólǫ́ = it has. Meaning, cell with 2 DNA.",
                 "normalized": "hinaahtsozi-iina-bitlool-naaki-bee-holo"
               }
             ]
@@ -1938,6 +1877,7 @@
             "entries": [
               {
                 "word": "iiná bitł'óól",
+                "literal": "iiná = life, bitł'óól = strands. meaning \"strands of life\"",
                 "normalized": "iina-bitlool",
                 "audio": "/audio/dine/dna-dine.m4a"
               }
@@ -1963,6 +1903,7 @@
             "entries": [
               {
                 "word": "iiná bitł'óól ádéé'alnééh",
+                "literal": "iiná bitł'óól = DNA. ádéé'alnééh = copy. Meaning, \"DNA copying itself\"",
                 "normalized": "iina-bitlool-adeealneeh"
               }
             ]
@@ -2180,7 +2121,6 @@
             "entries": [
               {
                 "word": "áʼádaatʼéhígíí",
-                "literal": "skip",
                 "normalized": "aadaatehigii"
               }
             ]
@@ -2195,7 +2135,7 @@
         ],
         "definitions": [
           {
-            "definition": "The migration of individuals out of a particular population or area to other populations or areas.  Compare with immigration.",
+            "definition": "The movement of individuals out of a particular population or area to other populations or areas. Compare with immigration.",
             "sentence": "You could say that when you leave your classroom and walk out into the hall that you are emigrating from your classroom."
           }
         ],
@@ -2254,7 +2194,7 @@
             "entries": [
               {
                 "word": "’ahóodziil",
-                "literal": "’ahóodziil= energy. (you modify the a depending what you're talking about)",
+                "literal": "’ahóodziil = energy. (you modify the a depending what you're talking about)",
                 "normalized": "ahoodziil"
               }
             ]
@@ -2404,6 +2344,7 @@
             "entries": [
               {
                 "word": "hináanii bihinááhts'ózí bijéí dahólónígíí",
+                "literal": "hináanii = life, bihinááhts'ózí=cell, bijéí = heart (here nuclues), dahólónígíí = has. meaning \"life that has cells with a nuclues\"",
                 "normalized": "hinaanii-bihinaahtsozi-bijei-daholonigii"
               }
             ]
@@ -2603,7 +2544,7 @@
         ],
         "definitions": [
           {
-            "definition": "The ability of an individual to produce successful offspring compared to other individuals of the same species.",
+            "definition": "The ability of an individual to successfully produce offspring compared to other individuals of the same species.",
             "sentence": "In many species, organisms pass on their DNA to their offspring when an egg and sperm cell combine during fertilization."
           }
         ],
@@ -2675,7 +2616,7 @@
         ],
         "definitions": [
           {
-            "definition": "Evidence of living organisms that lived long ago",
+            "definition": "A fossil forms over a very long time as holes left in sediment by living tissue or bones are replaced with hard minerals.",
             "sentence": "Dinosaur bones are fossils and they tell us when and where dinosaurs used to live."
           }
         ],
@@ -2739,6 +2680,7 @@
             "entries": [
               {
                 "word": "dláád",
+                "literal": "mold",
                 "normalized": "dlaad",
                 "audio": "/audio/dine/fungi-dine.m4a"
               }
@@ -2938,6 +2880,7 @@
             "entries": [
               {
                 "word": "bik'ehgo náás oochíiłii naalkaah",
+                "literal": "bik'ehgo = following, náás oochíiłii = forward birth, naalkaah = study/ research. Meaning, \"study the following of reproduction\"",
                 "normalized": "bikehgo-naas-oochiilii-naalkaah"
               }
             ]
@@ -3016,7 +2959,7 @@
             "entries": [
               {
                 "word": "nahasdzáán naalkaah",
-                "literal": "nahasdzáán=earth, naalkaah= study",
+                "literal": "nahasdzáán = earth, naalkaah = study",
                 "normalized": "nahasdzaan-naalkaah"
               }
             ]
@@ -3065,7 +3008,7 @@
             "entries": [
               {
                 "word": "chʼiyáán náálkąąd bee jiinánígíí",
-                "literal": "chʼiyáán=food, bee jiinánígíí = keeping you alive... means \"something about the food is keeping you alive\"",
+                "literal": "chʼiyáán = food, bee jiinánígíí = keeping you alive... means \"something about the food is keeping you alive\"",
                 "normalized": "chiyaan-naalkaad-bee-jiinanigii"
               }
             ]
@@ -3144,6 +3087,7 @@
             "entries": [
               {
                 "word": "iiná bitł'óól t'áá łá'í",
+                "literal": "iiná bitł'óól = DNA. t'áá łá'í = one. Meaning, \"One DNA\".",
                 "normalized": "iina-bitlool-taa-lai"
               }
             ]
@@ -3192,6 +3136,7 @@
             "entries": [
               {
                 "word": "bił náás oochíił",
+                "literal": "bił náás = onward/forward. oochíił = birth. Meaning, \"giving birth onward\"",
                 "normalized": "bil-naas-oochiil"
               }
             ]
@@ -3366,6 +3311,7 @@
             "entries": [
               {
                 "word": "akááz bitoo'",
+                "literal": "akááz = gland, bitoo' = juice. Meaning,The juice of the gland",
                 "normalized": "akaaz-bitoo"
               }
             ]
@@ -3452,7 +3398,7 @@
         ],
         "definitions": [
           {
-            "definition": "The migration of individuals into a particular population or area from other populations or areas.  Compare with emigration.",
+            "definition": "The movement of individuals into a particular population or area from other populations or areas. Compare with emigration.",
             "sentence": "When you get a cut it is important to wash it with soap and water so you do not get an infection."
           }
         ],
@@ -3582,6 +3528,7 @@
             "entries": [
               {
                 "word": "bił oochíiłii bee hazhdiidzaa",
+                "literal": "bił oochíiłii = birth. hazhdiidzaa = dress up. Describing \" how you look as an offspring of your parents\"",
                 "normalized": "bil-oochiilii-bee-hazhdiidzaa"
               }
             ]
@@ -3606,6 +3553,7 @@
             "entries": [
               {
                 "word": "doo hináanii",
+                "literal": "doo = no. hináanii = living. Meaning, not living",
                 "normalized": "doo-hinaanii"
               }
             ]
@@ -3630,6 +3578,7 @@
             "entries": [
               {
                 "word": "ch'osh",
+                "literal": "ch'osh = bug",
                 "normalized": "chosh",
                 "audio": "/audio/dine/insect-dine.m4a"
               }
@@ -3657,27 +3606,6 @@
                 "word": "ájoot'įįł t'áá hooshch'į' bee joogáałii",
                 "normalized": "ajootiil-taa-hooshchi-bee-joogaalii"
               }
-            ]
-          }
-        ]
-      },
-      "intercellular": {
-        "word": "intercellular",
-        "normalized": "intercellular",
-        "short_translations": [
-          ""
-        ],
-        "definitions": [
-          {
-            "definition": "Located or occuring between or among cells. Compare with intracellular.",
-            "sentence": "If the rooms of your house are cells, the hallways between the rooms are like intercellular space."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {}
             ]
           }
         ]
@@ -3720,7 +3648,7 @@
         ],
         "definitions": [
           {
-            "definition": "Between or among cells",
+            "definition": "Located or occurring within a cell or cells. Compare with intercellular.",
             "sentence": "If the rooms of your house are cells, the hallways between the rooms are like intercellular space."
           }
         ],
@@ -3868,27 +3796,6 @@
           }
         ]
       },
-      "mammal": {
-        "word": "mammal",
-        "normalized": "mammal",
-        "short_translations": [
-          ""
-        ],
-        "definitions": [
-          {
-            "definition": "Vertebrate animals that have hair or fur, produce milk, and often give birth to live offspring.",
-            "sentence": "Mammals live in a variety of different environments. For example, horses run on land, whales swim in the ocean, and bats fly through the sky."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {}
-            ]
-          }
-        ]
-      },
       "mass-extinction": {
         "word": "mass extinction",
         "normalized": "mass-extinction",
@@ -3913,27 +3820,6 @@
           }
         ]
       },
-      "matter": {
-        "word": "matter",
-        "normalized": "matter",
-        "short_translations": [
-          ""
-        ],
-        "definitions": [
-          {
-            "definition": "Any substance that has mass and takes up space.",
-            "sentence": "A flashlight, a stove, and a cow are all made of matter.  However, the light from a flashlight, the heat from a stove, and the sound of a cow are not types of matter.  These are all forms of energy."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {}
-            ]
-          }
-        ]
-      },
       "meiosis": {
         "word": "meiosis",
         "normalized": "meiosis",
@@ -3954,27 +3840,6 @@
                 "word": "ak'eelyéí",
                 "normalized": "akeelyei"
               }
-            ]
-          }
-        ]
-      },
-      "metabolism": {
-        "word": "metabolism",
-        "normalized": "metabolism",
-        "short_translations": [
-          ""
-        ],
-        "definitions": [
-          {
-            "definition": "The chemical reactions in the body's cells that change food into energy.",
-            "sentence": "Your body's metabolism is influenced by the food you eat, your age, and how much you exercise."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {}
             ]
           }
         ]
@@ -4051,6 +3916,7 @@
             "entries": [
               {
                 "word": "doo yit'íinii bee nél'íní",
+                "literal": "doo yit'íinii = what you can't see. bee nél'íní = looking at with. Meaning, \"looking with at what you can't see\"",
                 "normalized": "doo-yitiinii-bee-nelini"
               }
             ]
@@ -4374,6 +4240,7 @@
             "entries": [
               {
                 "word": "ats'óóz",
+                "literal": "nerve",
                 "normalized": "atsooz",
                 "audio": "/audio/dine/nerve-dine.m4a"
               }
@@ -4447,6 +4314,7 @@
             "entries": [
               {
                 "word": "bitsiniltł'ish ádin",
+                "literal": "bitsiniltł'ish = charge. ádin = none. \"Meaning, no charge\"",
                 "normalized": "bitsiniltlish-adin"
               }
             ]
@@ -4501,27 +4369,6 @@
           }
         ]
       },
-      "nucleus-atomic": {
-        "word": "nucleus (atomic)",
-        "normalized": "nucleus-atomic",
-        "short_translations": [
-          ""
-        ],
-        "definitions": [
-          {
-            "definition": "The central part of an atom that includes the protons and neutrons.",
-            "sentence": "The nucleus of an oxygen atom contains 8 protons and 8 neutrons."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {}
-            ]
-          }
-        ]
-      },
       "nucleus-cell": {
         "word": "nucleus (cell)",
         "normalized": "nucleus-cell",
@@ -4546,6 +4393,7 @@
             "entries": [
               {
                 "word": "hinááhts'ózí bijéí",
+                "literal": "hinááhts'ózí = cell. bijéí = heart. \"Meaning, heart of the cell\"",
                 "normalized": "hinaahtsozi-bijei"
               }
             ]
@@ -4599,6 +4447,7 @@
               },
               {
                 "word": "nél'į́",
+                "literal": "look at it",
                 "normalized": "neli"
               }
             ]
@@ -4731,6 +4580,7 @@
             "entries": [
               {
                 "word": "hináanii",
+                "literal": "A living thing",
                 "normalized": "hinaanii"
               }
             ]
@@ -4745,7 +4595,7 @@
         ],
         "definitions": [
           {
-            "definition": "A chemical element found in the air",
+            "definition": "A chemical element that is essential for life on earth",
             "sentence": "Oxygen is a part of the air that we breathe and the water that we drink."
           }
         ],
@@ -4779,6 +4629,7 @@
             "entries": [
               {
                 "word": "yaa'",
+                "literal": "lice (refering to their parasitic nature)",
                 "normalized": "yaa"
               }
             ]
@@ -4943,7 +4794,7 @@
         ],
         "definitions": [
           {
-            "definition": "The species that appear first in recently disturbed areas",
+            "definition": "The species that appear first in a habitat or after a disturbance.",
             "sentence": "After a forest fire, the first species to reappear is a pioneer species."
           }
         ],
@@ -4977,6 +4828,7 @@
             "entries": [
               {
                 "word": "chʼil",
+                "literal": "plant",
                 "normalized": "chil",
                 "audio": "/audio/dine/plant-dine.m4a"
               }
@@ -5016,7 +4868,7 @@
         ],
         "definitions": [
           {
-            "definition": "A network of lipids and proteins that forms the boundary between the inside of a cell and the environment that surrounds it.  Also called a cell membrane.",
+            "definition": "A network of lipids and proteins that forms the boundary between the inside of an organelle and the rest of the space within the cell.",
             "sentence": "The plasma membrane is like the \"skin\" of organelles like mitochondria.  It separates the inside of the organelle from the surrounding environment."
           }
         ],
@@ -5194,6 +5046,7 @@
             "entries": [
               {
                 "word": "ootsą́",
+                "literal": "pregnant",
                 "normalized": "ootsa"
               }
             ]
@@ -5256,7 +5109,7 @@
         ],
         "definitions": [
           {
-            "definition": "Organisms that are capable of photosynthesis and are the basis of a food chain.",
+            "definition": "Organisms that are capable of photosynthesis and are the basis of a food chain. Also called primary producer.",
             "sentence": "A common food chain in a field includes grass, which are producers that can be eaten by grasshoppers, which then can be eaten by other animals."
           }
         ],
@@ -5373,6 +5226,7 @@
             "entries": [
               {
                 "word": "atom bitsiniltł'ish shá bik'ehgo siláii",
+                "literal": "bitsiniltł'ish = charge of the atom. shá bik'ehgo = path of the sun (meanig clockwise). siláii = laid down. Meaning \"atom with a charge laid clockwise\"",
                 "normalized": "atom-bitsiniltlish-sha-bikehgo-silaii"
               }
             ]
@@ -5469,6 +5323,7 @@
             "entries": [
               {
                 "word": "dił łichí'í",
+                "literal": "dił = red. łichí'í = red.",
                 "normalized": "dil-lichii"
               }
             ]
@@ -5483,7 +5338,7 @@
         ],
         "definitions": [
           {
-            "definition": "The situation where similar species may live in the same area, but they are unable to reproduce.",
+            "definition": "The situation where closely related species are unable to reproduce because of differences in location, mating time, behavior, or changes in anatomy.",
             "sentence": "Two populations of squirels on opposite sides of the Grand Canyon experienced reproductive isolation for so long that they are now two different species."
           }
         ],
@@ -5517,6 +5372,7 @@
             "entries": [
               {
                 "word": "oochííł bá siláii",
+                "literal": "oochííł = reprodutive. bá siláii = laid down. Meaning \"reproductive tract\"",
                 "normalized": "oochiil-ba-silaii"
               }
             ]
@@ -5541,7 +5397,7 @@
             "entries": [
               {
                 "word": "naʼałkaah",
-                "literal": "naʼałkaah=investigating/research",
+                "literal": "naʼałkaah = investigating/research",
                 "normalized": "naalkaah"
               }
             ]
@@ -5638,7 +5494,7 @@
             "entries": [
               {
                 "word": "naʼałkaahí",
-                "literal": "Naʼałkaahíí=thing that does the investigating \"Reseacher\" . naʼałkaah=research, the íí is what makes it describing.",
+                "literal": "Naʼałkaahíí = thing that does the investigating \"Reseacher\" . naʼałkaah = research, the íí is what makes it describing.",
                 "normalized": "naalkaahi"
               }
             ]
@@ -5677,7 +5533,7 @@
         ],
         "definitions": [
           {
-            "definition": "The combination of gametes from two individuals to form unique offspring that are genetically different from their parents",
+            "definition": "The combination of different gametes to form unique offspring that are genetically different from their parents.",
             "sentence": "When a male and a female lizard mate, they produce offspring by sexual reproduction."
           }
         ],
@@ -5687,6 +5543,7 @@
             "entries": [
               {
                 "word": "oochííł",
+                "literal": "reproduction",
                 "normalized": "oochiil"
               }
             ]
@@ -5711,6 +5568,7 @@
             "entries": [
               {
                 "word": "ats’íísts’in",
+                "literal": "ats'íís = living. ts'ïn = bone. \"bones of a living thing\"",
                 "normalized": "atsiistsin"
               }
             ]
@@ -5725,7 +5583,7 @@
         ],
         "definitions": [
           {
-            "definition": "An organ that formes the outer protective layer of the body.",
+            "definition": "An organ that forms the outer protective layer of the body.",
             "sentence": "Our skin protects our organs from the environment by blocking moisture, preventing heat loss, and protecting us from pathogens.   Repeated sun exposure is a major cause of skin cancer."
           }
         ],
@@ -5735,7 +5593,7 @@
             "entries": [
               {
                 "word": "akágí",
-                "literal": "akágí= skin (you modify the a depending what you're talking about)",
+                "literal": "akágí = skin (you modify the a depending what you're talking about)",
                 "normalized": "akagi"
               }
             ]
@@ -5844,6 +5702,7 @@
               },
               {
                 "word": "íígąsh",
+                "literal": "sperm",
                 "normalized": "iigash"
               }
             ]
@@ -5970,26 +5829,6 @@
           }
         ]
       },
-      "telophase": {
-        "word": "telophase",
-        "normalized": "telophase",
-        "short_translations": [
-          ""
-        ],
-        "definitions": [
-          {
-            "definition": "The last stage of mitosis or meiosis in which chromosomes move to opposite ends of the cell and two nucleus are formed."
-          }
-        ],
-        "translations": [
-          {
-            "definition": "",
-            "entries": [
-              {}
-            ]
-          }
-        ]
-      },
       "territory": {
         "word": "territory",
         "normalized": "territory",
@@ -6008,7 +5847,7 @@
             "entries": [
               {
                 "word": "akéyah",
-                "literal": "would need to specify \"who's land/area\". Keya is land",
+                "literal": "would need to specify \"who's land/area\". Kéya is land",
                 "normalized": "akeyah"
               }
             ]
@@ -6321,6 +6160,7 @@
             "entries": [
               {
                 "word": "dił łigaaí",
+                "literal": "dił = blood. łigaaî = white. Meaning, white blood.",
                 "normalized": "dil-ligaai"
               }
             ]
@@ -6345,6 +6185,7 @@
             "entries": [
               {
                 "word": "naaldeehii naalkaah",
+                "literal": "naaldeehii = animal. naalkaah = study. Meaning, studying animals",
                 "normalized": "naaldeehii-naalkaah"
               }
             ]
@@ -6369,6 +6210,7 @@
             "entries": [
               {
                 "word": "awéé'",
+                "literal": "baby.",
                 "normalized": "awee"
               }
             ]
@@ -6379,7 +6221,6 @@
     "dine": {
       "aadaatehigii": {
         "word": "áʼádaatʼéhígíí",
-        "literal": "skip",
         "normalized": "aadaatehigii",
         "short_translations": [
           "element"
@@ -6500,7 +6341,7 @@
       },
       "ahoodziil": {
         "word": "’ahóodziil",
-        "literal": "’ahóodziil= energy. (you modify the a depending what you're talking about)",
+        "literal": "’ahóodziil = energy. (you modify the a depending what you're talking about)",
         "normalized": "ahoodziil",
         "short_translations": [
           "energy"
@@ -6550,6 +6391,7 @@
       },
       "akaaz-bitoo": {
         "word": "akááz bitoo'",
+        "literal": "akááz = gland, bitoo' = juice. Meaning,The juice of the gland",
         "normalized": "akaaz-bitoo",
         "short_translations": [
           "hormone"
@@ -6575,7 +6417,7 @@
       "akagi": {
         "word": "akágí",
         "normalized": "akagi",
-        "literal": "akágí= skin (you modify the a depending what you're talking about)",
+        "literal": "akágí = skin (you modify the a depending what you're talking about)",
         "short_translations": [
           "epidermis",
           "skin"
@@ -6600,7 +6442,7 @@
             ]
           },
           {
-            "definition": "An organ that formes the outer protective layer of the body.",
+            "definition": "An organ that forms the outer protective layer of the body.",
             "sentence": "Our skin protects our organs from the environment by blocking moisture, preventing heat loss, and protecting us from pathogens.   Repeated sun exposure is a major cause of skin cancer.",
             "entries": [
               {
@@ -6624,7 +6466,7 @@
         ],
         "translations": [
           {
-            "definition": "A network of lipids and proteins that forms the boundary between the inside of a cell and the environment that surrounds it.  Also called a cell membrane.",
+            "definition": "A network of lipids and proteins that forms the boundary between the inside of an organelle and the rest of the space within the cell.",
             "sentence": "The plasma membrane is like the \"skin\" of organelles like mitochondria.  It separates the inside of the organelle from the surrounding environment.",
             "entries": [
               {
@@ -6771,7 +6613,7 @@
       },
       "akeyah": {
         "word": "akéyah",
-        "literal": "would need to specify \"who's land/area\". Keya is land",
+        "literal": "would need to specify \"who's land/area\". Kéya is land",
         "normalized": "akeyah",
         "short_translations": [
           "territory"
@@ -6894,6 +6736,7 @@
       },
       "atom-bitsiniltlish-sha-bikehgo-silaii": {
         "word": "atom bitsiniltł'ish shá bik'ehgo siláii",
+        "literal": "bitsiniltł'ish = charge of the atom. shá bik'ehgo = path of the sun (meanig clockwise). siláii = laid down. Meaning \"atom with a charge laid clockwise\"",
         "normalized": "atom-bitsiniltlish-sha-bikehgo-silaii",
         "short_translations": [
           "proton"
@@ -6942,6 +6785,7 @@
       },
       "atsii-bitlool-bikestii": {
         "word": "ats'íí bitł'óól bik'ésti'í",
+        "literal": "ats'íí bitł'óól  = cell. bik'ésti'í = cover. Meaning, the cover of the cell.",
         "normalized": "atsii-bitlool-bikestii",
         "audio": "/audio/dine/cell-membrane-dine.m4a",
         "short_translations": [
@@ -6954,7 +6798,7 @@
         ],
         "translations": [
           {
-            "definition": "Network of lipids and proteins that forms the boundary between the inside of a cell and the environment that surrounds it.  Also called a plasma membrane.",
+            "definition": "Network of lipids and proteins that forms the boundary between the inside of a cell and the environment that surrounds it.",
             "sentence": "The cell membrane is like the \"skin\" of the cell.  It separates the inside of the cell from the surrounding environment.",
             "entries": [
               {
@@ -6967,7 +6811,7 @@
       },
       "atsiighaa": {
         "word": "atsiighąąʼ",
-        "literal": "ghąąʼ= matter. atsii= heads. So the \"matter in your head\"",
+        "literal": "ghąąʼ = matter. atsii = heads. So the \"matter in your head\"",
         "normalized": "atsiighaa",
         "audio": "/audio/dine/brain-dine.m4a",
         "short_translations": [
@@ -7124,7 +6968,7 @@
         ],
         "translations": [
           {
-            "definition": "A protein produced by the body's immune system when it detects harmful substances",
+            "definition": "A protein produced by the body's immune system when it detects harmful substances. The plural of antibody is antibodies.",
             "sentence": "Antibodies are used by your body to defend itself against things like viruses, bacteria, or even cancer cells that may cause you harm.",
             "entries": [
               {
@@ -7199,8 +7043,8 @@
       },
       "atsiis-bikoo": {
         "word": "ats’íís bik’ǫ́ǫ́’",
-        "literal": "ats’íís= body, bi=it, tł’óól= strand.",
-        "comment": "look at it through microscope",
+        "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
+        "comment": "need a microscope to look at it",
         "normalized": "atsiis-bikoo",
         "audio": "/audio/dine/cell-microscope-dine.m4a",
         "short_translations": [
@@ -7234,7 +7078,7 @@
       },
       "atsiis-bitlool": {
         "word": "ats'íís bitł'óól",
-        "literal": "ats’íís= body, bi=it, tł’óól= strand.",
+        "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
         "comment": "refers to DNA in cell. Often used when talking about cancer",
         "normalized": "atsiis-bitlool",
         "audio": "/audio/dine/cell-dna-dine.m4a",
@@ -7269,6 +7113,7 @@
       },
       "atsiis-bitlool-altsa-dahinise": {
         "word": "ats'íís bitł'óól ałts'á dahinisé",
+        "literal": "ats'íís bitł'óól = cell. ałts'á = seperate. dahinisé = pulling. Meaning, a cell pulling to seperate.",
         "normalized": "atsiis-bitlool-altsa-dahinise",
         "short_translations": [
           "cell division"
@@ -7316,6 +7161,7 @@
       },
       "atsiis-bitlool-biziil": {
         "word": "ats'íís bitł'óól biziil",
+        "literal": "ats'íís bitł'óól = cell, biziil = energy. The cell's energy.",
         "normalized": "atsiis-bitlool-biziil",
         "short_translations": [
           "ATP (adenosine triphosphate)"
@@ -7460,6 +7306,7 @@
       },
       "atsiistsin": {
         "word": "ats’íísts’in",
+        "literal": "ats'íís = living. ts'ïn = bone. \"bones of a living thing\"",
         "normalized": "atsiistsin",
         "short_translations": [
           "skeleton"
@@ -7484,6 +7331,7 @@
       },
       "atsiniltlish": {
         "word": "atsiniltł'ish",
+        "literal": "Literal translation: lightning/electricity.",
         "normalized": "atsiniltlish",
         "short_translations": [
           "charge"
@@ -7495,7 +7343,7 @@
         ],
         "translations": [
           {
-            "definition": "The amount of electricity an object has, determined by the number of protons and electrons it has",
+            "definition": "An object or molecule has a charge if it has an unequal number of protons and electrons.",
             "sentence": "An element has a neutral charge if it has an equal number of protons and electrons. It has a +1 positive charge if it has one more proton than electron.  It has a -1 negative charge if it has one more electron than proton.",
             "entries": [
               {
@@ -7508,7 +7356,6 @@
       },
       "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil": {
         "word": "atsiniltł'ish bilááh éí doodago bi'oh ábóodziil",
-        "literal": "sour",
         "normalized": "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil",
         "short_translations": [
           "acid"
@@ -7520,7 +7367,7 @@
         ],
         "translations": [
           {
-            "definition": "A substance that becomes more positively or negatively charged during a chemical reaction and releases hydrogen ions when dissolved in water.",
+            "definition": "A substance that becomes more positively or negatively charged during a chemical reaction and releases hydrogen ions (protons) when dissolved in water.",
             "sentence": "An acid - like lemon juice or  vinegar - is useful in a marinade because it breaks down the tissue and allows flavor and oil to enter.",
             "entries": [
               {
@@ -7557,6 +7404,7 @@
       },
       "atsooz": {
         "word": "ats'óóz",
+        "literal": "nerve",
         "normalized": "atsooz",
         "audio": "/audio/dine/nerve-dine.m4a",
         "short_translations": [
@@ -7604,28 +7452,9 @@
           }
         ]
       },
-      "atsooz-bijei": {
-        "word": "ats'óóz bijéí",
-        "normalized": "atsooz-bijei",
-        "short_translations": [
-          "cell body"
-        ],
-        "definitions": [],
-        "translations": [
-          {
-            "definition": "A part of a neuron that contains the nucleus where incoming signals are received.",
-            "sentence": "The cell body of a neuron is like a train station.  It coordinates incoming and outgoing signals for the neuron.",
-            "entries": [
-              {
-                "word": "cell body",
-                "normalized": "cell-body"
-              }
-            ]
-          }
-        ]
-      },
       "awee": {
         "word": "awéé'",
+        "literal": "baby.",
         "normalized": "awee",
         "short_translations": [
           "zygote"
@@ -8331,6 +8160,7 @@
       },
       "bikehgo-naas-oochiilii-naalkaah": {
         "word": "bik'ehgo náás oochíiłii naalkaah",
+        "literal": "bik'ehgo = following, náás oochíiłii = forward birth, naalkaah = study/ research. Meaning, \"study the following of reproduction\"",
         "normalized": "bikehgo-naas-oochiilii-naalkaah",
         "short_translations": [
           "genetics"
@@ -8377,26 +8207,6 @@
           }
         ]
       },
-      "bil-hodizhchiinii-bee-hojizliiigii": {
-        "word": "bił ho'dizhchíinii bee hojizlį́į́'ígíí",
-        "normalized": "bil-hodizhchiinii-bee-hojizliiigii",
-        "short_translations": [
-          "codominance"
-        ],
-        "definitions": [],
-        "translations": [
-          {
-            "definition": "A form of inheritance in which both alleles are expressed equally in the phenotype of the heterozygote",
-            "sentence": "When a chicken with white feathers breeds with a chicken with black feathers, the next generation has both black and white feathers because both alleles for feather color are codominant.",
-            "entries": [
-              {
-                "word": "codominance",
-                "normalized": "codominance"
-              }
-            ]
-          }
-        ]
-      },
       "bil-hodizhchiinii-bee-jildziligii": {
         "word": "bił ho'dizhchíinii bee jíłdzilígíí",
         "normalized": "bil-hodizhchiinii-bee-jildziligii",
@@ -8423,6 +8233,7 @@
       },
       "bil-naas-oochiil": {
         "word": "bił náás oochíił",
+        "literal": "bił náás = onward/forward. oochíił = birth. Meaning, \"giving birth onward\"",
         "normalized": "bil-naas-oochiil",
         "short_translations": [
           "heredity"
@@ -8447,6 +8258,7 @@
       },
       "bil-oochiilii-bee-hazhdiidzaa": {
         "word": "bił oochíiłii bee hazhdiidzaa",
+        "literal": "bił oochíiłii = birth. hazhdiidzaa = dress up. Describing \" how you look as an offspring of your parents\"",
         "normalized": "bil-oochiilii-bee-hazhdiidzaa",
         "short_translations": [
           "inherit"
@@ -8471,6 +8283,7 @@
       },
       "bitsiniltlish-adin": {
         "word": "bitsiniltł'ish ádin",
+        "literal": "bitsiniltł'ish = charge. ádin = none. \"Meaning, no charge\"",
         "normalized": "bitsiniltlish-adin",
         "short_translations": [
           "neutron"
@@ -8495,7 +8308,6 @@
       },
       "biyaazh-tsoasanigii": {
         "word": "biyáázh tsʼǫʼasánígíí",
-        "literal": "someone's baby",
         "normalized": "biyaazh-tsoasanigii",
         "short_translations": [
           "amphibian"
@@ -8545,7 +8357,7 @@
         ],
         "translations": [
           {
-            "definition": "The migration of individuals out of a particular population or area to other populations or areas.  Compare with immigration.",
+            "definition": "The movement of individuals out of a particular population or area to other populations or areas. Compare with immigration.",
             "sentence": "You could say that when you leave your classroom and walk out into the hall that you are emigrating from your classroom.",
             "entries": [
               {
@@ -8558,6 +8370,7 @@
       },
       "chil": {
         "word": "chʼil",
+        "literal": "plant",
         "normalized": "chil",
         "audio": "/audio/dine/plant-dine.m4a",
         "short_translations": [
@@ -8703,7 +8516,7 @@
       },
       "chiyaan-naalkaad-bee-jiinanigii": {
         "word": "chʼiyáán náálkąąd bee jiinánígíí",
-        "literal": "chʼiyáán=food, bee jiinánígíí = keeping you alive... means \"something about the food is keeping you alive\"",
+        "literal": "chʼiyáán = food, bee jiinánígíí = keeping you alive... means \"something about the food is keeping you alive\"",
         "normalized": "chiyaan-naalkaad-bee-jiinanigii",
         "short_translations": [
           "glucose"
@@ -8776,6 +8589,7 @@
       },
       "chosh": {
         "word": "ch'osh",
+        "literal": "ch'osh = bug",
         "normalized": "chosh",
         "audio": "/audio/dine/insect-dine.m4a",
         "short_translations": [
@@ -8801,6 +8615,7 @@
       },
       "chosh-doo-yitiinii-bee-naatseedi": {
         "word": "ch'osh doo yit'íinii bee naatseedí",
+        "literal": "ch'osh doo yit'íinii = bacteria. bee naatseedí = killler. Meaning \"bug spray\"",
         "normalized": "chosh-doo-yitiinii-bee-naatseedi",
         "audio": "/audio/dine/antibiotic-dine.m4a",
         "short_translations": [
@@ -8891,7 +8706,7 @@
       },
       "dil": {
         "word": "dił",
-        "literal": "dił=blood",
+        "literal": "dił = blood",
         "normalized": "dil",
         "audio": "/audio/dine/blood-dine.m4a",
         "short_translations": [
@@ -8965,6 +8780,7 @@
       },
       "dil-lichii": {
         "word": "dił łichí'í",
+        "literal": "dił = red. łichí'í = red.",
         "normalized": "dil-lichii",
         "short_translations": [
           "red blood cell"
@@ -8989,6 +8805,7 @@
       },
       "dil-ligaai": {
         "word": "dił łigaaí",
+        "literal": "dił = blood. łigaaî = white. Meaning, white blood.",
         "normalized": "dil-ligaai",
         "short_translations": [
           "white blood cell"
@@ -9013,6 +8830,7 @@
       },
       "dlaad": {
         "word": "dláád",
+        "literal": "mold",
         "normalized": "dlaad",
         "audio": "/audio/dine/fungi-dine.m4a",
         "short_translations": [
@@ -9038,6 +8856,7 @@
       },
       "doo-hinaanii": {
         "word": "doo hináanii",
+        "literal": "doo = no. hináanii = living. Meaning, not living",
         "normalized": "doo-hinaanii",
         "short_translations": [
           "inorganic"
@@ -9097,7 +8916,7 @@
         ],
         "translations": [
           {
-            "definition": "The situation where similar species may live in the same area, but they are unable to reproduce.",
+            "definition": "The situation where closely related species are unable to reproduce because of differences in location, mating time, behavior, or changes in anatomy.",
             "sentence": "Two populations of squirels on opposite sides of the Grand Canyon experienced reproductive isolation for so long that they are now two different species.",
             "entries": [
               {
@@ -9110,6 +8929,7 @@
       },
       "doo-yitiinii-bee-nelini": {
         "word": "doo yit'íinii bee nél'íní",
+        "literal": "doo yit'íinii = what you can't see. bee nél'íní = looking at with. Meaning, \"looking with at what you can't see\"",
         "normalized": "doo-yitiinii-bee-nelini",
         "short_translations": [
           "microscope"
@@ -9145,7 +8965,7 @@
         ],
         "translations": [
           {
-            "definition": "The species that appear first in recently disturbed areas",
+            "definition": "The species that appear first in a habitat or after a disturbance.",
             "sentence": "After a forest fire, the first species to reappear is a pioneer species.",
             "entries": [
               {
@@ -9398,7 +9218,7 @@
       },
       "hinaahtsooz": {
         "word": "hinááhts'óóz",
-        "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
+        "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
         "comment": "Formal word",
         "normalized": "hinaahtsooz",
         "audio": "/audio/dine/cell-formal-dine.m4a",
@@ -9522,7 +9342,7 @@
       },
       "hinaahtsozi": {
         "word": "hinááhts'ózí",
-        "literal": "hinááh = life, ts'óózí=small. Means \"small unit of life\"",
+        "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
         "comment": "Shorthand of the formal word",
         "normalized": "hinaahtsozi",
         "audio": "/audio/dine/cell-short-form-dine.m4a",
@@ -9616,6 +9436,7 @@
       },
       "hinaahtsozi-bijei": {
         "word": "hinááhts'ózí bijéí",
+        "literal": "hinááhts'ózí = cell. bijéí = heart. \"Meaning, heart of the cell\"",
         "see_also": [
           {
             "word": "hinááhts'ózí",
@@ -9663,7 +9484,7 @@
         ],
         "translations": [
           {
-            "definition": "Between or among cells",
+            "definition": "Located or occurring within a cell or cells. Compare with intercellular.",
             "sentence": "If the rooms of your house are cells, the hallways between the rooms are like intercellular space.",
             "entries": [
               {
@@ -9706,6 +9527,7 @@
       },
       "hinaahtsozi-biyi-di-bijei-binaagoo-holonigii": {
         "word": "hinááhts'ózí biyi' di bijéí binaagóó hólónígíí",
+        "literal": "hinááhts'ózí biyi' di bijéí = nuclues (heart of the cell). binaagóó = surrounding. hólónígíí = exists. Meaning, \"it exists around the nuclues\".",
         "see_also": [
           {
             "word": "hinááhts'ózí",
@@ -9736,6 +9558,7 @@
       },
       "hinaahtsozi-iina-bitlool-naaki-bee-holo": {
         "word": "hinááhts'ozí iiná bitł'óól naaki bee hólǫ́",
+        "literal": "hinááhts'ozí = cell. iiná bitł'óól = DNA. naaki = two. bee hólǫ́ = it has. Meaning, cell with 2 DNA.",
         "see_also": [
           {
             "word": "hinááhts'ózí",
@@ -9820,6 +9643,7 @@
       },
       "hinaanii": {
         "word": "hináanii",
+        "literal": "A living thing",
         "normalized": "hinaanii",
         "short_translations": [
           "organism"
@@ -10114,6 +9938,7 @@
       },
       "hinaanii-bihinaahtsozi-bijei-daholonigii": {
         "word": "hináanii bihinááhts'ózí bijéí dahólónígíí",
+        "literal": "hináanii = life, bihinááhts'ózí=cell, bijéí = heart (here nuclues), dahólónígíí = has. meaning \"life that has cells with a nuclues\"",
         "see_also": [
           {
             "word": "hináanii",
@@ -10279,7 +10104,7 @@
         ],
         "translations": [
           {
-            "definition": "Evidence of living organisms that lived long ago",
+            "definition": "A fossil forms over a very long time as holes left in sediment by living tissue or bones are replaced with hard minerals.",
             "sentence": "Dinosaur bones are fossils and they tell us when and where dinosaurs used to live.",
             "entries": [
               {
@@ -10677,7 +10502,7 @@
         ],
         "translations": [
           {
-            "definition": "Organisms that are capable of photosynthesis and are the basis of a food chain.",
+            "definition": "Organisms that are capable of photosynthesis and are the basis of a food chain. Also called primary producer.",
             "sentence": "A common food chain in a field includes grass, which are producers that can be eaten by grasshoppers, which then can be eaten by other animals.",
             "entries": [
               {
@@ -10701,7 +10526,7 @@
         ],
         "translations": [
           {
-            "definition": "The ability of an individual to produce successful offspring compared to other individuals of the same species.",
+            "definition": "The ability of an individual to successfully produce offspring compared to other individuals of the same species.",
             "sentence": "In many species, organisms pass on their DNA to their offspring when an egg and sperm cell combine during fertilization.",
             "entries": [
               {
@@ -10738,6 +10563,7 @@
       },
       "iigash": {
         "word": "íígąsh",
+        "literal": "sperm",
         "normalized": "iigash",
         "short_translations": [
           "sperm"
@@ -10786,6 +10612,7 @@
       },
       "iina-bitlool": {
         "word": "iiná bitł'óól",
+        "literal": "iiná = life, bitł'óól = strands. meaning \"strands of life\"",
         "normalized": "iina-bitlool",
         "audio": "/audio/dine/dna-dine.m4a",
         "short_translations": [
@@ -10811,6 +10638,7 @@
       },
       "iina-bitlool-adeealneeh": {
         "word": "iiná bitł'óól ádéé'alnééh",
+        "literal": "iiná bitł'óól = DNA. ádéé'alnééh = copy. Meaning, \"DNA copying itself\"",
         "normalized": "iina-bitlool-adeealneeh",
         "short_translations": [
           "DNA replication"
@@ -10883,6 +10711,7 @@
       },
       "iina-bitlool-bitoh": {
         "word": "iiná bitł'óól bit'oh",
+        "literal": "iiná bitł'óól = DNA. bit'oh = nest. Meaning, Nests of DNA",
         "normalized": "iina-bitlool-bitoh",
         "short_translations": [
           "chromosome"
@@ -10955,6 +10784,7 @@
       },
       "iina-bitlool-taa-lai": {
         "word": "iiná bitł'óól t'áá łá'í",
+        "literal": "iiná bitł'óól = DNA. t'áá łá'í = one. Meaning, \"One DNA\".",
         "normalized": "iina-bitlool-taa-lai",
         "short_translations": [
           "haploid"
@@ -11003,7 +10833,7 @@
       },
       "iina-naalkaah": {
         "word": "iiná naalkaah",
-        "literal": "iiná=life, naalkaah= study. means to study life.",
+        "literal": "iiná = life, naalkaah = study. means to study life.",
         "normalized": "iina-naalkaah",
         "short_translations": [
           "biology"
@@ -11052,7 +10882,7 @@
       },
       "keedilyeeh": {
         "word": "kʼééʼdílyééh",
-        "literal": "kʼééʼdílyééh= planting/agriculture",
+        "literal": "kʼééʼdílyééh = planting/agriculture",
         "comment": "this applies to all types of vegetation. Word will change If start talking about specific planting of something ie \"plant corn, kil dilyeeh\"",
         "normalized": "keedilyeeh",
         "short_translations": [
@@ -11161,7 +10991,7 @@
         "translations": [
           {
             "definition": "The number of total deaths in comparison to the total population size in a specified community or area over a specified period of time",
-            "sentence": "If 20 cows die on a farm with 100 total cows, then we could say that 0.2 cows die for every cow on the farm (20 calves / 100 cows = 0.2 calves per cow).",
+            "sentence": "If 20 cows die on a farm with 100 total cows, then we could say that 0.2 cows die for every cow on the farm (20 cows / 100 cows = 0.2 cows).",
             "entries": [
               {
                 "word": "death rate",
@@ -11301,7 +11131,7 @@
       },
       "naaldeehii-daalghaligii": {
         "word": "naaldeehii daʼalghałígíí",
-        "literal": "naaldeehii=animals; daʼalghałígíí=eaters or butchers.",
+        "literal": "naaldeehii = animals; daʼalghałígíí = eaters or butchers.",
         "see_also": [
           {
             "word": "naaldeehii",
@@ -11332,6 +11162,7 @@
       },
       "naaldeehii-naalkaah": {
         "word": "naaldeehii naalkaah",
+        "literal": "naaldeehii = animal. naalkaah = study. Meaning, studying animals",
         "normalized": "naaldeehii-naalkaah",
         "short_translations": [
           "zoology"
@@ -11429,7 +11260,7 @@
       },
       "naalkaah": {
         "word": "naʼałkaah",
-        "literal": "naʼałkaah=investigating/research",
+        "literal": "naʼałkaah = investigating/research",
         "normalized": "naalkaah",
         "short_translations": [
           "research"
@@ -11502,7 +11333,7 @@
       },
       "naalkaahi": {
         "word": "naʼałkaahí",
-        "literal": "Naʼałkaahíí=thing that does the investigating \"Reseacher\" . naʼałkaah=research, the íí is what makes it describing.",
+        "literal": "Naʼałkaahíí = thing that does the investigating \"Reseacher\" . naʼałkaah = research, the íí is what makes it describing.",
         "normalized": "naalkaahi",
         "short_translations": [
           "scientist"
@@ -11695,7 +11526,7 @@
       },
       "nahasdzaan-naalkaah": {
         "word": "nahasdzáán naalkaah",
-        "literal": "nahasdzáán=earth, naalkaah= study",
+        "literal": "nahasdzáán = earth, naalkaah = study",
         "normalized": "nahasdzaan-naalkaah",
         "short_translations": [
           "geology"
@@ -11792,6 +11623,7 @@
       },
       "nanise-bitoo-dootlizhi": {
         "word": "nanise' bitoo' dootł'izhí",
+        "literal": "nanise' = refers to vegatative growth, bitoo' = juice, dootł'izhí = green. \"The green juice of the plant\"",
         "normalized": "nanise-bitoo-dootlizhi",
         "short_translations": [
           "chlorophyll"
@@ -11816,6 +11648,7 @@
       },
       "nanise-biziil-iilini": {
         "word": "nanise' biziil ííł'íní",
+        "literal": "nanise' = refers to vegatative growth, biziil = strength, ííł'íní = making it. meaning \"The growing things streangth is made\"",
         "normalized": "nanise-biziil-iilini",
         "short_translations": [
           "chloroplast"
@@ -11827,7 +11660,7 @@
         ],
         "translations": [
           {
-            "definition": "A cell organelle that produces energy through photosynthesis",
+            "definition": "A cell organelle that contains chlorophyll, which produces energy through photosynthesis",
             "sentence": "If we think of chlorophyll as the solar panels of the plant cell, then chloroplasts are like a field that contains many solar panels.",
             "entries": [
               {
@@ -11840,6 +11673,7 @@
       },
       "neli": {
         "word": "nél'į́",
+        "literal": "look at it",
         "normalized": "neli",
         "short_translations": [
           "observation"
@@ -11946,7 +11780,7 @@
         ],
         "translations": [
           {
-            "definition": "A chemical element found in the air",
+            "definition": "A chemical element that is essential for life on earth",
             "sentence": "Oxygen is a part of the air that we breathe and the water that we drink.",
             "entries": [
               {
@@ -12079,6 +11913,7 @@
       },
       "oochiil": {
         "word": "oochííł",
+        "literal": "reproduction",
         "normalized": "oochiil",
         "short_translations": [
           "sexual reproduction"
@@ -12090,7 +11925,7 @@
         ],
         "translations": [
           {
-            "definition": "The combination of gametes from two individuals to form unique offspring that are genetically different from their parents",
+            "definition": "The combination of different gametes to form unique offspring that are genetically different from their parents.",
             "sentence": "When a male and a female lizard mate, they produce offspring by sexual reproduction.",
             "entries": [
               {
@@ -12103,6 +11938,7 @@
       },
       "oochiil-ba-silaii": {
         "word": "oochííł bá siláii",
+        "literal": "oochííł = reprodutive. bá siláii = laid down. Meaning \"reproductive tract\"",
         "normalized": "oochiil-ba-silaii",
         "short_translations": [
           "reproductive system"
@@ -12127,6 +11963,7 @@
       },
       "ootsa": {
         "word": "ootsą́",
+        "literal": "pregnant",
         "normalized": "ootsa",
         "short_translations": [
           "pregnancy"
@@ -12511,7 +12348,7 @@
       },
       "tatlid": {
         "word": "tátłʼid",
-        "literal": "łʼid= smoke , tá= under. =under water smoke type of thing/describing the hazyness of how it looks.",
+        "literal": "łʼid = smoke , tá = under = under water smoke type of thing/describing the hazyness of how it looks.",
         "normalized": "tatlid",
         "short_translations": [
           "algae"
@@ -12608,6 +12445,7 @@
       },
       "yaa": {
         "word": "yaa'",
+        "literal": "lice (refering to their parasitic nature)",
         "normalized": "yaa",
         "short_translations": [
           "parasite"
@@ -12667,7 +12505,7 @@
         ],
         "translations": [
           {
-            "definition": "The migration of individuals into a particular population or area from other populations or areas.  Compare with emigration.",
+            "definition": "The movement of individuals into a particular population or area from other populations or areas. Compare with emigration.",
             "sentence": "When you get a cut it is important to wash it with soap and water so you do not get an infection.",
             "entries": [
               {

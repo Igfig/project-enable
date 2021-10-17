@@ -65,6 +65,7 @@ class Row(dict):
 			 ) = [x.strip() for x in row]
 		except ValueError:
 			print("failed to parse row:", row)
+			return
 		
 		self[ENGLISH][NORMALIZED] = normalize(self[ENGLISH][WORD])
 		self[DINE][NORMALIZED] = normalize(self[DINE][WORD])
@@ -173,10 +174,16 @@ class Dictionary:
 		self.dine = {}
 		
 		unsorted_rows = [Row(line.strip("\n").split(CSV_DIVIDER)) for line in lines]
-		# sort to ensure that we don't reference variants we haven't seen yet
-		rows = sorted(unsorted_rows, key=lambda r: normalize(r[ENGLISH][WORD]) + r[ENGLISH][VARIANT])
 		
-		# rows = [row for row in rows if row[ENGLISH][WORD] == "cell"]  # XXX TEMP
+		# filter out rows missing a translation or definition
+		filtered_rows = [row for row in unsorted_rows
+		                 if row[ENGLISH][WORD]
+		                 and row[DINE][WORD]
+		                 and row[ENGLISH][DEFINITION]
+		                 and row[DINE][DEFINITION]]
+		
+		# sort to ensure that we don't reference variants we haven't seen yet
+		rows = sorted(filtered_rows, key=lambda r: normalize(r[ENGLISH][WORD]) + r[ENGLISH][VARIANT])
 		
 		# I think doing something like this and establishing a lookup would make things
 		# much easier when trying to get variants
@@ -185,11 +192,12 @@ class Dictionary:
 		raw_rows[DINE] = {(row[DINE][WORD], row[DINE][VARIANT]): row
 		                    for row in sorted(rows, key=keyfunc_dine)}
 		
-		# TODO so we don't need to have these
+		# TODO so we won't need to have these
 		eng_rows = itertools.groupby(sorted(rows, key=keyfunc_eng), keyfunc_eng)
 		dine_rows = itertools.groupby(sorted(rows, key=keyfunc_dine), keyfunc_dine)
 		
 		for (eng_key, word_rows) in eng_rows:
+			# print(eng_key, *word_rows)
 			if not eng_key:
 				continue
 				
