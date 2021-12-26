@@ -16,9 +16,11 @@
         "translations": [
           {
             "definition": "Ááhoo'nííł éí bee hahodilyaii t'áá ałtso nahasdzáán dóó yádiłhił bii' siláhígíí ahił nidaalnishgo nináháhááhígíí éí nayiił'ná hadoh dóó hak'az ádaat'éii.",
+            "sentence": "Nanise' nooséełgo binaagóó ha'át'ííshį́į́ doo hináa dago hólónígíí shánídíín, tó, dóó hado dóó hak'az ádaat'éii bik'ehgo noosééł.",
             "entries": [
               {
                 "word": "ááhoo'níił nayiiłnání",
+                "literal": "ááhoo'níił = interacting systems/systems; nayiiłnání=those things which give energy and movement. Systems, those factors, which moves them:",
                 "normalized": "aahooniil-nayiilnani"
               }
             ]
@@ -40,9 +42,11 @@
         "translations": [
           {
             "definition": "Bíla'ashdla'ii bidił bee bééhózindooígíí ádaalyaa. Hadił łichíí'ígíí bikáá'gónaa áhoot'éhígíí bik'ehgo háidígííshį́į́ hadił A, B, O, doodago AB.",
+            "sentence": "Naho'dilgizhgo dił łą́ hats'ánah éí bąą hadił nilínígíí hoł bééhózin aláahgo. Dił łą hąąh haanahgo azee' ííł'íní dił háidígííshį́į́ hadił nilínígíí bił aheełt'é A, B, O díí táá' ał'ąą át'é éí bik'ehgo dił yee adahajeehígíí bidił hwiih nákááh.",
             "entries": [
               {
                 "word": "dił ał'ąą ádaat'éhígíí",
+                "literal": "dił = blood; ał'ąą = different kinds; ádaat'éhígíí = the way they are blood different kinds the way they are",
                 "normalized": "dil-alaa-adaatehigii"
               }
             ]
@@ -64,9 +68,11 @@
         "translations": [
           {
             "definition": "Ha'át'íi da bitsiniltł'ish bilááh éí doodago a'oh yileehgo taah ji'áahgo níłch'i hydrogen bitsiniltł'ish hólǫ́ǫgo bits'á shígish.",
+            "sentence": "T'áádoole'é néídił'eełii acid wolyéhígíí ch'il łitsooí yázhí, lemon, bitoo' éí doodago vinegar ch'iyáán biih nídaa'niłgo nídaalzhoh áko bee halniihí dóó ak'ah da biníshiigéésh.",
             "entries": [
               {
                 "word": "atsiniltł'ish bilááh éí doodago bi'oh ábóodziil",
+                "literal": "atsiniltł'ish = electricity/electrical charge (lightning); bilááh = over/excess; éí doodago = or; bi'oh ábóodziil = less in strength electrical charge excess or less in strength",
                 "normalized": "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil"
               }
             ]
@@ -88,9 +94,11 @@
         "translations": [
           {
             "definition": "Bee ájít'éii bił ho'dizhchínígíí ła' bee hadziilgo jiinánígíí hái da nááná ła' ákót'éhígíí doo bił yizhchínígíí bił ałch'į' naa'nil aheełt'éego haz'ą́ągi haalzííd.",
+            "sentence": "Gahtsoh bijaa' danineez silį́į́'ígíí éí yee nízaadgóó ayóo adiits'a' dóó deesdoigo yee doo bił niiłdóoh da.",
             "entries": [
               {
                 "word": "bił ho'dizhchíinii bee jíłdzilígíí",
+                "literal": "bił = with that which; ho'dizhchíinii = one is born; bee = by means of it; jíłdzilígíí = one is stable/withstands. characteristic with which one is born by means of it one is stable and withstands",
                 "normalized": "bil-hodizhchiinii-bee-jildziligii"
               }
             ]
@@ -112,6 +120,7 @@
         "translations": [
           {
             "definition": "Bíla'ashdla'ii oochííł yaa ninísą́ągo yaa hóyánígíí.",
+            "sentence": "Másítsa'ii éí t'áá biyázhí haleehé másí t'áá hóyáanii yileeh.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -121,6 +130,7 @@
             "entries": [
               {
                 "word": "hináanii oochííł yaa ninísą́",
+                "literal": "hináanii = living things; oochííł = reproductive ability/reproduction; yaa = reaching it; ninísą́ = grew to it. living thing developing the ability to reproduce.",
                 "normalized": "hinaanii-oochiil-yaa-ninisa"
               }
             ]
@@ -142,10 +152,11 @@
         "translations": [
           {
             "definition": "Dá'ák'eh, k'eelyéí, daneest'áanii, dóó iiná naalyé bíhoo'ą́ą́'",
+            "sentence": "Dá'ák'eh bee iiná bíighahgo ádeeł'ínínígíí éí k'e'dilyé baa dahwiilzhíísh bił béédahózin, łeezh bii' yá'át'éehgo na'nise', dóó tó bee baa áháyą́ bił béédahózin.",
             "entries": [
               {
                 "word": "kʼééʼdílyééh",
-                "literal": "kʼééʼdílyééh = planting/agriculture",
+                "literal": "kʼééʼdílyééh= planting/agriculture",
                 "comment": "this applies to all types of vegetation. Word will change If start talking about specific planting of something ie \"plant corn, kil dilyeeh\"",
                 "normalized": "keedilyeeh"
               }
@@ -168,10 +179,11 @@
         "translations": [
           {
             "definition": "Tátł'id éí táyi' éí doodago hoditłéé'góó dahólǫ́ bits'íís bitł'óól t'áá łá'í éí doodago łą́ áádóó dootł'izh łeh éí doodago t'áá łahgo ánoolnin łeh.",
+            "sentence": "Tátł'id bihiináhts'óóz t'ááłá'ígo nidi danéesé éí doodago łą́ągo dahnaaztłée' yileeh dóó táłkáá' dahnidaa'eeł, łą́ danéeséego tó bikáá'go bik'íiltih. T'áá chil nanise' yił aheełt'é háálá shá yee naalnishgo bich'iiyą' ííł'į́.",
             "entries": [
               {
                 "word": "tátłʼid",
-                "literal": "łʼid = smoke , tá = under = under water smoke type of thing/describing the hazyness of how it looks.",
+                "literal": "tłʼid=murky appearance; tá= under or within water. under water murky substance.",
                 "normalized": "tatlid"
               }
             ]
@@ -193,9 +205,11 @@
         "translations": [
           {
             "definition": "Bik'ehgo náás oochíił'ii łahgo át'éhígíí.",
+            "sentence": "Hats'íís biyi'di bik'ehgo náás oochíiłii bee hahodít'é éí biyi'di bik'ehgo náás oochíiłii béé'ályaago naakigo bii' hólǫ́. Béé'ályaaígíí doo aheełt'ée dago éí alleles, bik'ehgo náás oochíiłii łahgo ádzaaígíí, naakigo hwee hólǫ́ǫ doo.",
             "entries": [
               {
                 "word": "bik'ehgo náás oochíiłii ał'ąą át'é",
+                "literal": "gene that has become different or changed",
                 "normalized": "bikehgo-naas-oochiilii-alaa-ate"
               }
             ]
@@ -217,9 +231,11 @@
         "translations": [
           {
             "definition": "Ats'íís bee haleehii  naadiin ał'ąą ánéelt'e' éí ats'íís bitł'óól yee naalnishgo bee ats'íís hodooleeł dóó áadi hasht'éé yoodlííł.  Iiná bitł'óól, DNA, bee bóhólnííh éí bik'ehgo náás oochíiiłii táa'go bita'góó daníjaa'.",
+            "sentence": "Ak'ah bineestiin, amino acid, éí ch'iyáán ats'íís yee nanise' dóó háidoodlííł, protein t'áá ał'ąą ádaat'éego dóó ał'ąą ádaat'éego nidaalnishgo bits'ą́ą́dóó nihwiileeh, kin nidaa'nilígíí nahalin éí bee ádoolnííłígíí t'óó ahayóí ał'ąą át'éego choo'į́įgo bee kin ał'ąą ádaat'éhígíí, castle da, ólta' da, doodago hééł bighan da ádaal'į́.",
             "entries": [
               {
                 "word": "ats'íís bee nihwiileehii bá siléíí",
+                "literal": "ats'íís=the body; bee=by means of which; nihwiileehii=it becomes an physical entity (this phrase refers to protein); bizhool=fine primal substance. That substance that exists to form a protein.",
                 "normalized": "atsiis-bee-nihwiileehii-ba-sileii"
               }
             ]
@@ -255,9 +271,11 @@
         "translations": [
           {
             "definition": "Dahináanii bíígháán dahólónígíí  éí binaagóó áhoot'éhígíí binahjį' bits'íís sidoh dóó sik'azígíí éí (ectotherm wolyé). Yichííhgo táyi' naaleeh áádóó dahdínísééh dóó éí dóó  tábąąhdi dóó łeeshtahdi dahiná. Ch'ał ádaat'éii  dóó salamanders ááł ha'ní.",
+            "sentence": "Chał éí táyi' dóó nihookáá' hinánígíí ádaat'é, chałyázhí danilį́įgo éí táyi' dahiná dóó ałtso niniséehgo éí bijáád dahaleehgo nihookáá' naaldeeh.",
             "entries": [
               {
                 "word": "biyáázh tsʼǫʼasánígíí",
+                "literal": "Tátłááh= under water; dóó = and; nihookáá = on land; naaldeehii = living and going about In the water and on the ground those that live there",
                 "normalized": "biyaazh-tsoasanigii"
               }
             ]
@@ -279,9 +297,11 @@
         "translations": [
           {
             "definition": "T'áá ha'át'ííshį́į́ baa ajółta' éí doodago jinéł'į́įgo nijiłkaah t'áá nináníłtsojį' éí bee béézhdi'dootį́į́ł biniyé.",
+            "sentence": "Ha'át'íi da baa nitsíníkeesgo da níníł'į́įgo da t'áá nił naaki nilį́įgo, nił haa dago da naalnishígi át'éego shił bééhodoozįįł nínízingo éí hazhó'ó baa nitsíníkees dóó naniłkaahgo hazhó'ó bik'i' di'díítį́į́ł.",
             "entries": [
               {
                 "word": "t'áádoole'é át'éegi nidanees'ą́ągi naalkaah",
+                "literal": "Things the way they are and to the extent they exist they are studied",
                 "normalized": "taadoolee-ateegi-nidaneesaagi-naalkaah"
               }
             ]
@@ -302,9 +322,11 @@
         "translations": [
           {
             "definition": "Ats'íís bitł'óól ałts'á níséego iiná bitł'óól (DNA) bik'ehgo náás oochíiłii biyi'di naaki ałch'į' naazlá, éí t'áá ahedaałt'éego ałts'ákah dóó ahidiníł náádę́ę́' niikah áádóó ałts'á nísééh.",
+            "sentence": "cancer wolyéhígíí éí hats'íístahdi hinááh ts'óóz/ats'íís bitł'óól tídíl'įįhgo ba'át'e' haleeh dóó dahdíníisééh.",
             "entries": [
               {
                 "word": "ats'íís bitł'óól ałts'ánísé",
+                "literal": "chromosomes move to opposite sides (in a cell)",
                 "normalized": "atsiis-bitlool-altsanise"
               }
             ]
@@ -328,14 +350,17 @@
         "translations": [
           {
             "definition": "Hak'éí nát'ą́ą́' ahool'áago hamá dóó hazhé'é dabishchíníinii bits'ą́ą́dę́ę́' hojizhlį́į́'ígíí",
+            "sentence": "Bíla'ashdla'ii ałk'idą́ą́' naasdee' nít'ę́ę́'yę́ę bits'iil ba'át'e' dahólǫ́ kints'iil dahdaask'idgóó naazjaa'.",
             "entries": [
               {
                 "word": "azází",
+                "literal": "azází = generations of relatives who preceded you",
                 "comment": "less commonly used than ánaasází",
                 "normalized": "azazi"
               },
               {
                 "word": "ánaasází",
+                "literal": "ánaasází = bygone ancestors; people no longer in existence",
                 "comment": "most common",
                 "normalized": "anaasazi"
               }
@@ -359,16 +384,17 @@
         "translations": [
           {
             "definition": "Hináanii bits'íís bitł'óól (cells) daholónígíí biyi'di bijéí (nucleus) iiná bitł'óól dóó bik'ehgo náás oochíiłii nídahineeshzhee'.",
+            "sentence": "Bíla'ashdla'ii, k'aalógii, łóó' dóó másí éí t'áá ałtso hináanii ayánígíí, yee ákonízinii dóó bits'óóz dahólónígíí, dóó tsxį́įłgo naha'nánígíí ádaat'éego animals bee wójí.",
             "entries": [
               {
                 "word": "naaldeehii",
-                "literal": "living things that move about",
+                "literal": "naaldeehii = living things that move about",
                 "normalized": "naaldeehii",
                 "audio": "/audio/dine/animal-that-move-dine.m4a"
               },
               {
                 "word": "naaldlooshii",
-                "literal": "living things that trot or walk",
+                "literal": "naaldlooshii = living things that trot or walk",
                 "normalized": "naaldlooshii"
               }
             ]
@@ -390,10 +416,11 @@
         "translations": [
           {
             "definition": "Ch'osh doo yit'íinii bee yigání éí doodago bee ni'óolziní",
+            "sentence": "Ch'osh doo yit'íinii ba'át'e' hólónígíí bits'ą́ą́dóó hatah doo hats'íi da jileehgo azee'ííł'íní azee' ch'osh doo yit'íinii neiłtseedígíí hąąh áyiił'įįh éí ch'osh doo yit'íinii ííłdįįh.",
             "entries": [
               {
                 "word": "ch'osh doo yit'íinii bee naatseedí",
-                "literal": "ch'osh doo yit'íinii = bacteria. bee naatseedí = killler. Meaning \"bug spray\"",
+                "literal": "ch'osh=bug, bacteria; doo yit'íinii=not visible; bee naatseedí=substance used to kill them. A substance used to kill bacteria.",
                 "normalized": "chosh-doo-yitiinii-bee-naatseedi",
                 "audio": "/audio/dine/antibiotic-dine.m4a"
               }
@@ -416,9 +443,11 @@
         "translations": [
           {
             "definition": "Ats'íís bee doo bihodééłníinii ats'íís hasht'éé yoodlíiłii (protein) áyiił'įįh ats'íís atíidoolíłii yaa ákoniizįįhgo",
+            "sentence": "Hats'íís bee doo bihodééł'níinii hats'íís ííł'ínígíí yee ách'ą́ą́h naalnish. Naałniih virus, ch'osh doo yit'íinii éí doodago hinááhts'óóz/hats'íís bitł'óól ba'át'e' hazlį́įgo dahdíníisánígíí atíhodoolííłígíí yich'ą́ą́h naalnish.",
             "entries": [
               {
                 "word": "ats'íís bee doo bihodééłníinii",
+                "literal": "ats'íís=the body; bee=that by means of it; doo bihodééłníinii=it is protected from harm. That which protects the body; That which shields the body.",
                 "normalized": "atsiis-bee-doo-bihodeelniinii"
               }
             ]
@@ -440,9 +469,11 @@
         "translations": [
           {
             "definition": "Azhé'é t'áágééd i'niitsąąh dóó ni'iichííh. Amá t'áá sáhá idínóoltsąął dóó adoołchííł.",
+            "sentence": "Ch'osh doo yit'íinii bihinááhts'óóz'/bits'íís bitł'óól ałts'áníséehgo ádéé'iil'įįh, naaki yiłchííh. Hináanii t'áá sáhá t'áá bí ałchíihgo éí asexual reproduction wolyé.",
             "entries": [
               {
                 "word": "biką' dóó bi'áadii t'áá gééd oochííł",
+                "literal": "biką'=the male; dóó=and; bi'áadii=the female; t'áá gééd=just without that (their role); oochííł=offsprings are born. The process of creating offsprings without sexual activity of males and females.",
                 "normalized": "bika-doo-biaadii-taa-geed-oochiil"
               }
             ]
@@ -464,9 +495,11 @@
         "translations": [
           {
             "definition": "T'áá ha'át'ííshį́į́ bee ályaii t'ááłá'í si'ą́ągo, atom wolyé, bijéí hólǫ́, bijéí biyi'di proton biniltł'ish shábik'ehgo bii' silá éí positive deiłní dóó neutron bitsiniltł'ish bąą ádin ákondi yee óchíidii, béésh ná'iiláhá nahalingo bii' hólǫ́. Atom bijéí bii' siléí",
+            "sentence": "Matter éí t'áá ha'át'ííshį́į́ áłníłdáás, áníłtso, áłts'íísídóó nitsaajį', éí atoms ał'ąą ádaat'éhígíí dóó níláhgóó dahólónígíí bee ádaalyaa. Hasłą́ą éí bíla'ashdla'ii áłah silį́į'go bichá sizhóód doo ał'ąą ádaníłtso, asdzání dóó hastóí, dóó ániid naagháii dóó náás silį́į'ii da'atah doo.",
             "entries": [
               {
                 "word": "atom",
+                "literal": "T'áá ałtson7=everything; bineestiin/bizhool=its fine mist and particles",
                 "normalized": "atom"
               }
             ]
@@ -488,10 +521,11 @@
         "translations": [
           {
             "definition": "Ats'íís bitł'óól biyi'di t'áádoole'é si'ą́ągo ats'íís bitł'óól yee biinéí dooígíí bii' nihwiileeh dóó náásgóó ííł'į́",
+            "sentence": "Hinááhts'óóz/ats'íís bitł'óól hats'íís yee hadít'éhígíí ch'iyáán jiyánígíí yee hinááhts'óóz/ats'íís bitł'óól yee biziil ííł'ínígíí, adenosine triphosphate, yee biinéígo hats'íís noosééł dóó yee naha'ná.",
             "entries": [
               {
                 "word": "ats'íís bitł'óól biziil",
-                "literal": "ats'íís bitł'óól = cell, biziil = energy. The cell's energy.",
+                "literal": "ats'íís bitł'óól = cell, biziil = energy. Meaning, cell's energy",
                 "normalized": "atsiis-bitlool-biziil"
               }
             ]
@@ -513,9 +547,11 @@
         "translations": [
           {
             "definition": "Ats'íís iisiihgo ádík'ijį' naalnish yileehgo ats'íís doo bąąhtééh da yę́ę niyiiłchxǫǫh yileeh",
+            "sentence": "Łah da hats'íís yee doo bihodééłníinii, immune system, hats'íístahdi hinááhts'óóz/ats'íís bitł'óól yínól'ah, t'áádoole'é ba'át'e' dahólǫ́ǫgo ats'íís yihodiiłt'ihii át'é nízingo yik'ijį' nídiilnish. Ákót'įįhgo hats'íís yąąh dahooł'aah, autoimmune disease deiłní.",
             "entries": [
               {
                 "word": "ats'íís ádík'ijį' naalnish",
+                "literal": "the body toward its self it directs self defense as disease",
                 "normalized": "atsiis-adikiji-naalnish"
               }
             ]
@@ -537,9 +573,11 @@
         "translations": [
           {
             "definition": "Hináanii t'áá bí ch'iyáán yidooyį́į́łígíí ííł' į́ t'áá ákǫ́ǫ́h binaagóó hólónígíí adinídíín dóó t'áádoole'é ałtah nihwiileehgo ahił nidaalnishígíí bits'ą́ą́ biziil choyooł'į́įgo",
+            "sentence": "Nídíshchíí' ch'iyáán yiyą́ągo doo yiiltséeh da. Éidí éí shánídíín, tó, dóó níłch'i carbon dioxide wolyéhígíí choyooł'į́įgo yee biinéí. Kódaat'éhígíí éí autotrophs wolyé.",
             "entries": [
               {
                 "word": "bich'iiyą' t'áá bí ííł'íinii",
+                "literal": "one that creates its own nutrients",
                 "normalized": "bichiiya-taa-bi-iiliinii"
               }
             ]
@@ -561,10 +599,11 @@
         "translations": [
           {
             "definition": "T'áádoole'é bits'íís bitł'óól t'ááłá'ígo yee hiná ch'osh doo yit'íinii dabijiní",
+            "sentence": "Níla' níníł'į́įgo doo bąąh chiní dashį́į́ nahalin. Tánínánígisgo ch'osh doo yit'íinii doo níla' bee dii chin da.",
             "entries": [
               {
                 "word": "chʼosh doo yitʼínii",
-                "literal": "chʼosh = bug, doo yitʼínii = you can't see.",
+                "literal": "chʼosh=bug, doo yitʼínii= you can't see.",
                 "comment": "Also includes viruses",
                 "normalized": "chosh-doo-yitinii",
                 "audio": "/audio/dine/bacteria-dine.m4a"
@@ -588,9 +627,11 @@
         "translations": [
           {
             "definition": "Ha'át'íi da náádaa łahdę́ę́' ha'át'íi da bił ahiih yilyéehgo bitsiniltł'ish bilááh éí doodago a'oh yileeh  taah ji'áahgo níłch'i hydrogen bitsiniltł'ish náyiilááh",
+            "sentence": "Awoo' bił yich'iishí ádaalne'go bił é'él'íní, baking soda, íiyisíí binahjį' ádeił'į́ háálá éí hazéé'góne' ch'osh doo yit'íinii neiłtseedgo doo danéesée da.",
             "entries": [
               {
                 "word": "ats'íís bee nihwiileehii bá siléíí",
+                "literal": "essential substance for creation of the physical body",
                 "normalized": "atsiis-bee-nihwiileehii-ba-sileii"
               }
             ]
@@ -612,9 +653,11 @@
         "translations": [
           {
             "definition": "Bee iiná hodooleełii nucleotide naakigo ahidii'ash éí ats'íís bitł'óól DNA yileeh",
+            "sentence": "Iiná bitł'óól, DNA, haaz'éí bee hááda'aldahá nahalingo ałk'ééłgis. T'áádoole'é ahiihe'níiłgo bee na'ach'ąąhí nahalingo bee iiná haleehii, base pairs, bee áhodoonííłígíí iiná bitł'óól bita'góne' ahidadidoolyééłígíí bibeehaz'áanii bik'ehgo ahinidééh.",
             "entries": [
               {
                 "word": "ats'íís bee haleehii ałch'į' nanideeh",
+                "literal": "that which becomes a body/person that face one another",
                 "normalized": "atsiis-bee-haleehii-alchi-nanideeh"
               }
             ]
@@ -636,6 +679,7 @@
         "translations": [
           {
             "definition": "Hináanii áát'įįłígíí",
+            "sentence": "Na'ashjé'ii na'atł'o, łííchaaí bitsee' kwííł'į́, éí doodago ayáásh bich'ooní yíká ání, kót'éego dahináanii naaldeehígíí dóó ádaat'įįłígíí éí biniyéii dahólǫ́ǫgo ádaat'į́, éí ááh ha'ní behavior.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -645,6 +689,7 @@
             "entries": [
               {
                 "word": "hináanii áát'įįłgi át'éego",
+                "literal": "the way a living thing acts, behaves",
                 "normalized": "hinaanii-aatiilgi-ateego"
               }
             ]
@@ -666,9 +711,11 @@
         "translations": [
           {
             "definition": "Hináanii bits'íístahdi t'áá ałtso ahił nidaalnishgo yee hiná dóó bits'íís bitł'óól hazhó'ó danéesé",
+            "sentence": "Ch'iyáán yíníyą́ą'go nits'íís éí yee biinéí dooleełígíí yee íidoolííł. Hináanii bits'íís bits'ą́ą́dę́ę́' t'áá ha'át'ííshį́į́ ahił nidaalnishgo bee iinánígíí bee iinéí niheleeh, metabolism éí doodago biochemical reaction deiłní ałdó'.",
             "entries": [
               {
                 "word": "bee iináanii nidaalnish",
+                "literal": "by means of life they are in process",
                 "normalized": "bee-iinaanii-nidaalnish"
               }
             ]
@@ -690,6 +737,7 @@
         "translations": [
           {
             "definition": "Iiná ał'ąą ádaat'éego bits'ą́ą́dóó ayoonaałígíí éí díí dahináanii t'áá ałtso, bik'ehgo yee oołchíiłii dóó naaldeehgo bá nahaz'áą́góó dóó hózhǫ́ǫgo bá dahoo'a'gi",
+            "sentence": "Halgai di iiná ałtaas'éí, biodiversity, éí hosh, jaa' abaní, na'ashǫ́'iiłbáhá, dahyiitį́hí, dóó ch'osh ahił naaldeehgo bee hózhǫ́ǫgo nahaz'ą́.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -699,6 +747,7 @@
             "entries": [
               {
                 "word": "hináanii ał'ąą ádaat'éhígíí",
+                "literal": "where different forms of living things exist",
                 "normalized": "hinaanii-alaa-adaatehigii"
               }
             ]
@@ -720,9 +769,11 @@
         "translations": [
           {
             "definition": "Níłch'i nitrogen, t'eesh carbon dóó t'áádoole'é doo dahináanii bits'ą́ą́dę́ę́' dahólónígíí inorganic substances bił ááhoo'níiłgo bił hoogáałígíí hináanii nídanidlį́ dóó nahasdzáán bikáá'góó ał'ąą nídadilzhish",
+            "sentence": "Tó náhoodleełgo nahasdzáán yee hadít'éii' dóó dahináanii bits'ą́ą́dę́ę́' ahił nidaalnishgo nahasdzáán bikáá'góó tó náhoodleełgo ádayósin. K'os dahaleeh, aho'niiłtį́į́h, ch'il nanise tó bitahgóó dahaleeh, tó hót'ááh dahidishegéésh.",
             "entries": [
               {
                 "word": "nahasdzáán iiná ánáyoodlííł",
+                "literal": "earth sustains and regenerates life",
                 "normalized": "nahasdzaan-iina-anayoodliil"
               }
             ]
@@ -744,10 +795,11 @@
         "translations": [
           {
             "definition": "Dahináanii t'áá ałtso baa nahodigį'go naalkaah",
+            "sentence": "Iiná naalkaah dóó bíhoo'aahgóne', ayoonaał dóó ał'ąą anídaa'nííłgo nídahodilzhish éí bíhoo'aah, hinááhts'óóz danilį́įgo dahináádę́ę́' dóó t'áá át'éé nít'ę́ę́' iiná bee ááhoo'níiłgo hoogááłígíí.",
             "entries": [
               {
                 "word": "iiná naalkaah",
-                "literal": "iiná = life, naalkaah = study. means to study life.",
+                "literal": "iiná=life, naalkaah= study. means to study life.",
                 "normalized": "iina-naalkaah"
               }
             ]
@@ -769,9 +821,11 @@
         "translations": [
           {
             "definition": "Nahasdzáán bikáagi haashį́į́ honíłtso haz'ą́ągo nanise' dóó naaldeehii bá yá'áhoot'éehgo bił hoolzhish",
+            "sentence": "Halgai di haz'ą́ągo éí t'áá sahdii át'éego iiná hólǫ́. Nanise' ałtaas'éí dóó hináanii naaldeehii nizhónígo naaldeeh níłtsą́ t'įįhdígo nidi yee éí doodago t'áágééd nidi.",
             "entries": [
               {
                 "word": "iina bá yá'áhoot'éehgo haz'ą́",
+                "literal": "a place where it is good for and life is sustainable",
                 "normalized": "iina-ba-yaahooteehgo-haza"
               }
             ]
@@ -793,6 +847,7 @@
         "translations": [
           {
             "definition": "Nahasdzáán bikáá'góó áhoołts'óózígo honít'i'go iiná bináhaazlá",
+            "sentence": "Iiná bee hahodít'éégóó éí nahasdzáán bikáá'góó hináanii bá nahaz'ą́ą́góó kéédahat'į́.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -802,6 +857,7 @@
             "entries": [
               {
                 "word": "hináanii bee hahodít'éegi",
+                "literal": "a place where it is prepared for living things",
                 "normalized": "hinaanii-bee-hahoditeegi"
               }
             ]
@@ -823,6 +879,7 @@
         "translations": [
           {
             "definition": "Nahasdzáán bikáá'góó hináanii kéédahat'į́įgo bił nahaz'ánígíí hináanii t'áá át'é yiłdi'ígíí",
+            "sentence": "Nanise' nooséełgo hináago naaleehii ch'il deiyánígíí, herbivores, dóó bits'ą́ą́dóó naałniih atída'ał'íinii, pathogens, beinít'įįhgo noosééł yę́ę yiníłtł'a doo.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -832,6 +889,7 @@
             "entries": [
               {
                 "word": "hináanii ahił nidaalnish",
+                "literal": "organisms that work together or affect one another",
                 "normalized": "hinaanii-ahil-nidaalnish"
               }
             ]
@@ -853,9 +911,11 @@
         "translations": [
           {
             "definition": "Bíla'ashdla'ii kééhat'į́įgi t'áá hoolzhishgóne' t'áá át'é yéélta'go dóó éí hoolzhishígíí haashį́į́ néelą́ą́' ániid náádaazhchínígíí yéélta'go ałhąą naa'nil.",
+            "sentence": "Dá'ák'eh bikáa'gi neeznádiin béégashiits'a'ii béégashiiyáázh naadiin deishchį́. Áko á'nídadii'níi doo, béégashiiyáázh daazhchínígíí béégashiitsa'ii bik'eh nít'į́įgo wólta'go éí t'ááłá'í sizį́ t'áá bich'į'di, ó.ąó bíighahgo deishchį́į doo dá'ákehdi. (Naadiin béégashiiyáázh yizhchínígíí / neeznádiin béégashiitsa'ii bik'eh nítį́įgo éí ó.ąó bíighahgo nidahaazhchį́į doo)",
             "entries": [
               {
                 "word": "nida'iichííh yéélta'ígíí",
+                "literal": "birthing that are counted",
                 "normalized": "nidaiichiih-yeeltaigii"
               }
             ]
@@ -877,10 +937,11 @@
         "translations": [
           {
             "definition": "Bíla'ashdla'ii bits'íístoo' dóó hináago naaldeehii bits'íístoo' bits'íístahgóó dóó bits'íís bitł'óól biyi'góó níłch'i dóó ch'iyáán dóó yee hináanii ayiił'eeł áádóó ats'íís ałtso choyoos'įįdii níláhgóó ats'á yiile",
+            "sentence": "Nits'íís doo naalnish da doo dił t'óó ahayóí bąąh háágo'go, háálá dił níłch'i bii' hólǫ́ dóó ch'iyáán bibee adziil dóó iináanii nits'íís yee naha'ná éí yinízin.",
             "entries": [
               {
                 "word": "dił",
-                "literal": "dił = blood",
+                "literal": "blood",
                 "normalized": "dil",
                 "audio": "/audio/dine/blood-dine.m4a"
               }
@@ -903,9 +964,11 @@
         "translations": [
           {
             "definition": "Chil dóó nanise' ał'ąą ádaat'éii naalkaah",
+            "sentence": "Nanise' ałtaas'éí, botany, bíhojiił'aahgo éí ch'Il dóó nanise' ádaat'éí nidaalnish, nidanise' dóó háádahiniséhígíí bíhojiił'aah.",
             "entries": [
               {
                 "word": "nanise' ałtaas'éí naalkaah",
+                "literal": "all forms of plants studied",
                 "normalized": "nanise-altaasei-naalkaah"
               }
             ]
@@ -927,10 +990,11 @@
         "translations": [
           {
             "definition": "Ats'íís bii' siléí ats'íís t'áá át'é naalnishgo áyósin, ádahoot'éii t'áá ałtso yaa ákonízin dóó yénálniih, dóó bik'izhdiitáanii baa nitsídzíkees dóó háni' nilíinii yiyoołnaał",
+            "sentence": "Nitsiighąą' éí bee nitsíníkees, yáníłti', nahí'ná, dóó éénílniih.",
             "entries": [
               {
                 "word": "atsiighąąʼ",
-                "literal": "ghąąʼ = matter. atsii = heads. So the \"matter in your head\"",
+                "literal": "ghąąʼ= matter (brain); atsii= heads. So the \"matter or brain in your head\"",
                 "normalized": "atsiighaa",
                 "audio": "/audio/dine/brain-dine.m4a"
               }
@@ -953,9 +1017,11 @@
         "translations": [
           {
             "definition": "Hináago naaldeeh dóó nidaat'a'ii binaagóó áhoot'éhígíí yee hadiit'įįhgo doo yit'į́į da yileeh",
+            "sentence": "Gahtsoh éí dadiniltso áko łeezh yedaałt'éego bił nidoodiłígíí doo boo'į́į da.",
             "entries": [
               {
                 "word": "bee na'nit'inii",
+                "literal": "by means of that which one is not seen",
                 "normalized": "bee-nanitinii"
               }
             ]
@@ -977,6 +1043,7 @@
         "translations": [
           {
             "definition": "Ch'iyáán íiyisíí bee ats'íís bidziil dóó biinéí áyósinígíí. Łikání t'éí át'é.",
+            "sentence": "Nits'íís éí ch'iyáán t'áádoo hodina'í náálkąąłígíí, carboydrates, łees'áán dóó nímasii ádaat'éii choyooł'į́įgo yee bidziil dóó biinéí.",
             "entries": [
               {
                 "word": "łikání bich'į' iinéí",
@@ -1001,9 +1068,11 @@
         "translations": [
           {
             "definition": "Níłch'I carbon dioxide wolyéhígíí hót'ááhgóó dóó níłch'I bitahgóó, dahináanii bitahgóó dóó táyi'góó hoo'nááłgo ahééhwiilzhíísh",
+            "sentence": "T'eesh náhoodleeł nahasdzáán bikáá'góó éí bee t'eesh atom yee hadít'éhígíí nahasdzáán yináálzhish. Dahináánii naaldeehígíí daninéego bits'íís diłdzid dóó łeezh nináhádleeh, nanise dóó tsin bee dahidínísé, Áłk'idą́ą́' dahiháanii bits'íís ni'bitł'áahdi nídaasdlį́į́'ígíí dadilidgo bee nida'anish, dóó tó niteel hináanii biníłch'i, carbon dioxide, biih dahishigéésh.",
             "entries": [
               {
                 "word": "níłch'i carbon dioxide náhoodleeł",
+                "literal": "níłch'i=air(gaseous substance); carbon=t'eesh(remains of oxidation or burning of organic material); dioxide=níłch'i ligaii(white air/gas); náhoodleeł=occurring again and again(cycle) \\",
                 "normalized": "nilchi-carbon-dioxide-nahoodleel"
               }
             ]
@@ -1025,6 +1094,7 @@
         "translations": [
           {
             "definition": "Hináanii naaldeehii naaldeehii deiyánígíí",
+            "sentence": "Násdóítsoh biwoo' háádahaashxchii'go áyóo dadeení éí yee naaldlooshii bits'į' nidayiiłdlaadgo deiyą́, háálá éí naaldeehii daʼalghałígíí ádaat'é.",
             "see_also": [
               {
                 "word": "naaldeehii",
@@ -1034,7 +1104,7 @@
             "entries": [
               {
                 "word": "naaldeehii daʼalghałígíí",
-                "literal": "naaldeehii = animals; daʼalghałígíí = eaters or butchers.",
+                "literal": "naaldeehii=animals; daʼalghałígíí=eaters or butchers.",
                 "normalized": "naaldeehii-daalghaligii"
               }
             ]
@@ -1056,6 +1126,7 @@
         "translations": [
           {
             "definition": "Naaldlooshii haashį́į́ néelt'e'go íiyisíí kéyah bikáá'go da' ayą́ągo bihonéedzą́",
+            "sentence": "Bee hane'í nidaajaahígíí yee nidaalnishígíí, cell phone apps, t'óó ahayóí biih jiniłgo doo tsį́įłgo naalnish da, doodago doo naalnish da yileeh. Nahasdzáán biyi' dóó bikáá'góó, environment, t'áá ákót'é. Nahasdzáán choyooł'íinii haashį́į́ néelt'e'go t'éí yíká análwo'go bihonéedzą́.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -1065,6 +1136,7 @@
             "entries": [
               {
                 "word": "hináanii kéyah choyooł'į́",
+                "literal": "hináanii=living things; kéyah=land; choyooł'į́=they use it. Living using their land. (the perspective is that anything needed for life is used which includes places where they are located to be safe and survive, water and medicine that grow there all the time.)",
                 "normalized": "hinaanii-keyah-choyooli"
               }
             ]
@@ -1086,9 +1158,11 @@
         "translations": [
           {
             "definition": "Bee adiiltłáadii t'áadoole'é ahidiilyéego bee bina'anishígíí",
+            "sentence": "Ha'át'íi da ahizhdiiléego, reaction, doo ádooníił da doo nawólníígóó éí t'áádoole'é bee adiiltłáád, catalyst, choo'į́įgo ahił dinish dóó ahidíníidah. T'óó bee hane'go abe' bitahdi lactase hólǫ́",
             "entries": [
               {
                 "word": "bee adiiltłáadii",
+                "literal": "bee=by means of that, adiiltłáadii=a spark is created. By means of that which a spark is created",
                 "normalized": "bee-adiiltlaadii"
               }
             ]
@@ -1121,31 +1195,32 @@
         "translations": [
           {
             "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́.",
             "entries": [
               {
                 "word": "ats’íís bik’ǫ́ǫ́’",
-                "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
+                "literal": "ats’íís=body , bi=its, k'=='=seed.",
                 "comment": "need a microscope to look at it",
                 "normalized": "atsiis-bikoo",
                 "audio": "/audio/dine/cell-microscope-dine.m4a"
               },
               {
                 "word": "ats'íís bitł'óól",
-                "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
+                "literal": "ats’íís= body, bi=it, tats’íís= body, bi=it, tł’óól= strand.",
                 "comment": "refers to DNA in cell. Often used when talking about cancer",
                 "normalized": "atsiis-bitlool",
                 "audio": "/audio/dine/cell-dna-dine.m4a"
               },
               {
                 "word": "hinááhts'ózí",
-                "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
+                "literal": "hinááh = living unit, ts'ózí=small, primal. Means \"small primal unit of life\"",
                 "comment": "Shorthand of the formal word",
                 "normalized": "hinaahtsozi",
                 "audio": "/audio/dine/cell-short-form-dine.m4a"
               },
               {
                 "word": "hinááhts'óóz",
-                "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
+                "literal": "hinááh = living unit, ts'óóz=slender, primal. Means \"slender primal unit of life\"",
                 "comment": "Formal word",
                 "normalized": "hinaahtsooz",
                 "audio": "/audio/dine/cell-formal-dine.m4a"
@@ -1169,10 +1244,11 @@
         "translations": [
           {
             "definition": "Ats'íís bitł'óól ałts'á níséehgo bee ats'íís bitł'óól ániidígíí náhoodleeł",
+            "sentence": "Ch'osh doo yit'íinii, E. Coli gi ádaat'éhígíí, bíla'ashdla'ii dóó hináanii naaldeehii bitsą́ądi dahólónígíí áłts'ą́ dahiniséego yee ahoolchííł, t'ááłá'í si'ánígíí ádéé'iil'įįh áádóó ałts'á' ash.",
             "entries": [
               {
                 "word": "ats'íís bitł'óól ałts'á dahinisé",
-                "literal": "ats'íís bitł'óól = cell. ałts'á = seperate. dahinisé = pulling. Meaning, a cell pulling to seperate.",
+                "literal": "(body) cells growing apart",
                 "normalized": "atsiis-bitlool-altsa-dahinise"
               }
             ]
@@ -1194,10 +1270,11 @@
         "translations": [
           {
             "definition": "Ats'íís bitł'óól bik'ésti'í éí ak'ah bizhool dóó ch'iyáán ats'íís hasht'ééyooldlíiłii bizhool bee ályaago ats;íís bikésti'",
+            "sentence": "Hinááhts'ózí/ats'íís bitł'óól bik'ésti'ii, cell membrane, éí bikágí át'é. Éí bee binaagóó bee hodít'éii bits'ąą t'áá sahdii hólǫ́",
             "entries": [
               {
                 "word": "ats'íí bitł'óól bik'ésti'í",
-                "literal": "ats'íí bitł'óól  = cell. bik'ésti'í = cover. Meaning, the cover of the cell.",
+                "literal": "covering for the (body) cells",
                 "normalized": "atsii-bitlool-bikestii",
                 "audio": "/audio/dine/cell-membrane-dine.m4a"
               }
@@ -1220,9 +1297,11 @@
         "translations": [
           {
             "definition": "Chil nanise', ch'osh doo yit'íinii dóó naaldeehii danilínígíí  yee nanise' dóó nanit'ąígíí bikágí.",
+            "sentence": "Azee' penicillin éí ats'íístahdi ba'at'é dahólóonii, ch'osh doo yit'íinii ádaat'éii, yik'ijį' naalnishgo bikágí doo ádeił'į́į da áko doo dahiinaah da. Éí biniyé azee'ííł'íní há yóki'.",
             "entries": [
               {
                 "word": "nanise' bihinááhts'óóz bikágí",
+                "literal": "skin of plant cells",
                 "normalized": "nanise-bihinaahtsooz-bikagi"
               }
             ]
@@ -1244,9 +1323,11 @@
         "translations": [
           {
             "definition": "Ats'íís bitł'óól yee biinéí dóó hinánígíí yee ádinaalnishígíí",
+            "sentence": "Hinááhts'ózí/ats'íís bitł'óól biyi'di níłch'i, oxidation, yee naalnish dóó biziil, energy, ííł'į́įgo si'ą́ éí bee hinááhts'ózí biníłch'i nihwiileehgo ch'iyáán yidiłid. Éí bits'ą́ą́dóó hinááhts'ózí biinéí dóó bidziilgo naalnish.",
             "entries": [
               {
                 "word": "nanise' binéí á'dólzin",
+                "literal": "plants makes it energy",
                 "normalized": "nanise-binei-adolzin"
               }
             ]
@@ -1268,10 +1349,11 @@
         "translations": [
           {
             "definition": "T'áá ha'át'íi da protons dóó electrons bináhaazléí wólta'go bitsiniltł'ish ánéelt'e dóó ábóodziilígíí",
+            "sentence": "Ha'át'íi da t'áá ałtsoní bee ályaii, element, ła' biyi'di bitsíniltł'ish shá bik'ehgo siláhígíí, proton, dóó bikáá'gónaa bitsiniltł'ish shádáahjigo siláhígíí, electrons, ahee néelt'e'go doo háajigo da bitsiniltł'ish na'ałkid da, neutral charge, łeh. Bitsiniltł'ish shá bik'ehgo siláhígíí t'ááłá'í bee atis ánéelt'e'go éí atsinilt'ish, charge, shábik'ehgo na'ałkidígíí, positive, t'ááłá'í bee bilááh doo. Bitsiniltł'ish shádáahjigo siláhígíí t'ááłá'í bee atis ánéelt'e'go éí atsinilt'ish, charge, shádáahjigo na'ałkidígíí, negative, t'ááłá'í bee bilááh doo.",
             "entries": [
               {
                 "word": "atsiniltł'ish",
-                "literal": "Literal translation: lightning/electricity.",
+                "literal": "electricity; charge",
                 "normalized": "atsiniltlish"
               }
             ]
@@ -1293,9 +1375,11 @@
         "translations": [
           {
             "definition": "Ha'át'íi da t'ááłáhági át'éego hadít'é dóó t'ááłáhági át'éego naalnishígíí",
+            "sentence": "Tó éí ha'át'íi da t'áá ałtsóní bee ályaii, element, díkwíi da ałtah ályaii, chemical, át'é éísh baa ákonínízin? Tó t'ááłá'í hadaałt'éego si'ánígíí, molecule, níłch'ih łikoní ászólí naakigo dóó níłch'ih łigaií, oxygen, t'ááłá'ígo bił ahii'sinilgo da'ahótą' éí bąą Hąó bee wójí dóó naaltsoos bikáá' áł'į́.",
             "entries": [
               {
                 "word": "ha'át'íi da doo łahgo ánéehii",
+                "literal": "something that does not change",
                 "normalized": "haatii-da-doo-lahgo-aneehii"
               }
             ]
@@ -1317,9 +1401,11 @@
         "translations": [
           {
             "definition": "T'áádoole'é yee bidziilii yee ałch'į' bótá'ii. Díí ałtsá'niłgo yee bidziilii áyóó' át'éego sidogo bits'áshígish",
+            "sentence": "Nichi'dí éí doodago bee hane'í nani'áhígíí bijéí biyi'di bitoo' dóó bee ályaii ahił nidaalnishgo bits'ą́ą́dóó biziil náhoodleełgo bee hane'í naalnish.",
             "entries": [
               {
                 "word": "t'áádoole'é biziil",
+                "literal": "anything its energy",
                 "normalized": "taadoolee-biziil"
               }
             ]
@@ -1341,9 +1427,11 @@
         "translations": [
           {
             "definition": "Ha'át'íi da t'ááła' bizhi'go t'áá náó'nííłgo bits'ą́ą́dóó t'áá ha'át'ííshį́į́ náádleeł doo áko bee ályaii yee da'áhótą'ígíí ałts'á há'nííł éí doodago łahgo át'éego ádaalne'",
+            "sentence": "Ootseed álnéehgo choo'ínígíí éí béésh nitł'izí nickel dóó béésh łigaii silver bee látsíní da ádaalne' áko bééshígíí níłch'i łigaií oxygen bił ałtah yileeh éí bąą nikágí t'iis bit'ąą' nahalingo dootł'izh doo.",
             "entries": [
               {
                 "word": "t'áádoole'é łahgo áániił",
+                "literal": "anything differently it becomes",
                 "normalized": "taadoolee-lahgo-aaniil"
               }
             ]
@@ -1365,9 +1453,11 @@
         "translations": [
           {
             "definition": "Hinááts'ózí cells binaagóó ha'át'íi da doo hináanii bits'ą́ą́dę́ę́' dahólónígíí yee biinéí doo bidziil dooígíí t'áá bí ííł'į́",
+            "sentence": "Dahináanii binaagóó áhoot'éhígíí bee t'áá bí biziil energy ánayoodlííłígíí doo hats'íí ádahoot'éedi dahiná tó sidoh hadaazlį́įgi éí doodago tó niteel bitł'áahdi nahasdzáán biyi'dę́ę́' hadahonigahgóó dahiná.",
             "entries": [
               {
                 "word": "t'áádoole'é adinídíín yee biziil ánáyoodlííł",
+                "literal": "anything that",
                 "normalized": "taadoolee-adinidiin-yee-biziil-anayoodliil"
               }
             ]
@@ -1389,6 +1479,7 @@
         "translations": [
           {
             "definition": "Nanise' yee dadootł'izhígíí adinídíín (shánídíín) łahgo áyiił'įįhgo bee bitoo' naalnish yileehgo biinéí",
+            "sentence": "Nanise' ałtaas'éí plants ał'ąą át'éego bee nidaashch'ąą'ígíí, t'iis bit'ąą'go dootł'izhígíí yee shánídíín yił naalnishgo bits'ą́ą́dóó biziil, energy, ádá ííł'į́, áádóó tł'óó'góó shánídíín náyiilááhígíí, solar panels, biyi'di bik'i' diidíingo atsiniltł'ish yee ííł'į́, éí ákódaat'éhígíí bii'dii yee hadít'éii ahił nidaalnish bits'ą́ą́dóó yee hináá dóó yee bidziilii ádeił'į́.",
             "entries": [
               {
                 "word": "nanise' bitoo' dootł'izhí",
@@ -1414,6 +1505,7 @@
         "translations": [
           {
             "definition": "Nanise' bihiináts'ózí biyi'di si'ą́ągo adinídíín yee binéí áyosinígíí",
+            "sentence": "Nanise' yee dadootł'izhígíí éí shánídíín náyiiláhí, solar panels, beełt'éego nanise' bii' hólǫ́. Nanise' biyi'di, chloroplasts, yee biziil ádá ííł'ínígíí éí tł'óó'góó shánídíín náyiiláhá t'óó ahayóí sinil nahalingo baa nitsíikees.",
             "entries": [
               {
                 "word": "nanise' biziil ííł'íní",
@@ -1439,6 +1531,7 @@
         "translations": [
           {
             "definition": "Iiná bitł'óól nídahineeshzhee'go ats'íís bitł'óól biyi'di dahólónígíí",
+            "sentence": "Bíla'ashdla'ii bits'íís biyi'di iiná bitł'óól, DNA, ałk'ídeesdizgo ats'íís bitł'óól bii' siláhígíí, chromosome, naadiintáá' bii' hólǫ́ éí naakidi bééda'alyaago, two copies, hats'íís bii'silá. Hái da díí chromosome béé'ályaaígíí t'ááłá'í bee bilááh bee hólǫ́ǫgo éí doodago iiná bitł'óól ałk'ídeesdizí naadiinła'góne si'ánígíí t'áá bighąądígi bił yizhchį́įgo éí Down Syndrome bee bąąh dahaz'ą́ągo doochííł.",
             "entries": [
               {
                 "word": "iiná bitł'óól bit'oh",
@@ -1464,6 +1557,7 @@
         "translations": [
           {
             "definition": "Niyiiłkaah dóó aná'át'áahjį' hats'íís biyi'di ajiłhosh, ninájílnish dóó hasht'ez dít'é bee bíhólníihgo nijigháhígíí",
+            "sentence": "Circadian rhythm éí hináanii bits'íís yee jį́įgo dóó tł'ée'go ahééh hwiilzhííshígíí yik'ehgo naaldeeh dóó nidanise'ígíí óolyé. Nidíyílii abinígo háá'áago bílátah hózhóón ha'a'aahjigo niiłki' éí shá yíka'ałkidgo át'į́.",
             "entries": [
               {
                 "word": "habił dóó ts'ísee háni' nilį́",
@@ -1488,6 +1582,7 @@
         "translations": [
           {
             "definition": "Hats'íístahgóó hadił nidaazlį́įgo bee níłch'i dóó ch'iyáán hats'íís bitah hólǫ́ǫgo áyósin áádóó hats'íís ałtso choyoos'įįdígíí hats'áyiiléego jiinánígíí. Kót'éego binaanishígíí éí hajéídíshjool, hats'oos łichí'í dóó hats'oos dootł'izhí.",
+            "sentence": "Hadił hódahgo na'ałkidgo hats'íístahgóó hats'óós dóó dił yee hadít'éhígíí doo hazhó'ó naalnish da háálá hajéídíshjool yéego yich'į' naaldzilgo hadił t'áá át'é náásgóó ayiiłt'ood.",
             "entries": [
               {
                 "word": "hats'oos",
@@ -1512,9 +1607,11 @@
         "translations": [
           {
             "definition": "Nahasdzáán bikáá'góó dóó hót'ááhgóó áhoot'éhígíí hado dóó hak'az, níłtsą́, dóó nídaadzasígíí łahgo áániił. T'áá bí éí łahgo ánáánííł nít'ę́ę́' k'adgo níłch'i carbon dioxide wolyéhígíí bilááh ánéelt'e' silį́į́' ałk'idą́ą́' dahináanii bik'éé dahwiilzhiizhii bits'ą́ą́dóó kǫ' choo'į́įgo biniinaa níłch'i ał'ąą ánáá'nííł łahgo áyiilaa.",
+            "sentence": "Tł'óógóó níłch'i ał'ąą ánáá'nííłígíí łahgo áániił silį́į́'ígíí bits'ą́ą́'dóó hado, hak'az, níłtsą́ dóó níyol doo deeghánídi bilááhgóó nidaalnish éí bąą ayóo deesdoiígíí bits'ą́ą́dóó díí Kéyah Ahii'sinil shádi'ááh dóó e'e'aahjí nahós'a'góó doo nidahałtin da.",
             "entries": [
               {
                 "word": "níłch'i ał'ąą ánáá'nííł łahgo áániił",
+                "literal": "atmospheric conditions that change seasonably to extreme they change",
                 "normalized": "nilchi-alaa-anaaniil-lahgo-aaniil"
               }
             ]
@@ -1539,6 +1636,7 @@
             "entries": [
               {
                 "word": "t'ááłáhági kéédahat'į́",
+                "literal": "living in one place together",
                 "normalized": "taalahagi-keedahati"
               }
             ]
@@ -1563,6 +1661,7 @@
             "entries": [
               {
                 "word": "bee iináanii ałghaadzį́į́s",
+                "literal": "life resource fighting over it/taking it away from one another",
                 "normalized": "bee-iinaanii-alghaadziis"
               }
             ]
@@ -1587,6 +1686,7 @@
             "entries": [
               {
                 "word": "báhádzidii ayánígíí",
+                "literal": "toxic substance that eats away/wears away/deterioates",
                 "normalized": "bahadzidii-ayanigii"
               }
             ]
@@ -1617,7 +1717,7 @@
             "entries": [
               {
                 "word": "hinááhts'ózí biyi' di bijéí binaagóó hólónígíí",
-                "literal": "hinááhts'ózí biyi' di bijéí = nuclues (heart of the cell). binaagóó = surrounding. hólónígíí = exists. Meaning, \"it exists around the nuclues\".",
+                "literal": "hinááhts'ózí biyi' di bijéí = nuclues (heart of the cell). binaagóó = surrounding. hólónígíí = exists. Meaning, \"the contents of a cell around the nucleus\"",
                 "normalized": "hinaahtsozi-biyi-di-bijei-binaagoo-holonigii"
               }
             ]
@@ -1642,6 +1742,7 @@
             "entries": [
               {
                 "word": "bee ééhóznii yéélta'ii",
+                "literal": "facts/evidence that compiled and counted",
                 "normalized": "bee-eehoznii-yeeltaii"
               }
             ]
@@ -1666,6 +1767,7 @@
             "entries": [
               {
                 "word": "łahgo haz'ą́ bii' anoonééł",
+                "literal": "deaths in a given area",
                 "normalized": "lahgo-haza-bii-anooneel"
               }
             ]
@@ -1696,6 +1798,7 @@
             "entries": [
               {
                 "word": "hináanii diłdzid",
+                "literal": "break down/deterioation",
                 "normalized": "hinaanii-dildzid"
               }
             ]
@@ -1726,6 +1829,7 @@
             "entries": [
               {
                 "word": "hináanii diłdzidgo leezh náádleeł",
+                "literal": "living thing/things breaking down and becoming soil",
                 "normalized": "hinaanii-dildzidgo-leezh-naadleel"
               }
             ]
@@ -1750,6 +1854,7 @@
             "entries": [
               {
                 "word": "hóółtséigo dzígai",
+                "literal": "place where nothing grows and dry",
                 "normalized": "hooltseigo-dzigai"
               }
             ]
@@ -1774,6 +1879,7 @@
             "entries": [
               {
                 "word": "nishigizh",
+                "literal": "movement away from heavier to lighter concentration",
                 "normalized": "nishigizh"
               }
             ]
@@ -1798,6 +1904,7 @@
             "entries": [
               {
                 "word": "ch'iyáán náyoołkąąłii",
+                "literal": "that which breaks down food to watery substance, usually sweet",
                 "normalized": "chiyaan-nayoolkaalii"
               }
             ]
@@ -1828,7 +1935,7 @@
             "entries": [
               {
                 "word": "hinááhts'ozí iiná bitł'óól naaki bee hólǫ́",
-                "literal": "hinááhts'ozí = cell. iiná bitł'óól = DNA. naaki = two. bee hólǫ́ = it has. Meaning, cell with 2 DNA.",
+                "literal": "(body) cell having two chromosomes",
                 "normalized": "hinaahtsozi-iina-bitlool-naaki-bee-holo"
               }
             ]
@@ -1853,6 +1960,7 @@
             "entries": [
               {
                 "word": "ąąh dahaz'ą́",
+                "literal": "disease that dibilitates a body or living thing",
                 "normalized": "aah-dahaza"
               }
             ]
@@ -1877,7 +1985,7 @@
             "entries": [
               {
                 "word": "iiná bitł'óól",
-                "literal": "iiná = life, bitł'óól = strands. meaning \"strands of life\"",
+                "literal": "iiná = life, bitł'óól = strand. Meaning \"strand of life\"",
                 "normalized": "iina-bitlool",
                 "audio": "/audio/dine/dna-dine.m4a"
               }
@@ -1903,7 +2011,7 @@
             "entries": [
               {
                 "word": "iiná bitł'óól ádéé'alnééh",
-                "literal": "iiná bitł'óól = DNA. ádéé'alnééh = copy. Meaning, \"DNA copying itself\"",
+                "literal": "iiná bitł'óól = DNA. ádéé'alnééh = copy. Meaning, \"a strand of life copying itself\"",
                 "normalized": "iina-bitlool-adeealneeh"
               }
             ]
@@ -1928,6 +2036,7 @@
             "entries": [
               {
                 "word": "bee ats'íís haleehii alą́ąjį' naalnish",
+                "literal": "basic substance of life that works ahead of others",
                 "normalized": "bee-atsiis-haleehii-alaaji-naalnish"
               }
             ]
@@ -1958,6 +2067,7 @@
             "entries": [
               {
                 "word": "bee ats'íís haleehii alą́ąjį' naalnish bee ájít'é yileehii",
+                "literal": "basic substance of life that works ahead of others that forms one's being",
                 "normalized": "bee-atsiis-haleehii-alaaji-naalnish-bee-ajite-yileehii"
               }
             ]
@@ -1988,6 +2098,7 @@
             "entries": [
               {
                 "word": "naaldeehii bił haz'ą́",
+                "literal": "learning the environment of how living things live together",
                 "normalized": "naaldeehii-bil-haza"
               }
             ]
@@ -2018,6 +2129,7 @@
             "entries": [
               {
                 "word": "hináanii bił haz'ą́",
+                "literal": "the place where living things exist",
                 "normalized": "hinaanii-bil-haza"
               }
             ]
@@ -2042,6 +2154,7 @@
             "entries": [
               {
                 "word": "naaldeehii yee sizilí",
+                "literal": "the means of body heat for living things",
                 "normalized": "naaldeehii-yee-sizili"
               }
             ]
@@ -2073,6 +2186,7 @@
               },
               {
                 "word": "k'eelyéí",
+                "literal": "seed; seedling",
                 "normalized": "keelyei"
               }
             ]
@@ -2097,6 +2211,7 @@
             "entries": [
               {
                 "word": "atom bináhaazléí",
+                "literal": "that which surrounds an atom",
                 "normalized": "atom-binahaazlei"
               }
             ]
@@ -2121,6 +2236,7 @@
             "entries": [
               {
                 "word": "áʼádaatʼéhígíí",
+                "literal": "matter or substances that make all that exists",
                 "normalized": "aadaatehigii"
               }
             ]
@@ -2145,6 +2261,7 @@
             "entries": [
               {
                 "word": "ch'ída'iinééh",
+                "literal": "people moving out",
                 "normalized": "chidaiineeh"
               }
             ]
@@ -2169,6 +2286,7 @@
             "entries": [
               {
                 "word": "ats'íís sizilígíí",
+                "literal": "from within the body the means of heat",
                 "normalized": "atsiis-siziligii"
               }
             ]
@@ -2194,7 +2312,7 @@
             "entries": [
               {
                 "word": "’ahóodziil",
-                "literal": "’ahóodziil = energy. (you modify the a depending what you're talking about)",
+                "literal": "biziil; ’ahóodziil= energy. (you modify the a depending what you're talking about)",
                 "normalized": "ahoodziil"
               }
             ]
@@ -2218,6 +2336,7 @@
             "entries": [
               {
                 "word": "shá biziil dahináanii bitah silį́į́'ígíí",
+                "literal": "Sun's energy contained in a living thing's body",
                 "normalized": "sha-biziil-dahinaanii-bitah-siliiigii"
               }
             ]
@@ -2242,6 +2361,7 @@
             "entries": [
               {
                 "word": "kéyah bikáa'gi haz'ánígi",
+                "literal": "an area on land",
                 "normalized": "keyah-bikaagi-hazanigi"
               }
             ]
@@ -2266,6 +2386,7 @@
             "entries": [
               {
                 "word": "ch'iyáán yidiłidí",
+                "literal": "something that burns food",
                 "normalized": "chiyaan-yidilidi"
               }
             ]
@@ -2290,6 +2411,7 @@
             "entries": [
               {
                 "word": "akágí",
+                "literal": "skin of things",
                 "normalized": "akagi"
               }
             ]
@@ -2314,6 +2436,7 @@
             "entries": [
               {
                 "word": "ahíhooneel'ą́",
+                "literal": "things are in balance",
                 "normalized": "ahihooneela"
               }
             ]
@@ -2344,7 +2467,7 @@
             "entries": [
               {
                 "word": "hináanii bihinááhts'ózí bijéí dahólónígíí",
-                "literal": "hináanii = life, bihinááhts'ózí=cell, bijéí = heart (here nuclues), dahólónígíí = has. meaning \"life that has cells with a nuclues\"",
+                "literal": "living things that have a heart (nucleus) in their cells",
                 "normalized": "hinaanii-bihinaahtsozi-bijei-daholonigii"
               }
             ]
@@ -2368,6 +2491,7 @@
             "entries": [
               {
                 "word": "bee éédahozinii",
+                "literal": "by means of which something is valid",
                 "normalized": "bee-eedahozinii"
               }
             ]
@@ -2392,6 +2516,7 @@
             "entries": [
               {
                 "word": "ayoonaał",
+                "literal": "living things coming into existence",
                 "normalized": "ayoonaal"
               }
             ]
@@ -2935,6 +3060,7 @@
             "entries": [
               {
                 "word": "hái da bi allele t'áá ałtso",
+                "literal": "someone's allele all of it",
                 "normalized": "hai-da-bi-allele-taa-altso"
               }
             ]
@@ -2959,7 +3085,7 @@
             "entries": [
               {
                 "word": "nahasdzáán naalkaah",
-                "literal": "nahasdzáán = earth, naalkaah = study",
+                "literal": "nahasdzáán=earth, naalkaah= study study of earth",
                 "normalized": "nahasdzaan-naalkaah"
               }
             ]
@@ -2984,6 +3110,7 @@
             "entries": [
               {
                 "word": "nahasdząąn bikáá'góó honiidóóh",
+                "literal": "the earth upon it the heat increases",
                 "normalized": "nahasdzaan-bikaagoo-honiidooh"
               }
             ]
@@ -3008,7 +3135,7 @@
             "entries": [
               {
                 "word": "chʼiyáán náálkąąd bee jiinánígíí",
-                "literal": "chʼiyáán = food, bee jiinánígíí = keeping you alive... means \"something about the food is keeping you alive\"",
+                "literal": "substances from digested food by means of which one has life",
                 "normalized": "chiyaan-naalkaad-bee-jiinanigii"
               }
             ]
@@ -3033,6 +3160,7 @@
             "entries": [
               {
                 "word": "níłch'i hado yiłhidideełii",
+                "literal": "air that captures heat",
                 "normalized": "nilchi-hado-yilhidideelii"
               }
             ]
@@ -3063,6 +3191,7 @@
             "entries": [
               {
                 "word": "hináanii bił haz'ą́",
+                "literal": "place where living things live",
                 "normalized": "hinaanii-bil-haza"
               }
             ]
@@ -3087,7 +3216,7 @@
             "entries": [
               {
                 "word": "iiná bitł'óól t'áá łá'í",
-                "literal": "iiná bitł'óól = DNA. t'áá łá'í = one. Meaning, \"One DNA\".",
+                "literal": "DNA just one (of a pair)",
                 "normalized": "iina-bitlool-taa-lai"
               }
             ]
@@ -3112,6 +3241,7 @@
             "entries": [
               {
                 "word": "naaldlooshii ch'il yiłchozhígíí",
+                "literal": "animals plants they eat those",
                 "normalized": "naaldlooshii-chil-yilchozhigii"
               }
             ]
@@ -3136,7 +3266,7 @@
             "entries": [
               {
                 "word": "bił náás oochíił",
-                "literal": "bił náás = onward/forward. oochíił = birth. Meaning, \"giving birth onward\"",
+                "literal": "things in the reproductive process",
                 "normalized": "bil-naas-oochiil"
               }
             ]
@@ -3634,6 +3764,7 @@
             "entries": [
               {
                 "word": "hinááhts'ózi noosééł",
+                "literal": "cell in period of rest",
                 "normalized": "hinaahtsozi-nooseel"
               }
             ]
@@ -3664,6 +3795,7 @@
             "entries": [
               {
                 "word": "hinááhts'ózí bita'góó",
+                "literal": "between cells",
                 "normalized": "hinaahtsozi-bitagoo"
               }
             ]
@@ -3694,6 +3826,7 @@
             "entries": [
               {
                 "word": "hináanii ach'į' nahwiiłná",
+                "literal": "living thing that causes problems",
                 "normalized": "hinaanii-achi-nahwiilna"
               }
             ]
@@ -3718,6 +3851,7 @@
             "entries": [
               {
                 "word": "bíígháán ádaadinii",
+                "literal": "those that do not have a spine",
                 "normalized": "biighaan-adaadinii"
               }
             ]
@@ -3891,7 +4025,7 @@
             "entries": [
               {
                 "word": "chʼosh doo yitʼínii",
-                "literal": "bug you can't see",
+                "literal": "bug so small that you can't see them",
                 "normalized": "chosh-doo-yitinii"
               }
             ]
@@ -3916,7 +4050,7 @@
             "entries": [
               {
                 "word": "doo yit'íinii bee nél'íní",
-                "literal": "doo yit'íinii = what you can't see. bee nél'íní = looking at with. Meaning, \"looking with at what you can't see\"",
+                "literal": "something used to look at very small objects that cannot be seen",
                 "normalized": "doo-yitiinii-bee-nelini"
               }
             ]
@@ -5397,7 +5531,7 @@
             "entries": [
               {
                 "word": "naʼałkaah",
-                "literal": "naʼałkaah = investigating/research",
+                "literal": "naʼałkaah=investigating/research",
                 "normalized": "naalkaah"
               }
             ]
@@ -5494,7 +5628,7 @@
             "entries": [
               {
                 "word": "naʼałkaahí",
-                "literal": "Naʼałkaahíí = thing that does the investigating \"Reseacher\" . naʼałkaah = research, the íí is what makes it describing.",
+                "literal": "Naʼałkaahíí=thing that does the investigating \"Reseacher\" . naʼałkaah=research, the íí is what makes it describing.",
                 "normalized": "naalkaahi"
               }
             ]
@@ -5565,6 +5699,7 @@
         "translations": [
           {
             "definition": "Ats'íís biyi'di nitł'izgo ats'íís bá naaz'á éí ats'íís yee sizį́ dóó naha'ná",
+            "sentence": "Nihits'íístsin doo hólǫ́ǫ dago éí doo nahii'náa da doo dóó doo siidzį́į da doo, t'áá nihits'íís t'ááłáhági yanáa'áa doo.",
             "entries": [
               {
                 "word": "ats’íísts’in",
@@ -5590,10 +5725,11 @@
         "translations": [
           {
             "definition": "Ats'íís yee hadít'éii, organ, ats'íís bik'ésti'ígíí",
+            "sentence": "Nihikágí éí nihitsą́ siléii bich'ą́ą́h hólǫ́ áko doo tł'óó'dę́ę́' tó baa shidoogish da, áádóó bee nihits'íís sidooígíí dóó ch'ísheegéesh da, dóó naałniih nihihodidoołt'ihii bich'ą́ą́h hólǫ́. Shá áłahjį' bii' nijigháago hakágí tídít'įįhgo ba'át'e' haleeh.",
             "entries": [
               {
                 "word": "akágí",
-                "literal": "akágí = skin (you modify the a depending what you're talking about)",
+                "literal": "akágí= skin (you modify the a depending what you're talking about)",
                 "normalized": "akagi"
               }
             ]
@@ -5698,11 +5834,12 @@
             "entries": [
               {
                 "word": "ak'eelyéí",
+                "literal": "male substance for reproduction",
                 "normalized": "akeelyei"
               },
               {
                 "word": "íígąsh",
-                "literal": "sperm",
+                "literal": "male semen",
                 "normalized": "iigash"
               }
             ]
@@ -5727,6 +5864,7 @@
             "entries": [
               {
                 "word": "atsiighąą' íígháán bii'nít'i'",
+                "literal": "brain material going through the spine",
                 "normalized": "atsiighaa-iighaan-biiniti"
               }
             ]
@@ -5751,6 +5889,7 @@
             "entries": [
               {
                 "word": "łikání nanise' yee hadít'é",
+                "literal": "sweet substance hidden/stored in plants",
                 "normalized": "likani-nanise-yee-hadite"
               }
             ]
@@ -5775,6 +5914,7 @@
             "entries": [
               {
                 "word": "baa hą́ą́hasin",
+                "literal": "careful use of resource",
                 "normalized": "baa-haahasin"
               }
             ]
@@ -5799,6 +5939,7 @@
             "entries": [
               {
                 "word": "ałhee hi'ná",
+                "literal": "living by means of each other",
                 "normalized": "alhee-hina"
               }
             ]
@@ -5823,6 +5964,7 @@
             "entries": [
               {
                 "word": "yízhí dóó óolyéhígíí",
+                "literal": "giving names to things",
                 "normalized": "yizhi-doo-oolyehigii"
               }
             ]
@@ -5847,7 +5989,7 @@
             "entries": [
               {
                 "word": "akéyah",
-                "literal": "would need to specify \"who's land/area\". Kéya is land",
+                "literal": "would need to specify \"who's land/area\". Keya is land",
                 "normalized": "akeyah"
               }
             ]
@@ -5893,6 +6035,7 @@
         "translations": [
           {
             "definition": "Hado bee ayoonaałgo t'áá ha'át'íi da yee hadít'éii, molecules, ahídaha'náahgo yee niidoh dóó bits'á níłdoii",
+            "sentence": "Tó yibéezhgo tó bizhool, water molecules, kǫ' bits'áłdohígíí bee niidohgo nidaha'náago yibéézh yileeh.",
             "entries": [
               {
                 "word": "aziil",
@@ -5917,6 +6060,7 @@
         "translations": [
           {
             "definition": "Hinááhts'ózí t'áá ahedaałt'éego dóó binaanish t'ááłá'ígo",
+            "sentence": "Awóchii' bąąh dahoo'aahgo hawóchii' dadeeshchii', neezhcháád, dóó dił bąąh łeh. Awóchii' bąąh dahwiidoo'aałígíí bits'ąą t'áá ahą́ą́h hawoo' níjích'ish dóó hawoo' bita' niná'zhníłdisgo doo bąąh dahoo'aah da.",
             "see_also": [
               {
                 "word": "hinááhts'óóz",
@@ -5947,6 +6091,7 @@
         "translations": [
           {
             "definition": "Hináanii bił bidizhchínígíí yit'į́ yileehdi",
+            "sentence": "Hatsiighá ánoolninígíí, hanáá' ánoolninígíí, dóó háchį́į́h áníłtsooígíí da éí bee haho'dilyaago ho'dizhchínígii hamá dóó hazhé'é yee hadít'éhígíí bił ho'dichííhígíí óolyé.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -5956,6 +6101,7 @@
             "entries": [
               {
                 "word": "hináanii át'é nilį́įgi",
+                "literal": "the way a living thing is",
                 "normalized": "hinaanii-ate-niliigi"
               }
             ]
@@ -5977,6 +6123,7 @@
         "translations": [
           {
             "definition": "Hináanii ayą́ągo hiná dóó áadi ha'át'ííshį́į́ bich'iiyą' nánídlį́į́góne'",
+            "sentence": "Nanise' ałtaas'éí ts'ídá alą́ąjį' ch'iyáán nilį́ nahasdzáán bikáa'góó ch'iyáán siláago bee hahodít'éhígíí. Hináanii naaldlooshii ádaat'éii, bįįh da, éí nanise' ałtaas'éí deiyą́ągo bikáá'gónaa bił nááhást'ą́. Dahináanii nidaaldlooshígíí bįįh deiyánígíí, násdóí da, bidéigóne' bił nááhást'ą́.",
             "see_also": [
               {
                 "word": "hináanii",
@@ -5986,6 +6133,7 @@
             "entries": [
               {
                 "word": "hináanii ch'iyáán nilį́",
+                "literal": "where a living thing becomes food",
                 "normalized": "hinaanii-chiyaan-nili"
               }
             ]
@@ -6007,6 +6155,7 @@
         "translations": [
           {
             "definition": "Hináanii hinááhts'óóz t'ááłá'ígo bits'íís nilį́. Hináanii náádaała' éí hinááhts'óóz łą́ągo yee bits'íís dahólǫ́.",
+            "sentence": "Chosh doo yit'íinii bidii'nínígíí éí doo ch'osh át'éeda nidi éí bee yíníijí. Hináago t'áá ałtsogóó hólǫ́, hinááhts'ózí t'ááłá'ígo bitsíís.",
             "see_also": [
               {
                 "word": "hinááhts'óóz",
@@ -6016,6 +6165,7 @@
             "entries": [
               {
                 "word": "hinááhts'óóz naagháii",
+                "literal": "one cell that lives separately",
                 "normalized": "hinaahtsooz-naaghaii"
               }
             ]
@@ -6037,9 +6187,11 @@
         "translations": [
           {
             "definition": "Ats'íís biyi'di siláhígíí ats'íís ałtso choyoos'įįdígíí níláhgóó yits'ą́ąjį' kwííł'ínígíí",
+            "sentence": "Alizh bił haz'ą́ągi éí hadił yąąh haił'eeł éí hats'íístahdę́ę́' t'áádoole'é ałtso chodaoz'įįdígíí hats'íís yits'á yiilé.",
             "entries": [
               {
                 "word": "łizh bá haz'ą́ągi",
+                "literal": "the place of urine",
                 "normalized": "lizh-ba-hazaagi"
               }
             ]
@@ -6061,9 +6213,11 @@
         "translations": [
           {
             "definition": "Hináanii naaldeehii, animals, bits'íísts'in dóó bitsiighąą' bíígháán bii' danít'i' ígíí",
+            "sentence": "Bíla'ashdla'ii, łį́į́', dóó tsídii éí bíígháán dahólóonii ádaat'é éí bąą vertebrate wolyé, ákondi táłtł'ááh bigaanłání éí bits'íístsin ádaadingo atsiighąą' íígháán bii' nít'i'í doo dahólǫ́ǫ da. Éí bąą invertebrate wolyé.",
             "entries": [
               {
                 "word": "bíígháán dahólónígíí",
+                "literal": "those that have a spine",
                 "normalized": "biighaan-daholonigii"
               }
             ]
@@ -6085,9 +6239,11 @@
         "translations": [
           {
             "definition": "Hinááhts'óóz ats'íís biyi'di binaanish t'ááła'ígo hólónígíí, tissues, ats'ą́ siláii ats'íís biyi'di hólǫ́ nidi doo choo'į́į dago yits'ą́ą́dę́ę́' yigáałii bits'íís hólónígíí ła' choyooł'į́ dóó binaanish hólónígíí t'áá yił aheełt'é",
+            "sentence": "Nihizází biwózhah éí nihiwoo' t'áá háíshį́į́ haalts'idgo da, haat'ą́ągo da bits'ásk'ehgóne' anídoot'ááł. K'ad éí nihiwózhah ałk'idą́ą́' awózhah danilį́į́ nít'ę́ę́'yę́ęh bii' haniilzánígíí ádaat'é.",
             "entries": [
               {
                 "word": "ats'iis",
+                "literal": "body",
                 "normalized": "atsiis"
               }
             ]
@@ -6109,9 +6265,11 @@
         "translations": [
           {
             "definition": "Hináanii doo yit'į́į dago nááná łahdę́ę́' yigáałgo ats'íís bihinááhts'óóz biyi'di hiná silį́į́', dóó áadi hinááhts'óóz yee binahjį' noosééł yileeh áádóó bits'ą́ą́dóó ąąh dahaz'ą́ haleeh",
+            "sentence": "Na'ats'ǫǫsí binaalniih éí naałniih, virus, hajéí yilzólii doo hats'íí át'éégóó yąąh dahooł'aah. Na'ats'ǫǫsí dóó na'at'i'í bizhéé', bilizh, éí doodago bichaan bits'ą́ą́dóó hodilnah.",
             "entries": [
               {
                 "word": "naałniih",
+                "literal": "contagion that goes around",
                 "normalized": "naalniih"
               }
             ]
@@ -6133,9 +6291,11 @@
         "translations": [
           {
             "definition": "Tó nahasdzáán bikáá'góó dóó biyi' hólǫ́  dóó hót'ááhgóó dahólǫ́ éí hoo'nááł dóó danílínígíí bił ahééhwiizhíísh",
+            "sentence": "Tó bits'íís nineez nahazdzáán bináhaazlá neestiin dóó tózhool bee binahat'a' hideesláago bits'ą́ą́dóó níłtsą́ yee naalnishgo tooh danílį́ nízaadgóó, áádóó ááh náádleełgo dahtoo' bee hodiyin dóó tó niteel nahasdzáán bináhaazyį́.",
             "entries": [
               {
                 "word": "tó binahat'a'",
+                "literal": "regeneration of water",
                 "normalized": "to-binahata"
               }
             ]
@@ -6157,10 +6317,11 @@
         "translations": [
           {
             "definition": "Hinááhts'óóz ats'íís yee bihodééłníi da áyósin éí ii'noot'į́į́', infection, dóó ąąh dahwiidooł'aałii yich'ą́ą́h naalnish",
+            "sentence": "Dił łigaí éí ats'íís bee doo bihodééłníinii yitah naalnish. Dił łigaí t'óó ahayóí ał'ąą át'é hats'óós biyi'di hadił bitah áádóó t'áá ał'ąą át'éego binaanish dahólǫ́ǫgo ch'osh doo yit'íinii ats'íís yihodiiłt'ééhígíí yik'ijį' nidaalnish.",
             "entries": [
               {
                 "word": "dił łigaaí",
-                "literal": "dił = blood. łigaaî = white. Meaning, white blood.",
+                "literal": "dił = blood. łigaaî = white. Meaning, \"white blood\"",
                 "normalized": "dil-ligaai"
               }
             ]
@@ -6182,10 +6343,11 @@
         "translations": [
           {
             "definition": "Hináanii naaldeehii, animals, ał'ąą át'éego dahyikahígíí haalzííd dóó naalkaahgo bíhoo'aah",
+            "sentence": "Naaldlooshii yee dahinánígíí éí naaldeehii naalkaah bił béédahózingo bee dibé bitsį' daditánígíí da doodago bighaa' daalzhóólígíí yee nideiniłtą'.",
             "entries": [
               {
                 "word": "naaldeehii naalkaah",
-                "literal": "naaldeehii = animal. naalkaah = study. Meaning, studying animals",
+                "literal": "naaldeehii = animal. naalkaah = study. MeaningMeaning, \"study of animals\"",
                 "normalized": "naaldeehii-naalkaah"
               }
             ]
@@ -6207,10 +6369,11 @@
         "translations": [
           {
             "definition": "Amá dóó azhé'é bik'eelyéí bee i'niitsąądgo",
+            "sentence": "Awéé' iilts'ą́ą́hígíí éí hastįįh bik'eelyéígíí asdzání bik'eelyéí yinígháahgo ats'íís bitł'óól/hinááhts'óóz t'áá łá'í bits'ą́ą́dóó dahdíníisééh. Naakií éí awee' iilts'ą'ígíí naakigo ałts'á'ashgo ał'ąą noosééł yileeh.",
             "entries": [
               {
                 "word": "awéé'",
-                "literal": "baby.",
+                "literal": "baby",
                 "normalized": "awee"
               }
             ]
@@ -6221,6 +6384,7 @@
     "dine": {
       "aadaatehigii": {
         "word": "áʼádaatʼéhígíí",
+        "literal": "matter or substances that make all that exists",
         "normalized": "aadaatehigii",
         "short_translations": [
           "element"
@@ -6245,6 +6409,7 @@
       },
       "aah-dahaza": {
         "word": "ąąh dahaz'ą́",
+        "literal": "disease that dibilitates a body or living thing",
         "normalized": "aah-dahaza",
         "short_translations": [
           "disease"
@@ -6293,13 +6458,15 @@
       },
       "aahooniil-nayiilnani": {
         "word": "ááhoo'níił nayiiłnání",
+        "literal": "ááhoo'níił = interacting systems/systems; nayiiłnání=those things which give energy and movement. Systems, those factors, which moves them:",
         "normalized": "aahooniil-nayiilnani",
         "short_translations": [
           "abiotic factor"
         ],
         "definitions": [
           {
-            "definition": "Ááhoo'nííł éí bee hahodilyaii t'áá ałtso nahasdzáán dóó yádiłhił bii' siláhígíí ahił nidaalnishgo nináháhááhígíí éí nayiił'ná hadoh dóó hak'az ádaat'éii."
+            "definition": "Ááhoo'nííł éí bee hahodilyaii t'áá ałtso nahasdzáán dóó yádiłhił bii' siláhígíí ahił nidaalnishgo nináháhááhígíí éí nayiił'ná hadoh dóó hak'az ádaat'éii.",
+            "sentence": "Nanise' nooséełgo binaagóó ha'át'ííshį́į́ doo hináa dago hólónígíí shánídíín, tó, dóó hado dóó hak'az ádaat'éii bik'ehgo noosééł."
           }
         ],
         "translations": [
@@ -6317,6 +6484,7 @@
       },
       "ahihooneela": {
         "word": "ahíhooneel'ą́",
+        "literal": "things are in balance",
         "normalized": "ahihooneela",
         "short_translations": [
           "equilibrium"
@@ -6341,7 +6509,7 @@
       },
       "ahoodziil": {
         "word": "’ahóodziil",
-        "literal": "’ahóodziil = energy. (you modify the a depending what you're talking about)",
+        "literal": "biziil; ’ahóodziil= energy. (you modify the a depending what you're talking about)",
         "normalized": "ahoodziil",
         "short_translations": [
           "energy"
@@ -6416,8 +6584,8 @@
       },
       "akagi": {
         "word": "akágí",
+        "literal": "akágí= skin (you modify the a depending what you're talking about)",
         "normalized": "akagi",
-        "literal": "akágí = skin (you modify the a depending what you're talking about)",
         "short_translations": [
           "epidermis",
           "skin"
@@ -6427,7 +6595,8 @@
             "definition": "Hináanii bits'íís bitł'óól (cells) bikágí"
           },
           {
-            "definition": "Ats'íís yee hadít'éii, organ, ats'íís bik'ésti'ígíí"
+            "definition": "Ats'íís yee hadít'éii, organ, ats'íís bik'ésti'ígíí",
+            "sentence": "Nihikágí éí nihitsą́ siléii bich'ą́ą́h hólǫ́ áko doo tł'óó'dę́ę́' tó baa shidoogish da, áádóó bee nihits'íís sidooígíí dóó ch'ísheegéesh da, dóó naałniih nihihodidoołt'ihii bich'ą́ą́h hólǫ́. Shá áłahjį' bii' nijigháago hakágí tídít'įįhgo ba'át'e' haleeh."
           }
         ],
         "translations": [
@@ -6528,6 +6697,7 @@
       "akeelyei": {
         "word": "ak'eelyéí",
         "normalized": "akeelyei",
+        "literal": "male substance for reproduction",
         "short_translations": [
           "meiosis",
           "sperm"
@@ -6613,7 +6783,7 @@
       },
       "akeyah": {
         "word": "akéyah",
-        "literal": "would need to specify \"who's land/area\". Kéya is land",
+        "literal": "would need to specify \"who's land/area\". Keya is land",
         "normalized": "akeyah",
         "short_translations": [
           "territory"
@@ -6638,6 +6808,7 @@
       },
       "alhee-hina": {
         "word": "ałhee hi'ná",
+        "literal": "living by means of each other",
         "normalized": "alhee-hina",
         "short_translations": [
           "symbiosis"
@@ -6662,6 +6833,7 @@
       },
       "anaasazi": {
         "word": "ánaasází",
+        "literal": "ánaasází = bygone ancestors; people no longer in existence",
         "comment": "most common",
         "normalized": "anaasazi",
         "short_translations": [
@@ -6669,7 +6841,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hak'éí nát'ą́ą́' ahool'áago hamá dóó hazhé'é dabishchíníinii bits'ą́ą́dę́ę́' hojizhlį́į́'ígíí"
+            "definition": "Hak'éí nát'ą́ą́' ahool'áago hamá dóó hazhé'é dabishchíníinii bits'ą́ą́dę́ę́' hojizhlį́į́'ígíí",
+            "sentence": "Ninálí hastįįh, nichei, nichó dabichó/dabinálí asdzą́ą́h dóó naakidi nichó/ninálí asdzą́ą́h éí t'áá ałtso nité'ázini ádaat'é."
           }
         ],
         "translations": [
@@ -6688,13 +6861,15 @@
       },
       "atom": {
         "word": "atom",
+        "literal": "T'áá ałtson7=everything; bineestiin/bizhool=its fine mist and particles",
         "normalized": "atom",
         "short_translations": [
           "atom"
         ],
         "definitions": [
           {
-            "definition": "T'áá ha'át'ííshį́į́ bee ályaii t'ááłá'í si'ą́ągo, atom wolyé, bijéí hólǫ́, bijéí biyi'di proton biniltł'ish shábik'ehgo bii' silá éí positive deiłní dóó neutron bitsiniltł'ish bąą ádin ákondi yee óchíidii, béésh ná'iiláhá nahalingo bii' hólǫ́. Atom bijéí bii' siléí"
+            "definition": "T'áá ha'át'ííshį́į́ bee ályaii t'ááłá'í si'ą́ągo, atom wolyé, bijéí hólǫ́, bijéí biyi'di proton biniltł'ish shábik'ehgo bii' silá éí positive deiłní dóó neutron bitsiniltł'ish bąą ádin ákondi yee óchíidii, béésh ná'iiláhá nahalingo bii' hólǫ́. Atom bijéí bii' siléí",
+            "sentence": "Matter éí t'áá ha'át'ííshį́į́ áłníłdáás, áníłtso, áłts'íísídóó nitsaajį', éí atoms ał'ąą ádaat'éhígíí dóó níláhgóó dahólónígíí bee ádaalyaa. Hasłą́ą éí bíla'ashdla'ii áłah silį́į'go bichá sizhóód doo ał'ąą ádaníłtso, asdzání dóó hastóí, dóó ániid naagháii dóó náás silį́į'ii da'atah doo."
           }
         ],
         "translations": [
@@ -6712,6 +6887,7 @@
       },
       "atom-binahaazlei": {
         "word": "atom bináhaazléí",
+        "literal": "that which surrounds an atom",
         "normalized": "atom-binahaazlei",
         "short_translations": [
           "electron"
@@ -6785,7 +6961,7 @@
       },
       "atsii-bitlool-bikestii": {
         "word": "ats'íí bitł'óól bik'ésti'í",
-        "literal": "ats'íí bitł'óól  = cell. bik'ésti'í = cover. Meaning, the cover of the cell.",
+        "literal": "covering for the (body) cells",
         "normalized": "atsii-bitlool-bikestii",
         "audio": "/audio/dine/cell-membrane-dine.m4a",
         "short_translations": [
@@ -6793,7 +6969,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól bik'ésti'í éí ak'ah bizhool dóó ch'iyáán ats'íís hasht'ééyooldlíiłii bizhool bee ályaago ats;íís bikésti'"
+            "definition": "Ats'íís bitł'óól bik'ésti'í éí ak'ah bizhool dóó ch'iyáán ats'íís hasht'ééyooldlíiłii bizhool bee ályaago ats;íís bikésti'",
+            "sentence": "Hinááhts'ózí/ats'íís bitł'óól bik'ésti'ii, cell membrane, éí bikágí át'é. Éí bee binaagóó bee hodít'éii bits'ąą t'áá sahdii hólǫ́"
           }
         ],
         "translations": [
@@ -6811,7 +6988,7 @@
       },
       "atsiighaa": {
         "word": "atsiighąąʼ",
-        "literal": "ghąąʼ = matter. atsii = heads. So the \"matter in your head\"",
+        "literal": "ghąąʼ= matter (brain); atsii= heads. So the \"matter or brain in your head\"",
         "normalized": "atsiighaa",
         "audio": "/audio/dine/brain-dine.m4a",
         "short_translations": [
@@ -6819,7 +6996,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bii' siléí ats'íís t'áá át'é naalnishgo áyósin, ádahoot'éii t'áá ałtso yaa ákonízin dóó yénálniih, dóó bik'izhdiitáanii baa nitsídzíkees dóó háni' nilíinii yiyoołnaał"
+            "definition": "Ats'íís bii' siléí ats'íís t'áá át'é naalnishgo áyósin, ádahoot'éii t'áá ałtso yaa ákonízin dóó yénálniih, dóó bik'izhdiitáanii baa nitsídzíkees dóó háni' nilíinii yiyoołnaał",
+            "sentence": "Nitsiighąą' éí bee nitsíníkees, yáníłti', nahí'ná, dóó éénílniih."
           }
         ],
         "translations": [
@@ -6837,6 +7015,7 @@
       },
       "atsiighaa-iighaan-biiniti": {
         "word": "atsiighąą' íígháán bii'nít'i'",
+        "literal": "brain material going through the spine",
         "normalized": "atsiighaa-iighaan-biiniti",
         "short_translations": [
           "spinal cord"
@@ -6885,13 +7064,15 @@
       },
       "atsiis": {
         "word": "ats'iis",
+        "literal": "body",
         "normalized": "atsiis",
         "short_translations": [
           "vestigial (trait)"
         ],
         "definitions": [
           {
-            "definition": "Hinááhts'óóz ats'íís biyi'di binaanish t'ááła'ígo hólónígíí, tissues, ats'ą́ siláii ats'íís biyi'di hólǫ́ nidi doo choo'į́į dago yits'ą́ą́dę́ę́' yigáałii bits'íís hólónígíí ła' choyooł'į́ dóó binaanish hólónígíí t'áá yił aheełt'é"
+            "definition": "Hinááhts'óóz ats'íís biyi'di binaanish t'ááła'ígo hólónígíí, tissues, ats'ą́ siláii ats'íís biyi'di hólǫ́ nidi doo choo'į́į dago yits'ą́ą́dę́ę́' yigáałii bits'íís hólónígíí ła' choyooł'į́ dóó binaanish hólónígíí t'áá yił aheełt'é",
+            "sentence": "Nihizází biwózhah éí nihiwoo' t'áá háíshį́į́ haalts'idgo da, haat'ą́ągo da bits'ásk'ehgóne' anídoot'ááł. K'ad éí nihiwózhah ałk'idą́ą́' awózhah danilį́į́ nít'ę́ę́'yę́ęh bii' haniilzánígíí ádaat'é."
           }
         ],
         "translations": [
@@ -6909,13 +7090,15 @@
       },
       "atsiis-adikiji-naalnish": {
         "word": "ats'íís ádík'ijį' naalnish",
+        "literal": "the body toward its self it directs self defense as disease",
         "normalized": "atsiis-adikiji-naalnish",
         "short_translations": [
           "autoimmune disease"
         ],
         "definitions": [
           {
-            "definition": "Ats'íís iisiihgo ádík'ijį' naalnish yileehgo ats'íís doo bąąhtééh da yę́ę niyiiłchxǫǫh yileeh"
+            "definition": "Ats'íís iisiihgo ádík'ijį' naalnish yileehgo ats'íís doo bąąhtééh da yę́ę niyiiłchxǫǫh yileeh",
+            "sentence": "Łah da hats'íís yee doo bihodééłníinii, immune system, hats'íístahdi hinááhts'óóz/ats'íís bitł'óól yínól'ah, t'áádoole'é ba'át'e' dahólǫ́ǫgo ats'íís yihodiiłt'ihii át'é nízingo yik'ijį' nídiilnish. Ákót'įįhgo hats'íís yąąh dahooł'aah, autoimmune disease deiłní."
           }
         ],
         "translations": [
@@ -6957,13 +7140,15 @@
       },
       "atsiis-bee-doo-bihodeelniinii": {
         "word": "ats'íís bee doo bihodééłníinii",
+        "literal": "ats'íís=the body; bee=that by means of it; doo bihodééłníinii=it is protected from harm. That which protects the body; That which shields the body.",
         "normalized": "atsiis-bee-doo-bihodeelniinii",
         "short_translations": [
           "antibody"
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bee doo bihodééłníinii ats'íís hasht'éé yoodlíiłii (protein) áyiił'įįh ats'íís atíidoolíłii yaa ákoniizįįhgo"
+            "definition": "Ats'íís bee doo bihodééłníinii ats'íís hasht'éé yoodlíiłii (protein) áyiił'įįh ats'íís atíidoolíłii yaa ákoniizįįhgo",
+            "sentence": "Hats'íís bee doo bihodééł'níinii hats'íís ííł'ínígíí yee ách'ą́ą́h naalnish. Naałniih virus, ch'osh doo yit'íinii éí doodago hinááhts'óóz/hats'íís bitł'óól ba'át'e' hazlį́įgo dahdíníisánígíí atíhodoolííłígíí yich'ą́ą́h naalnish."
           }
         ],
         "translations": [
@@ -6981,13 +7166,15 @@
       },
       "atsiis-bee-haleehii-alchi-nanideeh": {
         "word": "ats'íís bee haleehii ałch'į' nanideeh",
+        "literal": "that which becomes a body/person that face one another",
         "normalized": "atsiis-bee-haleehii-alchi-nanideeh",
         "short_translations": [
           "base pair"
         ],
         "definitions": [
           {
-            "definition": "Bee iiná hodooleełii nucleotide naakigo ahidii'ash éí ats'íís bitł'óól DNA yileeh"
+            "definition": "Bee iiná hodooleełii nucleotide naakigo ahidii'ash éí ats'íís bitł'óól DNA yileeh",
+            "sentence": "Iiná bitł'óól, DNA, haaz'éí bee hááda'aldahá nahalingo ałk'ééłgis. T'áádoole'é ahiihe'níiłgo bee na'ach'ąąhí nahalingo bee iiná haleehii, base pairs, bee áhodoonííłígíí iiná bitł'óól bita'góne' ahidadidoolyééłígíí bibeehaz'áanii bik'ehgo ahinidééh."
           }
         ],
         "translations": [
@@ -7005,6 +7192,7 @@
       },
       "atsiis-bee-nihwiileehii-ba-sileii": {
         "word": "ats'íís bee nihwiileehii bá siléíí",
+        "literal": "essential substance for creation of the physical body",
         "normalized": "atsiis-bee-nihwiileehii-ba-sileii",
         "short_translations": [
           "amino acid",
@@ -7012,10 +7200,12 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bee haleehii  naadiin ał'ąą ánéelt'e' éí ats'íís bitł'óól yee naalnishgo bee ats'íís hodooleeł dóó áadi hasht'éé yoodlííł.  Iiná bitł'óól, DNA, bee bóhólnííh éí bik'ehgo náás oochíiiłii táa'go bita'góó daníjaa'."
+            "definition": "Ats'íís bee haleehii  naadiin ał'ąą ánéelt'e' éí ats'íís bitł'óól yee naalnishgo bee ats'íís hodooleeł dóó áadi hasht'éé yoodlííł.  Iiná bitł'óól, DNA, bee bóhólnííh éí bik'ehgo náás oochíiiłii táa'go bita'góó daníjaa'.",
+            "sentence": "Ak'ah bineestiin, amino acid, éí ch'iyáán ats'íís yee nanise' dóó háidoodlííł, protein t'áá ał'ąą ádaat'éego dóó ał'ąą ádaat'éego nidaalnishgo bits'ą́ą́dóó nihwiileeh, kin nidaa'nilígíí nahalin éí bee ádoolnííłígíí t'óó ahayóí ał'ąą át'éego choo'į́įgo bee kin ał'ąą ádaat'éhígíí, castle da, ólta' da, doodago hééł bighan da ádaal'į́."
           },
           {
-            "definition": "Ha'át'íi da náádaa łahdę́ę́' ha'át'íi da bił ahiih yilyéehgo bitsiniltł'ish bilááh éí doodago a'oh yileeh  taah ji'áahgo níłch'i hydrogen bitsiniltł'ish náyiilááh"
+            "definition": "Ha'át'íi da náádaa łahdę́ę́' ha'át'íi da bił ahiih yilyéehgo bitsiniltł'ish bilááh éí doodago a'oh yileeh  taah ji'áahgo níłch'i hydrogen bitsiniltł'ish náyiilááh",
+            "sentence": "Awoo' bił yich'iishí ádaalne'go bił é'él'íní, baking soda, íiyisíí binahjį' ádeił'į́ háálá éí hazéé'góne' ch'osh doo yit'íinii neiłtseedgo doo danéesée da."
           }
         ],
         "translations": [
@@ -7043,7 +7233,7 @@
       },
       "atsiis-bikoo": {
         "word": "ats’íís bik’ǫ́ǫ́’",
-        "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
+        "literal": "ats’íís=body , bi=its, k'=='=seed.",
         "comment": "need a microscope to look at it",
         "normalized": "atsiis-bikoo",
         "audio": "/audio/dine/cell-microscope-dine.m4a",
@@ -7052,7 +7242,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł."
+            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
@@ -7078,7 +7269,7 @@
       },
       "atsiis-bitlool": {
         "word": "ats'íís bitł'óól",
-        "literal": "ats’íís = body, bi = it, tł’óól = strand. Refers to the DNA in the cell",
+        "literal": "ats’íís= body, bi=it, tats’íís= body, bi=it, tł’óól= strand.",
         "comment": "refers to DNA in cell. Often used when talking about cancer",
         "normalized": "atsiis-bitlool",
         "audio": "/audio/dine/cell-dna-dine.m4a",
@@ -7087,7 +7278,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł."
+            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
@@ -7113,14 +7305,15 @@
       },
       "atsiis-bitlool-altsa-dahinise": {
         "word": "ats'íís bitł'óól ałts'á dahinisé",
-        "literal": "ats'íís bitł'óól = cell. ałts'á = seperate. dahinisé = pulling. Meaning, a cell pulling to seperate.",
+        "literal": "(body) cells growing apart",
         "normalized": "atsiis-bitlool-altsa-dahinise",
         "short_translations": [
           "cell division"
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól ałts'á níséehgo bee ats'íís bitł'óól ániidígíí náhoodleeł"
+            "definition": "Ats'íís bitł'óól ałts'á níséehgo bee ats'íís bitł'óól ániidígíí náhoodleeł",
+            "sentence": "Ch'osh doo yit'íinii, E. Coli gi ádaat'éhígíí, bíla'ashdla'ii dóó hináanii naaldeehii bitsą́ądi dahólónígíí áłts'ą́ dahiniséego yee ahoolchííł, t'ááłá'í si'ánígíí ádéé'iil'įįh áádóó ałts'á' ash."
           }
         ],
         "translations": [
@@ -7138,13 +7331,15 @@
       },
       "atsiis-bitlool-altsanise": {
         "word": "ats'íís bitł'óól ałts'ánísé",
+        "literal": "chromosomes move to opposite sides (in a cell)",
         "normalized": "atsiis-bitlool-altsanise",
         "short_translations": [
           "anaphase"
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól ałts'á níséego iiná bitł'óól (DNA) bik'ehgo náás oochíiłii biyi'di naaki ałch'į' naazlá, éí t'áá ahedaałt'éego ałts'ákah dóó ahidiníł náádę́ę́' niikah áádóó ałts'á nísééh."
+            "definition": "Ats'íís bitł'óól ałts'á níséego iiná bitł'óól (DNA) bik'ehgo náás oochíiłii biyi'di naaki ałch'į' naazlá, éí t'áá ahedaałt'éego ałts'ákah dóó ahidiníł náádę́ę́' niikah áádóó ałts'á nísééh.",
+            "sentence": "cancer wolyéhígíí éí hats'íístahdi hinááh ts'óóz/ats'íís bitł'óól tídíl'įįhgo ba'át'e' haleeh dóó dahdíníisééh."
           }
         ],
         "translations": [
@@ -7161,14 +7356,15 @@
       },
       "atsiis-bitlool-biziil": {
         "word": "ats'íís bitł'óól biziil",
-        "literal": "ats'íís bitł'óól = cell, biziil = energy. The cell's energy.",
+        "literal": "ats'íís bitł'óól = cell, biziil = energy. Meaning, cell's energy",
         "normalized": "atsiis-bitlool-biziil",
         "short_translations": [
           "ATP (adenosine triphosphate)"
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól biyi'di t'áádoole'é si'ą́ągo ats'íís bitł'óól yee biinéí dooígíí bii' nihwiileeh dóó náásgóó ííł'į́"
+            "definition": "Ats'íís bitł'óól biyi'di t'áádoole'é si'ą́ągo ats'íís bitł'óól yee biinéí dooígíí bii' nihwiileeh dóó náásgóó ííł'į́",
+            "sentence": "Hinááhts'óóz/ats'íís bitł'óól hats'íís yee hadít'éhígíí ch'iyáán jiyánígíí yee hinááhts'óóz/ats'íís bitł'óól yee biziil ííł'ínígíí, adenosine triphosphate, yee biinéígo hats'íís noosééł dóó yee naha'ná."
           }
         ],
         "translations": [
@@ -7234,6 +7430,7 @@
       },
       "atsiis-siziligii": {
         "word": "ats'íís sizilígíí",
+        "literal": "from within the body the means of heat",
         "normalized": "atsiis-siziligii",
         "short_translations": [
           "endotherm"
@@ -7313,7 +7510,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís biyi'di nitł'izgo ats'íís bá naaz'á éí ats'íís yee sizį́ dóó naha'ná"
+            "definition": "Ats'íís biyi'di nitł'izgo ats'íís bá naaz'á éí ats'íís yee sizį́ dóó naha'ná",
+            "sentence": "Nihits'íístsin doo hólǫ́ǫ dago éí doo nahii'náa da doo dóó doo siidzį́į da doo, t'áá nihits'íís t'ááłáhági yanáa'áa doo."
           }
         ],
         "translations": [
@@ -7331,14 +7529,15 @@
       },
       "atsiniltlish": {
         "word": "atsiniltł'ish",
-        "literal": "Literal translation: lightning/electricity.",
+        "literal": "electricity; charge",
         "normalized": "atsiniltlish",
         "short_translations": [
           "charge"
         ],
         "definitions": [
           {
-            "definition": "T'áá ha'át'íi da protons dóó electrons bináhaazléí wólta'go bitsiniltł'ish ánéelt'e dóó ábóodziilígíí"
+            "definition": "T'áá ha'át'íi da protons dóó electrons bináhaazléí wólta'go bitsiniltł'ish ánéelt'e dóó ábóodziilígíí",
+            "sentence": "Ha'át'íi da t'áá ałtsoní bee ályaii, element, ła' biyi'di bitsíniltł'ish shá bik'ehgo siláhígíí, proton, dóó bikáá'gónaa bitsiniltł'ish shádáahjigo siláhígíí, electrons, ahee néelt'e'go doo háajigo da bitsiniltł'ish na'ałkid da, neutral charge, łeh. Bitsiniltł'ish shá bik'ehgo siláhígíí t'ááłá'í bee atis ánéelt'e'go éí atsinilt'ish, charge, shábik'ehgo na'ałkidígíí, positive, t'ááłá'í bee bilááh doo. Bitsiniltł'ish shádáahjigo siláhígíí t'ááłá'í bee atis ánéelt'e'go éí atsinilt'ish, charge, shádáahjigo na'ałkidígíí, negative, t'ááłá'í bee bilááh doo."
           }
         ],
         "translations": [
@@ -7356,13 +7555,15 @@
       },
       "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil": {
         "word": "atsiniltł'ish bilááh éí doodago bi'oh ábóodziil",
+        "literal": "atsiniltł'ish = electricity/electrical charge (lightning); bilááh = over/excess; éí doodago = or; bi'oh ábóodziil = less in strength electrical charge excess or less in strength",
         "normalized": "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil",
         "short_translations": [
           "acid"
         ],
         "definitions": [
           {
-            "definition": "Ha'át'íi da bitsiniltł'ish bilááh éí doodago a'oh yileehgo taah ji'áahgo níłch'i hydrogen bitsiniltł'ish hólǫ́ǫgo bits'á shígish."
+            "definition": "Ha'át'íi da bitsiniltł'ish bilááh éí doodago a'oh yileehgo taah ji'áahgo níłch'i hydrogen bitsiniltł'ish hólǫ́ǫgo bits'á shígish.",
+            "sentence": "T'áádoole'é néídił'eełii acid wolyéhígíí ch'il łitsooí yázhí, lemon, bitoo' éí doodago vinegar ch'iyáán biih nídaa'niłgo nídaalzhoh áko bee halniihí dóó ak'ah da biníshiigéésh."
           }
         ],
         "translations": [
@@ -7454,14 +7655,15 @@
       },
       "awee": {
         "word": "awéé'",
-        "literal": "baby.",
+        "literal": "baby",
         "normalized": "awee",
         "short_translations": [
           "zygote"
         ],
         "definitions": [
           {
-            "definition": "Amá dóó azhé'é bik'eelyéí bee i'niitsąądgo"
+            "definition": "Amá dóó azhé'é bik'eelyéí bee i'niitsąądgo",
+            "sentence": "Awéé' iilts'ą́ą́hígíí éí hastįįh bik'eelyéígíí asdzání bik'eelyéí yinígháahgo ats'íís bitł'óól/hinááhts'óóz t'áá łá'í bits'ą́ą́dóó dahdíníisééh. Naakií éí awee' iilts'ą'ígíí naakigo ałts'á'ashgo ał'ąą noosééł yileeh."
           }
         ],
         "translations": [
@@ -7505,6 +7707,7 @@
       },
       "ayoonaal": {
         "word": "ayoonaał",
+        "literal": "living things coming into existence",
         "normalized": "ayoonaal",
         "short_translations": [
           "evolution"
@@ -7529,6 +7732,7 @@
       },
       "azazi": {
         "word": "azází",
+        "literal": "azází = generations of relatives who preceded you",
         "comment": "less commonly used than ánaasází",
         "normalized": "azazi",
         "short_translations": [
@@ -7536,7 +7740,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hak'éí nát'ą́ą́' ahool'áago hamá dóó hazhé'é dabishchíníinii bits'ą́ą́dę́ę́' hojizhlį́į́'ígíí"
+            "definition": "Hak'éí nát'ą́ą́' ahool'áago hamá dóó hazhé'é dabishchíníinii bits'ą́ą́dę́ę́' hojizhlį́į́'ígíí",
+            "sentence": "Ninálí hastįįh, nichei, nichó dabichó/dabinálí asdzą́ą́h dóó naakidi nichó/ninálí asdzą́ą́h éí t'áá ałtso nité'ázini ádaat'é."
           }
         ],
         "translations": [
@@ -7585,7 +7790,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hado bee ayoonaałgo t'áá ha'át'íi da yee hadít'éii, molecules, ahídaha'náahgo yee niidoh dóó bits'á níłdoii"
+            "definition": "Hado bee ayoonaałgo t'áá ha'át'íi da yee hadít'éii, molecules, ahídaha'náahgo yee niidoh dóó bits'á níłdoii",
+            "sentence": "Tó yibéezhgo tó bizhool, water molecules, kǫ' bits'áłdohígíí bee niidohgo nidaha'náago yibéézh yileeh."
           }
         ],
         "translations": [
@@ -7603,6 +7809,7 @@
       },
       "baa-haahasin": {
         "word": "baa hą́ą́hasin",
+        "literal": "careful use of resource",
         "normalized": "baa-haahasin",
         "short_translations": [
           "sustainable"
@@ -7627,6 +7834,7 @@
       },
       "bahadzidii-ayanigii": {
         "word": "báhádzidii ayánígíí",
+        "literal": "toxic substance that eats away/wears away/deterioates",
         "normalized": "bahadzidii-ayanigii",
         "short_translations": [
           "corrosive"
@@ -7651,13 +7859,15 @@
       },
       "bee-adiiltlaadii": {
         "word": "bee adiiltłáadii",
+        "literal": "bee=by means of that, adiiltłáadii=a spark is created. By means of that which a spark is created",
         "normalized": "bee-adiiltlaadii",
         "short_translations": [
           "catalyst"
         ],
         "definitions": [
           {
-            "definition": "Bee adiiltłáadii t'áadoole'é ahidiilyéego bee bina'anishígíí"
+            "definition": "Bee adiiltłáadii t'áadoole'é ahidiilyéego bee bina'anishígíí",
+            "sentence": "Ha'át'íi da ahizhdiiléego, reaction, doo ádooníił da doo nawólníígóó éí t'áádoole'é bee adiiltłáád, catalyst, choo'į́įgo ahił dinish dóó ahidíníidah. T'óó bee hane'go abe' bitahdi lactase hólǫ́"
           }
         ],
         "translations": [
@@ -7675,6 +7885,7 @@
       },
       "bee-atsiis-haleehii-alaaji-naalnish": {
         "word": "bee ats'íís haleehii alą́ąjį' naalnish",
+        "literal": "basic substance of life that works ahead of others",
         "normalized": "bee-atsiis-haleehii-alaaji-naalnish",
         "short_translations": [
           "dominant"
@@ -7699,6 +7910,7 @@
       },
       "bee-atsiis-haleehii-alaaji-naalnish-bee-ajite-yileehii": {
         "word": "bee ats'íís haleehii alą́ąjį' naalnish bee ájít'é yileehii",
+        "literal": "basic substance of life that works ahead of others that forms one's being",
         "normalized": "bee-atsiis-haleehii-alaaji-naalnish-bee-ajite-yileehii",
         "short_translations": [
           "dominant trait"
@@ -7753,6 +7965,7 @@
       },
       "bee-eedahozinii": {
         "word": "bee éédahozinii",
+        "literal": "by means of which something is valid",
         "normalized": "bee-eedahozinii",
         "short_translations": [
           "evidence"
@@ -7776,6 +7989,7 @@
       },
       "bee-eehoznii-yeeltaii": {
         "word": "bee ééhóznii yéélta'ii",
+        "literal": "facts/evidence that compiled and counted",
         "normalized": "bee-eehoznii-yeeltaii",
         "short_translations": [
           "data"
@@ -7824,6 +8038,7 @@
       },
       "bee-iinaanii-alghaadziis": {
         "word": "bee iináanii ałghaadzį́į́s",
+        "literal": "life resource fighting over it/taking it away from one another",
         "normalized": "bee-iinaanii-alghaadziis",
         "short_translations": [
           "competition"
@@ -7848,13 +8063,15 @@
       },
       "bee-iinaanii-nidaalnish": {
         "word": "bee iináanii nidaalnish",
+        "literal": "by means of life they are in process",
         "normalized": "bee-iinaanii-nidaalnish",
         "short_translations": [
           "biochemical reaction"
         ],
         "definitions": [
           {
-            "definition": "Hináanii bits'íístahdi t'áá ałtso ahił nidaalnishgo yee hiná dóó bits'íís bitł'óól hazhó'ó danéesé"
+            "definition": "Hináanii bits'íístahdi t'áá ałtso ahił nidaalnishgo yee hiná dóó bits'íís bitł'óól hazhó'ó danéesé",
+            "sentence": "Ch'iyáán yíníyą́ą'go nits'íís éí yee biinéí dooleełígíí yee íidoolííł. Hináanii bits'íís bits'ą́ą́dę́ę́' t'áá ha'át'ííshį́į́ ahił nidaalnishgo bee iinánígíí bee iinéí niheleeh, metabolism éí doodago biochemical reaction deiłní ałdó'."
           }
         ],
         "translations": [
@@ -7896,13 +8113,15 @@
       },
       "bee-nanitinii": {
         "word": "bee na'nit'inii",
+        "literal": "by means of that which one is not seen",
         "normalized": "bee-nanitinii",
         "short_translations": [
           "camouflage"
         ],
         "definitions": [
           {
-            "definition": "Hináago naaldeeh dóó nidaat'a'ii binaagóó áhoot'éhígíí yee hadiit'įįhgo doo yit'į́į da yileeh"
+            "definition": "Hináago naaldeeh dóó nidaat'a'ii binaagóó áhoot'éhígíí yee hadiit'įįhgo doo yit'į́į da yileeh",
+            "sentence": "Gahtsoh éí dadiniltso áko łeezh yedaałt'éego bił nidoodiłígíí doo boo'į́į da."
           }
         ],
         "translations": [
@@ -7920,13 +8139,15 @@
       },
       "bichiiya-taa-bi-iiliinii": {
         "word": "bich'iiyą' t'áá bí ííł'íinii",
+        "literal": "one that creates its own nutrients",
         "normalized": "bichiiya-taa-bi-iiliinii",
         "short_translations": [
           "autotroph"
         ],
         "definitions": [
           {
-            "definition": "Hináanii t'áá bí ch'iyáán yidooyį́į́łígíí ííł' į́ t'áá ákǫ́ǫ́h binaagóó hólónígíí adinídíín dóó t'áádoole'é ałtah nihwiileehgo ahił nidaalnishígíí bits'ą́ą́ biziil choyooł'į́įgo"
+            "definition": "Hináanii t'áá bí ch'iyáán yidooyį́į́łígíí ííł' į́ t'áá ákǫ́ǫ́h binaagóó hólónígíí adinídíín dóó t'áádoole'é ałtah nihwiileehgo ahił nidaalnishígíí bits'ą́ą́ biziil choyooł'į́įgo",
+            "sentence": "Nídíshchíí' ch'iyáán yiyą́ągo doo yiiltséeh da. Éidí éí shánídíín, tó, dóó níłch'i carbon dioxide wolyéhígíí choyooł'į́įgo yee biinéí. Kódaat'éhígíí éí autotrophs wolyé."
           }
         ],
         "translations": [
@@ -7944,6 +8165,7 @@
       },
       "biighaan-adaadinii": {
         "word": "bíígháán ádaadinii",
+        "literal": "those that do not have a spine",
         "normalized": "biighaan-adaadinii",
         "short_translations": [
           "invertebrate"
@@ -7968,13 +8190,15 @@
       },
       "biighaan-daholonigii": {
         "word": "bíígháán dahólónígíí",
+        "literal": "those that have a spine",
         "normalized": "biighaan-daholonigii",
         "short_translations": [
           "vertebrate"
         ],
         "definitions": [
           {
-            "definition": "Hináanii naaldeehii, animals, bits'íísts'in dóó bitsiighąą' bíígháán bii' danít'i' ígíí"
+            "definition": "Hináanii naaldeehii, animals, bits'íísts'in dóó bitsiighąą' bíígháán bii' danít'i' ígíí",
+            "sentence": "Bíla'ashdla'ii, łį́į́', dóó tsídii éí bíígháán dahólóonii ádaat'é éí bąą vertebrate wolyé, ákondi táłtł'ááh bigaanłání éí bits'íístsin ádaadingo atsiighąą' íígháán bii' nít'i'í doo dahólǫ́ǫ da. Éí bąą invertebrate wolyé."
           }
         ],
         "translations": [
@@ -7992,13 +8216,15 @@
       },
       "bika-doo-biaadii-taa-geed-oochiil": {
         "word": "biką' dóó bi'áadii t'áá gééd oochííł",
+        "literal": "biką'=the male; dóó=and; bi'áadii=the female; t'áá gééd=just without that (their role); oochííł=offsprings are born. The process of creating offsprings without sexual activity of males and females.",
         "normalized": "bika-doo-biaadii-taa-geed-oochiil",
         "short_translations": [
           "asexual reproduction"
         ],
         "definitions": [
           {
-            "definition": "Azhé'é t'áágééd i'niitsąąh dóó ni'iichííh. Amá t'áá sáhá idínóoltsąął dóó adoołchííł."
+            "definition": "Azhé'é t'áágééd i'niitsąąh dóó ni'iichííh. Amá t'áá sáhá idínóoltsąął dóó adoołchííł.",
+            "sentence": "Ch'osh doo yit'íinii bihinááhts'óóz'/bits'íís bitł'óól ałts'áníséehgo ádéé'iil'įįh, naaki yiłchííh. Hináanii t'áá sáhá t'áá bí ałchíihgo éí asexual reproduction wolyé."
           }
         ],
         "translations": [
@@ -8040,13 +8266,15 @@
       },
       "bikehgo-naas-oochiilii-alaa-ate": {
         "word": "bik'ehgo náás oochíiłii ał'ąą át'é",
+        "literal": "gene that has become different or changed",
         "normalized": "bikehgo-naas-oochiilii-alaa-ate",
         "short_translations": [
           "allele"
         ],
         "definitions": [
           {
-            "definition": "Bik'ehgo náás oochíił'ii łahgo át'éhígíí."
+            "definition": "Bik'ehgo náás oochíił'ii łahgo át'éhígíí.",
+            "sentence": "Hats'íís biyi'di bik'ehgo náás oochíiłii bee hahodít'é éí biyi'di bik'ehgo náás oochíiłii béé'ályaago naakigo bii' hólǫ́. Béé'ályaaígíí doo aheełt'ée dago éí alleles, bik'ehgo náás oochíiłii łahgo ádzaaígíí, naakigo hwee hólǫ́ǫ doo."
           }
         ],
         "translations": [
@@ -8209,13 +8437,15 @@
       },
       "bil-hodizhchiinii-bee-jildziligii": {
         "word": "bił ho'dizhchíinii bee jíłdzilígíí",
+        "literal": "bił = with that which; ho'dizhchíinii = one is born; bee = by means of it; jíłdzilígíí = one is stable/withstands. characteristic with which one is born by means of it one is stable and withstands",
         "normalized": "bil-hodizhchiinii-bee-jildziligii",
         "short_translations": [
           "adaptation"
         ],
         "definitions": [
           {
-            "definition": "Bee ájít'éii bił ho'dizhchínígíí ła' bee hadziilgo jiinánígíí hái da nááná ła' ákót'éhígíí doo bił yizhchínígíí bił ałch'į' naa'nil aheełt'éego haz'ą́ągi haalzííd."
+            "definition": "Bee ájít'éii bił ho'dizhchínígíí ła' bee hadziilgo jiinánígíí hái da nááná ła' ákót'éhígíí doo bił yizhchínígíí bił ałch'į' naa'nil aheełt'éego haz'ą́ągi haalzííd.",
+            "sentence": "Gahtsoh bijaa' danineez silį́į́'ígíí éí yee nízaadgóó ayóo adiits'a' dóó deesdoigo yee doo bił niiłdóoh da."
           }
         ],
         "translations": [
@@ -8233,7 +8463,7 @@
       },
       "bil-naas-oochiil": {
         "word": "bił náás oochíił",
-        "literal": "bił náás = onward/forward. oochíił = birth. Meaning, \"giving birth onward\"",
+        "literal": "things in the reproductive process",
         "normalized": "bil-naas-oochiil",
         "short_translations": [
           "heredity"
@@ -8308,13 +8538,15 @@
       },
       "biyaazh-tsoasanigii": {
         "word": "biyáázh tsʼǫʼasánígíí",
+        "literal": "Tátłááh= under water; dóó = and; nihookáá = on land; naaldeehii = living and going about In the water and on the ground those that live there",
         "normalized": "biyaazh-tsoasanigii",
         "short_translations": [
           "amphibian"
         ],
         "definitions": [
           {
-            "definition": "Dahináanii bíígháán dahólónígíí  éí binaagóó áhoot'éhígíí binahjį' bits'íís sidoh dóó sik'azígíí éí (ectotherm wolyé). Yichííhgo táyi' naaleeh áádóó dahdínísééh dóó éí dóó  tábąąhdi dóó łeeshtahdi dahiná. Ch'ał ádaat'éii  dóó salamanders ááł ha'ní."
+            "definition": "Dahináanii bíígháán dahólónígíí  éí binaagóó áhoot'éhígíí binahjį' bits'íís sidoh dóó sik'azígíí éí (ectotherm wolyé). Yichííhgo táyi' naaleeh áádóó dahdínísééh dóó éí dóó  tábąąhdi dóó łeeshtahdi dahiná. Ch'ał ádaat'éii  dóó salamanders ááł ha'ní.",
+            "sentence": "Chał éí táyi' dóó nihookáá' hinánígíí ádaat'é, chałyázhí danilį́įgo éí táyi' dahiná dóó ałtso niniséehgo éí bijáád dahaleehgo nihookáá' naaldeeh."
           }
         ],
         "translations": [
@@ -8346,6 +8578,7 @@
       },
       "chidaiineeh": {
         "word": "ch'ída'iinééh",
+        "literal": "people moving out",
         "normalized": "chidaiineeh",
         "short_translations": [
           "emigration"
@@ -8516,7 +8749,7 @@
       },
       "chiyaan-naalkaad-bee-jiinanigii": {
         "word": "chʼiyáán náálkąąd bee jiinánígíí",
-        "literal": "chʼiyáán = food, bee jiinánígíí = keeping you alive... means \"something about the food is keeping you alive\"",
+        "literal": "substances from digested food by means of which one has life",
         "normalized": "chiyaan-naalkaad-bee-jiinanigii",
         "short_translations": [
           "glucose"
@@ -8541,6 +8774,7 @@
       },
       "chiyaan-nayoolkaalii": {
         "word": "ch'iyáán náyoołkąąłii",
+        "literal": "that which breaks down food to watery substance, usually sweet",
         "normalized": "chiyaan-nayoolkaalii",
         "short_translations": [
           "digestive system"
@@ -8565,6 +8799,7 @@
       },
       "chiyaan-yidilidi": {
         "word": "ch'iyáán yidiłidí",
+        "literal": "something that burns food",
         "normalized": "chiyaan-yidilidi",
         "short_translations": [
           "enzyme"
@@ -8615,7 +8850,7 @@
       },
       "chosh-doo-yitiinii-bee-naatseedi": {
         "word": "ch'osh doo yit'íinii bee naatseedí",
-        "literal": "ch'osh doo yit'íinii = bacteria. bee naatseedí = killler. Meaning \"bug spray\"",
+        "literal": "ch'osh=bug, bacteria; doo yit'íinii=not visible; bee naatseedí=substance used to kill them. A substance used to kill bacteria.",
         "normalized": "chosh-doo-yitiinii-bee-naatseedi",
         "audio": "/audio/dine/antibiotic-dine.m4a",
         "short_translations": [
@@ -8623,7 +8858,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ch'osh doo yit'íinii bee yigání éí doodago bee ni'óolziní"
+            "definition": "Ch'osh doo yit'íinii bee yigání éí doodago bee ni'óolziní",
+            "sentence": "Ch'osh doo yit'íinii ba'át'e' hólónígíí bits'ą́ą́dóó hatah doo hats'íi da jileehgo azee'ííł'íní azee' ch'osh doo yit'íinii neiłtseedígíí hąąh áyiił'įįh éí ch'osh doo yit'íinii ííłdįįh."
           }
         ],
         "translations": [
@@ -8641,7 +8877,7 @@
       },
       "chosh-doo-yitinii": {
         "word": "chʼosh doo yitʼínii",
-        "literal": "bug you can't see",
+        "literal": "bug so small that you can't see them",
         "comment": "Also includes viruses",
         "normalized": "chosh-doo-yitinii",
         "audio": "/audio/dine/bacteria-dine.m4a",
@@ -8651,7 +8887,8 @@
         ],
         "definitions": [
           {
-            "definition": "T'áádoole'é bits'íís bitł'óól t'ááłá'ígo yee hiná ch'osh doo yit'íinii dabijiní"
+            "definition": "T'áádoole'é bits'íís bitł'óól t'ááłá'ígo yee hiná ch'osh doo yit'íinii dabijiní",
+            "sentence": "Níla' níníł'į́įgo doo bąąh chiní dashį́į́ nahalin. Tánínánígisgo ch'osh doo yit'íinii doo níla' bee dii chin da."
           },
           {
             "definition": "Hináanii doo yit'íinii. Bee adéest'į́į́' dabidziilígíí t'éí bee daat'į́."
@@ -8706,7 +8943,7 @@
       },
       "dil": {
         "word": "dił",
-        "literal": "dił = blood",
+        "literal": "blood",
         "normalized": "dil",
         "audio": "/audio/dine/blood-dine.m4a",
         "short_translations": [
@@ -8714,7 +8951,8 @@
         ],
         "definitions": [
           {
-            "definition": "Bíla'ashdla'ii bits'íístoo' dóó hináago naaldeehii bits'íístoo' bits'íístahgóó dóó bits'íís bitł'óól biyi'góó níłch'i dóó ch'iyáán dóó yee hináanii ayiił'eeł áádóó ats'íís ałtso choyoos'įįdii níláhgóó ats'á yiile"
+            "definition": "Bíla'ashdla'ii bits'íístoo' dóó hináago naaldeehii bits'íístoo' bits'íístahgóó dóó bits'íís bitł'óól biyi'góó níłch'i dóó ch'iyáán dóó yee hináanii ayiił'eeł áádóó ats'íís ałtso choyoos'įįdii níláhgóó ats'á yiile",
+            "sentence": "Nits'íís doo naalnish da doo dił t'óó ahayóí bąąh háágo'go, háálá dił níłch'i bii' hólǫ́ dóó ch'iyáán bibee adziil dóó iináanii nits'íís yee naha'ná éí yinízin."
           }
         ],
         "translations": [
@@ -8732,13 +8970,15 @@
       },
       "dil-alaa-adaatehigii": {
         "word": "dił ał'ąą ádaat'éhígíí",
+        "literal": "dił = blood; ał'ąą = different kinds; ádaat'éhígíí = the way they are blood different kinds the way they are",
         "normalized": "dil-alaa-adaatehigii",
         "short_translations": [
           "ABO blood type"
         ],
         "definitions": [
           {
-            "definition": "Bíla'ashdla'ii bidił bee bééhózindooígíí ádaalyaa. Hadił łichíí'ígíí bikáá'gónaa áhoot'éhígíí bik'ehgo háidígííshį́į́ hadił A, B, O, doodago AB."
+            "definition": "Bíla'ashdla'ii bidił bee bééhózindooígíí ádaalyaa. Hadił łichíí'ígíí bikáá'gónaa áhoot'éhígíí bik'ehgo háidígííshį́į́ hadił A, B, O, doodago AB.",
+            "sentence": "Naho'dilgizhgo dił łą́ hats'ánah éí bąą hadił nilínígíí hoł bééhózin aláahgo. Dił łą hąąh haanahgo azee' ííł'íní dił háidígííshį́į́ hadił nilínígíí bił aheełt'é A, B, O díí táá' ał'ąą át'é éí bik'ehgo dił yee adahajeehígíí bidił hwiih nákááh."
           }
         ],
         "translations": [
@@ -8805,14 +9045,15 @@
       },
       "dil-ligaai": {
         "word": "dił łigaaí",
-        "literal": "dił = blood. łigaaî = white. Meaning, white blood.",
+        "literal": "dił = blood. łigaaî = white. Meaning, \"white blood\"",
         "normalized": "dil-ligaai",
         "short_translations": [
           "white blood cell"
         ],
         "definitions": [
           {
-            "definition": "Hinááhts'óóz ats'íís yee bihodééłníi da áyósin éí ii'noot'į́į́', infection, dóó ąąh dahwiidooł'aałii yich'ą́ą́h naalnish"
+            "definition": "Hinááhts'óóz ats'íís yee bihodééłníi da áyósin éí ii'noot'į́į́', infection, dóó ąąh dahwiidooł'aałii yich'ą́ą́h naalnish",
+            "sentence": "Dił łigaí éí ats'íís bee doo bihodééłníinii yitah naalnish. Dił łigaí t'óó ahayóí ał'ąą át'é hats'óós biyi'di hadił bitah áádóó t'áá ał'ąą át'éego binaanish dahólǫ́ǫgo ch'osh doo yit'íinii ats'íís yihodiiłt'ééhígíí yik'ijį' nidaalnish."
           }
         ],
         "translations": [
@@ -8929,7 +9170,7 @@
       },
       "doo-yitiinii-bee-nelini": {
         "word": "doo yit'íinii bee nél'íní",
-        "literal": "doo yit'íinii = what you can't see. bee nél'íní = looking at with. Meaning, \"looking with at what you can't see\"",
+        "literal": "something used to look at very small objects that cannot be seen",
         "normalized": "doo-yitiinii-bee-nelini",
         "short_translations": [
           "microscope"
@@ -9026,13 +9267,15 @@
       },
       "haatii-da-doo-lahgo-aneehii": {
         "word": "ha'át'íi da doo łahgo ánéehii",
+        "literal": "something that does not change",
         "normalized": "haatii-da-doo-lahgo-aneehii",
         "short_translations": [
           "chemical"
         ],
         "definitions": [
           {
-            "definition": "Ha'át'íi da t'ááłáhági át'éego hadít'é dóó t'ááłáhági át'éego naalnishígíí"
+            "definition": "Ha'át'íi da t'ááłáhági át'éego hadít'é dóó t'ááłáhági át'éego naalnishígíí",
+            "sentence": "Tó éí ha'át'íi da t'áá ałtsóní bee ályaii, element, díkwíi da ałtah ályaii, chemical, át'é éísh baa ákonínízin? Tó t'ááłá'í hadaałt'éego si'ánígíí, molecule, níłch'ih łikoní ászólí naakigo dóó níłch'ih łigaií, oxygen, t'ááłá'ígo bił ahii'sinilgo da'ahótą' éí bąą Hąó bee wójí dóó naaltsoos bikáá' áł'į́."
           }
         ],
         "translations": [
@@ -9080,7 +9323,8 @@
         ],
         "definitions": [
           {
-            "definition": "Niyiiłkaah dóó aná'át'áahjį' hats'íís biyi'di ajiłhosh, ninájílnish dóó hasht'ez dít'é bee bíhólníihgo nijigháhígíí"
+            "definition": "Niyiiłkaah dóó aná'át'áahjį' hats'íís biyi'di ajiłhosh, ninájílnish dóó hasht'ez dít'é bee bíhólníihgo nijigháhígíí",
+            "sentence": "Circadian rhythm éí hináanii bits'íís yee jį́įgo dóó tł'ée'go ahééh hwiilzhííshígíí yik'ehgo naaldeeh dóó nidanise'ígíí óolyé. Nidíyílii abinígo háá'áago bílátah hózhóón ha'a'aahjigo niiłki' éí shá yíka'ałkidgo át'į́."
           }
         ],
         "translations": [
@@ -9122,6 +9366,7 @@
       },
       "hai-da-bi-allele-taa-altso": {
         "word": "hái da bi allele t'áá ałtso",
+        "literal": "someone's allele all of it",
         "normalized": "hai-da-bi-allele-taa-altso",
         "short_translations": [
           "genotype"
@@ -9200,7 +9445,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hats'íístahgóó hadił nidaazlį́įgo bee níłch'i dóó ch'iyáán hats'íís bitah hólǫ́ǫgo áyósin áádóó hats'íís ałtso choyoos'įįdígíí hats'áyiiléego jiinánígíí. Kót'éego binaanishígíí éí hajéídíshjool, hats'oos łichí'í dóó hats'oos dootł'izhí."
+            "definition": "Hats'íístahgóó hadił nidaazlį́įgo bee níłch'i dóó ch'iyáán hats'íís bitah hólǫ́ǫgo áyósin áádóó hats'íís ałtso choyoos'įįdígíí hats'áyiiléego jiinánígíí. Kót'éego binaanishígíí éí hajéídíshjool, hats'oos łichí'í dóó hats'oos dootł'izhí.",
+            "sentence": "Hadił hódahgo na'ałkidgo hats'íístahgóó hats'óós dóó dił yee hadít'éhígíí doo hazhó'ó naalnish da háálá hajéídíshjool yéego yich'į' naaldzilgo hadił t'áá át'é náásgóó ayiiłt'ood."
           }
         ],
         "translations": [
@@ -9218,7 +9464,7 @@
       },
       "hinaahtsooz": {
         "word": "hinááhts'óóz",
-        "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
+        "literal": "hinááh = living unit, ts'óóz=slender, primal. Means \"slender primal unit of life\"",
         "comment": "Formal word",
         "normalized": "hinaahtsooz",
         "audio": "/audio/dine/cell-formal-dine.m4a",
@@ -9227,7 +9473,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł."
+            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
@@ -9265,7 +9512,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hinááhts'ózí t'áá ahedaałt'éego dóó binaanish t'ááłá'ígo"
+            "definition": "Hinááhts'ózí t'áá ahedaałt'éego dóó binaanish t'ááłá'ígo",
+            "sentence": "Awóchii' bąąh dahoo'aahgo hawóchii' dadeeshchii', neezhcháád, dóó dił bąąh łeh. Awóchii' bąąh dahwiidoo'aałígíí bits'ąą t'áá ahą́ą́h hawoo' níjích'ish dóó hawoo' bita' niná'zhníłdisgo doo bąąh dahoo'aah da."
           }
         ],
         "translations": [
@@ -9312,6 +9560,7 @@
       },
       "hinaahtsooz-naaghaii": {
         "word": "hinááhts'óóz naagháii",
+        "literal": "one cell that lives separately",
         "see_also": [
           {
             "word": "hinááhts'óóz",
@@ -9324,7 +9573,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hináanii hinááhts'óóz t'ááłá'ígo bits'íís nilį́. Hináanii náádaała' éí hinááhts'óóz łą́ągo yee bits'íís dahólǫ́."
+            "definition": "Hináanii hinááhts'óóz t'ááłá'ígo bits'íís nilį́. Hináanii náádaała' éí hinááhts'óóz łą́ągo yee bits'íís dahólǫ́.",
+            "sentence": "Chosh doo yit'íinii bidii'nínígíí éí doo ch'osh át'éeda nidi éí bee yíníijí. Hináago t'áá ałtsogóó hólǫ́, hinááhts'ózí t'ááłá'ígo bitsíís."
           }
         ],
         "translations": [
@@ -9342,7 +9592,7 @@
       },
       "hinaahtsozi": {
         "word": "hinááhts'ózí",
-        "literal": "hinááh = life, ts'óózí = small. Means \"small unit of life\"",
+        "literal": "hinááh = living unit, ts'ózí=small, primal. Means \"small primal unit of life\"",
         "comment": "Shorthand of the formal word",
         "normalized": "hinaahtsozi",
         "audio": "/audio/dine/cell-short-form-dine.m4a",
@@ -9351,7 +9601,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł."
+            "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
@@ -9467,6 +9718,7 @@
       },
       "hinaahtsozi-bitagoo": {
         "word": "hinááhts'ózí bita'góó",
+        "literal": "between cells",
         "see_also": [
           {
             "word": "hinááhts'ózí",
@@ -9527,7 +9779,7 @@
       },
       "hinaahtsozi-biyi-di-bijei-binaagoo-holonigii": {
         "word": "hinááhts'ózí biyi' di bijéí binaagóó hólónígíí",
-        "literal": "hinááhts'ózí biyi' di bijéí = nuclues (heart of the cell). binaagóó = surrounding. hólónígíí = exists. Meaning, \"it exists around the nuclues\".",
+        "literal": "hinááhts'ózí biyi' di bijéí = nuclues (heart of the cell). binaagóó = surrounding. hólónígíí = exists. Meaning, \"the contents of a cell around the nucleus\"",
         "see_also": [
           {
             "word": "hinááhts'ózí",
@@ -9558,7 +9810,7 @@
       },
       "hinaahtsozi-iina-bitlool-naaki-bee-holo": {
         "word": "hinááhts'ozí iiná bitł'óól naaki bee hólǫ́",
-        "literal": "hinááhts'ozí = cell. iiná bitł'óól = DNA. naaki = two. bee hólǫ́ = it has. Meaning, cell with 2 DNA.",
+        "literal": "(body) cell having two chromosomes",
         "see_also": [
           {
             "word": "hinááhts'ózí",
@@ -9589,6 +9841,7 @@
       },
       "hinaahtsozi-nooseel": {
         "word": "hinááhts'ózi noosééł",
+        "literal": "cell in period of rest",
         "see_also": [
           {
             "word": "hinááhts'ózí",
@@ -9668,6 +9921,7 @@
       },
       "hinaanii-aatiilgi-ateego": {
         "word": "hináanii áát'įįłgi át'éego",
+        "literal": "the way a living thing acts, behaves",
         "see_also": [
           {
             "word": "hináanii",
@@ -9680,7 +9934,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hináanii áát'įįłígíí"
+            "definition": "Hináanii áát'įįłígíí",
+            "sentence": "Na'ashjé'ii na'atł'o, łííchaaí bitsee' kwííł'į́, éí doodago ayáásh bich'ooní yíká ání, kót'éego dahináanii naaldeehígíí dóó ádaat'įįłígíí éí biniyéii dahólǫ́ǫgo ádaat'į́, éí ááh ha'ní behavior."
           }
         ],
         "translations": [
@@ -9698,6 +9953,7 @@
       },
       "hinaanii-achi-nahwiilna": {
         "word": "hináanii ach'į' nahwiiłná",
+        "literal": "living thing that causes problems",
         "see_also": [
           {
             "word": "hináanii",
@@ -9728,6 +9984,7 @@
       },
       "hinaanii-ahil-nidaalnish": {
         "word": "hináanii ahił nidaalnish",
+        "literal": "organisms that work together or affect one another",
         "see_also": [
           {
             "word": "hináanii",
@@ -9740,7 +9997,8 @@
         ],
         "definitions": [
           {
-            "definition": "Nahasdzáán bikáá'góó hináanii kéédahat'į́įgo bił nahaz'ánígíí hináanii t'áá át'é yiłdi'ígíí"
+            "definition": "Nahasdzáán bikáá'góó hináanii kéédahat'į́įgo bił nahaz'ánígíí hináanii t'áá át'é yiłdi'ígíí",
+            "sentence": "Nanise' nooséełgo hináago naaleehii ch'il deiyánígíí, herbivores, dóó bits'ą́ą́dóó naałniih atída'ał'íinii, pathogens, beinít'įįhgo noosééł yę́ę yiníłtł'a doo."
           }
         ],
         "translations": [
@@ -9758,6 +10016,7 @@
       },
       "hinaanii-alaa-adaatehigii": {
         "word": "hináanii ał'ąą ádaat'éhígíí",
+        "literal": "where different forms of living things exist",
         "see_also": [
           {
             "word": "hináanii",
@@ -9770,7 +10029,8 @@
         ],
         "definitions": [
           {
-            "definition": "Iiná ał'ąą ádaat'éego bits'ą́ą́dóó ayoonaałígíí éí díí dahináanii t'áá ałtso, bik'ehgo yee oołchíiłii dóó naaldeehgo bá nahaz'áą́góó dóó hózhǫ́ǫgo bá dahoo'a'gi"
+            "definition": "Iiná ał'ąą ádaat'éego bits'ą́ą́dóó ayoonaałígíí éí díí dahináanii t'áá ałtso, bik'ehgo yee oołchíiłii dóó naaldeehgo bá nahaz'áą́góó dóó hózhǫ́ǫgo bá dahoo'a'gi",
+            "sentence": "Halgai di iiná ałtaas'éí, biodiversity, éí hosh, jaa' abaní, na'ashǫ́'iiłbáhá, dahyiitį́hí, dóó ch'osh ahił naaldeehgo bee hózhǫ́ǫgo nahaz'ą́."
           }
         ],
         "translations": [
@@ -9848,6 +10108,7 @@
       },
       "hinaanii-ate-niliigi": {
         "word": "hináanii át'é nilį́įgi",
+        "literal": "the way a living thing is",
         "see_also": [
           {
             "word": "hináanii",
@@ -9860,7 +10121,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hináanii bił bidizhchínígíí yit'į́ yileehdi"
+            "definition": "Hináanii bił bidizhchínígíí yit'į́ yileehdi",
+            "sentence": "Hatsiighá ánoolninígíí, hanáá' ánoolninígíí, dóó háchį́į́h áníłtsooígíí da éí bee haho'dilyaago ho'dizhchínígii hamá dóó hazhé'é yee hadít'éhígíí bił ho'dichííhígíí óolyé."
           }
         ],
         "translations": [
@@ -9878,6 +10140,7 @@
       },
       "hinaanii-bee-hahoditeegi": {
         "word": "hináanii bee hahodít'éegi",
+        "literal": "a place where it is prepared for living things",
         "see_also": [
           {
             "word": "hináanii",
@@ -9890,7 +10153,8 @@
         ],
         "definitions": [
           {
-            "definition": "Nahasdzáán bikáá'góó áhoołts'óózígo honít'i'go iiná bináhaazlá"
+            "definition": "Nahasdzáán bikáá'góó áhoołts'óózígo honít'i'go iiná bináhaazlá",
+            "sentence": "Iiná bee hahodít'éégóó éí nahasdzáán bikáá'góó hináanii bá nahaz'ą́ą́góó kéédahat'į́."
           }
         ],
         "translations": [
@@ -9938,7 +10202,7 @@
       },
       "hinaanii-bihinaahtsozi-bijei-daholonigii": {
         "word": "hináanii bihinááhts'ózí bijéí dahólónígíí",
-        "literal": "hináanii = life, bihinááhts'ózí=cell, bijéí = heart (here nuclues), dahólónígíí = has. meaning \"life that has cells with a nuclues\"",
+        "literal": "living things that have a heart (nucleus) in their cells",
         "see_also": [
           {
             "word": "hináanii",
@@ -9983,6 +10247,7 @@
       },
       "hinaanii-bil-haza": {
         "word": "hináanii bił haz'ą́",
+        "literal": "place where living things live",
         "see_also": [
           {
             "word": "hináanii",
@@ -10147,6 +10412,7 @@
       },
       "hinaanii-chiyaan-nili": {
         "word": "hináanii ch'iyáán nilį́",
+        "literal": "where a living thing becomes food",
         "see_also": [
           {
             "word": "hináanii",
@@ -10159,7 +10425,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hináanii ayą́ągo hiná dóó áadi ha'át'ííshį́į́ bich'iiyą' nánídlį́į́góne'"
+            "definition": "Hináanii ayą́ągo hiná dóó áadi ha'át'ííshį́į́ bich'iiyą' nánídlį́į́góne'",
+            "sentence": "Nanise' ałtaas'éí ts'ídá alą́ąjį' ch'iyáán nilį́ nahasdzáán bikáa'góó ch'iyáán siláago bee hahodít'éhígíí. Hináanii naaldlooshii ádaat'éii, bįįh da, éí nanise' ałtaas'éí deiyą́ągo bikáá'gónaa bił nááhást'ą́. Dahináanii nidaaldlooshígíí bįįh deiyánígíí, násdóí da, bidéigóne' bił nááhást'ą́."
           }
         ],
         "translations": [
@@ -10207,6 +10474,7 @@
       },
       "hinaanii-dildzid": {
         "word": "hináanii diłdzid",
+        "literal": "break down/deterioation",
         "see_also": [
           {
             "word": "hináanii",
@@ -10237,6 +10505,7 @@
       },
       "hinaanii-dildzidgo-leezh-naadleel": {
         "word": "hináanii diłdzidgo leezh náádleeł",
+        "literal": "living thing/things breaking down and becoming soil",
         "see_also": [
           {
             "word": "hináanii",
@@ -10357,6 +10626,7 @@
       },
       "hinaanii-keyah-choyooli": {
         "word": "hináanii kéyah choyooł'į́",
+        "literal": "hináanii=living things; kéyah=land; choyooł'į́=they use it. Living using their land. (the perspective is that anything needed for life is used which includes places where they are located to be safe and survive, water and medicine that grow there all the time.)",
         "see_also": [
           {
             "word": "hináanii",
@@ -10369,7 +10639,8 @@
         ],
         "definitions": [
           {
-            "definition": "Naaldlooshii haashį́į́ néelt'e'go íiyisíí kéyah bikáá'go da' ayą́ągo bihonéedzą́"
+            "definition": "Naaldlooshii haashį́į́ néelt'e'go íiyisíí kéyah bikáá'go da' ayą́ągo bihonéedzą́",
+            "sentence": "Bee hane'í nidaajaahígíí yee nidaalnishígíí, cell phone apps, t'óó ahayóí biih jiniłgo doo tsį́įłgo naalnish da, doodago doo naalnish da yileeh. Nahasdzáán biyi' dóó bikáá'góó, environment, t'áá ákót'é. Nahasdzáán choyooł'íinii haashį́į́ néelt'e'go t'éí yíká análwo'go bihonéedzą́."
           }
         ],
         "translations": [
@@ -10417,6 +10688,7 @@
       },
       "hinaanii-oochiil-yaa-ninisa": {
         "word": "hináanii oochííł yaa ninísą́",
+        "literal": "hináanii = living things; oochííł = reproductive ability/reproduction; yaa = reaching it; ninísą́ = grew to it. living thing developing the ability to reproduce.",
         "see_also": [
           {
             "word": "hináanii",
@@ -10429,7 +10701,8 @@
         ],
         "definitions": [
           {
-            "definition": "Bíla'ashdla'ii oochííł yaa ninísą́ągo yaa hóyánígíí."
+            "definition": "Bíla'ashdla'ii oochííł yaa ninísą́ągo yaa hóyánígíí.",
+            "sentence": "Másítsa'ii éí t'áá biyázhí haleehé másí t'áá hóyáanii yileeh."
           }
         ],
         "translations": [
@@ -10539,6 +10812,7 @@
       },
       "hooltseigo-dzigai": {
         "word": "hóółtséigo dzígai",
+        "literal": "place where nothing grows and dry",
         "normalized": "hooltseigo-dzigai",
         "short_translations": [
           "desert"
@@ -10563,7 +10837,7 @@
       },
       "iigash": {
         "word": "íígąsh",
-        "literal": "sperm",
+        "literal": "male semen",
         "normalized": "iigash",
         "short_translations": [
           "sperm"
@@ -10588,13 +10862,15 @@
       },
       "iina-ba-yaahooteehgo-haza": {
         "word": "iina bá yá'áhoot'éehgo haz'ą́",
+        "literal": "a place where it is good for and life is sustainable",
         "normalized": "iina-ba-yaahooteehgo-haza",
         "short_translations": [
           "biome"
         ],
         "definitions": [
           {
-            "definition": "Nahasdzáán bikáagi haashį́į́ honíłtso haz'ą́ągo nanise' dóó naaldeehii bá yá'áhoot'éehgo bił hoolzhish"
+            "definition": "Nahasdzáán bikáagi haashį́į́ honíłtso haz'ą́ągo nanise' dóó naaldeehii bá yá'áhoot'éehgo bił hoolzhish",
+            "sentence": "Halgai di haz'ą́ągo éí t'áá sahdii át'éego iiná hólǫ́. Nanise' ałtaas'éí dóó hináanii naaldeehii nizhónígo naaldeeh níłtsą́ t'įįhdígo nidi yee éí doodago t'áágééd nidi."
           }
         ],
         "translations": [
@@ -10612,7 +10888,7 @@
       },
       "iina-bitlool": {
         "word": "iiná bitł'óól",
-        "literal": "iiná = life, bitł'óól = strands. meaning \"strands of life\"",
+        "literal": "iiná = life, bitł'óól = strand. Meaning \"strand of life\"",
         "normalized": "iina-bitlool",
         "audio": "/audio/dine/dna-dine.m4a",
         "short_translations": [
@@ -10638,7 +10914,7 @@
       },
       "iina-bitlool-adeealneeh": {
         "word": "iiná bitł'óól ádéé'alnééh",
-        "literal": "iiná bitł'óól = DNA. ádéé'alnééh = copy. Meaning, \"DNA copying itself\"",
+        "literal": "iiná bitł'óól = DNA. ádéé'alnééh = copy. Meaning, \"a strand of life copying itself\"",
         "normalized": "iina-bitlool-adeealneeh",
         "short_translations": [
           "DNA replication"
@@ -10718,7 +10994,8 @@
         ],
         "definitions": [
           {
-            "definition": "Iiná bitł'óól nídahineeshzhee'go ats'íís bitł'óól biyi'di dahólónígíí"
+            "definition": "Iiná bitł'óól nídahineeshzhee'go ats'íís bitł'óól biyi'di dahólónígíí",
+            "sentence": "Bíla'ashdla'ii bits'íís biyi'di iiná bitł'óól, DNA, ałk'ídeesdizgo ats'íís bitł'óól bii' siláhígíí, chromosome, naadiintáá' bii' hólǫ́ éí naakidi bééda'alyaago, two copies, hats'íís bii'silá. Hái da díí chromosome béé'ályaaígíí t'ááłá'í bee bilááh bee hólǫ́ǫgo éí doodago iiná bitł'óól ałk'ídeesdizí naadiinła'góne si'ánígíí t'áá bighąądígi bił yizhchį́įgo éí Down Syndrome bee bąąh dahaz'ą́ągo doochííł."
           }
         ],
         "translations": [
@@ -10784,7 +11061,7 @@
       },
       "iina-bitlool-taa-lai": {
         "word": "iiná bitł'óól t'áá łá'í",
-        "literal": "iiná bitł'óól = DNA. t'áá łá'í = one. Meaning, \"One DNA\".",
+        "literal": "DNA just one (of a pair)",
         "normalized": "iina-bitlool-taa-lai",
         "short_translations": [
           "haploid"
@@ -10833,14 +11110,15 @@
       },
       "iina-naalkaah": {
         "word": "iiná naalkaah",
-        "literal": "iiná = life, naalkaah = study. means to study life.",
+        "literal": "iiná=life, naalkaah= study. means to study life.",
         "normalized": "iina-naalkaah",
         "short_translations": [
           "biology"
         ],
         "definitions": [
           {
-            "definition": "Dahináanii t'áá ałtso baa nahodigį'go naalkaah"
+            "definition": "Dahináanii t'áá ałtso baa nahodigį'go naalkaah",
+            "sentence": "Iiná naalkaah dóó bíhoo'aahgóne', ayoonaał dóó ał'ąą anídaa'nííłgo nídahodilzhish éí bíhoo'aah, hinááhts'óóz danilį́įgo dahináádę́ę́' dóó t'áá át'éé nít'ę́ę́' iiná bee ááhoo'níiłgo hoogááłígíí."
           }
         ],
         "translations": [
@@ -10882,7 +11160,7 @@
       },
       "keedilyeeh": {
         "word": "kʼééʼdílyééh",
-        "literal": "kʼééʼdílyééh = planting/agriculture",
+        "literal": "kʼééʼdílyééh= planting/agriculture",
         "comment": "this applies to all types of vegetation. Word will change If start talking about specific planting of something ie \"plant corn, kil dilyeeh\"",
         "normalized": "keedilyeeh",
         "short_translations": [
@@ -10890,7 +11168,8 @@
         ],
         "definitions": [
           {
-            "definition": "Dá'ák'eh, k'eelyéí, daneest'áanii, dóó iiná naalyé bíhoo'ą́ą́'"
+            "definition": "Dá'ák'eh, k'eelyéí, daneest'áanii, dóó iiná naalyé bíhoo'ą́ą́'",
+            "sentence": "Dá'ák'eh bee iiná bíighahgo ádeeł'ínínígíí éí k'e'dilyé baa dahwiilzhíísh bił béédahózin, łeezh bii' yá'át'éehgo na'nise', dóó tó bee baa áháyą́ bił béédahózin."
           }
         ],
         "translations": [
@@ -10908,6 +11187,7 @@
       },
       "keelyei": {
         "word": "k'eelyéí",
+        "literal": "seed; seedling",
         "normalized": "keelyei",
         "short_translations": [
           "egg"
@@ -10955,6 +11235,7 @@
       },
       "keyah-bikaagi-hazanigi": {
         "word": "kéyah bikáa'gi haz'ánígi",
+        "literal": "an area on land",
         "normalized": "keyah-bikaagi-hazanigi",
         "short_translations": [
           "environment"
@@ -10979,6 +11260,7 @@
       },
       "lahgo-haza-bii-anooneel": {
         "word": "łahgo haz'ą́ bii' anoonééł",
+        "literal": "deaths in a given area",
         "normalized": "lahgo-haza-bii-anooneel",
         "short_translations": [
           "death rate"
@@ -11009,7 +11291,8 @@
         ],
         "definitions": [
           {
-            "definition": "Ch'iyáán íiyisíí bee ats'íís bidziil dóó biinéí áyósinígíí. Łikání t'éí át'é."
+            "definition": "Ch'iyáán íiyisíí bee ats'íís bidziil dóó biinéí áyósinígíí. Łikání t'éí át'é.",
+            "sentence": "Nits'íís éí ch'iyáán t'áádoo hodina'í náálkąąłígíí, carboydrates, łees'áán dóó nímasii ádaat'éii choyooł'į́įgo yee bidziil dóó biinéí."
           }
         ],
         "translations": [
@@ -11027,6 +11310,7 @@
       },
       "likani-nanise-yee-hadite": {
         "word": "łikání nanise' yee hadít'é",
+        "literal": "sweet substance hidden/stored in plants",
         "normalized": "likani-nanise-yee-hadite",
         "short_translations": [
           "starch"
@@ -11051,13 +11335,15 @@
       },
       "lizh-ba-hazaagi": {
         "word": "łizh bá haz'ą́ągi",
+        "literal": "the place of urine",
         "normalized": "lizh-ba-hazaagi",
         "short_translations": [
           "urinary system"
         ],
         "definitions": [
           {
-            "definition": "Ats'íís biyi'di siláhígíí ats'íís ałtso choyoos'įįdígíí níláhgóó yits'ą́ąjį' kwííł'ínígíí"
+            "definition": "Ats'íís biyi'di siláhígíí ats'íís ałtso choyoos'įįdígíí níláhgóó yits'ą́ąjį' kwííł'ínígíí",
+            "sentence": "Alizh bił haz'ą́ągi éí hadił yąąh haił'eeł éí hats'íístahdę́ę́' t'áádoole'é ałtso chodaoz'įįdígíí hats'íís yits'á yiilé."
           }
         ],
         "translations": [
@@ -11075,7 +11361,7 @@
       },
       "naaldeehii": {
         "word": "naaldeehii",
-        "literal": "living things that move about",
+        "literal": "naaldeehii = living things that move about",
         "normalized": "naaldeehii",
         "audio": "/audio/dine/animal-that-move-dine.m4a",
         "short_translations": [
@@ -11083,7 +11369,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hináanii bits'íís bitł'óól (cells) daholónígíí biyi'di bijéí (nucleus) iiná bitł'óól dóó bik'ehgo náás oochíiłii nídahineeshzhee'."
+            "definition": "Hináanii bits'íís bitł'óól (cells) daholónígíí biyi'di bijéí (nucleus) iiná bitł'óól dóó bik'ehgo náás oochíiłii nídahineeshzhee'.",
+            "sentence": "Bíla'ashdla'ii, k'aalógii, łóó' dóó másí éí t'áá ałtso hináanii ayánígíí, yee ákonízinii dóó bits'óóz dahólónígíí, dóó tsxį́įłgo naha'nánígíí ádaat'éego animals bee wójí."
           }
         ],
         "translations": [
@@ -11101,6 +11388,7 @@
       },
       "naaldeehii-bil-haza": {
         "word": "naaldeehii bił haz'ą́",
+        "literal": "learning the environment of how living things live together",
         "see_also": [
           {
             "word": "naaldeehii",
@@ -11131,7 +11419,7 @@
       },
       "naaldeehii-daalghaligii": {
         "word": "naaldeehii daʼalghałígíí",
-        "literal": "naaldeehii = animals; daʼalghałígíí = eaters or butchers.",
+        "literal": "naaldeehii=animals; daʼalghałígíí=eaters or butchers.",
         "see_also": [
           {
             "word": "naaldeehii",
@@ -11144,7 +11432,8 @@
         ],
         "definitions": [
           {
-            "definition": "Hináanii naaldeehii naaldeehii deiyánígíí"
+            "definition": "Hináanii naaldeehii naaldeehii deiyánígíí",
+            "sentence": "Násdóítsoh biwoo' háádahaashxchii'go áyóo dadeení éí yee naaldlooshii bits'į' nidayiiłdlaadgo deiyą́, háálá éí naaldeehii daʼalghałígíí ádaat'é."
           }
         ],
         "translations": [
@@ -11162,14 +11451,15 @@
       },
       "naaldeehii-naalkaah": {
         "word": "naaldeehii naalkaah",
-        "literal": "naaldeehii = animal. naalkaah = study. Meaning, studying animals",
+        "literal": "naaldeehii = animal. naalkaah = study. MeaningMeaning, \"study of animals\"",
         "normalized": "naaldeehii-naalkaah",
         "short_translations": [
           "zoology"
         ],
         "definitions": [
           {
-            "definition": "Hináanii naaldeehii, animals, ał'ąą át'éego dahyikahígíí haalzííd dóó naalkaahgo bíhoo'aah"
+            "definition": "Hináanii naaldeehii, animals, ał'ąą át'éego dahyikahígíí haalzííd dóó naalkaahgo bíhoo'aah",
+            "sentence": "Naaldlooshii yee dahinánígíí éí naaldeehii naalkaah bił béédahózingo bee dibé bitsį' daditánígíí da doodago bighaa' daalzhóólígíí yee nideiniłtą'."
           }
         ],
         "translations": [
@@ -11187,6 +11477,7 @@
       },
       "naaldeehii-yee-sizili": {
         "word": "naaldeehii yee sizilí",
+        "literal": "the means of body heat for living things",
         "normalized": "naaldeehii-yee-sizili",
         "short_translations": [
           "ectotherm"
@@ -11211,14 +11502,15 @@
       },
       "naaldlooshii": {
         "word": "naaldlooshii",
-        "literal": "living things that trot or walk",
+        "literal": "naaldlooshii = living things that trot or walk",
         "normalized": "naaldlooshii",
         "short_translations": [
           "animal"
         ],
         "definitions": [
           {
-            "definition": "Hináanii bits'íís bitł'óól (cells) daholónígíí biyi'di bijéí (nucleus) iiná bitł'óól dóó bik'ehgo náás oochíiłii nídahineeshzhee'."
+            "definition": "Hináanii bits'íís bitł'óól (cells) daholónígíí biyi'di bijéí (nucleus) iiná bitł'óól dóó bik'ehgo náás oochíiłii nídahineeshzhee'.",
+            "sentence": "Bíla'ashdla'ii, k'aalógii, łóó' dóó másí éí t'áá ałtso hináanii ayánígíí, yee ákonízinii dóó bits'óóz dahólónígíí, dóó tsxį́įłgo naha'nánígíí ádaat'éego animals bee wójí."
           }
         ],
         "translations": [
@@ -11236,6 +11528,7 @@
       },
       "naaldlooshii-chil-yilchozhigii": {
         "word": "naaldlooshii ch'il yiłchozhígíí",
+        "literal": "animals plants they eat those",
         "normalized": "naaldlooshii-chil-yilchozhigii",
         "short_translations": [
           "herbivore"
@@ -11260,7 +11553,7 @@
       },
       "naalkaah": {
         "word": "naʼałkaah",
-        "literal": "naʼałkaah = investigating/research",
+        "literal": "naʼałkaah=investigating/research",
         "normalized": "naalkaah",
         "short_translations": [
           "research"
@@ -11333,7 +11626,7 @@
       },
       "naalkaahi": {
         "word": "naʼałkaahí",
-        "literal": "Naʼałkaahíí = thing that does the investigating \"Reseacher\" . naʼałkaah = research, the íí is what makes it describing.",
+        "literal": "Naʼałkaahíí=thing that does the investigating \"Reseacher\" . naʼałkaah=research, the íí is what makes it describing.",
         "normalized": "naalkaahi",
         "short_translations": [
           "scientist"
@@ -11358,13 +11651,15 @@
       },
       "naalniih": {
         "word": "naałniih",
+        "literal": "contagion that goes around",
         "normalized": "naalniih",
         "short_translations": [
           "virus"
         ],
         "definitions": [
           {
-            "definition": "Hináanii doo yit'į́į dago nááná łahdę́ę́' yigáałgo ats'íís bihinááhts'óóz biyi'di hiná silį́į́', dóó áadi hinááhts'óóz yee binahjį' noosééł yileeh áádóó bits'ą́ą́dóó ąąh dahaz'ą́ haleeh"
+            "definition": "Hináanii doo yit'į́į dago nááná łahdę́ę́' yigáałgo ats'íís bihinááhts'óóz biyi'di hiná silį́į́', dóó áadi hinááhts'óóz yee binahjį' noosééł yileeh áádóó bits'ą́ą́dóó ąąh dahaz'ą́ haleeh",
+            "sentence": "Na'ats'ǫǫsí binaalniih éí naałniih, virus, hajéí yilzólii doo hats'íí át'éégóó yąąh dahooł'aah. Na'ats'ǫǫsí dóó na'at'i'í bizhéé', bilizh, éí doodago bichaan bits'ą́ą́dóó hodilnah."
           }
         ],
         "translations": [
@@ -11478,6 +11773,7 @@
       },
       "nahasdzaan-bikaagoo-honiidooh": {
         "word": "nahasdząąn bikáá'góó honiidóóh",
+        "literal": "the earth upon it the heat increases",
         "normalized": "nahasdzaan-bikaagoo-honiidooh",
         "short_translations": [
           "global warming"
@@ -11502,13 +11798,15 @@
       },
       "nahasdzaan-iina-anayoodliil": {
         "word": "nahasdzáán iiná ánáyoodlííł",
+        "literal": "earth sustains and regenerates life",
         "normalized": "nahasdzaan-iina-anayoodliil",
         "short_translations": [
           "biogeochemical cycle"
         ],
         "definitions": [
           {
-            "definition": "Níłch'i nitrogen, t'eesh carbon dóó t'áádoole'é doo dahináanii bits'ą́ą́dę́ę́' dahólónígíí inorganic substances bił ááhoo'níiłgo bił hoogáałígíí hináanii nídanidlį́ dóó nahasdzáán bikáá'góó ał'ąą nídadilzhish"
+            "definition": "Níłch'i nitrogen, t'eesh carbon dóó t'áádoole'é doo dahináanii bits'ą́ą́dę́ę́' dahólónígíí inorganic substances bił ááhoo'níiłgo bił hoogáałígíí hináanii nídanidlį́ dóó nahasdzáán bikáá'góó ał'ąą nídadilzhish",
+            "sentence": "Tó náhoodleełgo nahasdzáán yee hadít'éii' dóó dahináanii bits'ą́ą́dę́ę́' ahił nidaalnishgo nahasdzáán bikáá'góó tó náhoodleełgo ádayósin. K'os dahaleeh, aho'niiłtį́į́h, ch'il nanise tó bitahgóó dahaleeh, tó hót'ááh dahidishegéésh."
           }
         ],
         "translations": [
@@ -11526,7 +11824,7 @@
       },
       "nahasdzaan-naalkaah": {
         "word": "nahasdzáán naalkaah",
-        "literal": "nahasdzáán = earth, naalkaah = study",
+        "literal": "nahasdzáán=earth, naalkaah= study study of earth",
         "normalized": "nahasdzaan-naalkaah",
         "short_translations": [
           "geology"
@@ -11551,13 +11849,15 @@
       },
       "nanise-altaasei-naalkaah": {
         "word": "nanise' ałtaas'éí naalkaah",
+        "literal": "all forms of plants studied",
         "normalized": "nanise-altaasei-naalkaah",
         "short_translations": [
           "botany"
         ],
         "definitions": [
           {
-            "definition": "Chil dóó nanise' ał'ąą ádaat'éii naalkaah"
+            "definition": "Chil dóó nanise' ał'ąą ádaat'éii naalkaah",
+            "sentence": "Nanise' ałtaas'éí, botany, bíhojiił'aahgo éí ch'Il dóó nanise' ádaat'éí nidaalnish, nidanise' dóó háádahiniséhígíí bíhojiił'aah."
           }
         ],
         "translations": [
@@ -11575,13 +11875,15 @@
       },
       "nanise-bihinaahtsooz-bikagi": {
         "word": "nanise' bihinááhts'óóz bikágí",
+        "literal": "skin of plant cells",
         "normalized": "nanise-bihinaahtsooz-bikagi",
         "short_translations": [
           "cell wall"
         ],
         "definitions": [
           {
-            "definition": "Chil nanise', ch'osh doo yit'íinii dóó naaldeehii danilínígíí  yee nanise' dóó nanit'ąígíí bikágí."
+            "definition": "Chil nanise', ch'osh doo yit'íinii dóó naaldeehii danilínígíí  yee nanise' dóó nanit'ąígíí bikágí.",
+            "sentence": "Azee' penicillin éí ats'íístahdi ba'at'é dahólóonii, ch'osh doo yit'íinii ádaat'éii, yik'ijį' naalnishgo bikágí doo ádeił'į́į da áko doo dahiinaah da. Éí biniyé azee'ííł'íní há yóki'."
           }
         ],
         "translations": [
@@ -11599,13 +11901,15 @@
       },
       "nanise-binei-adolzin": {
         "word": "nanise' binéí á'dólzin",
+        "literal": "plants makes it energy",
         "normalized": "nanise-binei-adolzin",
         "short_translations": [
           "cellular respiration"
         ],
         "definitions": [
           {
-            "definition": "Ats'íís bitł'óól yee biinéí dóó hinánígíí yee ádinaalnishígíí"
+            "definition": "Ats'íís bitł'óól yee biinéí dóó hinánígíí yee ádinaalnishígíí",
+            "sentence": "Hinááhts'ózí/ats'íís bitł'óól biyi'di níłch'i, oxidation, yee naalnish dóó biziil, energy, ííł'į́įgo si'ą́ éí bee hinááhts'ózí biníłch'i nihwiileehgo ch'iyáán yidiłid. Éí bits'ą́ą́dóó hinááhts'ózí biinéí dóó bidziilgo naalnish."
           }
         ],
         "translations": [
@@ -11630,7 +11934,8 @@
         ],
         "definitions": [
           {
-            "definition": "Nanise' yee dadootł'izhígíí adinídíín (shánídíín) łahgo áyiił'įįhgo bee bitoo' naalnish yileehgo biinéí"
+            "definition": "Nanise' yee dadootł'izhígíí adinídíín (shánídíín) łahgo áyiił'įįhgo bee bitoo' naalnish yileehgo biinéí",
+            "sentence": "Nanise' ałtaas'éí plants ał'ąą át'éego bee nidaashch'ąą'ígíí, t'iis bit'ąą'go dootł'izhígíí yee shánídíín yił naalnishgo bits'ą́ą́dóó biziil, energy, ádá ííł'į́, áádóó tł'óó'góó shánídíín náyiilááhígíí, solar panels, biyi'di bik'i' diidíingo atsiniltł'ish yee ííł'į́, éí ákódaat'éhígíí bii'dii yee hadít'éii ahił nidaalnish bits'ą́ą́dóó yee hináá dóó yee bidziilii ádeił'į́."
           }
         ],
         "translations": [
@@ -11655,7 +11960,8 @@
         ],
         "definitions": [
           {
-            "definition": "Nanise' bihiináts'ózí biyi'di si'ą́ągo adinídíín yee binéí áyosinígíí"
+            "definition": "Nanise' bihiináts'ózí biyi'di si'ą́ągo adinídíín yee binéí áyosinígíí",
+            "sentence": "Nanise' yee dadootł'izhígíí éí shánídíín náyiiláhí, solar panels, beełt'éego nanise' bii' hólǫ́. Nanise' biyi'di, chloroplasts, yee biziil ádá ííł'ínígíí éí tł'óó'góó shánídíín náyiiláhá t'óó ahayóí sinil nahalingo baa nitsíikees."
           }
         ],
         "translations": [
@@ -11721,13 +12027,15 @@
       },
       "nidaiichiih-yeeltaigii": {
         "word": "nida'iichííh yéélta'ígíí",
+        "literal": "birthing that are counted",
         "normalized": "nidaiichiih-yeeltaigii",
         "short_translations": [
           "birth rate"
         ],
         "definitions": [
           {
-            "definition": "Bíla'ashdla'ii kééhat'į́įgi t'áá hoolzhishgóne' t'áá át'é yéélta'go dóó éí hoolzhishígíí haashį́į́ néelą́ą́' ániid náádaazhchínígíí yéélta'go ałhąą naa'nil."
+            "definition": "Bíla'ashdla'ii kééhat'į́įgi t'áá hoolzhishgóne' t'áá át'é yéélta'go dóó éí hoolzhishígíí haashį́į́ néelą́ą́' ániid náádaazhchínígíí yéélta'go ałhąą naa'nil.",
+            "sentence": "Dá'ák'eh bikáa'gi neeznádiin béégashiits'a'ii béégashiiyáázh naadiin deishchį́. Áko á'nídadii'níi doo, béégashiiyáázh daazhchínígíí béégashiitsa'ii bik'eh nít'į́įgo wólta'go éí t'ááłá'í sizį́ t'áá bich'į'di, ó.ąó bíighahgo deishchį́į doo dá'ákehdi. (Naadiin béégashiiyáázh yizhchínígíí / neeznádiin béégashiitsa'ii bik'eh nítį́įgo éí ó.ąó bíighahgo nidahaazhchį́į doo)"
           }
         ],
         "translations": [
@@ -11745,13 +12053,15 @@
       },
       "nilchi-alaa-anaaniil-lahgo-aaniil": {
         "word": "níłch'i ał'ąą ánáá'nííł łahgo áániił",
+        "literal": "atmospheric conditions that change seasonably to extreme they change",
         "normalized": "nilchi-alaa-anaaniil-lahgo-aaniil",
         "short_translations": [
           "climate change"
         ],
         "definitions": [
           {
-            "definition": "Nahasdzáán bikáá'góó dóó hót'ááhgóó áhoot'éhígíí hado dóó hak'az, níłtsą́, dóó nídaadzasígíí łahgo áániił. T'áá bí éí łahgo ánáánííł nít'ę́ę́' k'adgo níłch'i carbon dioxide wolyéhígíí bilááh ánéelt'e' silį́į́' ałk'idą́ą́' dahináanii bik'éé dahwiilzhiizhii bits'ą́ą́dóó kǫ' choo'į́įgo biniinaa níłch'i ał'ąą ánáá'nííł łahgo áyiilaa."
+            "definition": "Nahasdzáán bikáá'góó dóó hót'ááhgóó áhoot'éhígíí hado dóó hak'az, níłtsą́, dóó nídaadzasígíí łahgo áániił. T'áá bí éí łahgo ánáánííł nít'ę́ę́' k'adgo níłch'i carbon dioxide wolyéhígíí bilááh ánéelt'e' silį́į́' ałk'idą́ą́' dahináanii bik'éé dahwiilzhiizhii bits'ą́ą́dóó kǫ' choo'į́įgo biniinaa níłch'i ał'ąą ánáá'nííł łahgo áyiilaa.",
+            "sentence": "Tł'óógóó níłch'i ał'ąą ánáá'nííłígíí łahgo áániił silį́į́'ígíí bits'ą́ą́'dóó hado, hak'az, níłtsą́ dóó níyol doo deeghánídi bilááhgóó nidaalnish éí bąą ayóo deesdoiígíí bits'ą́ą́dóó díí Kéyah Ahii'sinil shádi'ááh dóó e'e'aahjí nahós'a'góó doo nidahałtin da."
           }
         ],
         "translations": [
@@ -11793,13 +12103,15 @@
       },
       "nilchi-carbon-dioxide-nahoodleel": {
         "word": "níłch'i carbon dioxide náhoodleeł",
+        "literal": "níłch'i=air(gaseous substance); carbon=t'eesh(remains of oxidation or burning of organic material); dioxide=níłch'i ligaii(white air/gas); náhoodleeł=occurring again and again(cycle) \\",
         "normalized": "nilchi-carbon-dioxide-nahoodleel",
         "short_translations": [
           "carbon cycle"
         ],
         "definitions": [
           {
-            "definition": "Níłch'I carbon dioxide wolyéhígíí hót'ááhgóó dóó níłch'I bitahgóó, dahináanii bitahgóó dóó táyi'góó hoo'nááłgo ahééhwiilzhíísh"
+            "definition": "Níłch'I carbon dioxide wolyéhígíí hót'ááhgóó dóó níłch'I bitahgóó, dahináanii bitahgóó dóó táyi'góó hoo'nááłgo ahééhwiilzhíísh",
+            "sentence": "T'eesh náhoodleeł nahasdzáán bikáá'góó éí bee t'eesh atom yee hadít'éhígíí nahasdzáán yináálzhish. Dahináánii naaldeehígíí daninéego bits'íís diłdzid dóó łeezh nináhádleeh, nanise dóó tsin bee dahidínísé, Áłk'idą́ą́' dahiháanii bits'íís ni'bitł'áahdi nídaasdlį́į́'ígíí dadilidgo bee nida'anish, dóó tó niteel hináanii biníłch'i, carbon dioxide, biih dahishigéésh."
           }
         ],
         "translations": [
@@ -11817,6 +12129,7 @@
       },
       "nilchi-hado-yilhidideelii": {
         "word": "níłch'i hado yiłhidideełii",
+        "literal": "air that captures heat",
         "normalized": "nilchi-hado-yilhidideelii",
         "short_translations": [
           "greenhouse gas"
@@ -11889,6 +12202,7 @@
       },
       "nishigizh": {
         "word": "nishigizh",
+        "literal": "movement away from heavier to lighter concentration",
         "normalized": "nishigizh",
         "short_translations": [
           "diffusion"
@@ -11988,6 +12302,7 @@
       },
       "sha-biziil-dahinaanii-bitah-siliiigii": {
         "word": "shá biziil dahináanii bitah silį́į́'ígíí",
+        "literal": "Sun's energy contained in a living thing's body",
         "normalized": "sha-biziil-dahinaanii-bitah-siliiigii",
         "short_translations": [
           "energy pyramid"
@@ -12108,13 +12423,15 @@
       },
       "taadoolee-adinidiin-yee-biziil-anayoodliil": {
         "word": "t'áádoole'é adinídíín yee biziil ánáyoodlííł",
+        "literal": "anything that",
         "normalized": "taadoolee-adinidiin-yee-biziil-anayoodliil",
         "short_translations": [
           "chemotroph"
         ],
         "definitions": [
           {
-            "definition": "Hinááts'ózí cells binaagóó ha'át'íi da doo hináanii bits'ą́ą́dę́ę́' dahólónígíí yee biinéí doo bidziil dooígíí t'áá bí ííł'į́"
+            "definition": "Hinááts'ózí cells binaagóó ha'át'íi da doo hináanii bits'ą́ą́dę́ę́' dahólónígíí yee biinéí doo bidziil dooígíí t'áá bí ííł'į́",
+            "sentence": "Dahináanii binaagóó áhoot'éhígíí bee t'áá bí biziil energy ánayoodlííłígíí doo hats'íí ádahoot'éedi dahiná tó sidoh hadaazlį́įgi éí doodago tó niteel bitł'áahdi nahasdzáán biyi'dę́ę́' hadahonigahgóó dahiná."
           }
         ],
         "translations": [
@@ -12132,13 +12449,15 @@
       },
       "taadoolee-ateegi-nidaneesaagi-naalkaah": {
         "word": "t'áádoole'é át'éegi nidanees'ą́ągi naalkaah",
+        "literal": "Things the way they are and to the extent they exist they are studied",
         "normalized": "taadoolee-ateegi-nidaneesaagi-naalkaah",
         "short_translations": [
           "analyze"
         ],
         "definitions": [
           {
-            "definition": "T'áá ha'át'ííshį́į́ baa ajółta' éí doodago jinéł'į́įgo nijiłkaah t'áá nináníłtsojį' éí bee béézhdi'dootį́į́ł biniyé."
+            "definition": "T'áá ha'át'ííshį́į́ baa ajółta' éí doodago jinéł'į́įgo nijiłkaah t'áá nináníłtsojį' éí bee béézhdi'dootį́į́ł biniyé.",
+            "sentence": "Ha'át'íi da baa nitsíníkeesgo da níníł'į́įgo da t'áá nił naaki nilį́įgo, nił haa dago da naalnishígi át'éego shił bééhodoozįįł nínízingo éí hazhó'ó baa nitsíníkees dóó naniłkaahgo hazhó'ó bik'i' di'díítį́į́ł."
           }
         ],
         "translations": [
@@ -12156,13 +12475,15 @@
       },
       "taadoolee-biziil": {
         "word": "t'áádoole'é biziil",
+        "literal": "anything its energy",
         "normalized": "taadoolee-biziil",
         "short_translations": [
           "chemical energy"
         ],
         "definitions": [
           {
-            "definition": "T'áádoole'é yee bidziilii yee ałch'į' bótá'ii. Díí ałtsá'niłgo yee bidziilii áyóó' át'éego sidogo bits'áshígish"
+            "definition": "T'áádoole'é yee bidziilii yee ałch'į' bótá'ii. Díí ałtsá'niłgo yee bidziilii áyóó' át'éego sidogo bits'áshígish",
+            "sentence": "Nichi'dí éí doodago bee hane'í nani'áhígíí bijéí biyi'di bitoo' dóó bee ályaii ahił nidaalnishgo bits'ą́ą́dóó biziil náhoodleełgo bee hane'í naalnish."
           }
         ],
         "translations": [
@@ -12204,13 +12525,15 @@
       },
       "taadoolee-lahgo-aaniil": {
         "word": "t'áádoole'é łahgo áániił",
+        "literal": "anything differently it becomes",
         "normalized": "taadoolee-lahgo-aaniil",
         "short_translations": [
           "chemical reaction"
         ],
         "definitions": [
           {
-            "definition": "Ha'át'íi da t'ááła' bizhi'go t'áá náó'nííłgo bits'ą́ą́dóó t'áá ha'át'ííshį́į́ náádleeł doo áko bee ályaii yee da'áhótą'ígíí ałts'á há'nííł éí doodago łahgo át'éego ádaalne'"
+            "definition": "Ha'át'íi da t'ááła' bizhi'go t'áá náó'nííłgo bits'ą́ą́dóó t'áá ha'át'ííshį́į́ náádleeł doo áko bee ályaii yee da'áhótą'ígíí ałts'á há'nííł éí doodago łahgo át'éego ádaalne'",
+            "sentence": "Ootseed álnéehgo choo'ínígíí éí béésh nitł'izí nickel dóó béésh łigaii silver bee látsíní da ádaalne' áko bééshígíí níłch'i łigaií oxygen bił ałtah yileeh éí bąą nikágí t'iis bit'ąą' nahalingo dootł'izh doo."
           }
         ],
         "translations": [
@@ -12324,6 +12647,7 @@
       },
       "taalahagi-keedahati": {
         "word": "t'ááłáhági kéédahat'į́",
+        "literal": "living in one place together",
         "normalized": "taalahagi-keedahati",
         "short_translations": [
           "community"
@@ -12348,14 +12672,15 @@
       },
       "tatlid": {
         "word": "tátłʼid",
-        "literal": "łʼid = smoke , tá = under = under water smoke type of thing/describing the hazyness of how it looks.",
+        "literal": "tłʼid=murky appearance; tá= under or within water. under water murky substance.",
         "normalized": "tatlid",
         "short_translations": [
           "algae"
         ],
         "definitions": [
           {
-            "definition": "Tátł'id éí táyi' éí doodago hoditłéé'góó dahólǫ́ bits'íís bitł'óól t'áá łá'í éí doodago łą́ áádóó dootł'izh łeh éí doodago t'áá łahgo ánoolnin łeh."
+            "definition": "Tátł'id éí táyi' éí doodago hoditłéé'góó dahólǫ́ bits'íís bitł'óól t'áá łá'í éí doodago łą́ áádóó dootł'izh łeh éí doodago t'áá łahgo ánoolnin łeh.",
+            "sentence": "Tátł'id bihiináhts'óóz t'ááłá'ígo nidi danéesé éí doodago łą́ągo dahnaaztłée' yileeh dóó táłkáá' dahnidaa'eeł, łą́ danéeséego tó bikáá'go bik'íiltih. T'áá chil nanise' yił aheełt'é háálá shá yee naalnishgo bich'iiyą' ííł'į́."
           }
         ],
         "translations": [
@@ -12373,13 +12698,15 @@
       },
       "to-binahata": {
         "word": "tó binahat'a'",
+        "literal": "regeneration of water",
         "normalized": "to-binahata",
         "short_translations": [
           "water cycle"
         ],
         "definitions": [
           {
-            "definition": "Tó nahasdzáán bikáá'góó dóó biyi' hólǫ́  dóó hót'ááhgóó dahólǫ́ éí hoo'nááł dóó danílínígíí bił ahééhwiizhíísh"
+            "definition": "Tó nahasdzáán bikáá'góó dóó biyi' hólǫ́  dóó hót'ááhgóó dahólǫ́ éí hoo'nááł dóó danílínígíí bił ahééhwiizhíísh",
+            "sentence": "Tó bits'íís nineez nahazdzáán bináhaazlá neestiin dóó tózhool bee binahat'a' hideesláago bits'ą́ą́dóó níłtsą́ yee naalnishgo tooh danílį́ nízaadgóó, áádóó ááh náádleełgo dahtoo' bee hodiyin dóó tó niteel nahasdzáán bináhaazyį́."
           }
         ],
         "translations": [
@@ -12518,6 +12845,7 @@
       },
       "yizhi-doo-oolyehigii": {
         "word": "yízhí dóó óolyéhígíí",
+        "literal": "giving names to things",
         "normalized": "yizhi-doo-oolyehigii",
         "short_translations": [
           "taxonomy"
