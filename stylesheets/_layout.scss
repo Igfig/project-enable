@@ -1,8 +1,18 @@
 @import "base";
 
 %logo-bg {
-  background-image: url(/img/logo.png);
-  background-size: calc(50% - #{$body-width} / 2) auto;
+  content: "";
+  position: fixed;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(/img/logo.png), url(/img/background.jpg);
+  background-size: $logo-size, auto 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -11,22 +21,15 @@ html {
   min-height: 100vh;
   overflow-y: scroll;
 
-  // XXX optional theming
-  margin: 0 1%;
-  background-color: chocolate;
-  @extend %logo-bg;
-  background-position: center left;
-  //font: $font-size Garamond, serif; // Garamond is lovely, but is missing a symbol
+  background-color: $bg-color;
   font: $font-size $font-family-serif;
-
-
   color: $text-color;
 
   &::before {
-    content: "";
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
+    @extend %logo-bg;
+    background-position: center left;
+  }
+  &::after {
     @extend %logo-bg;
     background-position: center right;
   }
