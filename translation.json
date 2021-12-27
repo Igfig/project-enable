@@ -1199,7 +1199,7 @@
             "entries": [
               {
                 "word": "ats’íís bik’ǫ́ǫ́’",
-                "literal": "ats’íís=body , bi=its, k'=='=seed.",
+                "literal": "ats’íís=body , bi=its, k'ǫ́ǫ́'=seed.",
                 "comment": "need a microscope to look at it",
                 "normalized": "atsiis-bikoo",
                 "audio": "/audio/dine/cell-microscope-dine.m4a"
@@ -1600,7 +1600,7 @@
         ],
         "definitions": [
           {
-            "definition": "The change in global or regional weather patterns over time.  This occured naturally over time, but recently increased levels of carbon dioxide due to the use of fossil fuels from the mid to late ą)th century onwards has caused climate change to occur faster.",
+            "definition": "The change in global or regional weather patterns over time.  This occured naturally over time, but recently increased levels of carbon dioxide due to the use of fossil fuels from the mid to late 20th century onwards has caused climate change to occur faster.",
             "sentence": "Climate change is causing weather extremes, such as increasing temperatures and making droughts more common in the southwest United States."
           }
         ],
@@ -7233,7 +7233,7 @@
       },
       "atsiis-bikoo": {
         "word": "ats’íís bik’ǫ́ǫ́’",
-        "literal": "ats’íís=body , bi=its, k'=='=seed.",
+        "literal": "ats’íís=body , bi=its, k'ǫ́ǫ́'=seed.",
         "comment": "need a microscope to look at it",
         "normalized": "atsiis-bikoo",
         "audio": "/audio/dine/cell-microscope-dine.m4a",
@@ -12066,7 +12066,7 @@
         ],
         "translations": [
           {
-            "definition": "The change in global or regional weather patterns over time.  This occured naturally over time, but recently increased levels of carbon dioxide due to the use of fossil fuels from the mid to late ą)th century onwards has caused climate change to occur faster.",
+            "definition": "The change in global or regional weather patterns over time.  This occured naturally over time, but recently increased levels of carbon dioxide due to the use of fossil fuels from the mid to late 20th century onwards has caused climate change to occur faster.",
             "sentence": "Climate change is causing weather extremes, such as increasing temperatures and making droughts more common in the southwest United States.",
             "entries": [
               {
