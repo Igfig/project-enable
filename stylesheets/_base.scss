@@ -1,4 +1,4 @@
-$mobile-width: 500px;
+ $mobile-width: 500px;
 $body-width: 800px;
 $body-padding: 1.333rem;
 $breakpoint: 1200px;
@@ -19,7 +19,7 @@ $inline-element-height: $font-size * $line-height;
 $label-height: $inline-element-height + 2 * $spacing-v;
 $opener-offset: ($label-height - $opener-size) / 2;
 
-$logo-size: calc(50% - #{$body-width} / 2) auto;
+$logo-size: calc(50% - #{$body-width} / 2);
 
 $search-font-size: 16px;
 $search-padding-v: 5px;
@@ -32,7 +32,8 @@ $footer-height: $search-height + 2 * $search-bar-padding-v;
 
 $popup-margin: 20px;
 $popup-padding: 20px;
-$popup-arrow-offset: 8px;
+$popup-tail-offset: 35px;
+$popup-tail-height: $popup-margin - 5px;
 
 $inner-border-color: #d3d3d3;
 $disabled-color: #888;
@@ -53,24 +54,6 @@ $bg-color: #7c071a;
   margin: 0 auto;
   padding: $body-padding;
 }
-
-@mixin footer-link {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  color: inherit;
-
-  @media (max-width: $breakpoint) {
-    position: relative;
-    height: $footer-height;
-
-    span {
-      display: none;
-    }
-  }
-}
-
 
 @font-face {
   font-family: Cardo;

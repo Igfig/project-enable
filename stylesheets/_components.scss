@@ -178,33 +178,36 @@ dl {
   display: none;
   position: absolute;
   box-sizing: border-box;
-  bottom: $search-height + $popup-margin;
+  bottom: $footer-height + $popup-margin;
+  left: 0;
   width: 220px;
-  margin: $popup-margin;
-  padding: 0 $body-padding / 2; // don't change padding at breakpoints like other footer items
-
-  @media (max-width: $breakpoint) {
-    margin: $popup-margin / 2 #{-$popup-arrow-offset / 2};
-  }
+  margin: 0;
+  padding: $popup-padding;
+  text-decoration: none;
 
   // XXX optional theming
   border-radius: 3px;
+  color: white;
   background-color: $popup-color;
   text-align: center;
-
-  &::after {
+  
+  @media (max-width: $breakpoint) {
+    left: $footer-height / 2 - 50px; // realigned to keep consistent margin.
+  }                                  // not sure where the 50 is coming from though
+  
+  &::after { // the tail
     content: "";
     position: absolute;
     width: 0;
     height: 0;
-    bottom: -($popup-margin - 5px);
-    left: 50px;
+    bottom: -$popup-tail-height;
+    left: $popup-tail-offset;
     border-left: $popup-margin solid transparent;
     border-right: $popup-margin solid transparent;
-    border-top: ($popup-margin - 5px) solid $popup-color;
+    border-top: $popup-tail-height solid $popup-color;
 
     @media (max-width: $breakpoint) {
-      left: $popup-arrow-offset;
+      left: $popup-tail-offset - 5px; // move to positioned above icon. 
     }
   }
 
@@ -216,13 +219,6 @@ dl {
     }
   }
 
-  a {
-    display: block;
-    padding: $popup-padding;
-    color: white;
-    text-decoration: none;
-  }
-
   &.visible {
     display: block;
   }
@@ -232,14 +228,16 @@ dl {
 
 form.search {
   @include body-box;
+  flex: 0 1 $body-width;
   display: flex;
+  margin: 0 #{-$body-padding};
   padding-top: $search-bar-padding-v;
   padding-bottom: $search-bar-padding-v;
 
   @media (max-width: $breakpoint) {
     margin: 0;
     padding: $search-bar-padding-v $body-padding / 2;
-    flex-grow: 1;
+    flex: 1 1 100%;
     max-width: 100%;
   }
 

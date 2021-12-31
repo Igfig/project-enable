@@ -12,7 +12,7 @@
   height: 100vh;
 
   background-image: url(/img/logo.png), url(/img/background.jpg);
-  background-size: $logo-size, auto 100%;
+  background-size: $logo-size auto, auto 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -44,7 +44,9 @@ body {
   background-color: white;
 
   > footer {
+    display: flex;
     position: fixed;
+    align-items: center;
     box-sizing: border-box;
     bottom: 0;
     left: 0;
@@ -52,18 +54,9 @@ body {
     width: 100%;
     background-color: white;
     border-top: 1px solid grey;
-
-    > * {
-      padding: 0 $body-padding;
-    }
-
+    
     @media (max-width: $breakpoint) {
-      display: flex;
       padding: 0 $body-padding / 2;
-
-      > * {
-        padding: 0 $body-padding / 2;
-      }
     }
   }
 }

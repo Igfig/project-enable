@@ -27,18 +27,42 @@
   font-style: italic;
 }
 
-.about-link {
-  @include footer-link;
-  left: 0;
-  top: 0;
+// might want to move these footer bits to _components.scss
+.footer-group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0 1 calc(50% - #{$body-width / 2} + #{$body-padding}); // the space left on one side of the search form
+  height: 100%;
+  color: inherit;
+
+  @media (max-width: $breakpoint) {
+    justify-content: space-around;
+    order: 1;
+  }
 }
 
-.contact-link {
-  @include footer-link;
-  right: 0;
-  top: 0;
+.footer-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  flex: 0 1 auto;
+  height: $footer-height;
+  text-decoration: none;
+  
+  min-width: $footer-height; // to keep it square
+  color: inherit;
+  
+  @media (max-width: $breakpoint) {
+    > span {
+      display: none;
+    }
+  }
 }
 
+// XXX this is also more of a component I think
 .switch-direction {
   height: 20px;
   padding: 7px;
@@ -59,6 +83,7 @@
   align-items: flex-start;
 }
 
+// XXX also a component probably
 .contact-tile {
   display: flex;
   flex-flow: row nowrap;

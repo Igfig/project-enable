@@ -1,14 +1,22 @@
 footer
-    a.about-link(href="/about")
-        img.icon(src="/img/question-circle.svg" role="presentation")
-        span About This Site
-    aside(id="about-popup")
-        a(href="/about") New to this site? Click here for an explanation!
-    a.contact-link(href="/contact")
-        img.icon(src="/img/envelope.svg" role="presentation")
-        span Contact Us
+    div.footer-group
+        a.footer-link(href="/about")
+            img.icon(src="/img/question-circle.svg" role="presentation")
+            span About
+            aside(id="about-popup") New to this site? Click here for an explanation!
+        a.footer-link(href="/news")
+            img.icon(src="/img/newspaper.svg" role="presentation")
+            span News
     form.search(method="get")
         label(for="search") Search...
         input(type="search" id="search" name="search" placeholder="Search...")
         button(type="submit")
             img.icon(src="/img/search.svg" alt="Search")
+    div.footer-group
+        a.footer-link(href="/contact")
+            img.icon(src="/img/envelope.svg" role="presentation")
+            span Contact
+        a.footer-link(href="#")
+            img.icon(src="/img/home.svg" role="presentation")
+            span Home
+        
