@@ -1,5 +1,44 @@
 @import "base";
 
+// icons
+
+@mixin focused {
+  &:hover, &:active, a:hover &, a:active & {
+    @content;
+  }
+}
+
+img.icon, .icon img {
+  height: 1em;
+  cursor: pointer;
+
+  + span {
+    margin-left: 0.5ch;
+  }
+  @include focused {
+    opacity: 0.5;
+  };
+}
+.icon {
+  @include focused {
+    img {
+      opacity: 0.5;
+    }
+  }
+}
+summary .icon {
+  position: absolute;
+  top: $opener-offset;
+  right: $opener-offset;
+  width: $opener-size;
+  font-size: $opener-size;
+  line-height: 1;
+  text-align: center;
+}
+
+
+// text classes
+
 .shortdef {
   font-style: italic;
 }
@@ -27,7 +66,8 @@
   font-style: italic;
 }
 
-// might want to move these footer bits to _components.scss
+// footer classes
+
 .footer-group {
   display: flex;
   justify-content: space-evenly;
@@ -62,20 +102,7 @@
   }
 }
 
-// XXX this is also more of a component I think
-.switch-direction {
-  height: 20px;
-  padding: 7px;
-  border: 1px solid $text-color;
-  border-radius: 5px;
-
-  &:hover {
-    border-color: $link-hover-color;
-  }
-  &:active {
-    background: $link-active-color;
-  }
-}
+// contact tile classes
 
 .contact-tiles {
   display: flex;
@@ -83,7 +110,6 @@
   align-items: flex-start;
 }
 
-// XXX also a component probably
 .contact-tile {
   display: flex;
   flex-flow: row nowrap;
