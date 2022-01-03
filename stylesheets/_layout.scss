@@ -5,16 +5,14 @@
   position: fixed;
 
   top: 0;
-  right: 0;
-  left: 0;
+  bottom: 0;
   z-index: -1;
-  width: 100vw;
-  height: 100vh;
+  width: $logo-size;
 
   background-image: url(/img/logo.png), url(/img/background.jpg);
-  background-size: $logo-size auto, auto 100%;
+  background-size: contain, cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
 }
 
 html {
@@ -27,11 +25,11 @@ html {
 
   &::before {
     @extend %logo-bg;
-    background-position: center left;
+    left: 0;
   }
   &::after {
     @extend %logo-bg;
-    background-position: center right;
+    right: 0;
   }
 }
 
