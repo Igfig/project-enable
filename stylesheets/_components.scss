@@ -301,9 +301,8 @@ form.search {
   }
 }
 
-// about page
-
-.about {
+%text-page {
+  padding: 0 3vw;
   font-family: $font-family-sans;
   font-size: 0.75rem;
 
@@ -326,14 +325,26 @@ form.search {
   }
 }
 
+// about page
+
+.about {
+  @extend %text-page;
+}
+
 // contact page
 
 .contact {
-  @extend .about;
+  @extend %text-page;
 
   p {
     margin: 1.1em 0 1.5em;
   }
+}
+
+// news page 
+
+.news {
+  @extend %text-page;
 }
 
 // alphabet letter selector 
