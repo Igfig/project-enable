@@ -1,21 +1,18 @@
-doctype html
+extends ../templates/layout.pug
 include ../mixins/tile
 include ../mixins/alphabet
-html(lang="en")
-	head
-		title Project ENABLE | The English-Diné Biology Dictionary
-		- const language = "english";
-		include ../templates/head
-		include ../templates/scripts
-	body
-		include ../templates/header
-		header.subheader
-			h2 English to Diné Dictionary
-			a.icon.switch-direction(href="/navajo")
-				img(src="/img/exchange-alt.svg" alt="Switch to Diné-English")
-		+alphabet(sortedWords)
-		div.dictionary
-			each entry, index in sortedWords
-				+tile(index, entry)
-
-		include ../templates/footer
+	
+block title
+	title Project ENABLE | The English-Diné Biology Dictionary
+	- const language = "english";
+	include ../templates/scripts
+		
+block content
+	header.subheader
+		h2 English to Diné Dictionary
+		a.icon.switch-direction(href="/navajo")
+			img(src="/img/exchange-alt.svg" alt="Switch to Diné-English")
+	+alphabet(sortedWords)
+	div.dictionary
+		each entry, index in sortedWords
+			+tile(index, entry)

@@ -1,12 +1,9 @@
-doctype html
-html(lang="en")
-    head
-        title Contact | Project ENABLE | The Diné-English Biology Dictionary
-        include ../templates/head
-        script(src="../js/session.js")
-    body
-        include ../templates/header
+extends ../templates/layout.pug
 
+block title
+        title Contact | Project ENABLE | The Diné-English Biology Dictionary
+
+block content
         div.contact
             h2 Contact Us
             p If you have any questions, comments, or suggestions, please reach out to us!
@@ -21,5 +18,3 @@ html(lang="en")
             a.contact-tile(href="https://navajobiology.square.site/")
                 img.icon(src="/img/dollar-sign.svg" role="presentation")
                 span Donate
-
-        include ../templates/footer.pug
