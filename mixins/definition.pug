@@ -4,9 +4,9 @@ mixin definition(dictEntry, index)
 	if dictEntry.word
 		+defheader(dictEntry, index)
 	else if dictEntry.entries
-		each entry in dictEntry.entries
+		each entry, sub_index in dictEntry.entries
 			if entry.word
-				+defheader(entry, index)
+				+defheader(entry, index + "." + sub_index)
 
 	if dictEntry.definition
 		+subdefinition(dictEntry, "Definition:")
