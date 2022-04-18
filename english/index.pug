@@ -4,9 +4,10 @@ include ../mixins/alphabet
 	
 block title
 	title Project ENABLE | The English-Diné Biology Dictionary
+
+block language
 	- const language = "english";
 	include ../templates/scripts
-		
 block header
 	include ../templates/header
 append nav
@@ -18,6 +19,6 @@ block content
 		a.icon.switch-direction(href="/dine")
 			img(src="/img/exchange-alt.svg" alt="Switch to Diné-English")
 	+alphabet(sortedWords)
-	div.dictionary
+	main.dictionary
 		each entry, index in sortedWords
 			+tile(index, entry)
