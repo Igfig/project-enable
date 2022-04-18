@@ -35,18 +35,12 @@
 
   summary {
     @extend %dl-box;
-    display: block;
+    display: block; // among other things, hides the summary arrow
     position: static; // to prevent inner bits from rendering in front of its outline
     width: 100%;
     padding: $spacing-v $label-height $spacing-v $spacing-h;
     font-weight: bold;
     cursor: pointer;
-    
-    //hide the summary arrow
-    list-style: none;
-    &::-webkit-details-marker, &::marker {
-      display: none;
-    }
     
     &:hover {
       background-color: $button-hover-color;

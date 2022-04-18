@@ -1,7 +1,7 @@
 mixin defheader(dictEntry, index)
 	header
 		div.word-heading
-			h3=dictEntry.word
+			h4=dictEntry.word
 			if dictEntry.audio
 				- const prnId = `p${index}`
 				label.button.pronunciation(for=prnId)
