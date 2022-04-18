@@ -10,7 +10,7 @@
 
 .dictionary {
   margin-top: 1em;
-  margin-bottom: 0;
+  margin-bottom: $bar-height;
 
   > details {
     position: relative; // so that the label:after can be positioned safely
@@ -143,7 +143,7 @@ dl {
   display: none;
   position: absolute;
   box-sizing: border-box;
-  bottom: $footer-height + $popup-margin;
+  bottom: $bar-height + $popup-margin;
   left: 0;
   width: 220px;
   margin: 0;
@@ -157,7 +157,7 @@ dl {
   text-align: center;
   
   @media (max-width: $breakpoint) {
-    left: $footer-height / 2 - 50px; // realigned to keep consistent margin.
+    left: $bar-height / 2 - 50px; // realigned to keep consistent margin.
   }                                  // not sure where the 50 is coming from though
   
   &::after { // the tail
@@ -191,11 +191,28 @@ dl {
 
 // search form
 
+section.search {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid grey;
+
+  @media (max-width: $breakpoint) {
+    padding: 0 $body-padding / 2;
+  }
+}
+
 form.search {
   @include body-box;
   flex: 0 1 $body-width;
   display: flex;
-  margin: 0 #{-$body-padding};
   padding-top: $search-bar-padding-v;
   padding-bottom: $search-bar-padding-v;
 
@@ -239,6 +256,14 @@ form.search {
       padding: 6px;
     }
   }
+  
+  fieldset {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
 }
 
 // button to switch direction from dine-english to english-dine and back
@@ -264,7 +289,6 @@ form.search {
   align-items: normal; // alignments are oddly complex here, but this looks good
   align-self: center;  // on Chrome at least. TODO check other browsers
   box-sizing: border-box;
-  //margin-top: -10px; // to ensure this doesn't stretch the header
   cursor: pointer;
   height: 1.2rem;
 

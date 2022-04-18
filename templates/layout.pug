@@ -5,6 +5,9 @@ html(lang="en")
 			title Project ENABLE | The Diné-English Biology Dictionary
 		include ../templates/head
 	body
-		include ../templates/header
+		block header
+			include ../templates/header
+		nav.main-nav
+			block nav
+				include ../templates/nav
 		block content
-		include ../templates/footer.pug

@@ -28,7 +28,7 @@ $search-border-radius: 5px;
 $search-height: $search-font-size + 2 * $search-padding-v + 4; // +4 is border and outline
 $search-bar-padding-v: $font-size / 2;
 
-$footer-height: $search-height + 2 * $search-bar-padding-v;
+$bar-height: $search-height + 2 * $search-bar-padding-v;
 
 $popup-margin: 20px;
 $popup-padding: 20px;

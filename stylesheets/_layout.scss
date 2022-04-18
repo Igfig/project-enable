@@ -36,8 +36,8 @@ html {
 body {
   @include body-box;
   position: relative;
-  min-height: calc(100vh - #{$footer-height});
-  margin-bottom: $footer-height; // XXX can we make this happen automatically somehow? Flex sizing?
+  min-height: calc(100vh - #{$bar-height});
+  margin: $bar-height auto 0;
   line-height: $line-height;
   background-color: white;
 

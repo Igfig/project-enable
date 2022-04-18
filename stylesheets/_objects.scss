@@ -46,13 +46,6 @@ summary .icon {
   font-weight: bold;
   font-size: 0.6rem; // XXX not sure if this is still right for the new font
   align-self: baseline;
-
-  /*&:before {
-    content: " ("
-  }
-  &:after {
-    content: ")"
-  }*/
 }
 
 .literal, .comment {
@@ -66,33 +59,40 @@ summary .icon {
   font-style: italic;
 }
 
-// footer classes
-
-.footer-group {
+// nav classes
+nav.main-nav {
   display: flex;
-  justify-content: space-evenly;
+  position: fixed;
   align-items: center;
-  flex: 0 1 calc(50% - #{$body-width / 2} + #{$body-padding}); // the space left on one side of the search form
-  height: 100%;
-  color: inherit;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  height: $bar-height;
+  background-color: white;
+  border-bottom: 1px solid grey;
 
   @media (max-width: $breakpoint) {
-    justify-content: space-around;
-    order: 1;
+    padding: 0 $body-padding / 2;
   }
 }
+
+// footer classes
 
 .footer-link {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: unset;
   flex-flow: row nowrap;
   flex: 0 1 auto;
-  height: $footer-height;
+  //height: $footer-height;
   text-decoration: none;
   
-  min-width: $footer-height; // to keep it square
+  padding: 0 0 0 30px;
+  min-width: $bar-height; // to keep it square
   color: inherit;
   
   @media (max-width: $breakpoint) {
@@ -128,3 +128,15 @@ summary .icon {
     }
   }
 }
+
+// elements to only show to screenreaders
+.reader-only {
+  position: fixed;
+  left: -10000;
+  overflow: hidden;
+  
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+} 
