@@ -1,23 +1,4 @@
-extends ../templates/layout.pug
-include ../mixins/tile
-include ../mixins/alphabet
-block title
-	title Project ENABLE | The Diné-English Biology Dictionary
-	- const language = "navajo"
-	include ../templates/scripts
+// this is only here because the "dine" directory used to be "navajo", and I don't want to break any links. 
 
-block header
-	include ../templates/header
-append nav
-	include ../templates/search
-
-block content
-	header.subheader
-		h2 Diné to English Dictionary
-		a.icon.switch-direction(href="/english")
-			img(src="/img/exchange-alt.svg" alt="Switch to English-Diné")
-	+alphabet(sortedWords)
-	div.dictionary
-		each entry, index in sortedWords
-			+tile(index, entry)
-                
+script.
+	window.location.replace(`${location.origin}/dine/${location.search}`)
