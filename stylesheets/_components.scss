@@ -33,6 +33,16 @@
     }
   }
 
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  h4 {
+    margin: 0 5px 0 0;
+    font-size: 1.17rem;
+  }
+  
   summary {
     @extend %dl-box;
     display: block; // among other things, hides the summary arrow
