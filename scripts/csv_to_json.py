@@ -2,9 +2,9 @@ import json
 import re
 import os.path
 import itertools
+import unicodedata
 from abc import ABC
 from functools import partial
-
 from unidecode import unidecode
 
 # This is the newest version, use this
@@ -73,6 +73,14 @@ class Row(dict):
 		self[ENGLISH][AUDIO] = get_audio(ENGLISH, self[ENGLISH][WORD], audio_eng, AUDIO_FILES_ENG)
 		self[DINE][AUDIO] = get_audio(DINE, self[ENGLISH][WORD], audio_dine, AUDIO_FILES_DINE)
 		# note that the dine audio files are named using the english word + "-dine"
+	
+	@classmethod
+	def from_line(cls, line):
+		normalized_line = unicodedata.normalize("NFC", line.strip("\n"))
+		# not normalized as in with all the accents removed, but as in
+		# https://docs.python.org/3/library/unicodedata.html#unicodedata.normalize
+		
+		return cls(normalized_line.strip("\n").split(CSV_DIVIDER))
 
 
 def keyfunc_eng(r: Row):
@@ -173,7 +181,7 @@ class Dictionary:
 		self.english = {}
 		self.dine = {}
 		
-		unsorted_rows = [Row(line.strip("\n").split(CSV_DIVIDER)) for line in lines]
+		unsorted_rows = [Row.from_line(line) for line in lines]
 		
 		# filter out rows missing a translation or definition
 		filtered_rows = [row for row in unsorted_rows

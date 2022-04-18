@@ -1181,7 +1181,7 @@
         "normalized": "cell",
         "audio": "/audio/english/cell-english.m4a",
         "short_translations": [
-          "ats’íís bik’ǫ́ǫ́’",
+          "ats’íís bik’ǫ́ǫ́’",
           "ats'íís bitł'óól",
           "hinááhts'ózí",
           "hinááhts'óóz"
@@ -1198,7 +1198,7 @@
             "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'é! Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́.",
             "entries": [
               {
-                "word": "ats’íís bik’ǫ́ǫ́’",
+                "word": "ats’íís bik’ǫ́ǫ́’",
                 "literal": "ats’íís=body , bi=its, k'ǫ́ǫ́'=seed.",
                 "comment": "need a microscope to look at it",
                 "normalized": "atsiis-bikoo",
@@ -1206,21 +1206,21 @@
               },
               {
                 "word": "ats'íís bitł'óól",
-                "literal": "ats’íís= body, bi=it, tats’íís= body, bi=it, tł’óól= strand.",
+                "literal": "ats’íís= body, bi=it, tats’íís= body, bi=it, tł’óól= strand.",
                 "comment": "refers to DNA in cell. Often used when talking about cancer",
                 "normalized": "atsiis-bitlool",
                 "audio": "/audio/dine/cell-dna-dine.m4a"
               },
               {
                 "word": "hinááhts'ózí",
-                "literal": "hinááh = living unit, ts'ózí=small, primal. Means \"small primal unit of life\"",
+                "literal": "hinááh = living unit, ts'ózí=small, primal. Means \"small primal unit of life\"",
                 "comment": "Shorthand of the formal word",
                 "normalized": "hinaahtsozi",
                 "audio": "/audio/dine/cell-short-form-dine.m4a"
               },
               {
                 "word": "hinááhts'óóz",
-                "literal": "hinááh = living unit, ts'óóz=slender, primal. Means \"slender primal unit of life\"",
+                "literal": "hinááh = living unit, ts'óóz=slender, primal. Means \"slender primal unit of life\"",
                 "comment": "Formal word",
                 "normalized": "hinaahtsooz",
                 "audio": "/audio/dine/cell-formal-dine.m4a"
@@ -7232,7 +7232,7 @@
         ]
       },
       "atsiis-bikoo": {
-        "word": "ats’íís bik’ǫ́ǫ́’",
+        "word": "ats’íís bik’ǫ́ǫ́’",
         "literal": "ats’íís=body , bi=its, k'ǫ́ǫ́'=seed.",
         "comment": "need a microscope to look at it",
         "normalized": "atsiis-bikoo",
@@ -7243,7 +7243,7 @@
         "definitions": [
           {
             "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
-            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'é! Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
@@ -7269,7 +7269,7 @@
       },
       "atsiis-bitlool": {
         "word": "ats'íís bitł'óól",
-        "literal": "ats’íís= body, bi=it, tats’íís= body, bi=it, tł’óól= strand.",
+        "literal": "ats’íís= body, bi=it, tats’íís= body, bi=it, tł’óól= strand.",
         "comment": "refers to DNA in cell. Often used when talking about cancer",
         "normalized": "atsiis-bitlool",
         "audio": "/audio/dine/cell-dna-dine.m4a",
@@ -7279,7 +7279,7 @@
         "definitions": [
           {
             "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
-            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'é! Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
@@ -9464,7 +9464,7 @@
       },
       "hinaahtsooz": {
         "word": "hinááhts'óóz",
-        "literal": "hinááh = living unit, ts'óóz=slender, primal. Means \"slender primal unit of life\"",
+        "literal": "hinááh = living unit, ts'óóz=slender, primal. Means \"slender primal unit of life\"",
         "comment": "Formal word",
         "normalized": "hinaahtsooz",
         "audio": "/audio/dine/cell-formal-dine.m4a",
@@ -9474,7 +9474,7 @@
         "definitions": [
           {
             "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
-            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'é! Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
@@ -9592,7 +9592,7 @@
       },
       "hinaahtsozi": {
         "word": "hinááhts'ózí",
-        "literal": "hinááh = living unit, ts'ózí=small, primal. Means \"small primal unit of life\"",
+        "literal": "hinááh = living unit, ts'ózí=small, primal. Means \"small primal unit of life\"",
         "comment": "Shorthand of the formal word",
         "normalized": "hinaahtsozi",
         "audio": "/audio/dine/cell-short-form-dine.m4a",
@@ -9602,7 +9602,7 @@
         "definitions": [
           {
             "definition": "Ats'íís bitł'óól éí ats'íís bee ályaaígíí ts'ídá t'ááłá'ígo si'ánígíí náhidínísé, binaagóó yaa ákonízin, dóó ádéé'ál'į́įgo noosééł.",
-            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'éÁ Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
+            "sentence": "Nits'íís tádiindi dóó bi'aan tsosts'idi trillion, táa'di dimííl ahą́ą́h nániildéeldi dimííltsoh hinááhts'ózí/ats'íís bitł'óól yee hadít'é! Ákondi ch'osh doo yit'íinii, bacteria cells, éí neeznádiindi dimííl ahą́ą́h nániildéeldi dimííltsoh nits'íís biyi'di dóó nąąhgóó dahólǫ́."
           }
         ],
         "translations": [
