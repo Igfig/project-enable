@@ -60,13 +60,13 @@
      }
   }
 
-  dt, .dd-container {
+  .dictionary-entry-from, .dictionary-entry-to-container {
     @extend %dl-box;
     overflow: hidden;
     flex-basis: 50%;
   }
 
-  .dd-container {
+  .dictionary-entry-to-container {
     @media (max-width: $mobile-width - 1) {
       margin-top: $dd-indent;
     }
@@ -74,10 +74,10 @@
       margin-left: $dd-indent;
     }
 
-    dd {
+    .dictionary-entry-to {
       flex-basis: 100%;
 
-      + dd {
+      + .dictionary-entry-to {
         margin-top: 1em;
       }
     }
@@ -103,7 +103,7 @@
       }
     }
 
-    &:checked ~ dd, &:checked ~ .dd-container {
+    &:checked ~ dd, &:checked ~ .dictionary-entry-to-container {
       height: auto;
       padding: $dd-padding $dd-indent;
       border-top: 1px solid $inner-border-color; // XXX optional theming
@@ -111,7 +111,7 @@
   }
 }
 
-dl {
+.dictionary-entry {
   display: flex;
   flex-flow: column nowrap;
   //position: relative; // so that the label:after can be positioned safely
@@ -123,7 +123,7 @@ dl {
     flex-flow: row nowrap;
   }
   
-  > .dd-container {
+  > .dictionary-entry-to-container {
     display: flex;
     flex-flow: column nowrap;
   }
@@ -131,8 +131,6 @@ dl {
   header {
     margin-top: 0;
   }
-
-
 }
 
 // "About" popup

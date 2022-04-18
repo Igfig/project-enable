@@ -13,10 +13,10 @@ mixin tile(index, item, langFrom, langTo)
 				//- actually, should the shortdef be a dd as well? It's a definition after all
 			img.icon.closed(src="/img/plus-circle.svg" alt="")
 			img.icon.open(src="/img/minus-circle.svg" alt="")
-		dl
-			dt(lang=langFrom)
-				+definition(entry, index, langFrom)
-			div.dd-container
+		div.dictionary-entry
+			div(lang=langFrom).dictionary-entry-from
+				+definition(entry, index)
+			div.dictionary-entry-to-container
 				each translation, t_index in entry.translations
-					dd(lang=langTo)
-						+definition(translation, index + "." + t_index, langTo)
+					div(lang=langTo).dictionary-entry-to
+						+definition(translation, index + "." + t_index)
