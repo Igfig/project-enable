@@ -191,7 +191,7 @@ dl {
 
 // search form
 
-section.search {
+form.search {
   display: flex;
   position: fixed;
   align-items: center;
@@ -207,20 +207,21 @@ section.search {
   @media (max-width: $breakpoint) {
     padding: 0 $body-padding / 2;
   }
-}
 
-form.search {
-  @include body-box;
-  flex: 0 1 $body-width;
-  display: flex;
-  padding-top: $search-bar-padding-v;
-  padding-bottom: $search-bar-padding-v;
+  fieldset {
+    @include body-box;
+    flex: 0 1 $body-width;
+    display: flex;
+    padding-top: $search-bar-padding-v;
+    padding-bottom: $search-bar-padding-v;
+    border: 0;
 
-  @media (max-width: $breakpoint) {
-    margin: 0;
-    padding: $search-bar-padding-v $body-padding / 2;
-    flex: 1 1 100%;
-    max-width: 100%;
+    @media (max-width: $breakpoint) {
+      margin: 0;
+      padding: $search-bar-padding-v $body-padding / 2;
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
   }
 
   label[for="search"] {
@@ -255,14 +256,6 @@ form.search {
       margin-right: 0;
       padding: 6px;
     }
-  }
-  
-  fieldset {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
   }
 }
 

@@ -1,7 +1,6 @@
-section.search(role=search)
-    form.search(method="get")
-        fieldset
-            legend.reader-only Search
-            input(type="search" id="search" name="search" placeholder="Search...")
-            button(type="submit")
-                img.icon(src="/img/search.svg" alt="Search")
+form.search(role=search, method="get")
+    fieldset
+        legend.reader-only Search
+        input(type="search" id="search" name="search" placeholder="Search...")
+        button(type="submit")
+            img.icon(src="/img/search.svg" alt="Search")
