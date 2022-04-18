@@ -57,7 +57,6 @@
   }
 
   .dd-container {
-
     @media (max-width: $mobile-width - 1) {
       margin-top: $dd-indent;
     }
@@ -317,10 +316,6 @@ form.search {
     margin-top: 1.5em;
   }
 
-  .dine {
-    font-style: italic;
-  }
-
   hr {
     margin: 2rem 0;
   }
@@ -328,6 +323,10 @@ form.search {
   p {
     margin: 1em 0;
     line-height: 1.5;
+  }
+  
+  [lang=i-navajo] {
+    font-style: italic;
   }
 }
 

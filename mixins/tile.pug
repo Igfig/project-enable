@@ -1,5 +1,5 @@
 include definition
-mixin tile(index, item)
+mixin tile(index, item, langFrom, langTo)
 	- const [key, entry] = item
 	- const dtId = `d${index}`
 	- const showerId = `s${index}`
@@ -7,16 +7,16 @@ mixin tile(index, item)
 		//- the div needs a tabindex to be focusable
 		summary
 			h3
-				dfn(id=key)=entry.word
+				dfn(id=key, lang=langFrom)=entry.word
 				| &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
-				span.shortdef=entry.short_translations.join("; ")
+				span.shortdef(lang=langTo)=entry.short_translations.join("; ")
 				//- actually, should the shortdef be a dd as well? It's a definition after all
 			img.icon.closed(src="/img/plus-circle.svg" alt="")
 			img.icon.open(src="/img/minus-circle.svg" alt="")
 		dl
-			dt
-				+definition(entry, index)
+			dt(lang=langFrom)
+				+definition(entry, index, langFrom)
 			div.dd-container
 				each translation, t_index in entry.translations
-					dd
-						+definition(translation, index + "." + t_index)
+					dd(lang=langTo)
+						+definition(translation, index + "." + t_index, langTo)

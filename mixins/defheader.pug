@@ -15,8 +15,8 @@ mixin defheader(dictEntry, index)
 				p.phonetic [#{dictEntry.phonetic}]
 
 		if dictEntry.comment
-			p.comment=dictEntry.comment
+			p(lang="en").comment=dictEntry.comment
 		if dictEntry.literal
 			p.literal
 				b Literal translation:
-				span=dictEntry.literal
+				span(lang="en")=dictEntry.literal
