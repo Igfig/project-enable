@@ -9,7 +9,7 @@ mixin defheader(dictEntry, index)
 						span [#{dictEntry.phonetic}]
 					img(src="../img/audio.svg" alt="Listen to pronunciation")
 				input(type="checkbox", id=prnId)
-				audio(controls, preload=none, src=dictEntry.audio, type="audio/mp4")
+				audio(controls, preload=none, src=dictEntry.audio)
 					//a(href=dictEntry.audio)
 			else if dictEntry.phonetic
 				p.phonetic [#{dictEntry.phonetic}]
