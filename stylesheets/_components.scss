@@ -35,30 +35,25 @@
 
   summary {
     @extend %dl-box;
+    display: block;
     position: static; // to prevent inner bits from rendering in front of its outline
     width: 100%;
+    padding: $spacing-v $label-height $spacing-v $spacing-h;
     font-weight: bold;
-
+    cursor: pointer;
+    
     //hide the summary arrow
     list-style: none;
     &::-webkit-details-marker, &::marker {
       display: none;
     }
-
+    
+    &:hover {
+      background-color: $button-hover-color;
+    }
     &:focus {
-      outline: none; // we outline the whole div instead
-    }
-
-    .text {
-      display: block;
-      position: static; //otherwise it renders in front of the div's outline
-      padding: $spacing-v $label-height $spacing-v $spacing-h;
-      cursor: pointer;
-
-      &:hover {
-        background-color: $button-hover-color;
-      }
-    }
+       outline: none; // we outline the whole div instead
+     }
   }
 
   dt, .dd-container {
