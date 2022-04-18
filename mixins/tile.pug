@@ -11,8 +11,8 @@ mixin tile(index, item)
 				| &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
 				span.shortdef=entry.short_translations.join("; ")
 				//- actually, should the shortdef be a dd as well? It's a definition after all
-				img.icon.closed(src="/img/plus-circle.svg" role="presentation")
-				img.icon.open(src="/img/minus-circle.svg" role="presentation")
+				img.icon.closed(src="/img/plus-circle.svg" alt="")
+				img.icon.open(src="/img/minus-circle.svg" alt="")
 		dl
 			dt
 				+definition(entry, index)
