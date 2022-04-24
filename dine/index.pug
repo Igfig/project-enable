@@ -13,11 +13,12 @@ append nav
 	include ../templates/search
 		
 block content
-	header.subheader
-		h2 Diné to English Dictionary
-		a.icon.switch-direction(href="/english")
-			img(src="/img/exchange-alt.svg" alt="Switch to English-Diné")
-	+alphabet(sortedWords)
-	each entry, index in sortedWords
-		+tile(index, entry, "nv", "en")
+	main.dictionary
+		header.subheader
+			h2 Diné to English Dictionary
+			a.icon.switch-direction(href="/english")
+				img(src="/img/exchange-alt.svg" alt="Switch to English-Diné")
+		+alphabet(sortedWords)
+		each entry, index in sortedWords
+			+tile(index, entry, "nv", "en")
 				
