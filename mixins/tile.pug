@@ -3,7 +3,7 @@ mixin tile(index, item, langFrom, langTo)
 	- const [key, entry] = item
 	- const dtId = `d${index}`
 	- const showerId = `s${index}`
-	details(id=dtId tabindex=index)
+	details(id=dtId tabindex=0)
 		//- the div needs a tabindex to be focusable
 		summary
 			h3
