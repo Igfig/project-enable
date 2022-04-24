@@ -9,7 +9,6 @@
 }
 
 .dictionary {
-  margin-top: 1em;
   margin-bottom: $bar-height;
 
   > details {
@@ -363,6 +362,8 @@ form.search {
 // alphabet letter selector 
 
 .alphabet {
+  margin-bottom: 1rem;
+  
   ul {
     display: flex;
     flex-flow: row wrap;

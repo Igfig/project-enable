@@ -8,7 +8,8 @@ html(lang="en")
 	body
 		block header
 			include ../templates/header
-		nav.main-nav
+		nav(aria-label="Main").main-nav
 			block nav
 				include ../templates/nav
-		block content
+		main.dictionary
+			block content

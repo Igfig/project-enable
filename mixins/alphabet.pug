@@ -1,5 +1,5 @@
 mixin alphabet(sortedWords)
-	nav.alphabet
+	nav(aria-label="Alphabet quick-jump").alphabet
 		ul
 			- letters = new Set(sortedWords.map(([word])=>word[0].toUpperCase()))
 			- const aCode = "A".charCodeAt(0)

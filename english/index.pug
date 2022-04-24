@@ -19,6 +19,5 @@ block content
 		a.icon.switch-direction(href="/dine")
 			img(src="/img/exchange-alt.svg" alt="Switch to Diné-English")
 	+alphabet(sortedWords)
-	main.dictionary
-		each entry, index in sortedWords
-			+tile(index, entry, "en", "nv")
+	each entry, index in sortedWords
+		+tile(index, entry, "en", "nv")
