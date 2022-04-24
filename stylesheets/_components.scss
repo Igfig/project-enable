@@ -51,9 +51,8 @@
     font-weight: bold;
     cursor: pointer;
     
-    &:hover {
-      background-color: $button-hover-color;
-    }
+    @include hover-highlight;
+    
     &:focus {
        outline: none; // we outline the whole div instead
      }
@@ -261,13 +260,6 @@ form.search {
   padding: 7px;
   border: 1px solid $text-color;
   border-radius: 5px;
-
-  &:hover {
-    border-color: $link-hover-color;
-  }
-  &:active {
-    background: $link-active-color;
-  }
 }
 
 // pronunciation button
@@ -305,12 +297,7 @@ form.search {
     }
   }
 
-  &:hover {
-    color: $link-hover-color;
-    img {
-      opacity: 50%;
-    }
-  }
+  @include hover-highlight;
 }
 
 %text-page {
@@ -385,9 +372,7 @@ form.search {
     &[href] {
       border: 1px solid black;
 
-      &:hover {
-        background-color: $button-hover-color;
-      }
+      @include hover-highlight;
     }
     &:not([href]) {
       color: $disabled-color;

@@ -2,12 +2,6 @@
 
 // icons
 
-@mixin focused {
-  &:hover, &:active, a:hover &, a:active & {
-    @content;
-  }
-}
-
 img.icon, .icon img {
   height: 1em;
   cursor: pointer;
@@ -15,17 +9,12 @@ img.icon, .icon img {
   + span {
     margin-left: 0.5ch;
   }
-  @include focused {
-    opacity: 0.5;
-  };
 }
-.icon {
-  @include focused {
-    img {
-      opacity: 0.5;
-    }
-  }
+
+a.icon {
+  @include hover-highlight;
 }
+
 summary .icon {
   position: absolute;
   top: $opener-offset;
@@ -35,7 +24,6 @@ summary .icon {
   line-height: 1;
   text-align: center;
 }
-
 
 // text classes
 
@@ -60,10 +48,11 @@ summary .icon {
 }
 
 // nav classes
+
 nav.main-nav {
   display: flex;
   position: fixed;
-  align-items: center;
+  align-items: stretch;
   box-sizing: border-box;
   top: 0;
   left: 0;
@@ -71,6 +60,7 @@ nav.main-nav {
   z-index: 100;
   width: 100%;
   height: $bar-height;
+  padding: 0 15px;
   background-color: white;
   border-bottom: 1px solid grey;
 
@@ -79,21 +69,21 @@ nav.main-nav {
   }
 }
 
-// footer classes
-
-.footer-link {
+.nav-link {
+  box-sizing: border-box;
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: unset;
+  align-items: center;
   flex-flow: row nowrap;
   flex: 0 1 auto;
-  //height: $footer-height;
   text-decoration: none;
   
-  padding: 0 0 0 30px;
+  padding: 0 15px;
   min-width: $bar-height; // to keep it square
   color: inherit;
+
+  @include hover-highlight;
   
   @media (max-width: $breakpoint) {
     > span {
@@ -120,6 +110,8 @@ nav.main-nav {
   border: 2px solid black;
   border-radius: 5px;
 
+  @include hover-highlight;
+  
   > .icon {
     height: 24px;
 
@@ -139,4 +131,4 @@ nav.main-nav {
   height: 1px !important;
   margin: 0 !important;
   padding: 0 !important;
-} 
+}

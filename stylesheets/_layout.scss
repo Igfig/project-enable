@@ -118,6 +118,9 @@ a {
   &:hover {
     color: $link-hover-color;
   }
+  &:active {
+    color: $link-active-color;
+  }
 }
 
 button, .button {
@@ -127,12 +130,7 @@ button, .button {
   border-radius: 0 $search-border-radius $search-border-radius 0;
   outline: none;
 
-  &:hover {
-    background-color: $button-hover-color;
-  }
-  &:focus, &:active {
-    background-color: $link-active-color;
-  }
+  @include hover-highlight;
 }
 
 dfn {
