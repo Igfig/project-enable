@@ -53,6 +53,7 @@ nav.main-nav {
   display: flex;
   position: fixed;
   align-items: stretch;
+  justify-content: space-evenly;
   box-sizing: border-box;
   left: 0;
   right: 0;
@@ -68,7 +69,6 @@ nav.main-nav {
   }
   @include tablet-down {
     bottom: 0;
-    padding-right: 0;
     border-top: 1px solid grey;
   }
 }

@@ -208,7 +208,7 @@ form.search {
 
     @include tablet-down {
       margin: 0;
-      padding: $bar-padding-v $bar-padding-h;
+      padding: $bar-padding-v 0 $bar-padding-v $bar-padding-h;
       flex: 1 1 100%;
       max-width: 100%;
     }
