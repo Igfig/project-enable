@@ -91,7 +91,10 @@ nav.main-nav {
   
   @media (max-width: $breakpoint) {
     > span {
-      display: none;
+      // hide it but leave it visible to screen readers
+      max-width: 0 !important;
+      margin: 0 !important;
+      overflow: hidden !important;
     }
   }
 }
