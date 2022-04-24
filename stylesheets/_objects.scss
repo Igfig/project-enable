@@ -62,11 +62,11 @@ nav.main-nav {
   padding: 0 $bar-padding-h;
   background-color: white;
 
-  @media (min-width: $breakpoint + 1) {
+  @include desktop {
     top: 0;
     border-bottom: 1px solid grey;
   }
-  @media (max-width: $breakpoint) {
+  @include tablet-down {
     bottom: 0;
     padding-right: 0;
     border-top: 1px solid grey;
@@ -89,7 +89,7 @@ nav.main-nav {
 
   @include hover-highlight;
   
-  @media (max-width: $breakpoint) {
+  @include tablet-down {
     > span {
       // hide it but leave it visible to screen readers
       max-width: 0 !important;

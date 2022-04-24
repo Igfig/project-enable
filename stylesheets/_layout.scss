@@ -41,13 +41,13 @@ body {
   line-height: $line-height;
   background-color: white;
 
-  @media (max-width: $breakpoint) {
+  @include tablet-down {
     margin-top: 0; // bar moved down to bottom
   }
 }
 
 main {
-  @media (max-width: $breakpoint) {
+  @include tablet-down {
     margin-bottom: $bar-height; // bar moved down to bottom
     /* we set the bottom bar spacing on main instead of body because the dictionary views have bottom bars on 
      * desktop sizes too. And we set the top bar spacing on body instead of main because the site header comes 

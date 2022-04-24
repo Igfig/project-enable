@@ -65,10 +65,10 @@
   }
 
   .dictionary-entry-to-container {
-    @media (max-width: $mobile-width - 1) {
+    @include mobile {
       margin-top: $dd-indent;
     }
-    @media (min-width: $mobile-width) {
+    @include tablet-up {
       margin-left: $dd-indent;
     }
 
@@ -117,7 +117,7 @@
   padding: $dd-padding $dd-padding $dd-padding $dd-indent;
   border-top: 1px solid $inner-border-color; // XXX optional theming
 
-  @media (min-width: $mobile-width) {
+  @include tablet-up {
     flex-flow: row nowrap;
   }
   
@@ -149,8 +149,8 @@
   color: white;
   background-color: $popup-color;
   text-align: center;
-  
-  @media (max-width: $breakpoint) {
+
+  @include tablet-down {
     left: $bar-height / 2 - 50px; // realigned to keep consistent margin.
   }                                  // not sure where the 50 is coming from though
   
@@ -165,7 +165,7 @@
     border-right: $popup-margin solid transparent;
     border-top: $popup-tail-height solid $popup-color;
 
-    @media (max-width: $breakpoint) {
+    @include tablet-down {
       left: $popup-tail-offset - 5px; // move to positioned above icon. 
     }
   }
@@ -198,7 +198,7 @@ form.search {
   background-color: white;
   border-top: 1px solid grey;
 
-  @media (max-width: $breakpoint) {
+  @include tablet-down {
     position: relative;
     border-top: none;
   }
@@ -210,7 +210,7 @@ form.search {
     padding: $bar-padding-v $body-padding;
     border: 0;
 
-    @media (max-width: $breakpoint) {
+    @include tablet-down {
       margin: 0;
       padding: $bar-padding-v $bar-padding-h;
       flex: 1 1 100%;

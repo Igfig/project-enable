@@ -69,6 +69,27 @@ $bg-color: #7c071a;
   }
 }
 
+@mixin mobile {
+  @media (max-width: $mobile-width) {
+    @content
+  }
+}
+@mixin tablet-down {
+  @media (max-width: $breakpoint) {
+    @content
+  }
+}
+@mixin tablet-up {
+  @media (min-width: $mobile-width + 1) {
+    @content
+  }
+}
+@mixin desktop {
+  @media (min-width: $breakpoint + 1) {
+    @content
+  }
+}
+
 
 @font-face {
   font-family: Cardo;
