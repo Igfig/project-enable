@@ -41,21 +41,18 @@ body {
   line-height: $line-height;
   background-color: white;
 
-  > footer {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    box-sizing: border-box;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: white;
-    border-top: 1px solid grey;
-    
-    @media (max-width: $breakpoint) {
-      padding: 0 $body-padding / 2;
-    }
+  @media (max-width: $breakpoint) {
+    margin-top: 0; // bar moved down to bottom
+  }
+}
+
+main {
+  @media (max-width: $breakpoint) {
+    margin-bottom: $bar-height; // bar moved down to bottom
+    /* we set the bottom bar spacing on main instead of body because the dictionary views have bottom bars on 
+     * desktop sizes too. And we set the top bar spacing on body instead of main because the site header comes 
+     * between the top of the page and main.
+     */
   }
 }
 

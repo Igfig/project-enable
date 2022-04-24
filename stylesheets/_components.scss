@@ -199,20 +199,20 @@ form.search {
   border-top: 1px solid grey;
 
   @media (max-width: $breakpoint) {
-    padding: 0 $body-padding / 2;
+    position: relative;
+    border-top: none;
   }
 
   fieldset {
     @include body-box;
     flex: 0 1 $body-width;
     display: flex;
-    padding-top: $search-bar-padding-v;
-    padding-bottom: $search-bar-padding-v;
+    padding: $bar-padding-v $body-padding;
     border: 0;
 
     @media (max-width: $breakpoint) {
       margin: 0;
-      padding: $search-bar-padding-v $body-padding / 2;
+      padding: $bar-padding-v $bar-padding-h;
       flex: 1 1 100%;
       max-width: 100%;
     }

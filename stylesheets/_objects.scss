@@ -54,18 +54,22 @@ nav.main-nav {
   position: fixed;
   align-items: stretch;
   box-sizing: border-box;
-  top: 0;
   left: 0;
   right: 0;
   z-index: 100;
   width: 100%;
   height: $bar-height;
-  padding: 0 15px;
+  padding: 0 $bar-padding-h;
   background-color: white;
-  border-bottom: 1px solid grey;
 
+  @media (min-width: $breakpoint + 1) {
+    top: 0;
+    border-bottom: 1px solid grey;
+  }
   @media (max-width: $breakpoint) {
-    padding: 0 $body-padding / 2;
+    bottom: 0;
+    padding-right: 0;
+    border-top: 1px solid grey;
   }
 }
 
@@ -79,7 +83,7 @@ nav.main-nav {
   flex: 0 1 auto;
   text-decoration: none;
   
-  padding: 0 15px;
+  padding: 0 $bar-padding-h;
   min-width: $bar-height; // to keep it square
   color: inherit;
 
