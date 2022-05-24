@@ -1,6 +1,8 @@
 doctype html
 html(lang="en")
 	head
+		//- charset needs to go at the top of the head, because some browsers only check the first 1024k for it
+		meta(charset='UTF-8')  
 		block title
 			title Project ENABLE | The Diné-English Biology Dictionary
 		include ../templates/head
