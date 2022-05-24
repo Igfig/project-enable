@@ -9,6 +9,6 @@ mixin alphabet(sortedWords)
 				- letter = String.fromCharCode(code++)
 				li
 					if letters.has(letter)
-						a(href=`?search=${letter}`)=letter
+						a(href=`?search=${letter}` nofollow)=letter
 					else
 						a=letter
