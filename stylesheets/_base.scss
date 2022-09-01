@@ -1,6 +1,7 @@
 $mobile-width: 500px;
 $body-width: 800px;
 $body-padding: 1.333rem;
+$text-page-padding: 3vw;
 $breakpoint: 1200px;
 
 $spacing-v: 7px;
@@ -39,11 +40,16 @@ $popup-tail-height: $popup-margin - 5px;
 $inner-border-color: #ccc;
 $disabled-color: #888;
 
+$border-color: #333;
 $text-color: #333;
 $link-hover-color: #999;
 $link-active-color: #b0b0b0;
 $button-hover-color: #eee;
 $button-active-color: #ddd;
+
+$footer-color: #888;
+$footer-link-hover-color: $link-active-color;
+$footer-link-active-color: lighten($link-active-color, 5%);
 
 $popup-color: #333;
 $popup-hover-color: #444;

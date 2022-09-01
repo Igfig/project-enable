@@ -9,11 +9,9 @@
 }
 
 .dictionary {
-  margin-bottom: $bar-height;
-
   > details {
     position: relative; // so that the label:after can be positioned safely
-    border: 1px solid black;
+    border: 1px solid $border-color;
 
     &[open] .icon.closed {
       display: none;
@@ -28,8 +26,12 @@
     }
 
     &:focus, &:focus-within {
-      outline: 1px auto black;
+      outline: 1px auto $border-color;
     }
+  }
+  
+  + footer {
+    margin-bottom: $bar-height;
   }
 
   h3 {
@@ -230,7 +232,7 @@ form.search {
     outline: none;
 
     &:focus {
-      border-color: black;
+      border-color: $border-color;
     }
   }
 
@@ -270,7 +272,7 @@ form.search {
 
   // XXX optional theming
   padding: 1px 6px;
-  border: 1px solid black;
+  border: 1px solid $border-color;
   border-radius: 5px;
   font-size: 0.75rem;
   font-family: $font-family-sans;
@@ -297,7 +299,7 @@ form.search {
 }
 
 %text-page {
-  padding: 0 3vw;
+  padding: 0 $text-page-padding;
   font-family: $font-family-sans;
   font-size: 0.75rem;
 
@@ -317,6 +319,10 @@ form.search {
   
   [lang=i-navajo] {
     font-style: italic;
+  }
+  
+  + footer {
+    margin: 2.5rem $text-page-padding 0;
   }
 }
 
@@ -366,12 +372,63 @@ form.search {
     text-decoration: none;
 
     &[href] {
-      border: 1px solid black;
+      border: 1px solid $border-color;
 
       @include hover-highlight;
     }
     &:not([href]) {
       color: $disabled-color;
+    }
+  }
+}
+
+// page footer
+
+
+.page-footer {
+  margin-top: $body-padding;
+  padding: $body-padding * 0.7 $body-padding;
+  border: 1px solid $footer-color;
+  color: $footer-color;
+
+  font: 11px $font-family-sans;
+  line-height: 1.5;
+
+  @include tablet-down {
+    margin-bottom: $bar-height; // bar moved down to bottom
+    /* we set the bottom bar spacing on footer instead of body because the dictionary views have bottom bars on 
+     * desktop sizes too. And we set the top bar spacing on body instead of main because the site header comes 
+     * between the top of the page and main.
+     */
+  }
+
+  a {
+    &:hover {
+      color: $footer-link-hover-color;
+    } 
+    &:active {
+      color: $footer-link-active-color;
+    } 
+  }
+  
+  * + p {
+    margin-top: 1em;
+  }
+
+  .cc-link {
+    white-space: nowrap;
+  }
+
+  $cc-icon-extra-height: 0.2em;
+
+  img {
+    vertical-align: baseline;
+    width: 1em + (2 * $cc-icon-extra-height);
+    margin: -$cc-icon-extra-height 1px;
+    opacity: 0.6;
+
+    &:first-of-type {
+      margin-left: 5px;
     }
   }
 }

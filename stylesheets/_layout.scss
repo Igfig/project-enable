@@ -46,16 +46,6 @@ body {
   }
 }
 
-main {
-  @include tablet-down {
-    margin-bottom: $bar-height; // bar moved down to bottom
-    /* we set the bottom bar spacing on main instead of body because the dictionary views have bottom bars on 
-     * desktop sizes too. And we set the top bar spacing on body instead of main because the site header comes 
-     * between the top of the page and main.
-     */
-  }
-}
-
 p {
   margin-block: 0;
 }
