@@ -1,0 +1,170 @@
+@import "base";
+
+// dictionary list
+
+%dl-box {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.dictionary {
+  > details {
+    position: relative; // so that the label:after can be positioned safely
+    border: 1px solid $border-color;
+
+    &[open] .icon.closed {
+      display: none;
+    }
+    &:not([open]) .icon.open {
+      display: none;
+    }
+
+    & ~ details {
+      margin-top: -1px;
+      // to prevent double-thick lines between items. We could have done border-top:0 instead, but that led to some weird interactions with focusing.
+    }
+
+    &:focus, &:focus-within {
+      outline: 1px auto $border-color;
+    }
+  }
+
+  + footer {
+    // always, not just at small sizes
+    margin-bottom: $bar-height;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  h4 {
+    margin: 0 5px 0 0;
+    font-size: 1.17rem;
+  }
+
+  summary {
+    @extend %dl-box;
+    display: block; // among other things, hides the summary arrow
+    position: static; // to prevent inner bits from rendering in front of its outline
+    width: 100%;
+    padding: $spacing-v $label-height $spacing-v $spacing-h;
+    font-weight: bold;
+    cursor: pointer;
+
+    @include hover-highlight;
+
+    &:focus {
+      outline: none; // we outline the whole div instead
+    }
+  }
+
+  .dictionary-entry-from, .dictionary-entry-to-container {
+    @extend %dl-box;
+    overflow: hidden;
+    flex-basis: 50%;
+  }
+
+  .dictionary-entry-to-container {
+    @include mobile {
+      margin-top: $dd-indent * 1.5;
+    }
+    @include tablet-up {
+      margin-left: $dd-indent;
+    }
+
+    .dictionary-entry-to {
+      flex-basis: 100%;
+
+      + .dictionary-entry-to {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  input.shower {
+    display: none;
+
+    ~ .icon {
+      .closed {
+        display: block;
+      }
+      .open {
+        display: none;
+      }
+    }
+    &:checked ~ .icon {
+      .closed {
+        display: none;
+      }
+      .open {
+        display: block;
+      }
+    }
+
+    &:checked ~ dd, &:checked ~ .dictionary-entry-to-container {
+      height: auto;
+      padding: $dd-padding $dd-indent;
+      border-top: 1px solid $inner-border-color; // XXX optional theming
+    }
+  }
+}
+
+.dictionary-entry {
+  display: flex;
+  flex-flow: column nowrap;
+  //position: relative; // so that the label:after can be positioned safely
+  margin: 0;
+  padding: $dd-padding $dd-padding $dd-padding $dd-indent;
+  border-top: 1px solid $inner-border-color; // XXX optional theming
+
+  @include tablet-up {
+    flex-flow: row nowrap;
+  }
+
+  > .dictionary-entry-to-container {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}
+
+.dictionary-entry-to, .dictionary-entry-from {
+  margin: 0;
+
+  > * {
+    margin: 0;
+
+    & + * {
+      margin-top: 0.75rem;
+    }
+  }
+
+  header {
+    margin: 0 0 0.75rem;
+
+    .word-heading {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: baseline;
+    }
+
+    p {
+      margin-top: 0.3em;
+
+      + p {
+        margin-top: 0.5em;
+      }
+    }
+  }
+
+  * + header {
+    margin-top: 1rem;
+  }
+
+  p {
+    line-height: $line-height-p;
+    font-family: $font-family-sans;
+    font-size: 0.75rem;
+  }
+}

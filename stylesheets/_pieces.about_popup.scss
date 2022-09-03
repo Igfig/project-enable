@@ -1,0 +1,53 @@
+@import "base";
+
+// "About" popup
+
+#about-popup {
+  display: none;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: $bar-height + $popup-margin;
+  left: 0;
+  width: 220px;
+  margin: 0;
+  padding: $popup-padding;
+  text-decoration: none;
+
+  // XXX optional theming
+  border-radius: 3px;
+  color: white;
+  background-color: $popup-color;
+  text-align: center;
+
+  @include tablet-down {
+    left: $bar-height / 2 - 50px; // realigned to keep consistent margin.
+  }                                  // not sure where the 50 is coming from though
+
+  &::after { // the tail
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -$popup-tail-height;
+    left: $popup-tail-offset;
+    border-left: $popup-margin solid transparent;
+    border-right: $popup-margin solid transparent;
+    border-top: $popup-tail-height solid $popup-color;
+
+    @include tablet-down {
+      left: $popup-tail-offset - 5px; // move to positioned above icon. 
+    }
+  }
+
+  &:hover {
+    background-color: $popup-hover-color;
+
+    &::after {
+      border-top-color: $popup-hover-color;
+    }
+  }
+
+  &.visible {
+    display: block;
+  }
+}

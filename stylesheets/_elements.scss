@@ -78,24 +78,6 @@ header {
   p {
     margin: 0;
   }
-
-  &.site-header {
-    margin: 0 0 1.333rem;
-    p {
-      text-align: center;
-      //font-size: 1.13rem; // uncomment to make it fill the width
-    }
-  }
-
-  &.subheader {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-end;
-
-    h2 {
-      margin: 0 1ch 0 0;
-    }
-  }
 }
 
 a {
@@ -122,46 +104,6 @@ button, .button {
 
 dfn {
   font-style: normal;
-}
-
-.dictionary-entry-to, .dictionary-entry-from {
-  margin: 0;
-
-  > * {
-    margin: 0;
-
-    & + * {
-      margin-top: 0.75rem;
-    }
-  }
-
-  header {
-    margin: 0 0 0.75rem;
-
-    .word-heading {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: baseline;
-    }
-
-    p {
-      margin-top: 0.3em;
-
-      + p {
-        margin-top: 0.5em;
-      }
-    }
-  }
-  
-  * + header {
-    margin-top: 1rem;
-  }
-
-  p {
-    line-height: $line-height-p;
-    font-family: $font-family-sans;
-    font-size: 0.75rem;
-  }
 }
 
 audio:focus {

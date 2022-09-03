@@ -1,0 +1,51 @@
+@import "base";
+
+// page footer
+
+.page-footer {
+  margin-top: $body-padding;
+  padding: $body-padding * 0.7 $body-padding;
+  border: 1px solid $footer-color;
+  color: $footer-color;
+
+  font: 11px $font-family-sans;
+  line-height: 1.5;
+
+  @include tablet-down {
+    margin-bottom: $bar-height; // bar moved down to bottom
+    /* we set the bottom bar spacing on footer instead of body because the dictionary views 
+     * have bottom bars on desktop sizes too. And we set the top bar spacing on body instead 
+     * of main because the site header comes between the top of the page and main.
+     */
+  }
+
+  a {
+    &:hover {
+      color: $footer-link-hover-color;
+    }
+    &:active {
+      color: $footer-link-active-color;
+    }
+  }
+
+  * + p {
+    margin-top: 1em;
+  }
+
+  .cc-link {
+    white-space: nowrap;
+  }
+
+  $cc-icon-extra-height: 0.2em;
+
+  img {
+    vertical-align: baseline;
+    width: 1em + (2 * $cc-icon-extra-height);
+    margin: -$cc-icon-extra-height 1px;
+    opacity: 0.6;
+
+    &:first-of-type {
+      margin-left: 5px;
+    }
+  }
+}

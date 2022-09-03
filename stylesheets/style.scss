@@ -1,4 +1,21 @@
 @import "base";
-@import "layout";
-@import "objects";
-@import "components";
+
+@import "elements";
+@import "elements.fonts";
+
+@import "objects.icons";
+@import "objects.text";
+
+@import "pieces.about_popup";
+@import "pieces.buttons";
+@import "pieces.dictionary";
+@import "pieces.footer";
+@import "pieces.header";
+@import "pieces.nav";
+@import "pieces.search";
+
+@import "../about/module.about";
+@import "../contact/module.contact";
+@import "../news/module.news";
+
+@import "utilities";

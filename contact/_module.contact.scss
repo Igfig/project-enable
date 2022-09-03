@@ -1,0 +1,44 @@
+@import "../stylesheets/base";
+
+// contact page
+
+.contact {
+  @extend %text-page;
+
+  p {
+    margin: 1.1em 0 1.5em;
+  }
+}
+
+// contact tiles
+
+.contact-tiles {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.contact-tile {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  margin: 0;
+  padding: 15px 25px 15px 20px;
+  border: 2px solid $border-color;
+  border-radius: 5px;
+
+  @include hover-highlight;
+
+  + .contact-tile {
+    margin-top: 1em;
+  }
+
+  > .icon {
+    height: 24px;
+
+    + span {
+      margin-left: 20px;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@import "base";
+
+// button to switch direction from dine-english to english-dine and back
+
+.switch-direction {
+  height: 20px;
+  padding: 7px;
+  border: 1px solid $text-color;
+  border-radius: 5px;
+}
+
+// pronunciation button
+
+.pronunciation {
+  display: flex;
+  align-items: normal; // alignments are oddly complex here, but this looks good
+  align-self: center;  // on Chrome at least. TODO check other browsers
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 1.2rem;
+
+  // XXX optional theming
+  padding: 1px 6px;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-family: $font-family-sans;
+
+  span {
+    margin-right: 5px;
+  }
+  img {
+    width: 16px;
+  }
+  + input {
+    display: none;
+
+    + audio {
+      display: none;
+      margin-top: 4px;
+    }
+    &:checked + audio {
+      display: block;
+    }
+  }
+
+  @include hover-highlight;
+}
+
+// alphabet letter selector 
+
+.alphabet {
+  margin-bottom: 1rem;
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: block;
+    margin: 1px;
+    padding: 0;
+  }
+  a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+
+    &[href] {
+      border: 1px solid $border-color;
+
+      @include hover-highlight;
+    }
+    &:not([href]) {
+      color: $disabled-color;
+    }
+  }
+}

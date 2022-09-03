@@ -1,0 +1,7 @@
+@import "../stylesheets/base";
+
+// about page
+
+.about {
+  @extend %text-page;
+}

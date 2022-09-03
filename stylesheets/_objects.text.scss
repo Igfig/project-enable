@@ -1,0 +1,21 @@
+// text classes
+
+.shortdef {
+  font-style: italic;
+}
+.phonetic {
+  font-weight: bold;
+  font-size: 0.6rem; // XXX not sure if this is still right for the new font
+  align-self: baseline;
+}
+
+.literal, .comment {
+  font-size: 0.6rem;
+  b {
+    margin-right: 0.5ch;
+  }
+}
+
+.sentence {
+  font-style: italic;
+}

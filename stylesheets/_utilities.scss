@@ -1,0 +1,11 @@
+// elements to only show to screenreaders
+.reader-only {
+  position: fixed;
+  left: -10000;
+  overflow: hidden;
+  
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

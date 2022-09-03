@@ -1,0 +1,26 @@
+@import "base";
+
+// icons
+
+img.icon, .icon img {
+  height: 1em;
+  cursor: pointer;
+
+  + span {
+    margin-left: 0.5ch;
+  }
+}
+
+a.icon {
+  @include hover-highlight;
+}
+
+summary .icon {
+  position: absolute;
+  top: $opener-offset;
+  right: $opener-offset;
+  width: $opener-size;
+  font-size: $opener-size;
+  line-height: 1;
+  text-align: center;
+}

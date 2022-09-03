@@ -1,8 +1,8 @@
-$mobile-width: 500px;
+@import "base.breakpoints"; // so that we cna get everything by importing base just once
+
 $body-width: 800px;
 $body-padding: 1.333rem;
 $text-page-padding: 3vw;
-$breakpoint: 1200px;
 
 $spacing-v: 7px;
 $spacing-h: 10px;
@@ -42,7 +42,7 @@ $disabled-color: #888;
 
 $border-color: #333;
 $text-color: #333;
-$link-hover-color: #999;
+$link-hover-color: #888;
 $link-active-color: #b0b0b0;
 $button-hover-color: #eee;
 $button-active-color: #ddd;
@@ -56,6 +56,7 @@ $popup-hover-color: #444;
 
 $bg-color: #7c071a;
 
+// various mixins
 
 @mixin body-box {
   box-sizing: border-box;
@@ -75,60 +76,35 @@ $bg-color: #7c071a;
   }
 }
 
-@mixin mobile {
-  @media (max-width: $mobile-width) {
-    @content
-  }
-}
-@mixin tablet-down {
-  @media (max-width: $breakpoint) {
-    @content
-  }
-}
-@mixin tablet-up {
-  @media (min-width: $mobile-width + 1) {
-    @content
-  }
-}
-@mixin desktop {
-  @media (min-width: $breakpoint + 1) {
-    @content
-  }
-}
+// abstract classes
 
+%text-page {
+  padding: 0 $text-page-padding;
+  font-family: $font-family-sans;
+  font-size: 0.75rem;
 
-@font-face {
-  font-family: Cardo;
-  src: url(/fonts/Cardo-Regular.ttf);
-}
-@font-face {
-  font-family: Cardo;
-  font-weight: bold;
-  src: url(/fonts/Cardo-Bold.ttf);
-}
-@font-face {
-  font-family: Cardo;
-  font-style: italic;
-  src: url(/fonts/Cardo-Italic.ttf);
-}
+  h2, h3 {
+    font-family: $font-family-serif;
+    margin-top: 1.5em;
+  }
 
-@font-face {
-  font-family: Lato;
-  src: url(/fonts/Lato-Regular.ttf);
-}
-@font-face {
-  font-family: Lato;
-  font-weight: bold;
-  src: url(/fonts/Lato-Bold.ttf);
-}
-@font-face {
-  font-family: Lato;
-  font-style: italic;
-  src: url(/fonts/Lato-Italic.ttf);
-}
-@font-face {
-  font-family: Lato;
-  font-weight: bold;
-  font-style: italic;
-  src: url(/fonts/Lato-BoldItalic.ttf);
+  hr {
+    margin: 2rem 0;
+  }
+
+  p {
+    margin: 1em 0;
+    line-height: 1.5;
+  }
+
+  [lang=i-navajo] {
+    font-style: italic;
+  }
+
+  + footer {
+    margin-top: 2.5rem;
+    margin-left: $text-page-padding;
+    margin-right: $text-page-padding;
+    // but don't overwrite bottom padding
+  }
 }

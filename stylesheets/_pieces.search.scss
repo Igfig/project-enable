@@ -1,0 +1,71 @@
+@import "base";
+
+// search form
+
+form.search {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid grey;
+
+  @include tablet-down {
+    position: relative;
+    border-top: none;
+  }
+
+  fieldset {
+    @include body-box;
+    flex: 0 1 $body-width;
+    display: flex;
+    padding: $bar-padding-v $body-padding;
+    border: 0;
+
+    @include tablet-down {
+      margin: 0;
+      padding: $bar-padding-v 0 $bar-padding-v $bar-padding-h;
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  label[for="search"] {
+    display: none;
+  }
+
+  input[type="search"] {
+    width: 100%;
+    padding: $search-padding-v $search-padding-h;
+    font-size: $search-font-size;
+
+    // XXX optional theming
+    border: 1px solid grey;
+    border-right: none;
+    border-radius: $search-border-radius 0 0 $search-border-radius;
+    outline: none;
+
+    &:focus {
+      border-color: $border-color;
+    }
+  }
+
+  button[type=submit] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+
+    .icon {
+      height: 0.8rem;
+      margin-right: 0;
+      padding: 6px;
+    }
+  }
+}
