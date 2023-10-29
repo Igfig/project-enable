@@ -1,5 +1,8 @@
 import re
 
+# TODO redo this in js
+# TODO make it so you can precede special characters with a \ to keep them from being converted
+
 mapping = {
 	'1': 'á',
 	'2': 'ą',
@@ -14,8 +17,6 @@ mapping = {
 	'-': 'ǫ',
 	'=': 'ǫ́',
 	'!': 'Á',
-	'[': 'ł',
-	']': 'ń',
 	'@': 'Ą',
 	'#': 'Ą́',
 	'$': 'É',
@@ -27,6 +28,8 @@ mapping = {
 	# ')': 'Ó',
 	'_': 'Ǫ',
 	'+': 'Ǫ́',
+	'[': 'ł',
+	']': 'ń',
 	'{': 'Ł',
 	'}': 'Ń'
 }
