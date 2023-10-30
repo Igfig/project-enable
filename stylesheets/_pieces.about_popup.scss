@@ -6,44 +6,62 @@
   display: none;
   position: absolute;
   box-sizing: border-box;
-  bottom: $bar-height + $popup-margin;
-  left: 0;
-  width: 220px;
+  width: $popup-width;
   margin: 0;
   padding: $popup-padding;
   text-decoration: none;
 
   // XXX optional theming
-  border-radius: 3px;
-  color: white;
+  $border-radius: 5px;
+  border-radius: $border-radius;
+  color: $body-color;
   background-color: $popup-color;
   text-align: center;
 
+  @include desktop {
+    top: 10px - $border-radius; // move so arrow is centered on icon
+    left: -$popup-width - $popup-margin + $popup-tail-height;
+    //top: $bar-height + $popup-margin;
+    //left: 0;
+  }
   @include tablet-down {
+    bottom: $bar-height + $popup-margin;
     left: $bar-height / 2 - 50px; // realigned to keep consistent margin.
-  }                                  // not sure where the 50 is coming from though
+  }                               // not sure where the 50 is coming from though
 
   &::after { // the tail
     content: "";
     position: absolute;
     width: 0;
     height: 0;
-    bottom: -$popup-tail-height;
-    left: $popup-tail-offset;
-    border-left: $popup-margin solid transparent;
-    border-right: $popup-margin solid transparent;
-    border-top: $popup-tail-height solid $popup-color;
 
+    @include desktop {
+      top: $border-radius; // minimum offset from corner
+      right: -$popup-tail-height;
+      border-top: $popup-tail-width/2 solid transparent;
+      border-bottom: $popup-tail-width/2 solid transparent;
+      border-left: $popup-tail-height solid $popup-color;
+    }
+    
     @include tablet-down {
-      left: $popup-tail-offset - 5px; // move to positioned above icon. 
+      bottom: -$popup-tail-height;
+      border-left: $popup-tail-width/2 solid transparent;
+      border-right: $popup-tail-width/2 solid transparent;
+      border-top: $popup-tail-height solid $popup-color;
+      left: $popup-tail-offset; // move to positioned above icon. 
     }
   }
 
   &:hover {
     background-color: $popup-hover-color;
-
+    
     &::after {
-      border-top-color: $popup-hover-color;
+      @include desktop {
+        border-left-color: $popup-hover-color;
+      }
+      @include tablet-down {
+        border-top-color: $popup-hover-color;
+      }
     }
   }
 
