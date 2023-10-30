@@ -19,11 +19,13 @@ function search() {
 	}
 	
 	window.addEventListener("load", () => {
-		document.getElementById(`d${index}`).focus();
+		const detailsElement = document.getElementById(`d${index}`);
+		detailsElement.focus();
 		
 		if (searchFound) {
-			document.getElementById(`s${index}`).checked = true
+			detailsElement.setAttribute("open", "true")
 		}
+		// if search wasn't found, we still focus on the closest entry, but we don't open it
 	});
 }
 
