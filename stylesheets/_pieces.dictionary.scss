@@ -12,8 +12,16 @@
     position: relative; // so that the label:after can be positioned safely
     border: 1px solid $border-color;
 
-    &[open] .icon.closed {
-      display: none;
+    &[open] {
+      summary {
+        background-color: $hover-color;
+      }
+      .dictionary-entry {
+        background-color: $input-color;
+      }
+      .icon.closed {
+        display: none;
+      }
     }
     &:not([open]) .icon.open {
       display: none;
@@ -44,7 +52,7 @@
     font-size: 1.17rem;
   }
 
-  summary {
+  > details summary {
     @extend %dl-box;
     display: block; // among other things, hides the summary arrow
     position: static; // to prevent inner bits from rendering in front of its outline
@@ -52,8 +60,15 @@
     padding: $spacing-v $label-height $spacing-v $spacing-h;
     font-weight: bold;
     cursor: pointer;
-
-    @include hover-highlight;
+    
+    &:hover {
+      background-color: $hover-color;
+      color: inherit;
+    }
+    &:active {
+      background-color: $active-color;
+      color: inherit;
+    }
 
     &:focus {
       outline: none; // we outline the whole div instead

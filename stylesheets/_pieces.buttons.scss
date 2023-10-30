@@ -69,9 +69,11 @@
     display: block;
     padding: 5px;
     text-decoration: none;
+    border: 1px solid transparent;
 
     &[href] {
-      border: 1px solid $border-color;
+      border-color: $border-color;
+      background-color: $button-color;
 
       @include hover-highlight;
     }

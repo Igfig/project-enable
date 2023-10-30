@@ -39,7 +39,7 @@ body {
   min-height: calc(100vh - #{$bar-height});
   margin: $bar-height auto 0;
   line-height: $line-height;
-  background-color: white;
+  background-color: $body-color;
 
   @include tablet-down {
     margin-top: 0; // bar moved down to bottom
@@ -94,9 +94,9 @@ a {
 
 button, .button {
   // XXX optional theming
-  background-color: transparent;
+  //background-color: transparent;
+  background-color: $button-color;
   border: 1px solid grey;
-  border-radius: 0 $search-border-radius $search-border-radius 0;
   outline: none;
 
   @include hover-highlight;

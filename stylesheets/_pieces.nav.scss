@@ -14,7 +14,7 @@ nav.main-nav {
   width: 100%;
   height: $bar-height;
   padding: 0 $bar-padding-h;
-  background-color: white;
+  background-color: $body-color;
 
   @include desktop {
     top: 0;

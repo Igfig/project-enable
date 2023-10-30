@@ -32,29 +32,40 @@ $bar-padding-h: 15px;
 
 $bar-height: $search-height + 2 * $bar-padding-v;
 
+$bg-color: #7c071a;
+$body-color: #efece4;
+$hover-color: #e3ddcd;
+$active-color: #d8d3c2;
+
+$popup-width: 220px;
 $popup-margin: 20px;
 $popup-padding: 20px;
 $popup-tail-offset: 35px;
 $popup-tail-height: $popup-margin - 5px;
+$popup-tail-width: $popup-tail-height * 2;
 
 $inner-border-color: #ccc;
 $disabled-color: #888;
 
 $border-color: #333;
 $text-color: #333;
-$link-hover-color: #888;
-$link-active-color: #b0b0b0;
-$button-hover-color: #eee;
-$button-active-color: #ddd;
 
-$footer-color: #888;
-$footer-link-hover-color: $link-active-color;
-$footer-link-active-color: lighten($link-active-color, 5%);
+$link-hover-color: #6B6657;
+$link-active-color: #898477;
+
+$input-color: white;
+
+$button-color: $input-color;
+$button-hover-color: $hover-color;
+$button-active-color: $active-color;
+
+$footer-color: #666;
+$footer-link-hover-color: $link-hover-color;
+$footer-link-active-color: $link-active-color;
 
 $popup-color: #333;
 $popup-hover-color: #444;
 
-$bg-color: #7c071a;
 
 // various mixins
 
