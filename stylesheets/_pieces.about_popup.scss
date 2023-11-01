@@ -12,7 +12,7 @@
   text-decoration: none;
 
   // XXX optional theming
-  $border-radius: 5px;
+  $border-radius: $border-radius-md;
   border-radius: $border-radius;
   color: $body-color;
   background-color: $popup-color;
@@ -21,8 +21,6 @@
   @include desktop {
     top: 10px - $border-radius; // move so arrow is centered on icon
     left: -$popup-width - $popup-margin + $popup-tail-height;
-    //top: $bar-height + $popup-margin;
-    //left: 0;
   }
   @include tablet-down {
     bottom: $bar-height + $popup-margin;

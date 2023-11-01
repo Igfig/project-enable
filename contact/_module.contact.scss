@@ -26,7 +26,7 @@
   margin: 0;
   padding: 15px 25px 15px 20px;
   border: 2px solid $border-color;
-  border-radius: 5px;
+  border-radius: $border-radius-md;
 
   @include hover-highlight;
 

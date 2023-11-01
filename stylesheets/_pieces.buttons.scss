@@ -5,8 +5,8 @@
 .switch-direction {
   height: 20px;
   padding: 7px;
-  border: 1px solid $text-color;
-  border-radius: 5px;
+  border: 1px solid $border-color;
+  border-radius: $border-radius-sm;
 }
 
 // pronunciation button
@@ -70,6 +70,7 @@
     padding: 5px;
     text-decoration: none;
     border: 1px solid transparent;
+    border-radius: $border-radius-sm;
 
     &[href] {
       border-color: $border-color;

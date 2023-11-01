@@ -22,20 +22,18 @@ $opener-offset: ($label-height - $opener-size) / 2;
 
 $logo-size: calc(50% - #{$body-width} / 2);
 
+$border-radius-sm: 3px;
+$border-radius-md: 5px;
+
 $search-font-size: 16px;
 $search-padding-v: 5px;
 $search-padding-h: 10px;
-$search-border-radius: 5px;
+$search-border-radius: $border-radius-md;
 $search-height: $search-font-size + 2 * $search-padding-v + 4; // +4 is border and outline
+
 $bar-padding-v: $font-size / 2;
 $bar-padding-h: 15px;
-
 $bar-height: $search-height + 2 * $bar-padding-v;
-
-$bg-color: #7c071a;
-$body-color: #efece4;
-$hover-color: #e3ddcd;
-$active-color: #d8d3c2;
 
 $popup-width: 220px;
 $popup-margin: 20px;
@@ -44,11 +42,15 @@ $popup-tail-offset: 35px;
 $popup-tail-height: $popup-margin - 5px;
 $popup-tail-width: $popup-tail-height * 2;
 
-$inner-border-color: #ccc;
-$disabled-color: #888;
+$bg-color: #7c071a;
+$body-color: #efece4;
+$hover-color: #e3ddcd;
+$active-color: #d8d3c2;
 
-$border-color: #333;
 $text-color: #333;
+$border-color: #333;
+$inner-border-color: #bbb;
+$disabled-color: #888;
 
 $link-hover-color: #6B6657;
 $link-active-color: #898477;

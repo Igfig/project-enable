@@ -11,7 +11,18 @@
   > details {
     position: relative; // so that the label:after can be positioned safely
     border: 1px solid $border-color;
-
+    
+    &:first-of-type {
+      &, & > summary {
+        border-radius: $border-radius-sm $border-radius-sm 0 0;
+      }
+    }
+    &:last-of-type {
+      &, & > summary {
+        border-radius: 0 0 $border-radius-sm $border-radius-sm;
+      }
+    }
+    
     &[open] {
       summary {
         background-color: $hover-color;
