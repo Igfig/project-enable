@@ -7,7 +7,7 @@ mixin defheader(dictEntry, index)
 				label.button.pronunciation(for=prnId)
 					if dictEntry.phonetic
 						span [#{dictEntry.phonetic}]
-					img(src="../img/audio.svg" alt="Listen to pronunciation")
+					img(src="/assets/img/audio.svg" alt="Listen to pronunciation")
 				input(type="checkbox", id=prnId)
 				audio(controls, preload=none, src=dictEntry.audio)
 					//a(href=dictEntry.audio)

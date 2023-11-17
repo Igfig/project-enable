@@ -18,7 +18,7 @@ block content
 		header.subheader
 			h2 English to Diné Dictionary
 			a.icon.button.switch-direction(href="/dine")
-				img(src="/img/exchange-alt.svg" alt="Switch to Diné-English")
+				img(src="/assets/img/exchange-alt.svg" alt="Switch to Diné-English")
 		+alphabet(sortedWords)
 		each entry, index in sortedWords
 			+tile(index, entry, "en", "nv")

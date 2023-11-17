@@ -1,17 +1,27 @@
 @font-face {
   font-family: Cardo;
-  src: url(/fonts/Cardo-Regular.ttf);
+  src: url(/assets/fonts/Cardo-Regular.ttf);
   font-display: swap;
 }
 @font-face {
   font-family: Cardo;
   font-weight: bold;
-  src: url(/fonts/Cardo-Bold.ttf);
+  src: url(/assets/fonts/Cardo-Bold.ttf);
   font-display: swap;
 }
 @font-face {
   font-family: Cardo;
   font-style: italic;
-  src: url(/fonts/Cardo-Italic.ttf);
+  src: url(/assets/fonts/Cardo-Italic.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Times New Roman Navajo";
+  src: url(/assets/fonts/Timenrn_.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Verdana Navajo";
+  src: url(/assets/fonts/VERDN___.ttf);
   font-display: swap;
 }
