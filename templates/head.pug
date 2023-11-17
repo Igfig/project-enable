@@ -10,6 +10,9 @@ meta(property="og:type" content="website")
 
 link(rel="preload stylesheet", href="https://fontlibrary.org/face/symbola" as="style")
 link(rel="preload stylesheet" href="../stylesheets/style.css" as="style")
+link(rel="preload" as="style" href="../stylesheets/style_deferred.css" onload="this.onload=null;this.rel='stylesheet'")
+noscript
+	link(rel="preload stylesheet" href="../stylesheets/style_deferred.css")
 
 link(rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png")
 link(rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png")
