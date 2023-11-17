@@ -3,6 +3,9 @@ import re
 # TODO redo this in js
 # TODO make it so you can precede special characters with a \ to keep them from being converted
 
+# the list of all characters is:
+# áąą́éęę́íįį́óǫǫ́ÁĄĄ́ÉĘĘ́ÍĮǪǪ́łńŁŃ
+
 mapping = {
 	'1': 'á',
 	'2': 'ą',
