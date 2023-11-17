@@ -1,4 +1,22 @@
 @font-face {
+  font-family: "Noto Sans";
+  src: url(/assets/fonts/NotoSans-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: bold;
+  src: url(/assets/fonts/NotoSans-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans";
+  font-style: italic;
+  src: url(/assets/fonts/NotoSans-Italic.ttf);
+  font-display: swap;
+}
+
+@font-face {
   font-family: Cardo;
   src: url(/assets/fonts/Cardo-Regular.ttf);
   font-display: swap;
@@ -15,6 +33,7 @@
   src: url(/assets/fonts/Cardo-Italic.ttf);
   font-display: swap;
 }
+
 @font-face {
   font-family: "Times New Roman Navajo";
   src: url(/assets/fonts/Timenrn_.ttf);
