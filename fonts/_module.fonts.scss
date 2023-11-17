@@ -1,0 +1,15 @@
+@import "../stylesheets/base";
+
+textarea {
+  display: block;
+  font-size: 1rem;
+  width: 100%;
+  
+  &.font {
+    font-family: "Times New Roman Navajo", serif;
+    
+  }
+  &.unicode {
+    font-family: "Times New Roman", serif;
+  }
+}
