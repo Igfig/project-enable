@@ -11,7 +11,7 @@ mixin tile(index, item, langFrom, langTo)
 				| &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
 				span.shortdef(lang=langTo)=entry.short_translations.join("; ")
 				//- actually, should the shortdef be a dd as well? It's a definition after all
-			img.icon(src="/assets/img/chevron-right-solid.svg" alt="")
+			img.icon(src="/assets/img/chevron-right.svg" alt="")
 		div.dictionary-entry
 			div(lang=langFrom).dictionary-entry-from
 				+definition(entry, index)
