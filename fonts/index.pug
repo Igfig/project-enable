@@ -4,13 +4,14 @@ block title
 	title Fonts | Project ENABLE | The Diné-English Biology Dictionary
 	
 block content
-	main.tools
+	main.fonts
 		h2 Fonts
 		
 		p
 			a(href="https://www.dinecollege.edu/current_students/current-students/") Download
-		
+
 		h3 Convert
+			
 		textarea.font 123456
 		
 		p.buttons
@@ -20,3 +21,18 @@ block content
 				img(src="/assets/img/chevron-up.svg")
 				
 		textarea.unicode áąą́éęę́
+
+		h3 Legend
+
+		div.letters
+			- var sliceIndex = 0
+			while sliceIndex < letters.length
+				table
+					tr
+						th Letter
+						th In Font
+					each chars in letters.slice(sliceIndex, sliceIndex+7)
+						tr
+							td=chars[1]
+							td=chars[0]
+				- sliceIndex += 7
