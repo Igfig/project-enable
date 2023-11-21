@@ -50,4 +50,8 @@ nav.main-nav {
       overflow: hidden !important;
     }
   }
+  
+  .icon {
+    margin-bottom: 2px; // vertical alignment looks a bit off, yknow?
+  }
 }
