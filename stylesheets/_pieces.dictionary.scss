@@ -24,11 +24,8 @@
     }
     
     &[open] {
-      summary {
-        background-color: $hover-color;
-      }
       .dictionary-entry {
-        background-color: $input-color;
+        background-color: $input-bg;
       }
       .icon {
         transform: rotate(90deg);
@@ -42,6 +39,23 @@
 
     &:focus, &:focus-within {
       outline: 1px auto $border-color;
+    }
+
+    summary {
+      @extend %dl-box;
+      display: block; // among other things, hides the summary arrow
+      position: static; // to prevent inner bits from rendering in front of its outline
+      width: 100%;
+      padding: $spacing-v $label-height $spacing-v $spacing-h;
+      font-weight: bold;
+      cursor: pointer;
+      background-color: $bar-bg;
+
+      @include hover-highlight($bar-bg-hover, $bar-bg-active);
+
+      &:focus {
+        outline: none; // we outline the whole div instead
+      }
     }
   }
 
@@ -58,29 +72,6 @@
   h4 {
     margin: 0 5px 0 0;
     font-size: 1.17rem;
-  }
-
-  > details summary {
-    @extend %dl-box;
-    display: block; // among other things, hides the summary arrow
-    position: static; // to prevent inner bits from rendering in front of its outline
-    width: 100%;
-    padding: $spacing-v $label-height $spacing-v $spacing-h;
-    font-weight: bold;
-    cursor: pointer;
-    
-    &:hover {
-      background-color: $hover-color;
-      color: inherit;
-    }
-    &:active {
-      background-color: $active-color;
-      color: inherit;
-    }
-
-    &:focus {
-      outline: none; // we outline the whole div instead
-    }
   }
 
   .dictionary-entry-from, .dictionary-entry-to-container {

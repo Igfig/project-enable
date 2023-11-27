@@ -4,7 +4,7 @@ html {
   min-height: 100vh;
   overflow-y: scroll;
 
-  background-color: $bg-color;
+  background-color: $html-bg;
   font: $font-size $font-family-serif;
   color: $text-color;
 }
@@ -15,7 +15,7 @@ body {
   min-height: calc(100vh - #{$bar-height});
   margin: $bar-height auto 0;
   line-height: $line-height;
-  background-color: $body-color;
+  background-color: $body-bg;
 
   @include tablet-down {
     margin-top: 0; // bar moved down to bottom
@@ -61,16 +61,16 @@ a {
   text-decoration: underline;
 
   &:hover {
-    color: $link-hover-color;
+    color: $link-color-hover;
   }
   &:active {
-    color: $link-active-color;
+    color: $link-color-active;
   }
 }
 
 button, .button {
   // XXX optional theming
-  background-color: $button-color;
+  background-color: $button-bg;
   border: 1px solid grey;
   outline: none;
   font-family: $font-family-serif;

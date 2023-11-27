@@ -1,5 +1,7 @@
 @import "base.breakpoints"; // so that we cna get everything by importing base just once
 
+// SIZES //
+
 $body-width: 800px;
 $body-padding: 1.333rem;
 $text-page-padding: 3vw;
@@ -31,8 +33,9 @@ $search-padding-h: 10px;
 $search-border-radius: $border-radius-md;
 $search-height: $search-font-size + 2 * $search-padding-v + 4; // +4 is border and outline
 
-$bar-padding-v: $font-size / 2;
-$bar-padding-h: 15px;
+$bar-padding-v: $font-size / 2; // specified in px so we can do pixel math with it
+$bar-icon-padding-h: $font-size * 3 / 4;
+$bar-text-padding-h: $font-size;
 $bar-height: $search-height + 2 * $bar-padding-v;
 
 $popup-width: 220px;
@@ -42,34 +45,41 @@ $popup-tail-offset: 35px;
 $popup-tail-height: $popup-margin - 5px;
 $popup-tail-width: $popup-tail-height * 2;
 
-$bg-color: #7c071a;
-$body-color: #efece4;
-$hover-color: #e3ddcd;
-$active-color: #d8d3c2;
+// COLORS //
+
+$white-000: white;
+$white-100: #efece4;
+$white-200: #e3ddcd;
+$white-300: #d8d3c2;
+
+$html-bg: #7c071a;
+$body-bg: $white-200;
+$bar-bg: $white-100;
+$bar-bg-hover: $white-200;
+$bar-bg-active: $white-300;
 
 $text-color: #333;
 $border-color: #333;
 $inner-border-color: #bbb;
 $disabled-color: #888;
 
-$link-hover-color: #6B6657;
-$link-active-color: #898477;
+$link-color-hover: #6B6657;
+$link-color-active: #898477;
 
-$input-color: white;
+$input-bg: $white-000;
 
-$button-color: $input-color;
-$button-hover-color: $hover-color;
-$button-active-color: $active-color;
+$button-bg: $white-000;
+$button-bg-hover: $white-100;
+$button-bg-active: $white-300;
 
 $footer-color: #666;
-$footer-link-hover-color: $link-hover-color;
-$footer-link-active-color: $link-active-color;
+$footer-link-color-hover: $link-color-hover;
+$footer-link-color-active: $link-color-active;
 
-$popup-color: #333;
-$popup-hover-color: #444;
+$popup-bg: #333;
+$popup-hover-bg: #444;
 
-
-// various mixins
+// MIXINS //
 
 @mixin body-box {
   box-sizing: border-box;
@@ -78,24 +88,24 @@ $popup-hover-color: #444;
   padding: $body-padding;
 }
 
-@mixin hover-highlight {
+@mixin hover-highlight($hover: $button-bg-hover, $active: $button-bg-active) {
   &:hover {
-    background-color: $button-hover-color;
+    background-color: $hover;
     color: inherit;
   }
   &:active {
-    background-color: $button-active-color;
+    background-color: $active;
     color: inherit;
   }
 }
 
-// abstract classes
+// ABSTRACT CLASSES //
+// XXX these should maybe be mixins? Or just, like, mixin classes?
 
 %text-page {
   padding: 0 $text-page-padding;
   font-family: $font-family-sans;
   font-size: 0.75rem;
-
   h2, h3 {
     font-family: $font-family-serif;
     margin-top: 1.5em;

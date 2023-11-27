@@ -12,7 +12,7 @@ form.search {
   right: 0;
   z-index: 100;
   width: 100%;
-  background-color: $body-color;
+  background-color: $bar-bg;
   border-top: 1px solid grey;
 
   @include tablet-down {
@@ -29,7 +29,7 @@ form.search {
 
     @include tablet-down {
       margin: 0;
-      padding: $bar-padding-v 0 $bar-padding-v $bar-padding-h;
+      padding: $bar-padding-v 0 $bar-padding-v $bar-icon-padding-h;
       flex: 1 1 100%;
       max-width: 100%;
     }
@@ -50,7 +50,7 @@ form.search {
     border-radius: $search-border-radius 0 0 $search-border-radius;
     outline: none;
   
-    background-color: $input-color;
+    background-color: $input-bg;
     
     &:focus {
       border-color: $border-color;

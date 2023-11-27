@@ -22,10 +22,10 @@
 
   a {
     &:hover {
-      color: $footer-link-hover-color;
+      color: $footer-link-color-hover;
     }
     &:active {
-      color: $footer-link-active-color;
+      color: $footer-link-color-active;
     }
   }
 

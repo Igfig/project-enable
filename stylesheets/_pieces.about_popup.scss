@@ -14,8 +14,8 @@
   // XXX optional theming
   $border-radius: $border-radius-md;
   border-radius: $border-radius;
-  color: $body-color;
-  background-color: $popup-color;
+  color: $body-bg;
+  background-color: $popup-bg;
   text-align: center;
 
   @include desktop {
@@ -38,27 +38,27 @@
       right: -$popup-tail-height;
       border-top: $popup-tail-width/2 solid transparent;
       border-bottom: $popup-tail-width/2 solid transparent;
-      border-left: $popup-tail-height solid $popup-color;
+      border-left: $popup-tail-height solid $popup-bg;
     }
     
     @include tablet-down {
       bottom: -$popup-tail-height;
       border-left: $popup-tail-width/2 solid transparent;
       border-right: $popup-tail-width/2 solid transparent;
-      border-top: $popup-tail-height solid $popup-color;
+      border-top: $popup-tail-height solid $popup-bg;
       left: $popup-tail-offset; // move to positioned above icon. 
     }
   }
 
   &:hover {
-    background-color: $popup-hover-color;
+    background-color: $popup-hover-bg;
     
     &::after {
       @include desktop {
-        border-left-color: $popup-hover-color;
+        border-left-color: $popup-hover-bg;
       }
       @include tablet-down {
-        border-top-color: $popup-hover-color;
+        border-top-color: $popup-hover-bg;
       }
     }
   }

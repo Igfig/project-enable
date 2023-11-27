@@ -13,8 +13,8 @@ nav.main-nav {
   z-index: 100;
   width: 100%;
   height: $bar-height;
-  padding: 0 $bar-padding-h;
-  background-color: $body-color;
+  padding: 0 $bar-icon-padding-h;
+  background-color: $bar-bg;
 
   @include desktop {
     top: 0;
@@ -36,13 +36,14 @@ nav.main-nav {
   flex: 0 1 auto;
   text-decoration: none;
 
-  padding: 0 $bar-padding-h;
+  padding: 0 $bar-text-padding-h;
   min-width: $bar-height; // to keep it square
   color: inherit;
 
-  @include hover-highlight;
+  @include hover-highlight($bar-bg-hover, $bar-bg-active);
 
   @include tablet-down {
+    padding: 0 $bar-icon-padding-h;
     > span {
       // hide it but leave it visible to screen readers
       max-width: 0 !important; // TODO wait, does having a max-width of 0 make screen-readers stop reading it? See _utilities.reader-only
