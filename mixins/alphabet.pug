@@ -1,14 +1,21 @@
 mixin alphabet(sortedWords)
 	nav(aria-label="Alphabet quick-jump").alphabet
-		ul
 			- letters = new Set(sortedWords.map(([word])=>word[0].toUpperCase()))
 			- const aCode = "A".charCodeAt(0)
+			- const mCode = "M".charCodeAt(0)
 			- const zCode = "Z".charCodeAt(0)
 			- let code = aCode
-			while code <= zCode
-				- letter = String.fromCharCode(code++)
-				li
-					if letters.has(letter)
-						a(href=`?search=${letter}` nofollow)=letter
-					else
-						a=letter
+			ul
+				while code <= mCode
+					+alphabet-ul(code++)
+			ul
+				while code <= zCode
+					+alphabet-ul(code++)
+
+mixin alphabet-ul(code)
+	- letter = String.fromCharCode(code)
+	li
+		if letters.has(letter)
+			a(href=`?search=${letter}` nofollow)=letter
+		else
+			a=letter

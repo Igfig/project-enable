@@ -47,22 +47,30 @@
   @include hover-highlight;
 }
 
-// alphabet letter selector 
+// alphabet letter selector
+// Ideally I'd want to use the wrap-after property to make sure it wraps in the middle (after the M), but that property doesn't exist yet. Instead we split the list in two, and get some slightly incorrect margins.
+// We could fix the margins with a media query, except that we don't know where the breakpoint will actually be because different browsers may render it differently. So this way will suffice.
 
 .alphabet {
+  $gap: 2px;
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: $gap;
   margin-bottom: 1rem;
 
   ul {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
+    gap: $gap;
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   li {
     display: block;
-    margin: 1px;
     padding: 0;
   }
   a {
