@@ -1,3 +1,13 @@
+const focusOnTile = (index, searchFound) => () => {
+	const detailsElement = document.getElementById(`d${index}`);
+	detailsElement.focus();
+	
+	if (searchFound) {
+		detailsElement.setAttribute("open", "true")
+	}
+	// if search wasn't found, we still focus on the closest entry, but we don't open it
+}
+
 function search() {
 	const params = new URLSearchParams(location.search);
 	const search = params.get("search");
@@ -18,15 +28,7 @@ function search() {
 		index = withSearch.indexOf(search)
 	}
 	
-	window.addEventListener("load", () => {
-		const detailsElement = document.getElementById(`d${index}`);
-		detailsElement.focus();
-		
-		if (searchFound) {
-			detailsElement.setAttribute("open", "true")
-		}
-		// if search wasn't found, we still focus on the closest entry, but we don't open it
-	});
+	window.addEventListener("load", focusOnTile(index, searchFound))
 }
 
 search();
