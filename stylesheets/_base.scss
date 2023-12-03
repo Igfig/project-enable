@@ -98,36 +98,3 @@ $popup-hover-bg: #444;
     color: inherit;
   }
 }
-
-// ABSTRACT CLASSES //
-// XXX these should maybe be mixins? Or just, like, mixin classes?
-
-%text-page {
-  padding: 0 $text-page-padding;
-  font-family: $font-family-sans;
-  font-size: 0.75rem;
-  h2, h3 {
-    font-family: $font-family-serif;
-    margin-top: 1.5em;
-  }
-
-  hr {
-    margin: 2rem 0;
-  }
-
-  p {
-    margin: 1em 0;
-    line-height: 1.5;
-  }
-
-  [lang=i-navajo] {
-    font-style: italic;
-  }
-
-  + footer {
-    margin-top: 2.5rem;
-    margin-left: $text-page-padding;
-    margin-right: $text-page-padding;
-    // but don't overwrite bottom padding
-  }
-}
