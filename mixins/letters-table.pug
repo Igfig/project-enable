@@ -1,0 +1,9 @@
+mixin letters-table(letters, startIndex)
+		table
+			tr
+				th To get this
+				th Type this
+			each chars in letters.slice(startIndex, startIndex+7)
+				tr
+					td=chars[1]
+					td=chars[0]

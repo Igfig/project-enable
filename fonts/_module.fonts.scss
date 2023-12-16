@@ -2,15 +2,22 @@
 
 .fonts {
   textarea {
+    $padding: 3px;
+    $min-lines: 2;
+    
+    resize: vertical;
     display: block;
-    font-size: 1rem;
+    box-sizing: border-box;
     width: 100%;
+    min-height: calc(1em * $min-lines * $line-height + $padding * 2);
+    font-size: 1rem;
+    line-height: $line-height;
 
-    &.font {
+    &#font {
       font-family: "Times New Roman Navajo", serif;
     }
 
-    &.unicode {
+    &#raw, &#unicode {
       font-family: "Times New Roman", serif;
     }
   }
@@ -23,6 +30,10 @@
     margin-top: 1rem;
   }
   
+  a {
+    font-weight: bold;
+  }
+  
   .letters {
     // TODO need to make this go from 4 columns straight to 2 when it wraps.
     display: flex;
@@ -31,6 +42,15 @@
     text-align: center;
     gap: 10px;
     margin: 1rem 0;
+    font: 1rem $font-family-serif;
+    
+    > div {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+    }
     
     table { border-collapse: collapse; }
     td,th {
@@ -39,22 +59,20 @@
     }
   }
   
-  .buttons {
-    text-align: center;
-  }
-  
-  button {
-    font-size: 1rem;
-    padding: 3px 6px;
+  .row {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
     
-    + * {
-      margin-left: 1rem;
-    }
-    
-    img {
-      height: 0.8rem;
-      vertical-align: middle;
-      padding: 0 4px 0 8px;
+    > * {
+      flex: 1 1 50%;
+      display: flex;
+      flex-flow: column nowrap;
+      
+      > textarea {
+        flex-grow: 1;
+      }
     }
   }
 }

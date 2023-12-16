@@ -1,38 +1,71 @@
 extends ../templates/layout.pug
-
+include ../mixins/letters-table
+	
 block title
 	title Fonts | Project ENABLE | The Diné-English Biology Dictionary
+
+block language
+	script(defer, src="../js/convert.js")
 	
 block content
-	main.fonts
-		h2 Fonts
+	main.fonts.text-page
+		h2 Fonts and Keyboards
 		
-		p
-			a(href="https://www.dinecollege.edu/current_students/current-students/") Download
-
-		h3 Convert
+		p Writing in Diné Bizaad on a computer can be difficult. Few fonts include all of the necessary accents and diacritics, and most keyboards can't even type them.
+		
+		p You can download a Diné Bizaad 
+			strong keyboard layout 
+			|  for Windows or Mac at 
+			a(href="https://languagegeek.com/lgwp/keyboards/") LanguageGeek
+			|. This allows you to repurpose certain keys on your keyboard to type accents when pressed. The page includes instructions for both installation and usage.
+		
+		p Depending on what font you use, some of the accented Unicode characters may not display correctly. Fonts that display all Diné characters correctly include 
+			strong Arial, Candara, Consolas, Courier New, Open Sans, Tahoma, 
+			| and  
+			strong Times New Roman
+			|.
+		
+		p Alternatively, the fonts 
+			a(href="/assets/fonts/TimesNewRomanNavajo.zip") Times New Roman Navajo
+			| , 
+			a(href="/assets/fonts/VerdanaNavajo.ttf") Verdana Navajo
+			| , and 
+			a(href="/assets/fonts/CenturyGothicNavajo.ttf") Century Gothic Navajo
+			|   display numbers and symbols as Diné accented characters. This allows you to type text that looks like Diné Bizaad without changing your keyboard layout. For example, in these fonts "t1t[ʼid" is displayed as "tátłʼid". You can use the legend below to see which number or symbol produces each letter.
 			
-		textarea.font 123456
+		h2 Legend
+			div.letters
+				- var sliceIndex = 0
+				div
+					while sliceIndex < letters.length / 2
+						+letters-table(letters, sliceIndex)
+						- sliceIndex += 7
+				div
+					while sliceIndex < letters.length
+						+letters-table(letters, sliceIndex)
+						- sliceIndex += 7
+			
+		h2 Converter
 		
-		p.buttons
-			button Convert to unicode
-				img(src="/assets/img/chevron-down.svg")
-			button Convert to font
-				img(src="/assets/img/chevron-up.svg")
-				
-		textarea.unicode áąą́éęę́
-
-		h3 Legend
-
-		div.letters
-			- var sliceIndex = 0
-			while sliceIndex < letters.length
-				table
-					tr
-						th Letter
-						th In Font
-					each chars in letters.slice(sliceIndex, sliceIndex+7)
-						tr
-							td=chars[1]
-							td=chars[0]
-				- sliceIndex += 7
+		p This tool lets you convert between 
+			strong plain text
+			|, the 
+			strong Navajo font
+			|, and 
+			strong Unicode
+			|. Enter your text into either of the top two text boxes according to the legend above; the bottom box will have the same text, but converted to Unicode symbols. (Unicode symbols display more consistently in other fonts.)
+		
+		p Put a 
+			strong backslash (\) 
+			| before any character that you don't want to convert. For example, if you don't want to display the number "10" as "áó", write it as "\1\0".
+		
+		div.row
+			div
+				| Plain numbers and symbols here...
+				textarea#raw 123456\!
+			div
+				| ...look like this in the Navajo font...
+				textarea#font 123456\!
+		
+		| ...and become this in Unicode.
+		textarea#unicode áąą́éęę!
