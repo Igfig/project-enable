@@ -7,6 +7,7 @@
 *.zip
 
 /.idea
+/backup
 /fontawesome-free-5.15.1-web
 /old
 /out
