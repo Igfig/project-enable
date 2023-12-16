@@ -1,18 +1,15 @@
 mixin alphabet(sortedWords)
 	nav(aria-label="Alphabet quick-jump").alphabet
 			- letters = new Set(sortedWords.map(([word])=>word[0].toUpperCase()))
-			- const aCode = "A".charCodeAt(0)
-			- const mCode = "M".charCodeAt(0)
-			- const zCode = "Z".charCodeAt(0)
-			- let code = aCode
+			- let code = "A".charCodeAt(0)
 			ul
-				while code <= mCode
-					+alphabet-ul(code++)
+				while code <= "M".charCodeAt(0)
+					+alphabet-li(code++)
 			ul
-				while code <= zCode
-					+alphabet-ul(code++)
+				while code <= "Z".charCodeAt(0)
+					+alphabet-li(code++)
 
-mixin alphabet-ul(code)
+mixin alphabet-li(code)
 	- letter = String.fromCharCode(code)
 	li
 		if letters.has(letter)
