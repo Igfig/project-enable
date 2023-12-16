@@ -36,6 +36,25 @@
 
 @font-face {
   font-family: "Times New Roman Navajo";
-  src: url(/assets/fonts/TIMENRN.ttf);
+  src: url(/assets/fonts/TimesNewRomanNavajo-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Times New Roman Navajo";
+  font-weight: bold;
+  src: url(/assets/fonts/TimesNewRomanNavajo-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Times New Roman Navajo";
+  font-style: italic;
+  src: url(/assets/fonts/TimesNewRomanNavajo-Italic.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Times New Roman Navajo";
+  font-weight: bold;
+  font-style: italic;
+  src: url(/assets/fonts/TimesNewRomanNavajo-BoldItalic.ttf);
   font-display: swap;
 }
