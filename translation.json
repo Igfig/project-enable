@@ -1,39 +1,10 @@
 {
-  "letters": [
-    ["1", "á"],
-    ["2", "ą"],
-    ["3", "ą́"],
-    ["4", "é"],
-    ["5", "ę"],
-    ["6", "ę́"],
-    ["7", "í"],
-    ["8", "į"],
-    ["9", "į́"],
-    ["0", "ó"],
-    ["-", "ǫ"],
-    ["=", "ǫ́"],
-    ["[", "ł"],
-    ["]", "ń"],
-    ["!", "Á"],
-    ["@", "Ą"],
-    ["#", "Ą́"],
-    ["$", "É"],
-    ["%", "Ę"],
-    ["^", "Ę́"],
-    ["&", "Í"],
-    ["*", "Į"],
-    ["(", "Į́"],
-    [")", "Ó"],
-    ["_", "Ǫ"],
-    ["+", "Ǫ́"],
-    ["{", "Ł"],
-    ["}", "Ń"]
-  ],
   "entries": {
     "english": {
       "abiotic-factor": {
         "word": "abiotic factor",
         "normalized": "abiotic-factor",
+        "audio": "/audio/english/abiotic-factor-english.mp3",
         "short_translations": [
           "ááhoo'níił nayiiłnání"
         ],
@@ -51,7 +22,8 @@
               {
                 "word": "ááhoo'níił nayiiłnání",
                 "literal": "ááhoo'níił = interacting systems/systems; nayiiłnání=those things which give energy and movement. Systems, those factors, which moves them:",
-                "normalized": "aahooniil-nayiilnani"
+                "normalized": "aahooniil-nayiilnani",
+                "audio": "/audio/dine/abiotic-factor-dine.mp3"
               }
             ]
           }
@@ -60,6 +32,7 @@
       "abo-blood-type": {
         "word": "ABO blood type",
         "normalized": "abo-blood-type",
+        "audio": "/audio/english/abo-blood-type-english.mp3",
         "short_translations": [
           "dił ał'ąą ádaat'éhígíí"
         ],
@@ -77,7 +50,8 @@
               {
                 "word": "dił ał'ąą ádaat'éhígíí",
                 "literal": "dił = blood; ał'ąą = different kinds; ádaat'éhígíí = the way they are blood different kinds the way they are",
-                "normalized": "dil-alaa-adaatehigii"
+                "normalized": "dil-alaa-adaatehigii",
+                "audio": "/audio/dine/abo-blood-type-dine.mp3"
               }
             ]
           }
@@ -86,6 +60,7 @@
       "acid": {
         "word": "acid",
         "normalized": "acid",
+        "audio": "/audio/english/acid-english.mp3",
         "short_translations": [
           "atsiniltł'ish bilááh éí doodago bi'oh ábóodziil"
         ],
@@ -103,7 +78,8 @@
               {
                 "word": "atsiniltł'ish bilááh éí doodago bi'oh ábóodziil",
                 "literal": "atsiniltł'ish = electricity/electrical charge (lightning); bilááh = over/excess; éí doodago = or; bi'oh ábóodziil = less in strength electrical charge excess or less in strength",
-                "normalized": "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil"
+                "normalized": "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil",
+                "audio": "/audio/dine/acid-dine.mp3"
               }
             ]
           }
@@ -112,6 +88,7 @@
       "adaptation": {
         "word": "adaptation",
         "normalized": "adaptation",
+        "audio": "/audio/english/adaptation-english.mp3",
         "short_translations": [
           "bił ho'dizhchíinii bee jíłdzilígíí"
         ],
@@ -129,7 +106,8 @@
               {
                 "word": "bił ho'dizhchíinii bee jíłdzilígíí",
                 "literal": "bił = with that which; ho'dizhchíinii = one is born; bee = by means of it; jíłdzilígíí = one is stable/withstands. characteristic with which one is born by means of it one is stable and withstands",
-                "normalized": "bil-hodizhchiinii-bee-jildziligii"
+                "normalized": "bil-hodizhchiinii-bee-jildziligii",
+                "audio": "/audio/dine/adaptation-dine.mp3"
               }
             ]
           }
@@ -138,6 +116,7 @@
       "adult": {
         "word": "adult",
         "normalized": "adult",
+        "audio": "/audio/english/adult-english.mp3",
         "short_translations": [
           "hináanii oochííł yaa ninísą́"
         ],
@@ -161,7 +140,8 @@
               {
                 "word": "hináanii oochííł yaa ninísą́",
                 "literal": "hináanii = living things; oochííł = reproductive ability/reproduction; yaa = reaching it; ninísą́ = grew to it. living thing developing the ability to reproduce.",
-                "normalized": "hinaanii-oochiil-yaa-ninisa"
+                "normalized": "hinaanii-oochiil-yaa-ninisa",
+                "audio": "/audio/dine/adult-dine.mp3"
               }
             ]
           }
@@ -170,6 +150,7 @@
       "agriculture": {
         "word": "agriculture",
         "normalized": "agriculture",
+        "audio": "/audio/english/agriculture-english.mp3",
         "short_translations": [
           "kʼééʼdílyééh"
         ],
@@ -188,7 +169,8 @@
                 "word": "kʼééʼdílyééh",
                 "literal": "kʼééʼdílyééh= planting/agriculture",
                 "comment": "this applies to all types of vegetation. Word will change If start talking about specific planting of something ie \"plant corn, kil dilyeeh\"",
-                "normalized": "keedilyeeh"
+                "normalized": "keedilyeeh",
+                "audio": "/audio/dine/agriculture-dine.mp3"
               }
             ]
           }
@@ -197,6 +179,7 @@
       "algae": {
         "word": "algae",
         "normalized": "algae",
+        "audio": "/audio/english/algae-english.mp3",
         "short_translations": [
           "tátłʼid"
         ],
@@ -214,7 +197,8 @@
               {
                 "word": "tátłʼid",
                 "literal": "tłʼid=murky appearance; tá= under or within water. under water murky substance.",
-                "normalized": "tatlid"
+                "normalized": "tatlid",
+                "audio": "/audio/dine/algae-dine.mp3"
               }
             ]
           }
@@ -223,6 +207,7 @@
       "allele": {
         "word": "allele",
         "normalized": "allele",
+        "audio": "/audio/english/allele-english.mp3",
         "short_translations": [
           "bik'ehgo náás oochíiłii ał'ąą át'é"
         ],
@@ -240,7 +225,8 @@
               {
                 "word": "bik'ehgo náás oochíiłii ał'ąą át'é",
                 "literal": "gene that has become different or changed",
-                "normalized": "bikehgo-naas-oochiilii-alaa-ate"
+                "normalized": "bikehgo-naas-oochiilii-alaa-ate",
+                "audio": "/audio/dine/allele-dine.mp3"
               }
             ]
           }
@@ -249,6 +235,7 @@
       "amino-acid": {
         "word": "amino acid",
         "normalized": "amino-acid",
+        "audio": "/audio/english/amino-acid-english.mp3",
         "short_translations": [
           "ats'íís bee nihwiileehii bá siléíí"
         ],
@@ -266,7 +253,8 @@
               {
                 "word": "ats'íís bee nihwiileehii bá siléíí",
                 "literal": "ats'íís=the body; bee=by means of which; nihwiileehii=it becomes an physical entity (this phrase refers to protein); bizhool=fine primal substance. That substance that exists to form a protein.",
-                "normalized": "atsiis-bee-nihwiileehii-ba-sileii"
+                "normalized": "atsiis-bee-nihwiileehii-ba-sileii",
+                "audio": "/audio/dine/amino-acid-dine.mp3"
               }
             ]
           }
@@ -289,6 +277,7 @@
           }
         ],
         "normalized": "amphibian",
+        "audio": "/audio/english/amphibian-english.mp3",
         "short_translations": [
           "biyáázh tsʼǫʼasánígíí"
         ],
@@ -306,7 +295,8 @@
               {
                 "word": "biyáázh tsʼǫʼasánígíí",
                 "literal": "Tátłááh= under water; dóó = and; nihookáá = on land; naaldeehii = living and going about In the water and on the ground those that live there",
-                "normalized": "biyaazh-tsoasanigii"
+                "normalized": "biyaazh-tsoasanigii",
+                "audio": "/audio/dine/amphibian-dine.mp3"
               }
             ]
           }
@@ -341,6 +331,7 @@
       "anaphase": {
         "word": "anaphase",
         "normalized": "anaphase",
+        "audio": "/audio/english/anaphase-english.mp3",
         "short_translations": [
           "ats'íís bitł'óól ałts'ánísé"
         ],
@@ -357,7 +348,8 @@
               {
                 "word": "ats'íís bitł'óól ałts'ánísé",
                 "literal": "chromosomes move to opposite sides (in a cell)",
-                "normalized": "atsiis-bitlool-altsanise"
+                "normalized": "atsiis-bitlool-altsanise",
+                "audio": "/audio/dine/anaphase-dine.mp3"
               }
             ]
           }
@@ -366,7 +358,7 @@
       "ancestor": {
         "word": "ancestor",
         "normalized": "ancestor",
-        "audio": "/audio/english/ancestor-english.m4a",
+        "audio": "/audio/english/ancestor-english.mp3",
         "short_translations": [
           "azází",
           "ánaasází"
@@ -386,13 +378,15 @@
                 "word": "azází",
                 "literal": "azází = generations of relatives who preceded you",
                 "comment": "less commonly used than ánaasází",
-                "normalized": "azazi"
+                "normalized": "azazi",
+                "audio": "/audio/dine/ancestor-asazi-dine.mp3"
               },
               {
                 "word": "ánaasází",
                 "literal": "ánaasází = bygone ancestors; people no longer in existence",
                 "comment": "most common",
-                "normalized": "anaasazi"
+                "normalized": "anaasazi",
+                "audio": "/audio/dine/ancestor-anasazi-dine.mp3"
               }
             ]
           }
@@ -1540,7 +1534,8 @@
               {
                 "word": "nanise' biziil ííł'íní",
                 "literal": "nanise' = refers to vegatative growth, biziil = strength, ííł'íní = making it. meaning \"The growing things streangth is made\"",
-                "normalized": "nanise-biziil-iilini"
+                "normalized": "nanise-biziil-iilini",
+                "audio": "/audio/dine/chloroplast-dine.m4a"
               }
             ]
           }
@@ -6490,6 +6485,7 @@
         "word": "ááhoo'níił nayiiłnání",
         "literal": "ááhoo'níił = interacting systems/systems; nayiiłnání=those things which give energy and movement. Systems, those factors, which moves them:",
         "normalized": "aahooniil-nayiilnani",
+        "audio": "/audio/dine/abiotic-factor-dine.mp3",
         "short_translations": [
           "abiotic factor"
         ],
@@ -6506,7 +6502,8 @@
             "entries": [
               {
                 "word": "abiotic factor",
-                "normalized": "abiotic-factor"
+                "normalized": "abiotic-factor",
+                "audio": "/audio/english/abiotic-factor-english.mp3"
               }
             ]
           }
@@ -6866,6 +6863,7 @@
         "literal": "ánaasází = bygone ancestors; people no longer in existence",
         "comment": "most common",
         "normalized": "anaasazi",
+        "audio": "/audio/dine/ancestor-anasazi-dine.mp3",
         "short_translations": [
           "ancestor"
         ],
@@ -6883,7 +6881,7 @@
               {
                 "word": "ancestor",
                 "normalized": "ancestor",
-                "audio": "/audio/english/ancestor-english.m4a"
+                "audio": "/audio/english/ancestor-english.mp3"
               }
             ]
           }
@@ -7224,6 +7222,7 @@
         "word": "ats'íís bee nihwiileehii bá siléíí",
         "literal": "essential substance for creation of the physical body",
         "normalized": "atsiis-bee-nihwiileehii-ba-sileii",
+        "audio": "/audio/dine/amino-acid-dine.mp3",
         "short_translations": [
           "amino acid",
           "base"
@@ -7245,7 +7244,8 @@
             "entries": [
               {
                 "word": "amino acid",
-                "normalized": "amino-acid"
+                "normalized": "amino-acid",
+                "audio": "/audio/english/amino-acid-english.mp3"
               }
             ]
           },
@@ -7363,6 +7363,7 @@
         "word": "ats'íís bitł'óól ałts'ánísé",
         "literal": "chromosomes move to opposite sides (in a cell)",
         "normalized": "atsiis-bitlool-altsanise",
+        "audio": "/audio/dine/anaphase-dine.mp3",
         "short_translations": [
           "anaphase"
         ],
@@ -7378,7 +7379,8 @@
             "entries": [
               {
                 "word": "anaphase",
-                "normalized": "anaphase"
+                "normalized": "anaphase",
+                "audio": "/audio/english/anaphase-english.mp3"
               }
             ]
           }
@@ -7587,6 +7589,7 @@
         "word": "atsiniltł'ish bilááh éí doodago bi'oh ábóodziil",
         "literal": "atsiniltł'ish = electricity/electrical charge (lightning); bilááh = over/excess; éí doodago = or; bi'oh ábóodziil = less in strength electrical charge excess or less in strength",
         "normalized": "atsiniltlish-bilaah-ei-doodago-bioh-aboodziil",
+        "audio": "/audio/dine/acid-dine.mp3",
         "short_translations": [
           "acid"
         ],
@@ -7603,7 +7606,8 @@
             "entries": [
               {
                 "word": "acid",
-                "normalized": "acid"
+                "normalized": "acid",
+                "audio": "/audio/english/acid-english.mp3"
               }
             ]
           }
@@ -7765,6 +7769,7 @@
         "literal": "azází = generations of relatives who preceded you",
         "comment": "less commonly used than ánaasází",
         "normalized": "azazi",
+        "audio": "/audio/dine/ancestor-asazi-dine.mp3",
         "short_translations": [
           "ancestor"
         ],
@@ -7782,7 +7787,7 @@
               {
                 "word": "ancestor",
                 "normalized": "ancestor",
-                "audio": "/audio/english/ancestor-english.m4a"
+                "audio": "/audio/english/ancestor-english.mp3"
               }
             ]
           }
@@ -8298,6 +8303,7 @@
         "word": "bik'ehgo náás oochíiłii ał'ąą át'é",
         "literal": "gene that has become different or changed",
         "normalized": "bikehgo-naas-oochiilii-alaa-ate",
+        "audio": "/audio/dine/allele-dine.mp3",
         "short_translations": [
           "allele"
         ],
@@ -8314,7 +8320,8 @@
             "entries": [
               {
                 "word": "allele",
-                "normalized": "allele"
+                "normalized": "allele",
+                "audio": "/audio/english/allele-english.mp3"
               }
             ]
           }
@@ -8469,6 +8476,7 @@
         "word": "bił ho'dizhchíinii bee jíłdzilígíí",
         "literal": "bił = with that which; ho'dizhchíinii = one is born; bee = by means of it; jíłdzilígíí = one is stable/withstands. characteristic with which one is born by means of it one is stable and withstands",
         "normalized": "bil-hodizhchiinii-bee-jildziligii",
+        "audio": "/audio/dine/adaptation-dine.mp3",
         "short_translations": [
           "adaptation"
         ],
@@ -8485,7 +8493,8 @@
             "entries": [
               {
                 "word": "adaptation",
-                "normalized": "adaptation"
+                "normalized": "adaptation",
+                "audio": "/audio/english/adaptation-english.mp3"
               }
             ]
           }
@@ -8570,6 +8579,7 @@
         "word": "biyáázh tsʼǫʼasánígíí",
         "literal": "Tátłááh= under water; dóó = and; nihookáá = on land; naaldeehii = living and going about In the water and on the ground those that live there",
         "normalized": "biyaazh-tsoasanigii",
+        "audio": "/audio/dine/amphibian-dine.mp3",
         "short_translations": [
           "amphibian"
         ],
@@ -8600,7 +8610,8 @@
             "entries": [
               {
                 "word": "amphibian",
-                "normalized": "amphibian"
+                "normalized": "amphibian",
+                "audio": "/audio/english/amphibian-english.mp3"
               }
             ]
           }
@@ -9002,6 +9013,7 @@
         "word": "dił ał'ąą ádaat'éhígíí",
         "literal": "dił = blood; ał'ąą = different kinds; ádaat'éhígíí = the way they are blood different kinds the way they are",
         "normalized": "dil-alaa-adaatehigii",
+        "audio": "/audio/dine/abo-blood-type-dine.mp3",
         "short_translations": [
           "ABO blood type"
         ],
@@ -9018,7 +9030,8 @@
             "entries": [
               {
                 "word": "ABO blood type",
-                "normalized": "abo-blood-type"
+                "normalized": "abo-blood-type",
+                "audio": "/audio/english/abo-blood-type-english.mp3"
               }
             ]
           }
@@ -10726,6 +10739,7 @@
           }
         ],
         "normalized": "hinaanii-oochiil-yaa-ninisa",
+        "audio": "/audio/dine/adult-dine.mp3",
         "short_translations": [
           "adult"
         ],
@@ -10742,7 +10756,8 @@
             "entries": [
               {
                 "word": "adult",
-                "normalized": "adult"
+                "normalized": "adult",
+                "audio": "/audio/english/adult-english.mp3"
               }
             ]
           }
@@ -11193,6 +11208,7 @@
         "literal": "kʼééʼdílyééh= planting/agriculture",
         "comment": "this applies to all types of vegetation. Word will change If start talking about specific planting of something ie \"plant corn, kil dilyeeh\"",
         "normalized": "keedilyeeh",
+        "audio": "/audio/dine/agriculture-dine.mp3",
         "short_translations": [
           "agriculture"
         ],
@@ -11209,7 +11225,8 @@
             "entries": [
               {
                 "word": "agriculture",
-                "normalized": "agriculture"
+                "normalized": "agriculture",
+                "audio": "/audio/english/agriculture-english.mp3"
               }
             ]
           }
@@ -11985,6 +12002,7 @@
         "word": "nanise' biziil ííł'íní",
         "literal": "nanise' = refers to vegatative growth, biziil = strength, ííł'íní = making it. meaning \"The growing things streangth is made\"",
         "normalized": "nanise-biziil-iilini",
+        "audio": "/audio/dine/chloroplast-dine.m4a",
         "short_translations": [
           "chloroplast"
         ],
@@ -12704,6 +12722,7 @@
         "word": "tátłʼid",
         "literal": "tłʼid=murky appearance; tá= under or within water. under water murky substance.",
         "normalized": "tatlid",
+        "audio": "/audio/dine/algae-dine.mp3",
         "short_translations": [
           "algae"
         ],
@@ -12720,7 +12739,8 @@
             "entries": [
               {
                 "word": "algae",
-                "normalized": "algae"
+                "normalized": "algae",
+                "audio": "/audio/english/algae-english.mp3"
               }
             ]
           }

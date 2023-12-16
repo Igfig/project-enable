@@ -30,7 +30,7 @@ AUDIO_FILES_ENG = os.listdir(os.curdir + AUDIO_PATH + "/" + ENGLISH)
 AUDIO_FILES_DINE = os.listdir(os.curdir + AUDIO_PATH + "/" + DINE)
 
 ref_pattern = re.compile(r"@(\d)$")
-normalization_table = str.maketrans(" ", "-", "'(),.")
+normalization_table = str.maketrans(" ", "-", "\"'(),.")
 
 
 raw_rows = {ENGLISH: {}, DINE: {}}
@@ -92,19 +92,18 @@ def keyfunc_dine(r: Row):
 
 
 def get_audio(lang, word, filename, directory):
-	if not filename:
+	if filename:
+		filename = normalize(filename)
+	else:
 		filename = normalize(word)
-	audio_path = filename + "-" + lang + ".m4a"
+	
+	audio_path = filename + "-" + lang + ".mp3"
+	if audio_path not in directory:
+		audio_path = filename + "-" + lang + ".m4a"
+		
 	if audio_path in directory:
 		return "/".join([AUDIO_PATH, lang, audio_path])
 	return ""
-	
-def get_english_audio_path(row: Row):
-	return get_audio(ENGLISH, row[ENGLISH][WORD], row[ENGLISH][AUDIO], AUDIO_FILES_ENG)
-
-def get_dine_audio_path(row: Row):
-	return get_audio(DINE, row[ENGLISH][WORD], row[DINE][AUDIO], AUDIO_FILES_DINE)
-	# note that the dine audio files are named using the english word + "dine"
 
 
 class Settable(ABC):
