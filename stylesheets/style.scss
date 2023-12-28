@@ -1,7 +1,7 @@
 @import "base";
 
 @import "elements";
-// fonts are loaded asynchronously in style_deferred.scss
+@import "elements.fonts";
 
 @import "objects.icons";
 @import "objects.text";
