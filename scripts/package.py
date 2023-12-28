@@ -8,7 +8,7 @@ pp = pprint.PrettyPrinter(indent=4)
 
 out_dir = "out"
 exclude_dirs = [".git", ".idea", "__pycache__", "fontawesome-free-5.15.1-web", "old", out_dir,
-                "backup", "scripts", "templates"]
+                "backup", "scripts", "templates", "raw logos"]
 exclude_files = ["notes.txt", "translation.json", ".gitignore", "*.scss", "*.pug", "*.zip",
                  "*.lnk", "*.ini", "*.iml", "*.csv", "*.tsv"]
 
