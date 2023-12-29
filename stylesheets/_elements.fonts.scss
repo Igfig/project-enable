@@ -1,37 +1,39 @@
+@mixin font-srcs($filename) {
+  src: url("/assets/fonts/" + $filename + ".ttf") format('truetype');
+  src: url("/assets/fonts/" + $filename + "woff") format('woff');
+  src: url("/assets/fonts/" + $filename + ".woff2") format('woff2');
+  font-display: swap;
+}
+
+
 @font-face {
   font-family: "Noto Sans";
-  src: url(/assets/fonts/NotoSans-Regular.ttf);
-  font-display: swap;
+  @include font-srcs("NotoSans-Regular");
 }
 @font-face {
   font-family: "Noto Sans";
   font-weight: bold;
-  src: url(/assets/fonts/NotoSans-Bold.ttf);
-  font-display: swap;
+  @include font-srcs("NotoSans-Bold");
 }
 @font-face {
   font-family: "Noto Sans";
   font-style: italic;
-  src: url(/assets/fonts/NotoSans-Italic.ttf);
-  font-display: swap;
+  @include font-srcs("NotoSans-Italic");
 }
 
 @font-face {
   font-family: Cardo;
-  src: url(/assets/fonts/Cardo-Regular.ttf);
-  font-display: swap;
+  @include font-srcs("Cardo-Regular");
 }
 @font-face {
   font-family: Cardo;
   font-weight: bold;
-  src: url(/assets/fonts/Cardo-Bold.ttf);
-  font-display: swap;
+  @include font-srcs("Cardo-Bold");
 }
 @font-face {
   font-family: Cardo;
   font-style: italic;
-  src: url(/assets/fonts/Cardo-Italic.ttf);
-  font-display: swap;
+  @include font-srcs("Cardo-Italic");
 }
 
 @font-face {
