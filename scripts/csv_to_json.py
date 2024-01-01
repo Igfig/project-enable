@@ -29,9 +29,39 @@ AUDIO_PATH = "/audio"
 AUDIO_FILES_ENG = os.listdir(os.curdir + AUDIO_PATH + "/" + ENGLISH)
 AUDIO_FILES_DINE = os.listdir(os.curdir + AUDIO_PATH + "/" + DINE)
 
+LETTERS = [
+	["1", "á"],
+	["2", "ą"],
+	["3", "ą́"],
+	["4", "é"],
+	["5", "ę"],
+	["6", "ę́"],
+	["7", "í"],
+	["8", "į"],
+	["9", "į́"],
+	["0", "ó"],
+	["-", "ǫ"],
+	["=", "ǫ́"],
+	["[", "ł"],
+	["]", "ń"],
+	["!", "Á"],
+	["@", "Ą"],
+	["#", "Ą́"],
+	["$", "É"],
+	["%", "Ę"],
+	["^", "Ę́"],
+	["&", "Í"],
+	["*", "Į"],
+	["(", "Į́"],
+	[")", "Ó"],
+	["_", "Ǫ"],
+	["+", "Ǫ́"],
+	["{", "Ł"],
+	["}", "Ń"]
+]
+
 ref_pattern = re.compile(r"@(\d)$")
 normalization_table = str.maketrans(" ", "-", "\"'(),.")
-
 
 raw_rows = {ENGLISH: {}, DINE: {}}
 # this is a global variable. Which isn't ideal, but it makes the Settable interface easier to use.
@@ -227,7 +257,7 @@ class Dictionary:
 	def dump(self, out):
 		english = {k: e.dump() for (k, e) in self.english.items()}
 		dine = {k: e.dump() for (k, e) in self.dine.items()}
-		json.dump({"entries": {ENGLISH: english, DINE: dine}},
+		json.dump({"entries": {ENGLISH: english, DINE: dine}, "letters": LETTERS},
 		          out, indent=2, ensure_ascii=False)
 
 
