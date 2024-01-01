@@ -2,7 +2,7 @@
 
 // SIZES //
 
-$body-width: 800px;
+$body-width: 820px;
 $body-padding: 1.333rem;
 $text-page-padding: 3vw;
 
@@ -26,6 +26,8 @@ $logo-size: calc(50% - #{$body-width} / 2);
 
 $border-radius-sm: 3px;
 $border-radius-md: 5px;
+
+$min-input-dimension: 24px;
 
 $search-font-size: 16px;
 $search-padding-v: 5px;

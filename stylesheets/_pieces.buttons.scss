@@ -75,11 +75,14 @@
   }
   a {
     display: block;
+    box-sizing: border-box;
+    min-width: $min-input-dimension;
     padding: 5px;
-    text-decoration: none;
     border: 1px solid transparent;
     border-radius: $border-radius-sm;
-
+    text-decoration: none;
+    text-align: center;
+    
     &[href] {
       border-color: $border-color;
       background-color: $button-bg;
