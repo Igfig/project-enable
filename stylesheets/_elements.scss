@@ -9,6 +9,36 @@ html {
   color: $text-color;
 }
 
+
+%logo-bg {
+  content: "";
+  position: fixed;
+
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: $logo-size;
+
+  background-image: url(/assets/img/logo.svg), url(/assets/img/background.jpg);
+  background-size: contain, cover;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+html {
+  &::before {
+    @extend %logo-bg;
+    left: 0;
+  }
+  &::after {
+    @extend %logo-bg;
+    right: 0;
+  }
+}
+
+
+
 body {
   @include body-box;
   position: relative;
