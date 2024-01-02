@@ -60,12 +60,10 @@ block content
 			| before any character that you don't want to convert. For example, if you don't want to display the number "10" as "áó", write it as "\1\0".
 		
 		div.row
-			div
-				| Plain numbers and symbols here...
+			label Plain numbers and symbols here...
 				textarea#raw 123456\!
-			div
-				| ...look like this in the Navajo font...
+			label ...look like this in the Navajo font...
 				textarea#font 123456\!
 		
-		| ...and become this in Unicode.
-		textarea#unicode áąą́éęę!
+		label ...and become this in Unicode.
+			textarea#unicode áąą́éęę!
