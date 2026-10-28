@@ -3,9 +3,8 @@ mixin tile(index, item, langFrom, langTo)
 	- const [key, entry] = item
 	- const dtId = `d${index}`
 	- const showerId = `s${index}`
-	details(id=dtId tabindex=0)
-		//- the div needs a tabindex to be focusable
-		summary
+	details(id=dtId)
+		summary(tabindex=0)
 			h3
 				dfn(id=key, lang=langFrom)=entry.word
 				| &nbsp;&nbsp;&ndash;&nbsp;&nbsp;
